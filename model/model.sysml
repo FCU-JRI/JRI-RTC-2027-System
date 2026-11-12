@@ -18,7 +18,7 @@ package Project {
         part <'STK-PPC-004'> '酬載提案委員會' : Stakeholder {
             :>> role = "液體動力實驗數據品質";
         }
-        part <'STK-001'> '業務發展組' : Stakeholder {
+        part <'STK-BDS-005'> '業務發展組' : Stakeholder {
             :>> role = "箭載影像紀錄";
         }
     }
