@@ -28,6 +28,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
 
     package Structure {
-        part def <'SYS-001'> '121' :> System;
     }
 }
