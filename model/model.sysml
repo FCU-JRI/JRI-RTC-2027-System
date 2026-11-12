@@ -54,5 +54,4 @@ package Project {
         }
     }
     #trace dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
-    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'指導老師';
 }
