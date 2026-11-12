@@ -24,6 +24,9 @@ package Project {
         requirement <'EXP-001'> '火箭發射與回收過程皆在可控安全的狀態' : Expectation {
             doc /* 火箭設計應符合太空中心提供火箭設計規範 */
         }
+        requirement <'EXP-002'> '在指定時間內，完成各階段審查任務' : Expectation {
+            doc /* 應在各審查節點上符合時程規劃 */
+        }
     }
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
 
