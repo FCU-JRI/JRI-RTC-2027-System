@@ -15,7 +15,7 @@ package Project {
         part <'STK-TEAM-003'> '團隊' : Stakeholder {
             :>> role = "團隊人力、預算與時程";
         }
-        part <'STK-004'> '酬載提案委員會' : Stakeholder {
+        part <'STK-PPC004'> '酬載提案委員會' : Stakeholder {
             :>> role = "液體動力實驗數據品質";
         }
     }
