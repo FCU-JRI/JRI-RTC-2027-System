@@ -4,4 +4,8 @@ package Project {
     private import ISQ::*;
     private import SI::*;
     private import JRI::*;
+
+    package Stakeholders {
+        part <'STK-001'> TASA : Stakeholder;
+    }
 }
