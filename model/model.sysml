@@ -15,7 +15,7 @@ package Project {
         part <'STK-PPC-004'> '酬載提案委員會' : Stakeholder {
             :>> role = "液體動力實驗數據品質";
         }
-        part <'STK-BDS-005'> '業務發展組' : Stakeholder {
+        part <'STK-BDS-005'> 'BDS業務發展組' : Stakeholder {
             :>> role = "箭載影像紀錄";
         }
         requirement <'EXP-001'> '火箭發射與回收過程皆在可控安全的狀態' : Expectation {
@@ -40,10 +40,10 @@ package Project {
     package Structure {
     }
     #derive dependency from Project::Stakeholders::'酬載提案委員會' to Project::Stakeholders::'團隊';
-    #derive dependency from Project::Stakeholders::'業務發展組' to Project::Stakeholders::'團隊';
+    #derive dependency from Project::Stakeholders::'BDS業務發展組' to Project::Stakeholders::'團隊';
     #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'團隊';
     #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'酬載提案委員會';
-    #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'業務發展組';
+    #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'BDS業務發展組';
 
     package NGOs {
         requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' : Need {
@@ -53,7 +53,7 @@ package Project {
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'團隊';
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'酬載提案委員會';
-    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'業務發展組';
+    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'BDS業務發展組';
 
     package UseCases {
         use case <'UC-001'> '火箭設計審查' : UseCase;

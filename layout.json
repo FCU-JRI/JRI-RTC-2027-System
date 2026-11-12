@@ -1,24 +1,28 @@
 {
  "uc": {
   "Project__Stakeholders__TASA_20_e5_9c_8b_e5_ae_b6_e5_a4_aa_e7_a9_ba_e4_b8_ad_e5_bf_83_20_28_e6_b4_bb_e5_8b_95_e4_b8_bb_e8_be_a6_e6_96_b9_29": {
-   "x": -252,
-   "y": 24
+   "x": -240,
+   "y": -12
   },
   "Project__Stakeholders___e5_9c_98_e9_9a_8a": {
-   "x": 348,
-   "y": 24
+   "x": 48,
+   "y": -12
   },
   "Project__Stakeholders___e9_85_ac_e8_bc_89_e6_8f_90_e6_a1_88_e5_a7_94_e5_93_a1_e6_9c_83": {
-   "x": -252,
-   "y": 204
+   "x": -240,
+   "y": 144
   },
   "Project__Stakeholders___e6_a5_ad_e5_8b_99_e7_99_bc_e5_b1_95_e7_b5_84": {
-   "x": -156,
-   "y": 348
+   "x": -240,
+   "y": 276
   },
   "Project__UseCases___e7_81_ab_e7_ae_ad_e8_a8_ad_e8_a8_88_e5_af_a9_e6_9f_a5": {
    "x": 12,
    "y": 36
+  },
+  "Project__Stakeholders___e6_8c_87_e5_b0_8e_e8_80_81_e5_b8_ab": {
+   "x": -252,
+   "y": 504
   }
  }
 }
