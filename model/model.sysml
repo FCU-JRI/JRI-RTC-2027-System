@@ -9,9 +9,6 @@ package Project {
         part <'STK-TASA-001'> 'TASA 國家太空中心 (活動主辦方)' : Stakeholder {
             :>> role = "飛行安全、成功回收、符合規範";
         }
-        part <'STK-ADV-002'> '指導老師' : Stakeholder {
-            :>> role = "任務節點審核";
-        }
         part <'STK-TEAM-003'> '團隊' : Stakeholder {
             :>> role = "團隊人力、預算與時程";
         }
@@ -43,7 +40,6 @@ package Project {
     }
     #derive dependency from Project::Stakeholders::'酬載提案委員會' to Project::Stakeholders::'團隊';
     #derive dependency from Project::Stakeholders::'業務發展組' to Project::Stakeholders::'團隊';
-    #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'指導老師';
     #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'團隊';
     #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'業務發展組';
@@ -54,7 +50,6 @@ package Project {
         }
     }
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
-    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'指導老師';
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'團隊';
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'酬載提案委員會';
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'業務發展組';
