@@ -27,6 +27,9 @@ package Project {
         requirement <'EXP-002'> '在指定時間內，完成各階段審查任務' : Expectation {
             doc /* 應在各審查節點上符合時程規劃 */
         }
+        requirement <'EXP-003'> '需要在有限的資源下，完成任務' : Expectation {
+            doc /* 應在核定預算內完成計劃 */
+        }
     }
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
 
