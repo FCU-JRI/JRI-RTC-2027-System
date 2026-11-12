@@ -49,6 +49,8 @@ package Project {
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'業務發展組';
 
     package NGOs {
-        requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體推進劑在真實飛行環境中的晃動數據，並留下可用於對外推廣的飛行影像。' : Need;
+        requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體推進劑在真實飛行環境中的晃動數據，並留下可用於對外推廣的飛行影像。' : Need {
+            doc /* 應使用 pioneer-10K 公版固態發動機並於旭海科研火箭發射場以 84° ±1° 向正東發射，完成雙階段回收、濺落漂浮，並取回飛行數據、晃動實驗數據與機載影像。 */
+        }
     }
 }
