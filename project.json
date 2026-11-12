@@ -1,0 +1,19 @@
+{
+  "id": "rtc-2027",
+  "name": "Project RTC 2027",
+  "kind": "annual",
+  "template": "blank",
+  "createdAt": "2026-11-12T07:25:50.785Z",
+  "gates": [
+    "proposal",
+    "mdr",
+    "pdr",
+    "cdr",
+    "trr",
+    "frr",
+    "anomaly",
+    "closeout"
+  ],
+  "manual": {},
+  "signoffs": []
+}
