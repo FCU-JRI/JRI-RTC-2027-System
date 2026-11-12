@@ -1,8 +1,20 @@
 {
  "req": {
   "Project__Stakeholders___e7_81_ab_e7_ae_ad_e7_99_bc_e5_b0_84_e8_88_87_e5_9b_9e_e6_94_b6_e9_81_8e_e7_a8_8b_e7_9a_86_e5_9c_a8_e5_8f_af_e6_8e_a7_e5_ae_89_e5_85_a8_e7_9a_84_e7_8b_80_e6_85_8b": {
-   "x": -165,
-   "y": 260
+   "x": -516,
+   "y": 84
+  },
+  "Project__Stakeholders___e5_9c_a8_e6_8c_87_e5_ae_9a_e6_99_82_e9_96_93_e5_85_a7_ef_bc_8c_e5_ae_8c_e6_88_90_e5_90_84_e9_9a_8e_e6_ae_b5_e5_af_a9_e6_9f_a5_e4_bb_bb_e5_8b_99": {
+   "x": -156,
+   "y": 456
+  },
+  "Project__Stakeholders__TASA_20_e5_9c_8b_e5_ae_b6_e5_a4_aa_e7_a9_ba_e4_b8_ad_e5_bf_83_20_28_e6_b4_bb_e5_8b_95_e4_b8_bb_e8_be_a6_e6_96_b9_29": {
+   "x": -108,
+   "y": 84
+  },
+  "Project__Stakeholders___e6_8c_87_e5_b0_8e_e8_80_81_e5_b8_ab": {
+   "x": 108,
+   "y": 240
   }
  },
  "bdd": {

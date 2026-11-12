@@ -1,0 +1,21 @@
+{
+ "tasks": [
+  {
+   "id": "J1",
+   "title": "計劃書審查",
+   "priority": "P3",
+   "re": "EJ.林逸杰",
+   "start": "2026-11-12",
+   "end": "2026-11-17",
+   "deps": [],
+   "gate": "proposal",
+   "links": [],
+   "subsystem": "",
+   "done": false
+  }
+ ],
+ "costs": [],
+ "people": [],
+ "docs": [],
+ "milestones": {}
+}
