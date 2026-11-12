@@ -33,6 +33,9 @@ package Project {
         requirement <'EXP-004'> '需提供一載具平台進行液體動力行為實驗' : Expectation {
             doc /* 工程團隊應符合提案委員會提出之需求框架打造出一枚探空火箭 */
         }
+        requirement <'EXP-005'> '業務發展組需要火箭發射箭載畫面以進行團隊行銷' : Expectation {
+            doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
+        }
     }
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
 
