@@ -47,4 +47,8 @@ package Project {
     #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'團隊';
     #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'業務發展組';
+
+    package NGOs {
+        requirement <'NEED-001'> '噴射推進研究社 (JRI) 需要設計製造一枚具備液體動力實驗艙之探空火箭並完整回收' : Need;
+    }
 }
