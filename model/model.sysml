@@ -12,5 +12,8 @@ package Project {
         part <'STK-002'> '指導老師' : Stakeholder {
             :>> role = "任務節點審核";
         }
+        part <'STK-003'> '團隊' : Stakeholder {
+            :>> role = "團隊人力、預算與時程";
+        }
     }
 }
