@@ -25,4 +25,5 @@ package Project {
             doc /* 火箭設計應符合太空中心提供火箭設計規範 */
         }
     }
+    #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
 }
