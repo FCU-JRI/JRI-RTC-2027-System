@@ -29,4 +29,5 @@ package Project {
 
     package Structure {
     }
+    #derive dependency from Project::Stakeholders::'酬載提案委員會' to Project::Stakeholders::'團隊';
 }
