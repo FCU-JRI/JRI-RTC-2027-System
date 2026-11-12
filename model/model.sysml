@@ -49,6 +49,6 @@ package Project {
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'業務發展組';
 
     package NGOs {
-        requirement <'NEED-001'> '噴射推進研究社 (JRI) 需要設計製造一枚具備液體動力實驗艙之探空火箭並完整回收' : Need;
+        requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體推進劑在真實飛行環境中的晃動數據，並留下可用於對外推廣的飛行影像。' : Need;
     }
 }

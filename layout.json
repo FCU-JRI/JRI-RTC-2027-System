@@ -17,20 +17,20 @@
    "y": 348
   },
   "Project__Stakeholders___e9_9c_80_e8_a6_81_e5_9c_a8_e6_9c_89_e9_99_90_e7_9a_84_e8_b3_87_e6_ba_90_e4_b8_8b_ef_bc_8c_e5_ae_8c_e6_88_90_e4_bb_bb_e5_8b_99": {
-   "x": -660,
-   "y": 552
+   "x": -552,
+   "y": 540
   },
   "Project__Stakeholders___e9_9c_80_e6_8f_90_e4_be_9b_e4_b8_80_e8_bc_89_e5_85_b7_e5_b9_b3_e5_8f_b0_e9_80_b2_e8_a1_8c_e6_b6_b2_e9_ab_94_e5_8b_95_e5_8a_9b_e8_a1_8c_e7_82_ba_e5_af_a6_e9_a9_97": {
-   "x": -516,
-   "y": 780
+   "x": -396,
+   "y": 900
   },
   "Project__Stakeholders___e5_8f_96_e5_be_97_e7_81_ab_e7_ae_ad_e5_8d_87_e7_a9_ba_e5_bd_b1_e5_83_8f": {
-   "x": -156,
+   "x": -72,
    "y": 900
   },
   "Project__Stakeholders___e5_9c_98_e9_9a_8a": {
-   "x": -312,
-   "y": 336
+   "x": -168,
+   "y": 384
   },
   "Project__Stakeholders___e9_85_ac_e8_bc_89_e6_8f_90_e6_a1_88_e5_a7_94_e5_93_a1_e6_9c_83": {
    "x": -240,
@@ -39,6 +39,10 @@
   "Project__Stakeholders___e6_a5_ad_e5_8b_99_e7_99_bc_e5_b1_95_e7_b5_84": {
    "x": -96,
    "y": 612
+  },
+  "Project__NGOs___e5_99_b4_e5_b0_84_e6_8e_a8_e9_80_b2_e7_a0_94_e7_a9_b6_e7_a4_be_20_28JRI_29_20_e9_9c_80_e8_a6_81_e8_a8_ad_e8_a8_88_e8_a3_bd_e9_80_a0_e4_b8_80_e6_9e_9a_e5_85_b7_e5_82_99_e6_b6_b2_e9_ab_94_e5_8b_95_e5_8a_9b_e5_af_a6_e9_a9_97_e8_89_99_e4_b9_8b_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e4_b8_a6_e5_ae_8c_e6_95_b4_e5_9b_9e_e6_94_b6": {
+   "x": -132,
+   "y": 228
   }
  },
  "bdd": {
