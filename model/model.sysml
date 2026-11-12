@@ -59,5 +59,4 @@ package Project {
         use case <'UC-001'> '火箭設計審查' : UseCase;
     }
     #trace dependency from Project::UseCases::'火箭設計審查' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
-    #trace dependency from Project::Stakeholders::'團隊' to Project::UseCases::'火箭設計審查';
 }
