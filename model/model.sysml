@@ -34,4 +34,5 @@ package Project {
     }
     #derive dependency from Project::Stakeholders::'酬載提案委員會' to Project::Stakeholders::'團隊';
     #derive dependency from Project::Stakeholders::'業務發展組' to Project::Stakeholders::'團隊';
+    #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'指導老師';
 }
