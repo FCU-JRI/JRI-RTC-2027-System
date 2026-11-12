@@ -7,5 +7,8 @@ package Project {
 
     package Stakeholders {
         part <'STK-001'> TASA : Stakeholder;
+        part <'STK-002'> 'TASA 國家太空中心 (活動主辦方)' : Stakeholder {
+            :>> role = "飛行安全、成功回收、符合規範";
+        }
     }
 }
