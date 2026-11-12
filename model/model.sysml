@@ -31,7 +31,7 @@ package Project {
             doc /* 應在核定預算、時程與人力資源內完成計劃 */
         }
         requirement <'EXP-004'> '需提供一載具平台進行液體動力行為實驗' : Expectation {
-            doc /* 工程團隊應符合委員會提出之需求框架打造出一枚探空火箭 */
+            doc /* 工程團隊應符合提案委員會提出之需求框架打造出一枚探空火箭 */
         }
     }
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'TASA 國家太空中心 (活動主辦方)';
