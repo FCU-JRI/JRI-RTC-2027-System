@@ -102,6 +102,7 @@ package Project {
         use case <'UC-003'> '管理預算與採購' : UseCase;
         use case <'UC-004'> '管理人力與排程' : UseCase;
         use case <'UC-005'> '對外宣傳與招募' : UseCase;
+        use case <'UC-006'> '管理需求與系統模型' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
