@@ -50,6 +50,10 @@ package Project {
             doc /* 競賽主辦單位，發射場之使用機關 */
             :>> role = "發射安全、人才培育成效、活動形象";
         }
+        part <'STK-009'> '承辦單位' : Stakeholder {
+            doc /* 競賽規則與火箭設計規範之制定者 */
+            :>> role = "規範之明確與可執行、賽務順利";
+        }
     }
 
     package Structure {
