@@ -66,6 +66,10 @@ package Project {
             doc /* 負責安裝點火器、連接點火線路 */
             :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
         }
+        part <'STK-013'> '發射指揮官與射場管理人員' : Stakeholder {
+            doc /* 執行發射前確認、倒數及人員管制 */
+            :>> role = "發射條件全數滿足、風速於限制內、時程不延誤";
+        }
     }
 
     package Structure {
