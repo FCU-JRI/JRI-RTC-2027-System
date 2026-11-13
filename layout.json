@@ -159,24 +159,28 @@
    "y": 744
   },
   "Project__UseCases___e8_a3_bd_e9_80_a0_e8_88_87_e7_b5_84_e8_a3_9d": {
-   "x": -120,
-   "y": 864
+   "x": 156,
+   "y": -96
   },
   "Project__Stakeholders___4022": {
    "x": -576,
    "y": 744
   },
   "Project__UseCases___e5_af_a9_e6_a0_b8_e5_8d_b1_e9_9a_aa_e4_bd_9c_e6_a5_ad_e7_a8_8b_e5_ba_8f": {
-   "x": -120,
-   "y": 936
+   "x": 156,
+   "y": -24
   },
   "Project__UseCases___e5_9f_b7_e8_a1_8c_e5_88_86_e7_b3_bb_e7_b5_b1_e5_9c_b0_e9_9d_a2_e6_b8_ac_e8_a9_a6": {
-   "x": -120,
-   "y": 1020
+   "x": 156,
+   "y": 60
   },
   "Project__UseCases___e5_9f_b7_e8_a1_8c_e5_85_a8_e7_ae_ad_e6_95_b4_e5_90_88_e6_b8_ac_e8_a9_a6": {
-   "x": -120,
-   "y": 1104
+   "x": 156,
+   "y": 144
+  },
+  "Project__UseCases___e5_9f_b7_e8_a1_8c_e9_a3_9b_e8_a1_8c_e6_ba_96_e5_82_99_e5_af_a9_e6_9f_a5_e8_88_87_e6_a0_b8_e5_8f_af": {
+   "x": 156,
+   "y": 228
   }
  },
  "req": {

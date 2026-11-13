@@ -131,4 +131,5 @@ package Project {
     #trace dependency from Project::UseCases::'提交設計審查文件' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'提交設計審查文件' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'執行官方設計審查' to Project::Stakeholders::'評審團';
+    #trace dependency from Project::UseCases::'製造與組裝' to Project::Stakeholders::'核心成員';
 }
