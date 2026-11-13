@@ -95,5 +95,4 @@ package Project {
     package UseCases {
         use case <'UC-001'> '火箭設計作業審查' : UseCase;
     }
-    #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'指導員1-教職員顧問';
 }
