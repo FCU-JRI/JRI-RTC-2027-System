@@ -94,4 +94,5 @@ package Project {
 
     package UseCases {
     }
+    comment Note1 /* 註解 */
 }
