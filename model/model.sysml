@@ -85,6 +85,9 @@ package Project {
             doc /* 業務發展組屬於JRI 內部營運部門，其負責對外業務接洽。 */
             :>> role = "箭載影像取得、團隊形象、對外招募";
         }
+        part <'STK-018'> '酬載提案委員會' : Stakeholder {
+            doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。 */
+        }
     }
 
     package Structure {
