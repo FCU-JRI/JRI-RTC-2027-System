@@ -21,6 +21,7 @@ package Project {
         requirement <'EXP-005'> '取得火箭升空影像' : Expectation {
             doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
         }
+        part <'STK-001'> '射場操作隊員' : Stakeholder;
     }
 
     package Structure {
