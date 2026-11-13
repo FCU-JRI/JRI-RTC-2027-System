@@ -93,5 +93,6 @@ package Project {
     }
 
     package UseCases {
+        use case <'UC-001'> '火箭設計作業審查' : UseCase;
     }
 }
