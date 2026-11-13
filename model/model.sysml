@@ -9,9 +9,6 @@ package Project {
         part <'STK-TEAM-003'> '團隊' : Stakeholder {
             :>> role = "團隊人力、預算與時程";
         }
-        part <'STK-BDS-005'> 'BDS業務發展組' : Stakeholder {
-            :>> role = "箭載影像紀錄";
-        }
         requirement <'EXP-001'> '火箭發射與回收過程皆在可控安全的狀態' : Expectation {
             doc /* 火箭設計應符合太空中心提供火箭設計規範 */
         }
@@ -31,9 +28,7 @@ package Project {
 
     package Structure {
     }
-    #derive dependency from Project::Stakeholders::'BDS業務發展組' to Project::Stakeholders::'團隊';
     #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'團隊';
-    #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'BDS業務發展組';
 
     package NGOs {
         requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' : Need {
@@ -41,7 +36,6 @@ package Project {
         }
     }
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'團隊';
-    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'BDS業務發展組';
 
     package UseCases {
     }
