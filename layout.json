@@ -13,7 +13,7 @@
    "y": -192
   },
   "Project__Stakeholders___e6_a5_ad_e5_8b_99_e7_99_bc_e5_b1_95_e7_b5_84": {
-   "x": -156,
+   "x": -576,
    "y": 348
   },
   "Project__UseCases___e7_81_ab_e7_ae_ad_e8_a8_ad_e8_a8_88_e5_af_a9_e6_9f_a5": {
@@ -58,7 +58,7 @@
   },
   "Project__Stakeholders___e6_a0_b8_e5_bf_83_e6_88_90_e5_93_a1": {
    "x": -576,
-   "y": 408
+   "y": 432
   },
   "Project__Stakeholders___e7_b5_84_e9_95_b7_e6_9a_a8_e8_b2_ac_e4_bb_bb_e5_b7_a5_e7_a8_8b_e5_b8_ab_20Responsible_20Engineer_ef_bc_8c_e8_81_b7_e7_b4_9a_20O-V": {
    "x": -300,
@@ -135,8 +135,8 @@
    "y": 168
   },
   "Project__UseCases___e5_b0_8d_e5_a4_96_e5_ae_a3_e5_82_b3_e8_88_87_e6_8b_9b_e5_8b_9f": {
-   "x": 144,
-   "y": 0
+   "x": 132,
+   "y": -84
   }
  },
  "req": {
