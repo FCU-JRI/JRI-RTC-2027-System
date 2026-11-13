@@ -138,4 +138,5 @@ package Project {
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'指導員2-管制官暨安全官';
 }
