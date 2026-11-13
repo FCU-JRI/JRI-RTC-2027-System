@@ -87,6 +87,7 @@ package Project {
         }
         part <'STK-018'> '酬載提案委員會' : Stakeholder {
             doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。 */
+            :>> role = "影像紀錄、酬載實驗數據";
         }
     }
 
