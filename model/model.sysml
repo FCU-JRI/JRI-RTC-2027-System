@@ -96,5 +96,4 @@ package Project {
         use case <'UC-001'> '火箭設計作業審查' : UseCase;
     }
     #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'指導員1-教職員顧問';
-    #trace dependency from Project::Stakeholders::'國家太空中心' to Project::UseCases::'火箭設計作業審查';
 }
