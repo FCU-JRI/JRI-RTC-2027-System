@@ -112,4 +112,5 @@ package Project {
     #trace dependency from Project::UseCases::'管理人力與排程' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'對外宣傳與招募' to Project::Stakeholders::'業務發展組';
     #trace dependency from Project::UseCases::'管理需求與系統模型' to Project::Stakeholders::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'管理需求與系統模型' to Project::Stakeholders::'組長暨責任工程師';
 }
