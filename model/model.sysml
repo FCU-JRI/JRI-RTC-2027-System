@@ -81,6 +81,10 @@ package Project {
             doc /* 追蹤開傘之火箭並回報位置予漁船 */
             :>> role = "開傘可目視確認、定位訊號持續有效";
         }
+        part <'STK-017'> '業務發展組' : Stakeholder {
+            doc /* 業務發展組屬於JRI 內部營運部門，其負責對外業務接洽。 */
+            :>> role = "箭載影像取得、團隊形象、對外招募";
+        }
     }
 
     package Structure {
