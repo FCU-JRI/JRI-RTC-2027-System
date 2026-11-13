@@ -6,9 +6,6 @@ package Project {
     private import JRI::*;
 
     package Stakeholders {
-        part <'STK-TEAM-003'> '團隊' : Stakeholder {
-            :>> role = "團隊人力、預算與時程";
-        }
         requirement <'EXP-001'> '火箭發射與回收過程皆在可控安全的狀態' : Expectation {
             doc /* 火箭設計應符合太空中心提供火箭設計規範 */
         }
@@ -28,14 +25,12 @@ package Project {
 
     package Structure {
     }
-    #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'團隊';
 
     package NGOs {
         requirement <'NEED-001'> 'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' : Need {
             doc /* 設計、製造、驗證並發射一枚使用 pioneer-10K 公版固態發動機的 3K 組探空火箭，於旭海科研火箭發射場以 84° ±1° 向正東發射，完成雙階段回收、濺落漂浮，並取回飛行數據、晃動實驗數據與機載影像。 */
         }
     }
-    #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'團隊';
 
     package UseCases {
     }
