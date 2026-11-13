@@ -45,7 +45,5 @@ package Project {
     #derive dependency from Project::NGOs::'JRI 需要在 2027 台灣盃的時程與有限資源內，於符合 TASA 安全規範的前提下取得液體在真實飛行環境中的動力行為，並留下可用於對外推廣的飛行影像。' to Project::Stakeholders::'BDS業務發展組';
 
     package UseCases {
-        use case <'UC-001'> '火箭設計審查' : UseCase;
     }
-    #trace dependency from Project::UseCases::'火箭設計審查' to Project::Stakeholders::'指導老師';
 }
