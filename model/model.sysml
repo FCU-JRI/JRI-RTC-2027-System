@@ -99,4 +99,5 @@ package Project {
     #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'國家太空中心';
     #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'評審團';
     #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'發射許可審查委員';
+    #trace dependency from Project::UseCases::'火箭設計作業審查' to Project::Stakeholders::'指導員2-管制官暨安全官';
 }
