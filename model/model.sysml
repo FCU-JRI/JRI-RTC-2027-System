@@ -93,5 +93,6 @@ package Project {
     }
 
     package UseCases {
+        use case <'UC-001'> '報名參賽與提交計劃書' : UseCase;
     }
 }
