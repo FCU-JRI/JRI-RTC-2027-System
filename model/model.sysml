@@ -54,6 +54,10 @@ package Project {
             doc /* 競賽規則與火箭設計規範之制定者 */
             :>> role = "規範之明確與可執行、賽務順利";
         }
+        part <'STK-010'> '評審團' : Stakeholder {
+            doc /* 七位專家，評定各階段報告、海報及決賽飛行成績 */
+            :>> role = "需求可追溯、證據充分、成功判定可量測、團隊理解設計";
+        }
     }
 
     package Structure {
