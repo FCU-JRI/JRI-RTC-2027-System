@@ -119,4 +119,5 @@ package Project {
     #trace dependency from Project::UseCases::'分系統設計' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'指導員1-教職員顧問';
     #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'指導員2-管制官暨安全官';
+    #trace dependency from Project::UseCases::'提交設計審查文件' to Project::Stakeholders::'組長暨責任工程師';
 }
