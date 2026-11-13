@@ -133,4 +133,5 @@ package Project {
     #trace dependency from Project::UseCases::'執行官方設計審查' to Project::Stakeholders::'評審團';
     #trace dependency from Project::UseCases::'製造與組裝' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'審核危險作業程序' to Project::Stakeholders::'指導員2-管制官暨安全官';
+    #trace dependency from Project::UseCases::'執行分系統地面測試' to Project::Stakeholders::'核心成員';
 }
