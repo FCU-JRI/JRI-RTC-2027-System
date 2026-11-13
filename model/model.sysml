@@ -106,6 +106,7 @@ package Project {
         use case <'UC-007'> '分系統設計' : UseCase;
         use case <'UC-008'> '內部審查' : UseCase;
         use case <'UC-009'> '提交設計審查文件' : UseCase;
+        use case <'UC-010'> '執行官方設計審查' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
