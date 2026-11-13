@@ -114,4 +114,5 @@ package Project {
     #trace dependency from Project::UseCases::'管理需求與系統模型' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'管理需求與系統模型' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'分系統設計' to Project::Stakeholders::'組長暨責任工程師';
+    #trace dependency from Project::UseCases::'分系統設計' to Project::Stakeholders::'核心成員';
 }
