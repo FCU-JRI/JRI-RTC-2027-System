@@ -78,6 +78,10 @@ package Project {
             doc /* 於安全回收區外圍待命，負責搜尋與打撈 */
             :>> role = "目標易於發現、箭體持續漂浮、打撈時無傷人之虞";
         }
+        part <'STK-016'> '無人機操作員' : Stakeholder {
+            doc /* 追蹤開傘之火箭並回報位置予漁船 */
+            :>> role = "開傘可目視確認、定位訊號持續有效";
+        }
     }
 
     package Structure {
