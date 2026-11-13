@@ -101,4 +101,5 @@ package Project {
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'管理預算與採購' to Project::Stakeholders::'副社長暨營運長';
 }
