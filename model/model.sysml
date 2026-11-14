@@ -269,9 +269,6 @@ package Project {
         requirement <'OBJ-012'> '每位核心成員皆完成所屬分系統的設計、製造與測試' : Objective {
             doc /* 每位核心成員應至少參與一個分系統的設計、製造與測試，並撰寫可查核的技術文件。 */
         }
-        requirement <'OBJ-014'> '留有複材測試過程的影像紀錄' : Objective {
-            doc /* 專案應留有複材測試過程的影像紀錄。 */
-        }
         requirement <'OBJ-015'> '留有回收系統地面測試的影像紀錄' : Objective {
             doc /* 專案應留有回收系統地面測試過程的影像紀錄。 */
         }
@@ -482,7 +479,6 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
     #refine dependency from Project::NGOs::'MOE-15 官方空拍影像取得與授權' to Project::NGOs::'取得官方拍攝的發射離架空拍影像';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
-    #derive dependency from Project::NGOs::'留有複材測試過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有回收系統地面測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有降落傘投放測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有航電通訊測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
