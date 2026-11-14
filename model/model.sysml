@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-019'> '發射與回收全程安全' : Expectation {
-            doc /* 主辦單位對射場人員和環境的安全負責。 */
-        }
         requirement <'EXP-020'> '取得完整的飛行紀錄' : Expectation {
             doc /* 飛行高度、速度、加速度和 GPS 軌跡，是主辦單位評估競賽成果的依據。 */
         }
@@ -285,6 +282,4 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
-    #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'承辦單位';
 }
