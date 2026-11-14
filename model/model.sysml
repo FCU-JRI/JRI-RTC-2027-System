@@ -221,6 +221,9 @@ package Project {
         requirement <'OBJ-010'> '取得發射離架的地面影像' : Objective {
             doc /* 專案應取得從地面拍攝、涵蓋火箭發射離架過程的影像。 */
         }
+        requirement <'OBJ-011'> '取得官方拍攝的發射離架空拍影像' : Objective {
+            doc /* 專案應向承辦單位取得官方無人機操作員拍攝、涵蓋火箭發射離架過程的空拍影像。 */
+        }
     }
 
     package UseCases {
