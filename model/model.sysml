@@ -114,6 +114,7 @@ package Project {
         requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation;
         requirement <'EXP-003'> '無人員受傷' : Expectation;
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
+        requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation;
     }
 
     package Structure {
