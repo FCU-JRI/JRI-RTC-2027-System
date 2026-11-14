@@ -170,6 +170,7 @@ package Project {
         package '設計與審查' {
             use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
         }
+        use case <'UC-028'> '提出影像紀錄需求' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
