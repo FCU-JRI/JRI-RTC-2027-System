@@ -137,7 +137,9 @@ package Project {
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation {
             doc /* 主辦單位對射場人員和環境的安全負責，這是辦理競賽的前提。 */
         }
-        requirement <'EXP-010'> '賽事流程順利進行' : Expectation;
+        requirement <'EXP-010'> '賽事流程順利進行' : Expectation {
+            doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
+        }
         requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation;
         requirement <'EXP-012'> '上架前確認可安全發射' : Expectation;
         requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation;
