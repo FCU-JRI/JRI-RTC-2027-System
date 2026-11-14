@@ -119,6 +119,7 @@ package Project {
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation;
         requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation;
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation;
+        requirement <'EXP-010'> '賽事流程順利進行' : Expectation;
     }
 
     package Structure {
