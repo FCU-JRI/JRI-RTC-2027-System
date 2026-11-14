@@ -168,4 +168,5 @@ package Project {
     #trace dependency from Project::UseCases::'計時並直播發射過程' to Project::Stakeholders::'官方計時員與直播團隊';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'回收漁船船員';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
+    #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
 }
