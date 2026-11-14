@@ -147,7 +147,6 @@ package Project {
         use case <'UC-013'> '執行分系統地面測試' : UseCase;
         use case <'UC-014'> '執行全箭整合測試' : UseCase;
         use case <'UC-015'> '執行飛行準備審查與核可' : UseCase;
-        use case <'UC-018'> '上架並啟動回收系統' : UseCase;
         use case <'UC-019'> '終止發射並解除啟動' : UseCase;
         use case <'UC-020'> '執行倒數與發射' : UseCase;
         use case <'UC-021'> '計時並直播發射過程' : UseCase;
@@ -176,6 +175,7 @@ package Project {
         package '發射場作業' {
             use case <'UC-016'> '執行發射許可審查' : UseCase;
             use case <'UC-017'> '安裝公版發動機' : UseCase;
+            use case <'UC-018'> '上架並啟動回收系統' : UseCase;
         }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
