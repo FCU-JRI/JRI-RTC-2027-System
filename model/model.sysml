@@ -301,4 +301,5 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
 }
