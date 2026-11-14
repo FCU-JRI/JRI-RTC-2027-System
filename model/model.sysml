@@ -41,10 +41,6 @@ package Project {
             doc /* 追蹤開傘之火箭並回報位置予漁船 */
             :>> role = "開傘可目視確認、定位訊號持續有效";
         }
-        part <'STK-018'> '酬載提案委員會' : Stakeholder {
-            doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。 */
-            :>> role = "影像紀錄、酬載實驗數據";
-        }
         public import 'JRI 團隊'::*;
         package 'JRI 團隊' {
             part <'STK-002'> '總工程師暨隊長' : Stakeholder {
@@ -74,6 +70,10 @@ package Project {
             part <'STK-017'> '業務發展組' : Stakeholder {
                 doc /* 業務發展組屬於JRI 內部營運部門，其負責對外業務接洽。 */
                 :>> role = "箭載影像取得、團隊形象、對外招募";
+            }
+            part <'STK-018'> '酬載提案委員會' : Stakeholder {
+                doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。 */
+                :>> role = "影像紀錄、酬載實驗數據";
             }
         }
         public import '主辦與規範'::*;

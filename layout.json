@@ -10,11 +10,11 @@
   },
   "Project__Stakeholders___e9_85_ac_e8_bc_89_e6_8f_90_e6_a1_88_e5_a7_94_e5_93_a1_e6_9c_83": {
    "x": -576,
-   "y": 564
+   "y": 360
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e6_a5_ad_e5_8b_99_e7_99_bc_e5_b1_95_e7_b5_84": {
    "x": -576,
-   "y": 348
+   "y": 240
   },
   "Project__UseCases___e7_81_ab_e7_ae_ad_e8_a8_ad_e8_a8_88_e5_af_a9_e6_9f_a5": {
    "x": -60,
@@ -34,11 +34,11 @@
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e7_b8_bd_e5_b7_a5_e7_a8_8b_e5_b8_ab_e6_9a_a8_e9_9a_8a_e9_95_b7": {
    "x": -576,
-   "y": 72
+   "y": -36
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e5_89_af_e7_a4_be_e9_95_b7_e6_9a_a8_e7_87_9f_e9_81_8b_e9_95_b7": {
    "x": -576,
-   "y": 168
+   "y": 60
   },
   "Project__Stakeholders___e6_8c_87_e5_b0_8e_e5_93_a11-_e7_ae_a1_e5_88_b6_e5_ae_98_e6_9a_a8_e5_ae_89_e5_85_a8_e5_ae_98": {
    "x": -204,
@@ -46,19 +46,19 @@
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e6_8c_87_e5_b0_8e_e5_93_a12-_e7_ae_a1_e5_88_b6_e5_ae_98_e6_9a_a8_e5_ae_89_e5_85_a8_e5_ae_98": {
    "x": -576,
-   "y": -144
+   "y": -252
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e6_8c_87_e5_b0_8e_e5_93_a11-_e6_95_99_e8_81_b7_e5_93_a1_e9_a1_a7_e5_95_8f": {
    "x": -576,
-   "y": -24
+   "y": -132
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e7_b5_84_e9_95_b7_e6_9a_a8_e8_b2_ac_e4_bb_bb_e5_b7_a5_e7_a8_8b_e5_b8_ab": {
    "x": -576,
-   "y": 264
+   "y": 156
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a___e6_a0_b8_e5_bf_83_e6_88_90_e5_93_a1": {
    "x": -576,
-   "y": 432
+   "y": 324
   },
   "Project__Stakeholders___e7_b5_84_e9_95_b7_e6_9a_a8_e8_b2_ac_e4_bb_bb_e5_b7_a5_e7_a8_8b_e5_b8_ab_20Responsible_20Engineer_ef_bc_8c_e8_81_b7_e7_b4_9a_20O-V": {
    "x": -300,
@@ -184,7 +184,7 @@
   },
   "Project__Stakeholders__JRI_20_e5_9c_98_e9_9a_8a": {
    "x": -600,
-   "y": -192,
+   "y": -300,
    "w": 276,
    "h": 732
   },
