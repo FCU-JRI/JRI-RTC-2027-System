@@ -371,4 +371,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #refine dependency from Project::NGOs::'火箭濺落後漂浮於海面並被回收' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
 }
