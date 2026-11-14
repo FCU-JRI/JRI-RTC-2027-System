@@ -118,6 +118,10 @@ package Project {
                 :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
             }
         }
+        part <'STK-021'> '零件與材料供應商' : Stakeholder {
+            doc /* 提供商規零件、材料 */
+            :>> role = "規格明確、交期與數量可行";
+        }
     }
 
     package Structure {
