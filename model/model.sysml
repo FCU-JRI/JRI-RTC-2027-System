@@ -113,9 +113,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-006'> '任務完全成功' : Expectation {
-            doc /* 總工程師對任務成敗負最終責任。完全成功的定義見任務成功準則：通過審查、安全飛行，並取回飛行數據、酬載數據和箭載影像。 */
-        }
         requirement <'EXP-007'> '計劃在核定預算內完成' : Expectation {
             doc /* 營運長負責團隊財務。超支會影響社團營運和之後年度的經費申請。 */
         }
@@ -328,7 +325,6 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    #trace dependency from Project::Stakeholders::'任務完全成功' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'計劃在核定預算內完成' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
