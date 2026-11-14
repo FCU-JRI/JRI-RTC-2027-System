@@ -110,7 +110,9 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-001'> '任務達成完全成功' : Expectation;
+        requirement <'EXP-001'> '任務達成完全成功' : Expectation {
+            doc /* 總工程師對任務成敗負最終責任。完全成功的定義見任務成功準則：通過審查、安全飛行，並取回飛行數據、酬載數據和箭載影像。 */
+        }
         requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation;
         requirement <'EXP-003'> '無人員受傷' : Expectation;
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
