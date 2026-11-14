@@ -350,4 +350,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'無人員受傷' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
 }
