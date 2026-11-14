@@ -188,6 +188,9 @@ package Project {
         requirement <'OBJ-002'> '火箭安全離架，並依序開啟減速傘與主傘' : Objective {
             doc /* 頂點開減速傘、離地 150～450 m 開主傘 */
         }
+        requirement <'OBJ-003'> '火箭濺落後漂浮於海面並被回收' : Objective {
+            doc /* 觸水速度 < 12 m/s，酬載無浸水 */
+        }
     }
 
     package UseCases {
