@@ -149,6 +149,9 @@ package Project {
         requirement <'EXP-013'> '分系統在整合前已確認可用' : Expectation {
             doc /* 責任工程師對分系統的品質負責，需要在交付整合前有測試結果，證明分系統符合需求。 */
         }
+        requirement <'EXP-014'> '物料的規格與交期能配合製造進度' : Expectation {
+            doc /* 材料延遲到貨或規格不符，會直接延誤製造和測試時程。 */
+        }
     }
 
     package Structure {
