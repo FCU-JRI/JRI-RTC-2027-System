@@ -209,4 +209,5 @@ package Project {
     package '發射場作業' { }
     package '製造與測試' { }
     package '計劃管理' { }
+    #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
 }
