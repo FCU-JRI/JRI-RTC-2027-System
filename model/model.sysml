@@ -481,4 +481,5 @@ package Project {
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #derive dependency from Project::NGOs::'留有複材製造過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有複材測試過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
+    #derive dependency from Project::NGOs::'留有回收系統地面測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
 }
