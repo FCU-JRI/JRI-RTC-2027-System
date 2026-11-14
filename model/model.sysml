@@ -469,4 +469,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-11 影像與加速度時間同步誤差' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
     #refine dependency from Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
     #refine dependency from Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍' to Project::NGOs::'取回發射至濺落的箭載影像';
+    #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
 }
