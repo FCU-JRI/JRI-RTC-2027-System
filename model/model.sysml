@@ -188,8 +188,8 @@ package Project {
         package '任務後' {
             use case <'UC-036'> '評定競賽成績' : UseCase;
             use case <'UC-037'> '分析酬載實驗數據' : UseCase;
+            use case <'UC-038'> '提交飛行後報告' : UseCase;
         }
-        use case <'UC-038'> '提交飛行後報告' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
