@@ -137,7 +137,6 @@ package Project {
     }
 
     package UseCases {
-        use case <'UC-005'> '對外宣傳與招募' : UseCase;
         use case <'UC-011'> '製造與組裝' : UseCase;
         use case <'UC-012'> '審核危險作業程序' : UseCase;
         use case <'UC-013'> '執行分系統地面測試' : UseCase;
@@ -168,6 +167,7 @@ package Project {
             use case <'UC-002'> '核定計劃與經費' : UseCase;
             use case <'UC-003'> '管理預算與採購' : UseCase;
             use case <'UC-004'> '管理人力與排程' : UseCase;
+            use case <'UC-005'> '對外宣傳與招募' : UseCase;
         }
         use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         public import '發射場作業'::*;
