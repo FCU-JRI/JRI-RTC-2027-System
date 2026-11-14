@@ -254,6 +254,9 @@ package Project {
         requirement <'MOE-009'> 'MOE-09 軸向加速度實際取樣率' : MOE {
             doc /* 軸向加速度紀錄的實際取樣率應達 200 Hz 以上。 */
         }
+        requirement <'MOE-010'> 'MOE-10 軸向加速度量程飽和' : MOE {
+            doc /* 點火至頂點期間的軸向加速度紀錄不應超出 ±16 g 量程。量測方式：檢查紀錄中是否出現飽和值。 */
+        }
     }
 
     package UseCases {
