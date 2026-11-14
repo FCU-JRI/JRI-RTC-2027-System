@@ -230,6 +230,9 @@ package Project {
         requirement <'MOE-001'> 'MOE-01 決賽日發射達成' : MOE {
             doc /* 火箭應於 2027 台灣盃決賽日完成發射。量測方式：以官方發射紀錄判定是／否。 */
         }
+        requirement <'MOE-002'> 'MOE-02 減速傘開傘時刻與頂點時刻的時間差' : MOE {
+            doc /* 減速傘開傘時刻與頂點時刻的時間差應在容許範圍內。門檻值待定，於 PDR 依航電頂點偵測方式決定。 */
+        }
     }
 
     package UseCases {
