@@ -269,6 +269,9 @@ package Project {
         requirement <'OBJ-012'> '每位核心成員皆完成所屬分系統的設計、製造與測試' : Objective {
             doc /* 每位核心成員應至少參與一個分系統的設計、製造與測試，並撰寫可查核的技術文件。 */
         }
+        requirement <'OBJ-013'> '留有複材製造過程的影像紀錄' : Objective {
+            doc /* 專案應留有複材製造過程的影像紀錄。 */
+        }
     }
 
     package UseCases {
