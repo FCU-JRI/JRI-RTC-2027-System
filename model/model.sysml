@@ -168,8 +168,8 @@ package Project {
             use case <'UC-004'> '管理人力與排程' : UseCase;
             use case <'UC-005'> '對外宣傳與招募' : UseCase;
             use case <'UC-026'> '提交酬載實驗提案' : UseCase;
+            use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         }
-        use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         public import '發射場作業'::*;
         package '發射場作業' {
             use case <'UC-016'> '執行發射許可審查' : UseCase;
