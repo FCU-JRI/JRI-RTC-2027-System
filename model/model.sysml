@@ -236,6 +236,9 @@ package Project {
         requirement <'MOE-003'> 'MOE-03 主傘開傘高度' : MOE {
             doc /* 主傘應於離地 150～450 m 區間開啟。量測方式：以飛行數據的高度紀錄判定。 */
         }
+        requirement <'MOE-004'> 'MOE-04 觸水速度' : MOE {
+            doc /* 火箭觸水速度應小於 12 m/s。量測方式：以飛行數據判定。 */
+        }
     }
 
     package UseCases {
