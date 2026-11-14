@@ -104,6 +104,10 @@ package Project {
                 :>> role = "開傘可目視確認、定位訊號持續有效";
             }
         }
+        part <'STK-019'> '其他發射隊伍' : Stakeholder {
+            doc /* 每輪至多六支火箭 */
+            :>> role = "無線電頻道不受干擾、發射時程不受拖延";
+        }
     }
 
     package Structure {
