@@ -421,4 +421,5 @@ package Project {
     #derive dependency from Project::NGOs::'取得官方拍攝的發射離架空拍影像' to Project::NGOs::'記錄飛行全程的影像';
     #derive dependency from Project::NGOs::'每個分系統皆留有製造與測試過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #refine dependency from Project::NGOs::'MOE-01 決賽日發射達成' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
+    #refine dependency from Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
