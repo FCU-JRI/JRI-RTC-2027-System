@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-032'> '打撈過程安全，火箭上沒有殘留的危險能量' : Expectation {
-            doc /* 船員不是火箭專業人員，打撈時需要確認不會接觸到未釋放的儲能裝置。 */
-        }
     }
 
     package Structure {
