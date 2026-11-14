@@ -313,4 +313,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'承辦單位';
     #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::Stakeholders::'主辦與規範'::'承辦單位';
     #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::Stakeholders::'審查與評分'::'評審團';
+    #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::Stakeholders::'審查與評分'::'發射許可審查委員';
 }
