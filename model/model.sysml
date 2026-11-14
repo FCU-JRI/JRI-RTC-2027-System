@@ -380,4 +380,5 @@ package Project {
     #refine dependency from Project::NGOs::'取回與影像時間同步的軸向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'取回三軸角速度與橫向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'取回發射至濺落的箭載影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'取得飛行的液體動力行為數據';
 }
