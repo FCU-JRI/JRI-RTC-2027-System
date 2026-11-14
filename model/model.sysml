@@ -6,9 +6,6 @@ package Project {
     private import JRI::*;
 
     package Stakeholders {
-        requirement <'EXP-001'> '火箭發射與回收過程皆在可控安全的狀態' : Expectation {
-            doc /* 火箭設計應符合太空中心提供火箭設計規範 */
-        }
         requirement <'EXP-002'> '在指定時間內，完成各階段審查任務' : Expectation {
             doc /* 應在各審查節點上符合時程規劃 */
         }
@@ -339,8 +336,6 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
-    #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'承辦單位';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
