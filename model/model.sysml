@@ -242,6 +242,9 @@ package Project {
         requirement <'MOE-005'> 'MOE-05 浮力與重量比' : MOE {
             doc /* 火箭浮力與火箭重量的比值應大於 1。 */
         }
+        requirement <'MOE-006'> 'MOE-06 飛行數據時間涵蓋範圍' : MOE {
+            doc /* 高度、速度、加速度與 GPS 軌跡紀錄應涵蓋發射至濺落的全程。 */
+        }
     }
 
     package UseCases {
