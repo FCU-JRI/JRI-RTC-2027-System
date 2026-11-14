@@ -113,6 +113,7 @@ package Project {
         requirement <'EXP-001'> '任務達成完全成功' : Expectation;
         requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation;
         requirement <'EXP-003'> '無人員受傷' : Expectation;
+        requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
     }
 
     package Structure {
