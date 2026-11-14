@@ -21,18 +21,6 @@ package Project {
         requirement <'EXP-005'> '取得火箭升空影像' : Expectation {
             doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
         }
-        part <'STK-012'> '推進系統工作人員' : Stakeholder {
-            doc /* 負責安裝點火器、連接點火線路 */
-            :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
-        }
-        part <'STK-013'> '發射指揮官與射場管理人員' : Stakeholder {
-            doc /* 執行發射前確認、倒數及人員管制 */
-            :>> role = "發射條件全數滿足、風速於限制內、時程不延誤";
-        }
-        part <'STK-014'> '官方計時員與直播團隊' : Stakeholder {
-            doc /* 三位計時員記錄起飛至落海時間，直播畫面為正式計時來源 */
-            :>> role = "起飛與落海清晰可辨、隊伍可識別";
-        }
         part <'STK-015'> '回收漁船船員' : Stakeholder {
             doc /* 於安全回收區外圍待命，負責搜尋與打撈 */
             :>> role = "目標易於發現、箭體持續漂浮、打撈時無傷人之虞";
@@ -96,6 +84,21 @@ package Project {
             part <'STK-011'> '發射許可審查委員' : Stakeholder {
                 doc /* 決賽現場分站審查文件、外觀、重量、射場及上架備便，具最終否決權 */
                 :>> role = "設計規範逐項符合、回收系統可靠、儲能裝置狀態可確認";
+            }
+        }
+        public import '射'::*;
+        package '射' {
+            part <'STK-012'> '推進系統工作人員' : Stakeholder {
+                doc /* 負責安裝點火器、連接點火線路 */
+                :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
+            }
+            part <'STK-013'> '發射指揮官與射場管理人員' : Stakeholder {
+                doc /* 執行發射前確認、倒數及人員管制 */
+                :>> role = "發射條件全數滿足、風速於限制內、時程不延誤";
+            }
+            part <'STK-014'> '官方計時員與直播團隊' : Stakeholder {
+                doc /* 三位計時員記錄起飛至落海時間，直播畫面為正式計時來源 */
+                :>> role = "起飛與落海清晰可辨、隊伍可識別";
             }
         }
     }
@@ -170,5 +173,4 @@ package Project {
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
-    package '射' { }
 }
