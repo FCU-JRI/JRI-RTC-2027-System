@@ -137,7 +137,6 @@ package Project {
     }
 
     package UseCases {
-        use case <'UC-001'> '報名參賽與提交計劃書' : UseCase;
         use case <'UC-002'> '核定計劃與經費' : UseCase;
         use case <'UC-003'> '管理預算與採購' : UseCase;
         use case <'UC-004'> '管理人力與排程' : UseCase;
@@ -168,6 +167,7 @@ package Project {
         public import '計劃管理'::*;
         package '計劃管理' {
             use case <'UC-031'> '取得業餘無線電人員執照' : UseCase;
+            use case <'UC-001'> '報名參賽與提交計劃書' : UseCase;
         }
         use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         public import '發射場作業'::*;
