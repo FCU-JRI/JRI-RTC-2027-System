@@ -457,4 +457,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
     #refine dependency from Project::NGOs::'MOE-09 軸向加速度實際取樣率' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
     #refine dependency from Project::NGOs::'MOE-10 軸向加速度量程飽和' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
+    #refine dependency from Project::NGOs::'MOE-11 影像與加速度時間同步誤差' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
 }
