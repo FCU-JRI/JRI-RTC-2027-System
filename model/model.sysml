@@ -347,4 +347,5 @@ package Project {
     #refine dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #refine dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #refine dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #refine dependency from Project::Stakeholders::'頻段與功率合法' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
 }
