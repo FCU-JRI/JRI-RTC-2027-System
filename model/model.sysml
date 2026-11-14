@@ -146,7 +146,9 @@ package Project {
         requirement <'EXP-012'> '上架前確認可安全發射' : Expectation {
             doc /* 發射許可為最後一道安全關卡。審查委員要對放行的決定負責。 */
         }
-        requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation;
+        requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation {
+            doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
+        }
         requirement <'EXP-014'> '射場作業安全且有序' : Expectation;
         requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation;
         requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation;
