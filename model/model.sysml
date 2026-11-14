@@ -161,7 +161,9 @@ package Project {
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation {
             doc /* 無人機進入火箭的飛行路徑或傘降範圍，會造成碰撞風險。 */
         }
-        requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
+        requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation {
+            doc /* 各隊都依賴無線電傳回遙測數據。頻道衝突可能導致其他隊伍遺失數據，甚至影響回收系統。 */
+        }
         requirement <'EXP-019'> '頻段與功率合法' : Expectation;
         requirement <'EXP-020'> '收到可履行的訂單' : Expectation;
     }
