@@ -315,4 +315,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::Stakeholders::'審查與評分'::'評審團';
     #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::Stakeholders::'審查與評分'::'發射許可審查委員';
     #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::Stakeholders::'射場作業'::'推進系統工作人員';
+    #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
 }
