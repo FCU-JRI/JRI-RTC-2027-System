@@ -328,4 +328,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::Stakeholders::'供應'::'零件與材料供應商';
+    #refine dependency from Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據' to Project::NGOs::'酬載提案委員會需要取得液體在真實飛行環境中的動力行為數據';
 }
