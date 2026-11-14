@@ -170,6 +170,9 @@ package Project {
         requirement <'EXP-020'> '取得完整的飛行紀錄' : Expectation {
             doc /* 飛行高度、速度、加速度和 GPS 軌跡，是主辦單位評估競賽成果的依據。 */
         }
+        requirement <'EXP-021'> '收到依規定時程與格式繳交的文件' : Expectation {
+            doc /* 承辦單位要處理所有隊伍的文件。時程和格式統一，行政作業才能順利進行。 */
+        }
     }
 
     package Structure {
