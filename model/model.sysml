@@ -116,6 +116,7 @@ package Project {
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
         requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation;
         requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation;
+        requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation;
     }
 
     package Structure {
