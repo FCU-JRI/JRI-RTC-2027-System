@@ -128,6 +128,7 @@ package Project {
         requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation;
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
+        requirement <'EXP-019'> '頻段與功率合法' : Expectation;
     }
 
     package Structure {
