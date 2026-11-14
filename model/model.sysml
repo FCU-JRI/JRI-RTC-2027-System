@@ -118,9 +118,12 @@ package Project {
                 :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
             }
         }
-        part <'STK-021'> '零件與材料供應商' : Stakeholder {
-            doc /* 提供商規零件、材料 */
-            :>> role = "規格明確、交期與數量可行";
+        public import '供應'::*;
+        package '供應' {
+            part <'STK-021'> '零件與材料供應商' : Stakeholder {
+                doc /* 提供商規零件、材料 */
+                :>> role = "規格明確、交期與數量可行";
+            }
         }
     }
 
@@ -199,5 +202,4 @@ package Project {
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     package '供應與贊助廠商' { }
     package '供應商與贊助' { }
-    package '供應' { }
 }
