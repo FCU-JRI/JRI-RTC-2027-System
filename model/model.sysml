@@ -140,7 +140,9 @@ package Project {
         requirement <'EXP-010'> '賽事流程順利進行' : Expectation {
             doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
         }
-        requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation;
+        requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation {
+            doc /* 以實際飛行數據和明確的判準評分。 */
+        }
         requirement <'EXP-012'> '上架前確認可安全發射' : Expectation;
         requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation;
         requirement <'EXP-014'> '射場作業安全且有序' : Expectation;
