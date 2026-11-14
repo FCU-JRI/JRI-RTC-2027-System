@@ -179,8 +179,8 @@ package Project {
         requirement <'NEED-001'> '酬載提案委員會需要取得引擎在大氣中關閉時液體前衝的飛行量測數據' : Need {
             doc /* 液體火箭在大氣中關閉引擎後，載具受氣動阻力減速，貯箱內的液體會轉向前端前衝並撞擊端蓋。這個過程的時間尺度與撞擊後的衰減，會影響級間分離與貯箱設計。既有研究多以大型液體火箭為對象，並將引擎關閉簡化為瞬間的階躍變化；地面與落塔試驗也無法重現大氣中關閉引擎後的軸向加速度歷程。JRI 推展液態推進技術，需要取得由推力沉降液面起始、在反向相對加速度下的液體前衝與撞擊後動態的量測數據，作為貯箱設計與數值模擬驗證的依據。 */
         }
-        requirement <'GOAL-001'> '以探空火箭飛行實驗取得液體動力行為數據' : Goal {
-            doc /* 以一次探空火箭飛行作為實驗載台，讓液體貯槽經歷推進加速、燃燒結束減速與頂點附近低加速度等連續變化的飛行環境，並在回收火箭後取得完整量測數據 */
+        requirement <'GOAL-001'> '以探空火箭飛行實驗取得燃盡前後的液體前衝數據' : Goal {
+            doc /* 小型探空火箭在固體馬達燃盡時，會經歷殘餘推力衰減與氣動阻力減速，力學過程與液體火箭在大氣中關閉引擎相同。本計劃以一次探空火箭飛行作為實驗載台，讓酬載內的實驗容器經歷真實的推力尾段與減速環境，同步記錄液體運動影像與慣性量測數據，並在回收火箭後取得完整資料。 */
         }
     }
 
@@ -320,7 +320,7 @@ package Project {
     #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::Stakeholders::'供應'::'零件與材料供應商';
-    #refine dependency from Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據' to Project::NGOs::'酬載提案委員會需要取得引擎在大氣中關閉時液體前衝的飛行量測數據';
+    #refine dependency from Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據' to Project::NGOs::'酬載提案委員會需要取得引擎在大氣中關閉時液體前衝的飛行量測數據';
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
     #trace dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
@@ -329,26 +329,26 @@ package Project {
     #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    #refine dependency from Project::Stakeholders::'取得飛行的液體晃動數據' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #refine dependency from Project::Stakeholders::'取得飛行的液體晃動數據' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     package '利害關係人' { }
     package '期望' { }
-    #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'無人員受傷' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'無人員受傷' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
 }
