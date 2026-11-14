@@ -155,7 +155,9 @@ package Project {
         requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation {
             doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一 */
         }
-        requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation;
+        requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation {
+            doc /* 船員不是火箭專業人員，打撈時需要確認不會接觸到未釋放的儲能裝置。 */
+        }
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
         requirement <'EXP-019'> '頻段與功率合法' : Expectation;
