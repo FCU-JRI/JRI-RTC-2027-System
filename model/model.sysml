@@ -147,7 +147,6 @@ package Project {
         use case <'UC-013'> '執行分系統地面測試' : UseCase;
         use case <'UC-014'> '執行全箭整合測試' : UseCase;
         use case <'UC-015'> '執行飛行準備審查與核可' : UseCase;
-        use case <'UC-016'> '執行發射許可審查' : UseCase;
         use case <'UC-017'> '安裝公版發動機' : UseCase;
         use case <'UC-018'> '上架並啟動回收系統' : UseCase;
         use case <'UC-019'> '終止發射並解除啟動' : UseCase;
@@ -174,6 +173,10 @@ package Project {
         package '計劃管理' {
         }
         use case <'UC-028'> '提出影像紀錄需求' : UseCase;
+        public import '發射場作業'::*;
+        package '發射場作業' {
+            use case <'UC-016'> '執行發射許可審查' : UseCase;
+        }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
@@ -213,7 +216,6 @@ package Project {
     package '供應商與贊助' { }
     #trace dependency from Project::UseCases::'飛行與回收'::'海上回收火箭' to Project::Stakeholders::'回收作業'::'回收漁船船員';
     #trace dependency from Project::UseCases::'飛行與回收'::'追蹤火箭位置與落點' to Project::Stakeholders::'回收作業'::'無人機操作員';
-    package '發射場作業' { }
     package '製造與測試' { }
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
