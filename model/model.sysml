@@ -146,6 +146,9 @@ package Project {
         requirement <'EXP-012'> '收到的分系統需求明確、介面清楚' : Expectation {
             doc /* 責任工程師依據上層分配的需求進行設計。 */
         }
+        requirement <'EXP-013'> '分系統在整合前已確認可用' : Expectation {
+            doc /* 責任工程師對分系統的品質負責，需要在交付整合前有測試結果，證明分系統符合需求。 */
+        }
     }
 
     package Structure {
