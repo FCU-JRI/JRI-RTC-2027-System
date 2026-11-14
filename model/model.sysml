@@ -131,6 +131,9 @@ package Project {
         requirement <'EXP-007'> '計劃在核定預算內完成' : Expectation {
             doc /* 在整個任務週期中，應嚴格遵守各部門預算限制，並於有限資源中完成計劃 */
         }
+        requirement <'EXP-008'> '提升團隊能見度' : Expectation {
+            doc /* 在計劃內，應產出各項宣傳素材，包含測試影片、飛行畫面以及宣發活動 */
+        }
     }
 
     package Structure {
