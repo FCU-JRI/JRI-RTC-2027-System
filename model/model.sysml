@@ -485,4 +485,5 @@ package Project {
     #derive dependency from Project::NGOs::'留有複材製造過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有複材測試過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
     #derive dependency from Project::NGOs::'留有回收系統地面測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
+    #derive dependency from Project::NGOs::'留有降落傘投放測試的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
 }
