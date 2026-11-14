@@ -409,4 +409,5 @@ package Project {
     #derive dependency from Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據' to Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #derive dependency from Project::NGOs::'取得發射離架的地面影像' to Project::NGOs::'記錄飛行全程的影像';
+    #derive dependency from Project::NGOs::'取得官方拍攝的發射離架空拍影像' to Project::NGOs::'記錄飛行全程的影像';
 }
