@@ -449,4 +449,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
     #refine dependency from Project::NGOs::'MOE-07 前衝影像實際影格率' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
     #refine dependency from Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
+    #refine dependency from Project::NGOs::'MOE-09 軸向加速度實際取樣率' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
 }
