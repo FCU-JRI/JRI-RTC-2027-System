@@ -162,7 +162,6 @@ package Project {
             use case <'UC-008'> '內部審查' : UseCase;
             use case <'UC-007'> '分系統設計' : UseCase;
             use case <'UC-006'> '管理需求與系統模型' : UseCase;
-            use case <'UC-032'> '確認射頻器材合法性' : UseCase;
         }
         public import '計劃管理'::*;
         package '計劃管理' {
@@ -181,6 +180,7 @@ package Project {
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
         }
+        use case <'UC-032'> '確認射頻器材合法性' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
@@ -234,5 +234,5 @@ package Project {
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'核心成員';
-    #trace dependency from Project::UseCases::'設計與審查'::'確認射頻器材合法性' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
+    #trace dependency from Project::UseCases::'確認射頻器材合法性' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
 }
