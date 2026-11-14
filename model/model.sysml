@@ -192,6 +192,9 @@ package Project {
             doc /* 觸水速度 < 12 m/s，火箭浮力大於火箭重量 */
         }
         requirement <'OBJ-004'> '取回飛行全程的高度、速度、加速度與 GPS 軌跡' : Objective;
+        requirement <'OBJ-005'> '取回燃盡前後的液體前衝與撞擊後影像' : Objective {
+            doc /* 影像影格率應達 170 fps 以上（目標值 240 fps） */
+        }
     }
 
     package UseCases {
