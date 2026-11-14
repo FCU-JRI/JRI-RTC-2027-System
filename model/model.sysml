@@ -177,8 +177,8 @@ package Project {
             use case <'UC-022'> '空拍飛行與回收過程' : UseCase;
             use case <'UC-019'> '終止發射並解除啟動' : UseCase;
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
+            use case <'UC-030'> '共用射場設施與作業區' : UseCase;
         }
-        use case <'UC-030'> '共用射場設施與作業區' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
