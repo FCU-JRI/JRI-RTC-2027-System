@@ -164,4 +164,5 @@ package Project {
     #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'發射指揮官與射場管理人員';
     #trace dependency from Project::UseCases::'計時並直播發射過程' to Project::Stakeholders::'官方計時員與直播團隊';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'回收漁船船員';
+    #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
 }
