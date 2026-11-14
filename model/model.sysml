@@ -469,4 +469,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍' to Project::NGOs::'取回發射至濺落的箭載影像';
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
     #refine dependency from Project::NGOs::'MOE-15 官方空拍影像取得與授權' to Project::NGOs::'取得官方拍攝的發射離架空拍影像';
+    #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
 }
