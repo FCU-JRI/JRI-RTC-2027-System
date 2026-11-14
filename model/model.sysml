@@ -257,6 +257,9 @@ package Project {
         requirement <'MOE-010'> 'MOE-10 軸向加速度量程飽和' : MOE {
             doc /* 點火至頂點期間的軸向加速度紀錄不應超出 ±16 g 量程。量測方式：檢查紀錄中是否出現飽和值。 */
         }
+        requirement <'MOE-011'> 'MOE-11 影像與加速度時間同步誤差' : MOE {
+            doc /* 影像與加速度紀錄的時間同步誤差應不大於半個影格間隔（240 fps 時約 2.1 ms，170 fps 時約 2.9 ms）。依據：PPC 計劃書式 (4-75)、(4-86)。 */
+        }
     }
 
     package UseCases {
