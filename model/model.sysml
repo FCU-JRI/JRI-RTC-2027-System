@@ -245,6 +245,9 @@ package Project {
         requirement <'MOE-006'> 'MOE-06 飛行數據時間涵蓋範圍' : MOE {
             doc /* 高度、速度、加速度與 GPS 軌跡紀錄應涵蓋發射至濺落的全程。 */
         }
+        requirement <'MOE-007'> 'MOE-07 前衝影像實際影格率' : MOE {
+            doc /* 液體前衝影像的實際影格率應達 170 fps 以上，目標值為 240 fps。 */
+        }
     }
 
     package UseCases {
