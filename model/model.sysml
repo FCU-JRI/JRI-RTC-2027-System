@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-025'> '審查時能快速取得所需證據' : Expectation {
-            doc /* 審查現場時間有限，需要隊伍備妥檢查表、測試紀錄和執照，才能有效率地完成審查。 */
-        }
         requirement <'EXP-026'> '公版發動機依介面規格正確安裝' : Expectation {
             doc /* 工作人員負責提供公版發動機，需要確認各隊的介面設計和發動機相容。 */
         }
