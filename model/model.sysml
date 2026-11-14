@@ -189,7 +189,7 @@ package Project {
             doc /* 頂點開減速傘、離地 150～450 m 開主傘 */
         }
         requirement <'OBJ-003'> '火箭濺落後漂浮於海面並被回收' : Objective {
-            doc /* 觸水速度 < 12 m/s，酬載無浸水 */
+            doc /* 觸水速度 < 12 m/s，火箭浮力大於火箭重量 */
         }
         requirement <'OBJ-004'> '取回飛行全程的高度、速度、加速度與 GPS 軌跡' : Objective;
     }
