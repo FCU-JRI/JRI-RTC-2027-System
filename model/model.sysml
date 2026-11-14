@@ -194,6 +194,9 @@ package Project {
         requirement <'EXP-028'> '各隊依指定的時段與程序作業，不延誤賽程' : Expectation {
             doc /* 發射場有多支隊伍輪流發射，任何一隊延誤都會壓縮其他隊伍的時間。 */
         }
+        requirement <'EXP-029'> '發生異常時可以立即中止發射' : Expectation {
+            doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
+        }
     }
 
     package Structure {
