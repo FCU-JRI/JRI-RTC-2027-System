@@ -260,6 +260,9 @@ package Project {
         requirement <'MOE-011'> 'MOE-11 影像與加速度時間同步誤差' : MOE {
             doc /* 影像與加速度紀錄的時間同步誤差應不大於半個影格間隔（240 fps 時約 2.1 ms，170 fps 時約 2.9 ms）。依據：PPC 計劃書式 (4-75)、(4-86)。 */
         }
+        requirement <'MOE-012'> 'MOE-12 三軸紀錄時間涵蓋範圍' : MOE {
+            doc /* 三軸角速度與橫向加速度紀錄應涵蓋點火至頂點，目標值為點火至減速傘開傘。依據：PPC 計劃書表 4-6、式 (4-74)。 */
+        }
     }
 
     package UseCases {
