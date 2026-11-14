@@ -160,4 +160,5 @@ package Project {
     #trace dependency from Project::UseCases::'安裝公版發動機' to Project::Stakeholders::'推進系統工作人員';
     #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'發射指揮官與射場管理人員';
     #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'JRI 團隊'::'核心成員';
+    #trace dependency from Project::UseCases::'終止發射並解除啟動' to Project::Stakeholders::'發射指揮官與射場管理人員';
 }
