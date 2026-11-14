@@ -392,4 +392,5 @@ package Project {
     #trace dependency from Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力' to Project::Stakeholders::'累積實作經驗與技術能力';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'取得可用於宣傳的影像素材';
     #derive dependency from Project::NGOs::'讓成員完整經歷分系統的全生命週期' to Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力';
+    #derive dependency from Project::NGOs::'記錄飛行全程的影像' to Project::NGOs::'取得呈現團隊工程成果的影像素材';
 }
