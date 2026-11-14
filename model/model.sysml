@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-009'> '安全許可審查' : Expectation {
-            doc /* 團隊應針對各項火箭設計項目與測試計劃項安全官、指導老師提出審查，並於安全官與指導老師核可後，方可進行製造與測試 */
-        }
         requirement <'EXP-010'> '計劃耗材經費符合學校規定' : Expectation {
             doc /* 指導老師代表學校監督計劃。經費應事先申請、依校方規定核銷。 */
         }
@@ -315,8 +312,6 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
-    #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'計劃耗材經費符合學校規定' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'在關鍵節點掌握計劃進度與風險' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'收到的分系統需求明確、介面清楚' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
