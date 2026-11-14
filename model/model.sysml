@@ -413,4 +413,5 @@ package Project {
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #derive dependency from Project::NGOs::'取得發射離架的地面影像' to Project::NGOs::'記錄飛行全程的影像';
     #derive dependency from Project::NGOs::'取得官方拍攝的發射離架空拍影像' to Project::NGOs::'記錄飛行全程的影像';
+    #derive dependency from Project::NGOs::'每個分系統皆留有製造與測試過程的影像紀錄' to Project::NGOs::'記錄設計、製造與測試過程的影像';
 }
