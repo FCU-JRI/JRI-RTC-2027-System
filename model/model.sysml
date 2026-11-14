@@ -275,6 +275,9 @@ package Project {
         requirement <'OBJ-014'> '留有複材測試過程的影像紀錄' : Objective {
             doc /* 專案應留有複材測試過程的影像紀錄。 */
         }
+        requirement <'OBJ-015'> '留有回收系統地面測試的影像紀錄' : Objective {
+            doc /* 專案應留有回收系統地面測試過程的影像紀錄。 */
+        }
     }
 
     package UseCases {
