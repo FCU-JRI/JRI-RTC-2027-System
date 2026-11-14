@@ -318,11 +318,11 @@
   },
   "Project__Stakeholders___e6_b3_95_e8_a6_8f___e5_9c_8b_e5_ae_b6_e9_80_9a_e8_a8_8a_e5_82_b3_e6_92_ad_e5_a7_94_e5_93_a1_e6_9c_83": {
    "x": -552,
-   "y": 1356
+   "y": 1392
   },
   "Project__Stakeholders___e6_b3_95_e8_a6_8f": {
    "x": -576,
-   "y": 1308,
+   "y": 1344,
    "w": 276,
    "h": 156
   },
@@ -338,11 +338,11 @@
   },
   "Project__Stakeholders___e4_be_9b_e6_87_89___e9_9b_b6_e4_bb_b6_e8_88_87_e6_9d_90_e6_96_99_e4_be_9b_e6_87_89_e5_95_86": {
    "x": -552,
-   "y": 1536
+   "y": 1548
   },
   "Project__Stakeholders___e4_be_9b_e6_87_89": {
    "x": -576,
-   "y": 1488,
+   "y": 1500,
    "w": 276,
    "h": 156
   },
@@ -432,7 +432,7 @@
    "x": 156,
    "y": 1584
   },
-  "Project__UseCases___e6_8f_90_e4_ba_a4_e9_a3_9b_e8_a1_8c_e5_be_8c_e5_a0_b1_e5_91_8a": {
+  "Project__UseCases___e4_bb_bb_e5_8b_99_e5_be_8c___e6_8f_90_e4_ba_a4_e9_a3_9b_e8_a1_8c_e5_be_8c_e5_a0_b1_e5_91_8a": {
    "x": 156,
    "y": 1668
   }
