@@ -218,9 +218,6 @@ package Project {
         requirement <'OBJ-010'> '取得發射離架的地面影像' : Objective {
             doc /* 專案應取得從地面拍攝、涵蓋火箭發射離架過程的影像。 */
         }
-        requirement <'OBJ-011'> '取得官方拍攝的發射離架空拍影像' : Objective {
-            doc /* 專案應向承辦單位取得官方無人機操作員拍攝、涵蓋火箭發射離架過程的空拍影像。 */
-        }
         requirement <'MOE-001'> 'MOE-01 決賽日發射達成' : MOE {
             doc /* 火箭應於 2027 台灣盃決賽日完成發射。量測方式：以官方發射紀錄判定是／否。 */
         }
@@ -453,7 +450,6 @@ package Project {
     #derive dependency from Project::NGOs::'記錄設計、製造與測試過程的影像' to Project::NGOs::'取得呈現團隊工程成果的影像素材';
     #derive dependency from Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據' to Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據';
     #derive dependency from Project::NGOs::'取得發射離架的地面影像' to Project::NGOs::'記錄飛行全程的影像';
-    #derive dependency from Project::NGOs::'取得官方拍攝的發射離架空拍影像' to Project::NGOs::'記錄飛行全程的影像';
     #refine dependency from Project::NGOs::'MOE-01 決賽日發射達成' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #refine dependency from Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #refine dependency from Project::NGOs::'MOE-03 主傘開傘高度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
@@ -468,6 +464,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
     #refine dependency from Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍' to Project::NGOs::'取回發射至濺落的箭載影像';
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
-    #refine dependency from Project::NGOs::'MOE-15 官方空拍影像取得與授權' to Project::NGOs::'取得官方拍攝的發射離架空拍影像';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
 }
