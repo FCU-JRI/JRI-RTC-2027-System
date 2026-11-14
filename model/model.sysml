@@ -302,4 +302,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'計劃耗材經費符合學校規定' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'在關鍵節點掌握計劃進度與風險' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'收到的分系統需求明確、介面清楚' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
+    #trace dependency from Project::Stakeholders::'分系統在整合前已確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
 }
