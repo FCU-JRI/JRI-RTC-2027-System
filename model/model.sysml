@@ -6,9 +6,6 @@ package Project {
     private import JRI::*;
 
     package Stakeholders {
-        requirement <'EXP-004'> '需提供一載具平台進行液體動力行為實驗' : Expectation {
-            doc /* 工程團隊應符合提案委員會提出之需求框架打造出一枚探空火箭 */
-        }
         requirement <'EXP-005'> '取得火箭升空影像' : Expectation {
             doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
         }
@@ -330,7 +327,6 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
     #trace dependency from Project::Stakeholders::'任務完全成功' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
