@@ -299,4 +299,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'計劃在核定預算內完成' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
     #trace dependency from Project::Stakeholders::'提升團隊能見度' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
+    #trace dependency from Project::Stakeholders::'計劃耗材經費符合學校規定' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
 }
