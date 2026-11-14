@@ -158,7 +158,9 @@ package Project {
         requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation {
             doc /* 船員不是火箭專業人員，打撈時需要確認不會接觸到未釋放的儲能裝置。 */
         }
-        requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
+        requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation {
+            doc /* 無人機進入火箭的飛行路徑或傘降範圍，會造成碰撞風險。 */
+        }
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
         requirement <'EXP-019'> '頻段與功率合法' : Expectation;
         requirement <'EXP-020'> '收到可履行的訂單' : Expectation;
