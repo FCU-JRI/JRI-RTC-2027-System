@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-027'> '發動機在安全程序下操作' : Expectation {
-            doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
-        }
         requirement <'EXP-028'> '各隊依指定的時段與程序作業，不延誤賽程' : Expectation {
             doc /* 發射場有多支隊伍輪流發射，任何一隊延誤都會壓縮其他隊伍的時間。 */
         }
