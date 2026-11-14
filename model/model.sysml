@@ -195,6 +195,9 @@ package Project {
         requirement <'OBJ-005'> '取回燃盡前後的液體前衝與撞擊後影像' : Objective {
             doc /* 影像影格率應達 170 fps 以上（目標值 240 fps） */
         }
+        requirement <'OBJ-006'> '取回與影像時間同步的軸向加速度紀錄' : Objective {
+            doc /* 200 Hz、±16 g、與影像共用時間基準 */
+        }
     }
 
     package UseCases {
