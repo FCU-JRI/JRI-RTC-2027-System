@@ -120,6 +120,7 @@ package Project {
         requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation;
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation;
         requirement <'EXP-010'> '賽事流程順利進行' : Expectation;
+        requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation;
     }
 
     package Structure {
