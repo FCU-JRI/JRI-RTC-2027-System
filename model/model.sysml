@@ -134,6 +134,9 @@ package Project {
         requirement <'EXP-008'> '提升團隊能見度' : Expectation {
             doc /* 在計劃內，應產出各項宣傳素材，包含測試影片、飛行畫面以及宣發活動 */
         }
+        requirement <'EXP-009'> '安全許可審查' : Expectation {
+            doc /* 團隊應針對各項火箭設計項目與測試計劃項安全官提出審查，並於安全官核可後，方可進行製造與測試 */
+        }
     }
 
     package Structure {
