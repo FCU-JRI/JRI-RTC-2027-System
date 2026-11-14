@@ -129,6 +129,7 @@ package Project {
         use case <'UC-017'> '安裝公版發動機' : UseCase;
         use case <'UC-018'> '上架並啟動回收系統' : UseCase;
         use case <'UC-019'> '終止發射並解除啟動' : UseCase;
+        use case <'UC-020'> '執行倒數與發射' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
