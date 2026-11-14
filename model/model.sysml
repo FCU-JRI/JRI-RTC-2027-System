@@ -152,7 +152,9 @@ package Project {
         requirement <'EXP-014'> '射場作業安全且有序' : Expectation {
             doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
         }
-        requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation;
+        requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation {
+            doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一 */
+        }
         requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation;
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
