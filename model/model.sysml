@@ -199,6 +199,7 @@ package Project {
             doc /* 200 Hz、±16 g、與影像共用時間基準 */
         }
         requirement <'OBJ-007'> '取回三軸角速度與橫向加速度紀錄' : Objective;
+        requirement <'OBJ-008'> '取回發射至濺落的箭載影像' : Objective;
     }
 
     package UseCases {
