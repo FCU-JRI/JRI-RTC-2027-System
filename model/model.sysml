@@ -238,4 +238,5 @@ package Project {
     #trace dependency from Project::UseCases::'確認射頻器材合法性' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'確認射頻器材合法性' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'設計與審查'::'確認射頻器材合法性' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
+    #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
 }
