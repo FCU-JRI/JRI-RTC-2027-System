@@ -266,6 +266,9 @@ package Project {
         requirement <'MOE-013'> 'MOE-13 箭載影像時間涵蓋範圍' : MOE {
             doc /* 箭載影像應涵蓋發射至濺落的全程。 */
         }
+        requirement <'MOE-014'> 'MOE-14 地面影像涵蓋發射離架' : MOE {
+            doc /* 地面影像應涵蓋火箭發射離架的過程。量測方式：判定是／否。 */
+        }
     }
 
     package UseCases {
