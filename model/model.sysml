@@ -281,6 +281,9 @@ package Project {
         requirement <'OBJ-016'> '留有降落傘投放測試的影像紀錄' : Objective {
             doc /* 專案應留有降落傘投放測試過程的影像紀錄。 */
         }
+        requirement <'OBJ-017'> '留有航電通訊測試的影像紀錄' : Objective {
+            doc /* 專案應留有航電通訊測試過程的影像紀錄。 */
+        }
     }
 
     package UseCases {
