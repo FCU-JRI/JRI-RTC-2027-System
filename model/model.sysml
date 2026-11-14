@@ -21,14 +21,6 @@ package Project {
         requirement <'EXP-005'> '取得火箭升空影像' : Expectation {
             doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
         }
-        part <'STK-015'> '回收漁船船員' : Stakeholder {
-            doc /* 於安全回收區外圍待命，負責搜尋與打撈 */
-            :>> role = "目標易於發現、箭體持續漂浮、打撈時無傷人之虞";
-        }
-        part <'STK-016'> '無人機操作員' : Stakeholder {
-            doc /* 追蹤開傘之火箭並回報位置予漁船 */
-            :>> role = "開傘可目視確認、定位訊號持續有效";
-        }
         public import 'JRI 團隊'::*;
         package 'JRI 團隊' {
             part <'STK-002'> '總工程師暨隊長' : Stakeholder {
@@ -99,6 +91,17 @@ package Project {
             part <'STK-014'> '官方計時員與直播團隊' : Stakeholder {
                 doc /* 三位計時員記錄起飛至落海時間，直播畫面為正式計時來源 */
                 :>> role = "起飛與落海清晰可辨、隊伍可識別";
+            }
+        }
+        public import '回收作業'::*;
+        package '回收作業' {
+            part <'STK-015'> '回收漁船船員' : Stakeholder {
+                doc /* 於安全回收區外圍待命，負責搜尋與打撈 */
+                :>> role = "目標易於發現、箭體持續漂浮、打撈時無傷人之虞";
+            }
+            part <'STK-016'> '無人機操作員' : Stakeholder {
+                doc /* 追蹤開傘之火箭並回報位置予漁船 */
+                :>> role = "開傘可目視確認、定位訊號持續有效";
             }
         }
     }
@@ -173,5 +176,4 @@ package Project {
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
-    package '回收作業' { }
 }
