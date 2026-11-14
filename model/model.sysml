@@ -153,10 +153,10 @@ package Project {
         use case <'UC-021'> '計時並直播發射過程' : UseCase;
         use case <'UC-022'> '空拍飛行與回收過程' : UseCase;
         use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
-        use case <'UC-024'> '海上回收火箭' : UseCase;
         public import '飛行與回收'::*;
         package '飛行與回收' {
             use case <'UC-025'> '取回火箭並提交飛行數據' : UseCase;
+            use case <'UC-024'> '海上回收火箭' : UseCase;
         }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
