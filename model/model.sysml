@@ -158,6 +158,9 @@ package Project {
         requirement <'EXP-016'> '作業過程安全' : Expectation {
             doc /* 成員是直接操作工具、材料和火箭的人，作業安全和他們最直接相關。 */
         }
+        requirement <'EXP-017'> '取得研發與製造過程的影像紀錄' : Expectation {
+            doc /* 製造和測試過程的紀錄，可以讓外界看到團隊的工程能力。 */
+        }
     }
 
     package Structure {
