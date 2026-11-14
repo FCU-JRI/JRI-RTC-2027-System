@@ -246,4 +246,5 @@ package Project {
     #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'供應'::'零件與材料供應商';
     #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'供應'::'零件與材料供應商';
+    #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'JRI 團隊'::'核心成員';
 }
