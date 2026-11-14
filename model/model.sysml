@@ -125,7 +125,9 @@ package Project {
         requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation {
             doc /* 責任工程師依據上層分配的需求進行設計。需求模糊或介面不清，會導致設計反覆修改，或整合時才發現對不上。 */
         }
-        requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation;
+        requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation {
+            doc /* 成員投入大量時間參與計劃，希望從中獲得專業成長，也有助於升學。 */
+        }
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation;
         requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation;
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation;
