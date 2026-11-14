@@ -350,4 +350,5 @@ package Project {
     #refine dependency from Project::Stakeholders::'收到可履行的訂單' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     package '利害關係人' { }
     package '期望' { }
+    #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
 }
