@@ -111,6 +111,7 @@ package Project {
             }
         }
         requirement <'EXP-001'> '任務達成完全成功' : Expectation;
+        requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation;
     }
 
     package Structure {
