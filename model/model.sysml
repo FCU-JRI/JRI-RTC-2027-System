@@ -116,7 +116,9 @@ package Project {
         requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation {
             doc /* 營運長負責團隊財務。超支會影響社團營運和之後年度的經費申請。 */
         }
-        requirement <'EXP-003'> '無人員受傷' : Expectation;
+        requirement <'EXP-003'> '無人員受傷' : Expectation {
+            doc /* 儲能裝置、發動機、複材製程都有受傷風險。安全官要確認每項危險作業開始前，程序都經過審核。 */
+        }
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
         requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation;
         requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation;
