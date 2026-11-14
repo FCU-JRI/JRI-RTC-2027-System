@@ -163,6 +163,7 @@ package Project {
             use case <'UC-007'> '分系統設計' : UseCase;
             use case <'UC-006'> '管理需求與系統模型' : UseCase;
             use case <'UC-032'> '確認射頻器材合法性' : UseCase;
+            use case <'UC-033'> '設定發射頻率與功率' : UseCase;
         }
         public import '計劃管理'::*;
         package '計劃管理' {
@@ -181,7 +182,6 @@ package Project {
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
         }
-        use case <'UC-033'> '設定發射頻率與功率' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
