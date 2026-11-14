@@ -165,6 +165,7 @@ package Project {
             use case <'UC-024'> '海上回收火箭' : UseCase;
             use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
         }
+        use case <'UC-026'> '提交酬載實驗提案' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
