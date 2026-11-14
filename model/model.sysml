@@ -335,4 +335,5 @@ package Project {
     #refine dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #refine dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
     #refine dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
 }
