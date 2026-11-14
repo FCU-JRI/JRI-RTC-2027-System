@@ -226,4 +226,5 @@ package Project {
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
+    #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
 }
