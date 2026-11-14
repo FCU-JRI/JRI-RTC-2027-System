@@ -129,6 +129,7 @@ package Project {
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation;
         requirement <'EXP-019'> '頻段與功率合法' : Expectation;
+        requirement <'EXP-020'> '收到可履行的訂單' : Expectation;
     }
 
     package Structure {
