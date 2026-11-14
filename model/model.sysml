@@ -152,6 +152,9 @@ package Project {
         requirement <'EXP-014'> '物料的規格與交期能配合製造進度' : Expectation {
             doc /* 材料延遲到貨或規格不符，會直接延誤製造和測試時程。 */
         }
+        requirement <'EXP-015'> '職責明確，有書面程序可以依循' : Expectation {
+            doc /* 成員需要知道自己負責什麼、要怎麼做。有書面程序也可以減少因個人經驗不同造成的品質落差。 */
+        }
     }
 
     package Structure {
