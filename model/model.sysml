@@ -191,6 +191,7 @@ package Project {
         requirement <'OBJ-003'> '火箭濺落後漂浮於海面並被回收' : Objective {
             doc /* 觸水速度 < 12 m/s，酬載無浸水 */
         }
+        requirement <'OBJ-004'> '取回飛行全程的高度、速度、加速度與 GPS 軌跡' : Objective;
     }
 
     package UseCases {
