@@ -272,6 +272,9 @@ package Project {
         requirement <'OBJ-013'> '留有複材製造過程的影像紀錄' : Objective {
             doc /* 專案應留有複材製造過程的影像紀錄。 */
         }
+        requirement <'OBJ-014'> '留有複材測試過程的影像紀錄' : Objective {
+            doc /* 專案應留有複材測試過程的影像紀錄。 */
+        }
     }
 
     package UseCases {
