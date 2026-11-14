@@ -137,8 +137,8 @@ package Project {
         requirement <'EXP-009'> '安全許可審查' : Expectation {
             doc /* 團隊應針對各項火箭設計項目與測試計劃項安全官提出審查，並於安全官核可後，方可進行製造與測試 */
         }
-        requirement <'EXP-010'> '計劃經費符合學校規定' : Expectation {
-            doc /* 計劃經費應符合校方規定且應提前申請方可進行核銷 */
+        requirement <'EXP-010'> '計劃耗材經費符合學校規定' : Expectation {
+            doc /* 計劃耗材經費應符合校方規定且應提前申請方可進行核銷 */
         }
     }
 
