@@ -348,4 +348,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
 }
