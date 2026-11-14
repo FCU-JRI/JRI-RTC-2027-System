@@ -3,15 +3,6 @@
  "notes": {
   "uc": [
    {
-    "id": "note:mwelkpfcj3ts",
-    "type": "frame",
-    "x": -600,
-    "y": -60,
-    "w": 156,
-    "h": 756,
-    "text": "JRI 團隊"
-   },
-   {
     "id": "note:mwemmqqxhqdj",
     "type": "frame",
     "x": 696,
@@ -46,24 +37,6 @@
     "w": 180,
     "h": 300,
     "text": "回收作業"
-   },
-   {
-    "id": "note:mwen3wsz9hcr",
-    "type": "frame",
-    "x": -588,
-    "y": 888,
-    "w": 360,
-    "h": 240,
-    "text": "其他參賽者"
-   },
-   {
-    "id": "note:mwerxyitpfcl",
-    "type": "frame",
-    "x": -144,
-    "y": -132,
-    "w": 228,
-    "h": 504,
-    "text": "計劃管理"
    },
    {
     "id": "note:mwexcelzzvjf",
