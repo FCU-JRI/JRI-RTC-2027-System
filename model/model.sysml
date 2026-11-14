@@ -433,4 +433,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #refine dependency from Project::NGOs::'MOE-03 主傘開傘高度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #refine dependency from Project::NGOs::'MOE-04 觸水速度' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
+    #refine dependency from Project::NGOs::'MOE-05 浮力與重量比' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
 }
