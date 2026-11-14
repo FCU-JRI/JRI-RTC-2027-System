@@ -23,10 +23,6 @@ package Project {
         }
         public import 'JRI 團隊'::*;
         package 'JRI 團隊' {
-            part <'STK-002'> '總工程師暨隊長' : Stakeholder {
-                doc /* 正式職稱為「社長暨總工程師」，是次團隊內部的最高職級，對應 TASA 簡章的隊長。在他之上還有兩位顧問（教職員顧問、管制官）。 */
-                :>> role = "總工程師暨隊長負責確保全隊依工程指導原則之開發週期與審查程序執行，並對次系統整合及加工零件之最終簽核負責，故關注各次系統之介面相容性、重量與重心分配，以及零件是否符合設計公差。全系統整合、推力測試與飛行測試之備便審查須送請管制官或教職員顧問核可，其關注送審證據之完整性、測試紀錄之可追溯性，以及前次審查問題之結案狀況。時程方面，其關注各階段報告之準時繳交、關鍵測試於第二次設計審查前完成，以及緊急優先度之適當運用。對外，其為主辦單位之指定聯繫窗口，關注成員異動通報、報到文件與發射執照等資格事項之完備。整體而言，其以火箭順利升空並完成回收為最終關注，蓋決賽飛行占總成績百分之四十五，未發射者該項以零分計。";
-            }
             part <'STK-003'> '副社長暨營運長' : Stakeholder {
                 doc /* 次團隊內部第二高職級，對應主辦單位簡章規定每隊必設之副隊長，並為指定聯繫窗口之一。 */
                 :>> role = "副社長暨營運長負責團隊之營運與資源調度，關注時程規劃與甘特圖之維護、各階段報告之如期繳交，以及人力於十五人上限內之合理配置。經費方面，其關注預算執行、零件表與關鍵採購項目之交期，以及贊助與合約義務之履行。文件方面，其關注文件之歸檔、版本管理與存取權限，使實際飛行構型得以追溯至核准版本。行政方面，其與隊長同為主辦單位聯繫窗口，關注報名資格文件、成員異動通報、報名費繳交及發射執照測驗之安排。決賽期間，其關注運輸、住宿、進場人員名單與現場補給等後勤事項，並於隊長無法執行職務時代行對外聯繫。整體而言，其以團隊於既定時程與資源內完成各階段交付為主要關注，對技術基準不具決定權。";
@@ -124,6 +120,10 @@ package Project {
                 doc /* 提供商規零件、材料 */
                 :>> role = "規格明確、交期與數量可行";
             }
+        }
+        part <'STK-002'> '總工程師暨隊長' : Stakeholder {
+            doc /* 正式職稱為「社長暨總工程師」，是次團隊內部的最高職級，對應 TASA 簡章的隊長。在他之上還有兩位顧問（教職員顧問、管制官）。 */
+            :>> role = "總工程師暨隊長負責確保全隊依工程指導原則之開發週期與審查程序執行，並對次系統整合及加工零件之最終簽核負責，故關注各次系統之介面相容性、重量與重心分配，以及零件是否符合設計公差。全系統整合、推力測試與飛行測試之備便審查須送請管制官或教職員顧問核可，其關注送審證據之完整性、測試紀錄之可追溯性，以及前次審查問題之結案狀況。時程方面，其關注各階段報告之準時繳交、關鍵測試於第二次設計審查前完成，以及緊急優先度之適當運用。對外，其為主辦單位之指定聯繫窗口，關注成員異動通報、報到文件與發射執照等資格事項之完備。整體而言，其以火箭順利升空並完成回收為最終關注，蓋決賽飛行占總成績百分之四十五，未發射者該項以零分計。";
         }
     }
 
@@ -224,7 +224,7 @@ package Project {
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'回收漁船船員';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
-    #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'總工程師暨隊長';
     package '供應與贊助廠商' { }
     package '供應商與贊助' { }
     #trace dependency from Project::UseCases::'飛行與回收'::'海上回收火箭' to Project::Stakeholders::'回收作業'::'回收漁船船員';
@@ -232,14 +232,14 @@ package Project {
     package '製造與測試' { }
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
-    #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'承辦單位';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
-    #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'核心成員';
@@ -257,14 +257,14 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'評定競賽成績' to Project::Stakeholders::'審查與評分'::'評審團';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
-    #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'承辦單位';
-    #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'審查與評分'::'評審團';
-    #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
 }
