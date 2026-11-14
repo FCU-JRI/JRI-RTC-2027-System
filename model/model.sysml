@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-026'> '公版發動機依介面規格正確安裝' : Expectation {
-            doc /* 工作人員負責提供公版發動機，需要確認各隊的介面設計和發動機相容。 */
-        }
         requirement <'EXP-027'> '發動機在安全程序下操作' : Expectation {
             doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
         }
