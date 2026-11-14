@@ -327,7 +327,6 @@ package Project {
     #refine dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #refine dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #refine dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
-    #refine dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #refine dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #refine dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #refine dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
