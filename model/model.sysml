@@ -170,7 +170,10 @@ package Project {
         package '設計與審查' {
             use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
         }
-        use case <'UC-028'> '提出影像紀錄需求' : UseCase;
+        public import '計劃管理'::*;
+        package '計劃管理' {
+            use case <'UC-028'> '提出影像紀錄需求' : UseCase;
+        }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
@@ -212,7 +215,6 @@ package Project {
     #trace dependency from Project::UseCases::'飛行與回收'::'追蹤火箭位置與落點' to Project::Stakeholders::'回收作業'::'無人機操作員';
     package '發射場作業' { }
     package '製造與測試' { }
-    package '計劃管理' { }
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
