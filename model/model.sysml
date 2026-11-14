@@ -166,7 +166,10 @@ package Project {
             use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
         }
         use case <'UC-026'> '提交酬載實驗提案' : UseCase;
-        use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
+        public import '設計與審查'::*;
+        package '設計與審查' {
+            use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
+        }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
@@ -206,7 +209,6 @@ package Project {
     package '供應商與贊助' { }
     #trace dependency from Project::UseCases::'飛行與回收'::'海上回收火箭' to Project::Stakeholders::'回收作業'::'回收漁船船員';
     #trace dependency from Project::UseCases::'飛行與回收'::'追蹤火箭位置與落點' to Project::Stakeholders::'回收作業'::'無人機操作員';
-    package '設計與審查' { }
     package '發射場作業' { }
     package '製造與測試' { }
     package '計劃管理' { }
