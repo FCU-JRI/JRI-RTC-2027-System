@@ -251,6 +251,9 @@ package Project {
         requirement <'MOE-008'> 'MOE-08 前衝影像時間涵蓋範圍' : MOE {
             doc /* 液體前衝影像應涵蓋固體馬達燃盡至液體撞擊端蓋後的完整過程。量測方式：判定是／否。 */
         }
+        requirement <'MOE-009'> 'MOE-09 軸向加速度實際取樣率' : MOE {
+            doc /* 軸向加速度紀錄的實際取樣率應達 200 Hz 以上。 */
+        }
     }
 
     package UseCases {
