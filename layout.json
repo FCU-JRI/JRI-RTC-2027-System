@@ -92,13 +92,13 @@
    "x": 732,
    "y": 660
   },
-  "Project__Stakeholders___e5_9b_9e_e6_94_b6_e6_bc_81_e8_88_b9_e8_88_b9_e5_93_a1": {
-   "x": 564,
-   "y": 984
+  "Project__Stakeholders___e5_9b_9e_e6_94_b6_e4_bd_9c_e6_a5_ad___e5_9b_9e_e6_94_b6_e6_bc_81_e8_88_b9_e8_88_b9_e5_93_a1": {
+   "x": 540,
+   "y": 876
   },
-  "Project__Stakeholders___e7_84_a1_e4_ba_ba_e6_a9_9f_e6_93_8d_e4_bd_9c_e5_93_a1": {
-   "x": 564,
-   "y": 1092
+  "Project__Stakeholders___e5_9b_9e_e6_94_b6_e4_bd_9c_e6_a5_ad___e7_84_a1_e4_ba_ba_e6_a9_9f_e6_93_8d_e4_bd_9c_e5_93_a1": {
+   "x": 540,
+   "y": 984
   },
   "Project__UseCases__12": {
    "x": -300,
@@ -300,11 +300,11 @@
    "w": 264,
    "h": 336
   },
-  "Project___e5_9b_9e_e6_94_b6_e4_bd_9c_e6_a5_ad": {
-   "x": 540,
-   "y": 936,
-   "w": 276,
-   "h": 264
+  "Project__Stakeholders___e5_9b_9e_e6_94_b6_e4_bd_9c_e6_a5_ad": {
+   "x": 516,
+   "y": 816,
+   "w": 264,
+   "h": 276
   }
  },
  "req": {
