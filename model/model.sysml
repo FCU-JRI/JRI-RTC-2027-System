@@ -84,8 +84,8 @@ package Project {
                 :>> role = "箭載影像取得、團隊形象、對外招募";
             }
         }
-        public import '主辦'::*;
-        package '主辦' {
+        public import '主辦與規範'::*;
+        package '主辦與規範' {
             part <'STK-008'> '國家太空中心' : Stakeholder {
                 doc /* 競賽主辦單位，發射場之使用機關，提供公版發動機、發射架、軌道滑塊及 3K 組 GPS 追蹤器 */
                 :>> role = "發射安全、人才培育成效、活動形象、設備依技術資料正確安裝與使用";
