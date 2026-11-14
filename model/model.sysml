@@ -191,5 +191,5 @@ package Project {
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     package '供應與贊助廠商' { }
-    package '供應商與' { }
+    package '供應商與贊助' { }
 }
