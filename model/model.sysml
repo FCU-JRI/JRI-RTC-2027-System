@@ -21,14 +21,6 @@ package Project {
         requirement <'EXP-005'> '取得火箭升空影像' : Expectation {
             doc /* 工程團隊應針對業務發展組提出之需求，收集火箭箭載畫面 */
         }
-        part <'STK-010'> '評審團' : Stakeholder {
-            doc /* 七位專家，評定各階段報告、海報及決賽飛行成績 */
-            :>> role = "需求可追溯、證據充分、成功判定可量測、團隊理解設計";
-        }
-        part <'STK-011'> '發射許可審查委員' : Stakeholder {
-            doc /* 決賽現場分站審查文件、外觀、重量、射場及上架備便，具最終否決權 */
-            :>> role = "設計規範逐項符合、回收系統可靠、儲能裝置狀態可確認";
-        }
         part <'STK-012'> '推進系統工作人員' : Stakeholder {
             doc /* 負責安裝點火器、連接點火線路 */
             :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
@@ -95,6 +87,17 @@ package Project {
                 :>> role = "規範之明確與可執行、賽務順利";
             }
         }
+        public import '審查'::*;
+        package '審查' {
+            part <'STK-010'> '評審團' : Stakeholder {
+                doc /* 七位專家，評定各階段報告、海報及決賽飛行成績 */
+                :>> role = "需求可追溯、證據充分、成功判定可量測、團隊理解設計";
+            }
+            part <'STK-011'> '發射許可審查委員' : Stakeholder {
+                doc /* 決賽現場分站審查文件、外觀、重量、射場及上架備便，具最終否決權 */
+                :>> role = "設計規範逐項符合、回收系統可靠、儲能裝置狀態可確認";
+            }
+        }
     }
 
     package Structure {
@@ -146,5 +149,4 @@ package Project {
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'指導員2-管制官暨安全官';
     #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'發射許可審查委員';
-    package '審查' { }
 }
