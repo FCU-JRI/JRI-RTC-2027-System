@@ -200,6 +200,9 @@ package Project {
         requirement <'EXP-030'> '取得可轉播的畫面與清楚的隊伍識別' : Expectation {
             doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一。 */
         }
+        requirement <'EXP-031'> '收到準確的落點資訊，能快速找到火箭' : Expectation {
+            doc /* 海上搜尋的時間成本高。落點資訊越準確，回收越有效率。 */
+        }
     }
 
     package Structure {
