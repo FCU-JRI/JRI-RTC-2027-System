@@ -176,6 +176,7 @@ package Project {
     }
 
     package NGOs {
+        requirement <'NEED-001'> '團隊需要製造一枚配合3k組公版發動機的探空火箭並且安全完成飛行與回收的任務過程' : Need;
     }
 
     package UseCases {
