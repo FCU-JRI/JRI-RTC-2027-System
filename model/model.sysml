@@ -128,6 +128,9 @@ package Project {
         requirement <'EXP-006'> '任務完全成功' : Expectation {
             doc /* 達成每項任務需求，且達成需求追溯 */
         }
+        requirement <'EXP-007'> '計劃在核定預算內完成' : Expectation {
+            doc /* 在整個任務週期中，應嚴格遵守各部門預算限制，並於有限資源中完成計劃 */
+        }
     }
 
     package Structure {
