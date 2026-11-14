@@ -161,6 +161,9 @@ package Project {
         requirement <'EXP-017'> '取得研發與製造過程的影像紀錄' : Expectation {
             doc /* 製造和測試過程的紀錄，可以讓外界看到團隊的工程能力。 */
         }
+        requirement <'EXP-018'> '宣傳成果帶來招募與合作機會' : Expectation {
+            doc /* 影像素材的最終目的，是支援招募和合作洽談，讓團隊可以長期發展。 */
+        }
     }
 
     package Structure {
