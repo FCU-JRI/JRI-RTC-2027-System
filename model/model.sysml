@@ -263,6 +263,9 @@ package Project {
         requirement <'MOE-012'> 'MOE-12 三軸紀錄時間涵蓋範圍' : MOE {
             doc /* 三軸角速度與橫向加速度紀錄應涵蓋點火至頂點，目標值為點火至減速傘開傘。依據：PPC 計劃書表 4-6、式 (4-74)。 */
         }
+        requirement <'MOE-013'> 'MOE-13 箭載影像時間涵蓋範圍' : MOE {
+            doc /* 箭載影像應涵蓋發射至濺落的全程。 */
+        }
     }
 
     package UseCases {
