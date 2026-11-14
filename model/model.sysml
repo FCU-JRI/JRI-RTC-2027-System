@@ -164,6 +164,9 @@ package Project {
         requirement <'EXP-018'> '宣傳成果帶來招募與合作機會' : Expectation {
             doc /* 影像素材的最終目的，是支援招募和合作洽談，讓團隊可以長期發展。 */
         }
+        requirement <'EXP-019'> '發射與回收全程安全' : Expectation {
+            doc /* 主辦單位對射場人員和環境的安全負責。 */
+        }
     }
 
     package Structure {
