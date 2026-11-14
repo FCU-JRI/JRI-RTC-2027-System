@@ -262,4 +262,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'主辦與規範'::'承辦單位';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
+    #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
 }
