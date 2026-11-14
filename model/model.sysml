@@ -242,4 +242,5 @@ package Project {
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     package '探空火箭計劃' { }
+    #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'供應'::'零件與材料供應商';
 }
