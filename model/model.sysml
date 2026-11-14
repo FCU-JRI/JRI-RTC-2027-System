@@ -131,7 +131,9 @@ package Project {
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation {
             doc /* 包含箭載、地面和空拍影像。飛行畫面是最能呈現團隊工程成果的素材。 */
         }
-        requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation;
+        requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation {
+            doc /* 地面試驗難以重現飛行中連續變化的加速度。實際飛行的數據可以補足這個缺口。數據要有足夠的取樣率、精度，並和飛行數據時間同步，才能用於模型分析。 */
+        }
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation;
         requirement <'EXP-010'> '賽事流程順利進行' : Expectation;
         requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation;
