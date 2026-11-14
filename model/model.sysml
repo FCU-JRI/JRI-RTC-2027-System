@@ -123,6 +123,7 @@ package Project {
         requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation;
         requirement <'EXP-012'> '上架前確認可安全發射' : Expectation;
         requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation;
+        requirement <'EXP-014'> '射場作業安全且有序' : Expectation;
     }
 
     package Structure {
