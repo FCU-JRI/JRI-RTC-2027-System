@@ -227,6 +227,9 @@ package Project {
         requirement <'OBJ-012'> '每個分系統皆留有製造與測試過程的影像紀錄' : Objective {
             doc /* 每個分系統應留有製造過程與測試過程的影像紀錄。 */
         }
+        requirement <'MOE-001'> 'MOE-01 決賽日發射達成' : MOE {
+            doc /* 火箭應於 2027 台灣盃決賽日完成發射。量測方式：以官方發射紀錄判定是／否。 */
+        }
     }
 
     package UseCases {
