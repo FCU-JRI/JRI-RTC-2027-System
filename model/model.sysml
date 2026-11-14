@@ -269,6 +269,9 @@ package Project {
         requirement <'MOE-014'> 'MOE-14 地面影像涵蓋發射離架' : MOE {
             doc /* 地面影像應涵蓋火箭發射離架的過程。量測方式：判定是／否。 */
         }
+        requirement <'MOE-015'> 'MOE-15 官方空拍影像取得與授權' : MOE {
+            doc /* 專案應取得涵蓋發射離架的官方空拍影像及其使用授權。量測方式：判定是／否。 */
+        }
     }
 
     package UseCases {
