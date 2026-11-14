@@ -165,6 +165,7 @@ package Project {
         }
         public import '計劃管理'::*;
         package '計劃管理' {
+            use case <'UC-031'> '取得業餘無線電人員執照' : UseCase;
         }
         use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         public import '發射場作業'::*;
@@ -179,7 +180,6 @@ package Project {
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
         }
-        use case <'UC-031'> '取得業餘無線電人員執照' : UseCase;
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
