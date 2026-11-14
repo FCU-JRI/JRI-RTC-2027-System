@@ -334,4 +334,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
     #trace dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
+    #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
 }
