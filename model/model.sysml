@@ -62,10 +62,6 @@ package Project {
                 doc /* 競賽主辦單位，發射場之使用機關，提供公版發動機、發射架、軌道滑塊及 3K 組 GPS 追蹤器 */
                 :>> role = "發射安全、人才培育成效、活動形象、設備依技術資料正確安裝與使用";
             }
-            part <'STK-009'> '承辦單位' : Stakeholder {
-                doc /* 競賽規則與火箭設計規範之制定者 */
-                :>> role = "規範之明確與可執行、賽務順利";
-            }
         }
         public import '審查與評分'::*;
         package '審查與評分' {
@@ -124,6 +120,10 @@ package Project {
                 doc /* 提供商規零件、材料 */
                 :>> role = "規格明確、交期與數量可行";
             }
+        }
+        part <'STK-009'> '承辦單位' : Stakeholder {
+            doc /* 競賽規則與火箭設計規範之制定者 */
+            :>> role = "規範之明確與可執行、賽務順利";
         }
     }
 
@@ -233,7 +233,7 @@ package Project {
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
-    #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'主辦與規範'::'承辦單位';
+    #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'承辦單位';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
@@ -259,7 +259,7 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
-    #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'主辦與規範'::'承辦單位';
+    #trace dependency from Project::Stakeholders::'火箭發射與回收過程皆在可控安全的狀態' to Project::Stakeholders::'承辦單位';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
