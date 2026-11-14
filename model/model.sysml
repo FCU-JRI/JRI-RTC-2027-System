@@ -167,6 +167,9 @@ package Project {
         requirement <'EXP-019'> '發射與回收全程安全' : Expectation {
             doc /* 主辦單位對射場人員和環境的安全負責。 */
         }
+        requirement <'EXP-020'> '取得完整的飛行紀錄' : Expectation {
+            doc /* 飛行高度、速度、加速度和 GPS 軌跡，是主辦單位評估競賽成果的依據。 */
+        }
     }
 
     package Structure {
