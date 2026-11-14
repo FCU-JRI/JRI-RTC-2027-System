@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-015'> '職責明確，有書面程序可以依循' : Expectation {
-            doc /* 成員需要知道自己負責什麼、要怎麼做。有書面程序也可以減少因個人經驗不同造成的品質落差。 */
-        }
         requirement <'EXP-016'> '作業過程安全' : Expectation {
             doc /* 成員是直接操作工具、材料和火箭的人，作業安全和他們最直接相關。 */
         }
