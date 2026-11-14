@@ -266,6 +266,9 @@ package Project {
         requirement <'MOE-015'> 'MOE-15 官方空拍影像取得與授權' : MOE {
             doc /* 專案應取得涵蓋發射離架的官方空拍影像及其使用授權。量測方式：判定是／否。 */
         }
+        requirement <'OBJ-012'> '每位核心成員皆完成所屬分系統的設計、製造與測試' : Objective {
+            doc /* 每位核心成員應至少參與一個分系統的設計、製造與測試，並撰寫可查核的技術文件。 */
+        }
     }
 
     package UseCases {
