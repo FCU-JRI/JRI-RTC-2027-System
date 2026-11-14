@@ -193,6 +193,20 @@
    "y": -132,
    "w": 276,
    "h": 252
+  },
+  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84___e5_9c_8b_e5_ae_b6_e5_a4_aa_e7_a9_ba_e4_b8_ad_e5_bf_83": {
+   "x": 540,
+   "y": -132
+  },
+  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
+   "x": 540,
+   "y": -12
+  },
+  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84": {
+   "x": 516,
+   "y": -180,
+   "w": 276,
+   "h": 276
   }
  },
  "req": {
