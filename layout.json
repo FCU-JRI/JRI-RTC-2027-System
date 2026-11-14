@@ -198,7 +198,7 @@
    "x": 564,
    "y": -132
   },
-  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
+  "Project__Stakeholders___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
    "x": 564,
    "y": -12
   },
@@ -457,8 +457,8 @@
    "y": 444
   },
   "Project__Stakeholders___e9_9c_80_e8_a6_81_e5_9c_a8_e6_9c_89_e9_99_90_e7_9a_84_e8_b3_87_e6_ba_90_e4_b8_8b_ef_bc_8c_e5_ae_8c_e6_88_90_e4_bb_bb_e5_8b_99": {
-   "x": 1320,
-   "y": 204
+   "x": 1200,
+   "y": 456
   },
   "Project__Stakeholders___e9_9c_80_e6_8f_90_e4_be_9b_e4_b8_80_e8_bc_89_e5_85_b7_e5_b9_b3_e5_8f_b0_e9_80_b2_e8_a1_8c_e6_b6_b2_e9_ab_94_e5_8b_95_e5_8a_9b_e8_a1_8c_e7_82_ba_e5_af_a6_e9_a9_97": {
    "x": 96,
@@ -500,9 +500,9 @@
    "x": 564,
    "y": 264
   },
-  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
-   "x": 1320,
-   "y": 468
+  "Project__Stakeholders___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
+   "x": 1284,
+   "y": 264
   },
   "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84": {
    "x": 540,
@@ -541,6 +541,10 @@
    "y": 156,
    "w": 2796,
    "h": 216
+  },
+  "Project__Stakeholders___e4_b8_bb_e8_be_a6_e8_88_87_e8_a6_8f_e7_af_84___e6_89_bf_e8_be_a6_e5_96_ae_e4_bd_8d": {
+   "x": 1320,
+   "y": 468
   }
  }
 }
