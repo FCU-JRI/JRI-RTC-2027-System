@@ -125,7 +125,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        part <'STK-022'> '設定發射頻率與功率' : Stakeholder;
     }
 
     package Structure {
