@@ -119,7 +119,9 @@ package Project {
         requirement <'EXP-003'> '無人員受傷' : Expectation {
             doc /* 儲能裝置、發動機、複材製程都有受傷風險。安全官要確認每項危險作業開始前，程序都經過審核。 */
         }
-        requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation;
+        requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation {
+            doc /* 老師需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
+        }
         requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation;
         requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation;
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation;
