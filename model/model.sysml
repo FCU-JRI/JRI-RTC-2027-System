@@ -221,4 +221,5 @@ package Project {
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
+    #trace dependency from Project::Stakeholders::'主辦與規範'::'承辦單位' to Project::UseCases::'發射場作業'::'協調無線電頻道分配';
 }
