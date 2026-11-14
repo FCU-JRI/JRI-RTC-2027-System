@@ -143,6 +143,9 @@ package Project {
         requirement <'EXP-011'> '在關鍵節點掌握計劃進度與風險' : Expectation {
             doc /* 老師需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
         }
+        requirement <'EXP-012'> '收到的分系統需求明確、介面清楚' : Expectation {
+            doc /* 責任工程師依據上層分配的需求進行設計。 */
+        }
     }
 
     package Structure {
