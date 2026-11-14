@@ -140,6 +140,9 @@ package Project {
         requirement <'EXP-010'> '計劃耗材經費符合學校規定' : Expectation {
             doc /* 指導老師代表學校監督計劃。經費應事先申請、依校方規定核銷。 */
         }
+        requirement <'EXP-011'> '在關鍵節點掌握計劃進度與風險' : Expectation {
+            doc /* 老師需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
+        }
     }
 
     package Structure {
