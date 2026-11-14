@@ -212,9 +212,6 @@ package Project {
         requirement <'GOAL-003'> '記錄飛行全程的影像' : Goal {
             doc /* 專案應在飛行實驗中取得箭載、地面與空拍影像，記錄火箭從發射到回收的過程，作為呈現團隊工程成果的素材。 */
         }
-        requirement <'GOAL-004'> '記錄設計、製造與測試過程的影像' : Goal {
-            doc /* 專案應在設計、製造與測試期間持續留下影像紀錄，呈現團隊在飛行之外的工程工作，作為招募與合作洽談的素材。 */
-        }
         requirement <'OBJ-010'> '取得發射離架的地面影像' : Objective {
             doc /* 專案應取得從地面拍攝、涵蓋火箭發射離架過程的影像。 */
         }
@@ -447,7 +444,6 @@ package Project {
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'取得可用於宣傳的影像素材';
     #derive dependency from Project::NGOs::'讓成員完整經歷分系統的全生命週期' to Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力';
     #derive dependency from Project::NGOs::'記錄飛行全程的影像' to Project::NGOs::'取得呈現團隊工程成果的影像素材';
-    #derive dependency from Project::NGOs::'記錄設計、製造與測試過程的影像' to Project::NGOs::'取得呈現團隊工程成果的影像素材';
     #derive dependency from Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據' to Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據';
     #derive dependency from Project::NGOs::'取得發射離架的地面影像' to Project::NGOs::'記錄飛行全程的影像';
     #refine dependency from Project::NGOs::'MOE-01 決賽日發射達成' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
