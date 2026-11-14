@@ -184,7 +184,10 @@ package Project {
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
         }
-        use case <'UC-036'> '評定競賽成績' : UseCase;
+        public import '任務後'::*;
+        package '任務後' {
+            use case <'UC-036'> '評定競賽成績' : UseCase;
+        }
     }
     #trace dependency from Project::UseCases::'報名參賽與提交計劃書' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'核定計劃與經費' to Project::Stakeholders::'總工程師暨隊長';
@@ -249,5 +252,4 @@ package Project {
     #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'供應'::'零件與材料供應商';
     #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'飛行與回收'::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
-    package '任務後' { }
 }
