@@ -182,6 +182,9 @@ package Project {
         requirement <'EXP-024'> '上架前確認火箭符合規範、可安全發射' : Expectation {
             doc /* 發射許可是最後一道安全關卡。審查委員要對放行的決定負責。 */
         }
+        requirement <'EXP-025'> '審查時能快速取得所需證據' : Expectation {
+            doc /* 審查現場時間有限，需要隊伍備妥檢查表、測試紀錄和執照，才能有效率地完成審查。 */
+        }
     }
 
     package Structure {
