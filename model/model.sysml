@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-011'> '在關鍵節點掌握計劃進度與風險' : Expectation {
-            doc /* 老師需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
-        }
         requirement <'EXP-012'> '收到的分系統需求明確、介面清楚' : Expectation {
             doc /* 責任工程師依據上層分配的需求進行設計。 */
         }
@@ -309,7 +306,6 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'在關鍵節點掌握計劃進度與風險' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'收到的分系統需求明確、介面清楚' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'分系統在整合前已確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'物料的規格與交期能配合製造進度' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
