@@ -233,6 +233,9 @@ package Project {
         requirement <'MOE-002'> 'MOE-02 減速傘開傘時刻與頂點時刻的時間差' : MOE {
             doc /* 減速傘開傘時刻與頂點時刻的時間差應在容許範圍內。門檻值待定，於 PDR 依航電頂點偵測方式決定。 */
         }
+        requirement <'MOE-003'> 'MOE-03 主傘開傘高度' : MOE {
+            doc /* 主傘應於離地 150～450 m 區間開啟。量測方式：以飛行數據的高度紀錄判定。 */
+        }
     }
 
     package UseCases {
