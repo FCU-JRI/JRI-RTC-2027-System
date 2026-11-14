@@ -164,7 +164,9 @@ package Project {
         requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation {
             doc /* 各隊都依賴無線電傳回遙測數據。頻道衝突可能導致其他隊伍遺失數據，甚至影響回收系統。 */
         }
-        requirement <'EXP-019'> '頻段與功率合法' : Expectation;
+        requirement <'EXP-019'> '頻段與功率合法' : Expectation {
+            doc /* 應使用業餘無線電執照中核可無線電頻段段與功率。未經核准的頻段或超出功率限制，可能干擾其他合法的無線電使用者。 */
+        }
         requirement <'EXP-020'> '收到可履行的訂單' : Expectation;
     }
 
