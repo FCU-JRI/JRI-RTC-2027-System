@@ -154,4 +154,5 @@ package Project {
     #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'發射許可審查委員';
     #trace dependency from Project::UseCases::'執行發射許可審查' to Project::Stakeholders::'審查與評分'::'發射許可審查委員';
     #trace dependency from Project::UseCases::'安裝公版發動機' to Project::Stakeholders::'推進系統工作人員';
+    #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'發射指揮官與射場管理人員';
 }
