@@ -197,6 +197,9 @@ package Project {
         requirement <'EXP-029'> '發生異常時可以立即中止發射' : Expectation {
             doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
         }
+        requirement <'EXP-030'> '取得可轉播的畫面與清楚的隊伍識別' : Expectation {
+            doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一。 */
+        }
     }
 
     package Structure {
