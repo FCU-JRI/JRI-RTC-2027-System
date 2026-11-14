@@ -173,6 +173,9 @@ package Project {
         requirement <'EXP-021'> '收到依規定時程與格式繳交的文件' : Expectation {
             doc /* 承辦單位要處理所有隊伍的文件。時程和格式統一，行政作業才能順利進行。 */
         }
+        requirement <'EXP-022'> '賽事流程順利進行' : Expectation {
+            doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
+        }
     }
 
     package Structure {
