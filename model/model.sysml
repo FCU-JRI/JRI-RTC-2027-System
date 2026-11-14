@@ -239,6 +239,9 @@ package Project {
         requirement <'MOE-004'> 'MOE-04 觸水速度' : MOE {
             doc /* 火箭觸水速度應小於 12 m/s。量測方式：以飛行數據判定。 */
         }
+        requirement <'MOE-005'> 'MOE-05 浮力與重量比' : MOE {
+            doc /* 火箭浮力與火箭重量的比值應大於 1。 */
+        }
     }
 
     package UseCases {
