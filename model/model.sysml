@@ -104,9 +104,12 @@ package Project {
                 :>> role = "開傘可目視確認、定位訊號持續有效";
             }
         }
-        part <'STK-019'> '其他發射隊伍' : Stakeholder {
-            doc /* 每輪至多六支火箭 */
-            :>> role = "無線電頻道不受干擾、發射時程不受拖延";
+        public import '其他參賽者'::*;
+        package '其他參賽者' {
+            part <'STK-019'> '其他發射隊伍' : Stakeholder {
+                doc /* 每輪至多六支火箭 */
+                :>> role = "無線電頻道不受干擾、發射時程不受拖延";
+            }
         }
     }
 
@@ -180,5 +183,4 @@ package Project {
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
-    package '其他參賽者' { }
 }
