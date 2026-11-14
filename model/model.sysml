@@ -149,7 +149,9 @@ package Project {
         requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation {
             doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
         }
-        requirement <'EXP-014'> '射場作業安全且有序' : Expectation;
+        requirement <'EXP-014'> '射場作業安全且有序' : Expectation {
+            doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
+        }
         requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation;
         requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation;
         requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation;
