@@ -224,6 +224,9 @@ package Project {
         requirement <'OBJ-011'> '取得官方拍攝的發射離架空拍影像' : Objective {
             doc /* 專案應向承辦單位取得官方無人機操作員拍攝、涵蓋火箭發射離架過程的空拍影像。 */
         }
+        requirement <'OBJ-012'> '每個分系統皆留有製造與測試過程的影像紀錄' : Objective {
+            doc /* 每個分系統應留有製造過程與測試過程的影像紀錄。 */
+        }
     }
 
     package UseCases {
