@@ -86,8 +86,8 @@ package Project {
                 :>> role = "設計規範逐項符合、回收系統可靠、儲能裝置狀態可確認";
             }
         }
-        public import '射'::*;
-        package '射' {
+        public import '射場作業'::*;
+        package '射場作業' {
             part <'STK-012'> '推進系統工作人員' : Stakeholder {
                 doc /* 負責安裝點火器、連接點火線路 */
                 :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
