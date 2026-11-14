@@ -110,6 +110,7 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
+        requirement <'EXP-001'> '任務達成完全成功' : Expectation;
     }
 
     package Structure {
