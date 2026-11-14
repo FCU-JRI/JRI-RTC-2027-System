@@ -231,4 +231,5 @@ package Project {
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
+    #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
 }
