@@ -122,7 +122,9 @@ package Project {
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation {
             doc /* 指導老師與安全官需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
         }
-        requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation;
+        requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation {
+            doc /* 責任工程師依據上層分配的需求進行設計。需求模糊或介面不清，會導致設計反覆修改，或整合時才發現對不上。 */
+        }
         requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation;
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation;
         requirement <'EXP-008'> '取得飛行的液體晃動數據' : Expectation;
