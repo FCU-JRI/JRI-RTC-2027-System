@@ -264,4 +264,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
     #trace dependency from Project::Stakeholders::'在指定時間內，完成各階段審查任務' to Project::Stakeholders::'審查與評分'::'評審團';
+    #trace dependency from Project::Stakeholders::'需要在有限的資源下，完成任務' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
 }
