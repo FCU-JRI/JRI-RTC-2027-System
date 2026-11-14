@@ -142,7 +142,6 @@ package Project {
         use case <'UC-003'> '管理預算與採購' : UseCase;
         use case <'UC-004'> '管理人力與排程' : UseCase;
         use case <'UC-005'> '對外宣傳與招募' : UseCase;
-        use case <'UC-006'> '管理需求與系統模型' : UseCase;
         use case <'UC-011'> '製造與組裝' : UseCase;
         use case <'UC-012'> '審核危險作業程序' : UseCase;
         use case <'UC-013'> '執行分系統地面測試' : UseCase;
@@ -170,6 +169,7 @@ package Project {
             use case <'UC-009'> '提交設計審查文件' : UseCase;
             use case <'UC-008'> '內部審查' : UseCase;
             use case <'UC-007'> '分系統設計' : UseCase;
+            use case <'UC-006'> '管理需求與系統模型' : UseCase;
         }
         public import '計劃管理'::*;
         package '計劃管理' {
