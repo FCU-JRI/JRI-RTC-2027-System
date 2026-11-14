@@ -373,4 +373,5 @@ package Project {
     #refine dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'火箭濺落後漂浮於海面並被回收' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #refine dependency from Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
 }
