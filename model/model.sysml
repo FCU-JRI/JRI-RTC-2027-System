@@ -198,6 +198,7 @@ package Project {
         requirement <'OBJ-006'> '取回與影像時間同步的軸向加速度紀錄' : Objective {
             doc /* 200 Hz、±16 g、與影像共用時間基準 */
         }
+        requirement <'OBJ-007'> '取回三軸角速度與橫向加速度紀錄' : Objective;
     }
 
     package UseCases {
