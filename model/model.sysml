@@ -248,6 +248,9 @@ package Project {
         requirement <'MOE-007'> 'MOE-07 前衝影像實際影格率' : MOE {
             doc /* 液體前衝影像的實際影格率應達 170 fps 以上，目標值為 240 fps。 */
         }
+        requirement <'MOE-008'> 'MOE-08 前衝影像時間涵蓋範圍' : MOE {
+            doc /* 液體前衝影像應涵蓋固體馬達燃盡至液體撞擊端蓋後的完整過程。量測方式：判定是／否。 */
+        }
     }
 
     package UseCases {
