@@ -179,6 +179,9 @@ package Project {
         requirement <'EXP-023'> '收到完整、可作為評分依據的設計文件' : Expectation {
             doc /* 評審需要依據文件判斷設計品質。文件缺漏會影響評分。 */
         }
+        requirement <'EXP-024'> '上架前確認火箭符合規範、可安全發射' : Expectation {
+            doc /* 發射許可是最後一道安全關卡。審查委員要對放行的決定負責。 */
+        }
     }
 
     package Structure {
