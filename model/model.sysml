@@ -346,4 +346,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
     #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
+    #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::NGOs::'以探空火箭飛行實驗取得液體動力行為數據';
 }
