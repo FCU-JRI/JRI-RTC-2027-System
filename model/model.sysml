@@ -111,9 +111,12 @@ package Project {
                 :>> role = "無線電頻道不受干擾、發射時程不受拖延";
             }
         }
-        part <'STK-020'> '國家通訊傳播委員會' : Stakeholder {
-            doc /* 無線電頻率與發射功率之主管機關 */
-            :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
+        public import '法規'::*;
+        package '法規' {
+            part <'STK-020'> '國家通訊傳播委員會' : Stakeholder {
+                doc /* 無線電頻率與發射功率之主管機關 */
+                :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
+            }
         }
     }
 
@@ -187,5 +190,4 @@ package Project {
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
-    package '法規' { }
 }
