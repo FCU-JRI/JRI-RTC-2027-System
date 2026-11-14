@@ -317,4 +317,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::Stakeholders::'射場作業'::'推進系統工作人員';
     #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
     #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::Stakeholders::'射場作業'::'官方計時員與直播團隊';
+    #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::Stakeholders::'回收作業'::'回收漁船船員';
 }
