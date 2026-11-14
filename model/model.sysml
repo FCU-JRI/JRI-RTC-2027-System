@@ -148,7 +148,6 @@ package Project {
             use case <'UC-024'> '海上回收火箭' : UseCase;
             use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
         }
-        use case <'UC-026'> '提交酬載實驗提案' : UseCase;
         public import '設計與審查'::*;
         package '設計與審查' {
             use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
@@ -168,6 +167,7 @@ package Project {
             use case <'UC-003'> '管理預算與採購' : UseCase;
             use case <'UC-004'> '管理人力與排程' : UseCase;
             use case <'UC-005'> '對外宣傳與招募' : UseCase;
+            use case <'UC-026'> '提交酬載實驗提案' : UseCase;
         }
         use case <'UC-028'> '提出影像紀錄需求' : UseCase;
         public import '發射場作業'::*;
