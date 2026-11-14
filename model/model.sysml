@@ -283,4 +283,5 @@ package Project {
     #trace dependency from Project::Stakeholders::'需提供一載具平台進行液體動力行為實驗' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'取得火箭升空影像' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
     #trace dependency from Project::Stakeholders::'任務完全成功' to Project::Stakeholders::'總工程師暨隊長';
+    #trace dependency from Project::Stakeholders::'安全許可審查' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
 }
