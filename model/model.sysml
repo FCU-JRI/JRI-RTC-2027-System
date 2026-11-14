@@ -110,9 +110,6 @@ package Project {
                 :>> role = "規格明確、交期與數量可行";
             }
         }
-        requirement <'EXP-022'> '賽事流程順利進行' : Expectation {
-            doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
-        }
         requirement <'EXP-023'> '收到完整、可作為評分依據的設計文件' : Expectation {
             doc /* 評審需要依據文件判斷設計品質。文件缺漏會影響評分。 */
         }
