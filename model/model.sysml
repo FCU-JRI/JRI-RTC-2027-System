@@ -111,6 +111,10 @@ package Project {
                 :>> role = "無線電頻道不受干擾、發射時程不受拖延";
             }
         }
+        part <'STK-020'> '國家通訊傳播委員會' : Stakeholder {
+            doc /* 無線電頻率與發射功率之主管機關 */
+            :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
+        }
     }
 
     package Structure {
