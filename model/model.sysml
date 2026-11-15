@@ -986,6 +986,9 @@ package Project {
         requirement <'REQ-SYS-054'> '三軸紀錄取樣率與量程' : SystemRequirement {
             doc /* 三軸角速度與橫向加速度的取樣率與量程待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.4 節。 */
         }
+        requirement <'REQ-SYS-055'> '箭載影像時間涵蓋' : SystemRequirement {
+            doc /* 箭載影像應涵蓋發射至濺落的全程。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
