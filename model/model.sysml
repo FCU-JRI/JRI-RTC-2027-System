@@ -962,6 +962,9 @@ package Project {
         requirement <'REQ-SYS-046'> '紀錄回收後可讀' : SystemRequirement {
             doc /* 火箭濺落並漂浮 2 小時後，箭上儲存的所有紀錄應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2。 */
         }
+        requirement <'REQ-SYS-047'> '前衝影像影格率' : SystemRequirement {
+            doc /* 液體前衝影像的影格率應不低於 170 fps，目標值 240 fps。出處：酬載提案計劃書式 (4-71)、表 4-6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
