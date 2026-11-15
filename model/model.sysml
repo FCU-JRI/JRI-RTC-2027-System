@@ -1071,4 +1071,5 @@ package Project {
     #derive dependency from Project::Requirements::'地面影像涵蓋離架' to Project::NGOs::'MOE-14 地面影像涵蓋發射離架';
     #derive dependency from Project::NGOs::'火箭所有部件落海後全數回收' to Project::NGOs::'通過所有審查並符合法規與規範';
     #derive dependency from Project::NGOs::'火箭不將有害物質帶入海洋' to Project::NGOs::'通過所有審查並符合法規與規範';
+    #derive dependency from Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態' to Project::NGOs::'全程處於已知且受控的安全狀態';
 }
