@@ -1046,6 +1046,9 @@ package Project {
         requirement <'REQ-SYS-068'> '電池類型' : SystemRequirement {
             doc /* 火箭應使用碳鋅、鹼性、18650 鋰、磷酸鋰鐵或其他不易燃燒且具結構強度的電池，不得使用鋰聚合物（Li-Po）軟包電池與濕式鉛酸電池。出處：火箭設計規範 V2 4.7.1。 */
         }
+        requirement <'REQ-SYS-069'> '電池續航' : SystemRequirement {
+            doc /* 電池電力應能供應火箭系統正常運作 1.5 小時以上。建議列為 TPM，於 FRR 前以實測耗電確認餘裕。出處：火箭設計規範 V2 4.7.2；發射許可審查表（附件08）火箭電力。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
