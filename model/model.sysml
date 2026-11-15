@@ -336,6 +336,7 @@ package Project {
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'接收遙測並顯示火箭狀態' to '地面次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'待命期間維持記錄能力' to '酬載次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'拍攝地面影像' to '地面次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'發送解除啟動指令' to '地面次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
