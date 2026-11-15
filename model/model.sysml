@@ -191,6 +191,9 @@ package Project {
         part def <'SYS-006'> '外部：公版軌道滑塊' :> System {
             doc /* 由主辦單位提供，安裝於箭體上，作為火箭與發射架之間的連接件。依據：STK-TASA-53。 */
         }
+        part def <'SYS-007'> '外部：發射架' :> System {
+            doc /* 支撐火箭並在離架前提供導引。火箭由導軌頂部水平裝載，除滑塊外不得有線路連接發射架。依據：STK-TASA-54～63。 */
+        }
     }
 
     package NGOs {
