@@ -1476,4 +1476,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：可滑動介面重疊長度' to Project::Requirements::'可滑動連接介面重疊長度';
     #derive dependency from Project::Requirements::'結構：不可分離介面固定' to Project::Requirements::'不可分離介面固定';
     #derive dependency from Project::Requirements::'結構：配重材料限制' to Project::Requirements::'配重材料限制';
+    #derive dependency from Project::Requirements::'結構：隊伍標示' to Project::Requirements::'隊伍標示';
 }
