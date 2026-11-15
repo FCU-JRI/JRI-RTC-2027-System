@@ -803,6 +803,7 @@ package Project {
             action <'PH-016'> '終止發射與解除啟動' : MissionPhase;
             first '發射許可審查' then '發射準備';
             first '發射準備' then '待發射';
+            first '待發射' then '離架與動力飛行';
         }
     }
 }
