@@ -185,6 +185,9 @@ package Project {
         part def <'SYS-004'> '外部：公版 Pioneer-10K 發動機' :> System {
             doc /* 由主辦單位提供，團隊不得修改。提供推力，並透過發動機介面（定心環、M5 螺絲安裝座）與箭體相接，燃燒時將熱傳至介面。依據：STK-TASA-06～11。 */
         }
+        part def <'SYS-005'> '外部：公版 GPS 追蹤器' :> System {
+            doc /* 由主辦單位提供，安裝於火箭上，回傳火箭位置。主辦單位與團隊的地面支援設備皆可接收其資料。依據：STK-TASA-03、44。 */
+        }
     }
 
     package NGOs {
