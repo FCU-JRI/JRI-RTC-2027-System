@@ -443,7 +443,6 @@ package Project {
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
     package '利害關係人' { }
     package '期望' { }
-    #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
