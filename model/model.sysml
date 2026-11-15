@@ -969,6 +969,10 @@ package Project {
         action <'FN-031'> '連接分離部件' : Function {
             doc /* 階段：濺落與漂浮。以傘繩或連接繩使所有分離部件連在主箭體上成為一體。依據：REQ-SYS-057。 */
         }
+        action <'FN-032'> '保護航電紀錄' : Function {
+            doc /* 階段：濺落與漂浮。保護箭上航電紀錄，使浸水 2
+  小時後仍可完整讀取。依據：REQ-SYS-046。 */
+        }
     }
 
     package Requirements {
