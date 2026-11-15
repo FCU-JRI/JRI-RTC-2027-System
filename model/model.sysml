@@ -1073,6 +1073,9 @@ package Project {
         requirement <'REQ-SYS-077'> '酬載不含活體脊椎動物' : SystemRequirement {
             doc /* 酬載不得包含任何活體脊椎動物。出處：火箭設計規範 V2 7.1.5。 */
         }
+        requirement <'REQ-SYS-078'> '輕量結構材料' : SystemRequirement {
+            doc /* 火箭應使用紙管、PVC 管、玻璃纖維、碳纖維等輕量材料建造，必要時可使用鋁合金等延展性輕金屬。出處：火箭設計規範 V2 6.5.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
