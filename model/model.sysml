@@ -1339,6 +1339,9 @@ package Project {
         requirement <'REQ-SUB-017'> '結構：可滑動介面重疊長度' : SubsystemRequirement {
             doc /* 鼻錐、尾錐、過渡段、箭身與連接段之間的可滑動連接介面，結構重疊長度應至少 0.5 倍箭身直徑。出處：火箭設計規範 V2 6.2.1。 */
         }
+        requirement <'REQ-SUB-018'> '結構：不可分離介面固定' : SubsystemRequirement {
+            doc /* 設計為不可分離的結構連接介面，應以機械緊固件（如螺絲）或永久性黏合劑固定。出處：火箭設計規範 V2 6.2.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
