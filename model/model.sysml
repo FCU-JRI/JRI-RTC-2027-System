@@ -951,6 +951,10 @@ package Project {
         action <'FN-027'> '釋放主傘' : Function {
             doc /* 階段：主傘釋放。接收觸發訊號釋放主傘。依據：REQ-SYS-032、033。 */
         }
+        action <'FN-028'> '減速至安全觸水速度' : Function {
+            doc /* 階段：主傘下降。使火箭觸水速度小於 12
+  m/s。依據：REQ-SYS-020。 */
+        }
     }
 
     package Requirements {
