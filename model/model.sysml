@@ -326,6 +326,7 @@ package Project {
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'安裝公版GPS追蹤器' to '結構次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'安裝公版軌道滑塊' to '結構次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'裝填降落傘與儲能裝置' to '回收次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'裝填實驗液體並密封容器' to '酬載次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
