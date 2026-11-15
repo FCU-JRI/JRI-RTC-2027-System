@@ -1088,6 +1088,9 @@ package Project {
         requirement <'REQ-SYS-082'> '無線電頻道切換' : SystemRequirement {
             doc /* 系統的無線電設備應能切換至國家通訊傳播委員會許可頻道。依據：期望 EXP-018；使用案例 UC-029 協調無線電頻道分配。出處：火箭設計規範 V2 4.1.4.3。 */
         }
+        requirement <'REQ-SYS-083'> '計畫：核心成員分工指派' : SystemRequirement {
+            doc /* 專案應指派每位核心成員負責至少一個分系統的設計、製造與測試工作，並記錄於人力配置表。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
