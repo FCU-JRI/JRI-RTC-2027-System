@@ -345,6 +345,7 @@ package Project {
             part '沿軌道導引至離架' : Project::Structure::'沿軌道導引至離架';
             part '提供氣動穩定' : Project::Structure::'提供氣動穩定';
             part '承受推進段負載與熱' : Project::Structure::'承受推進段負載與熱';
+            part '提供浮力' : Project::Structure::'提供浮力';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
