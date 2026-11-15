@@ -1028,6 +1028,9 @@ package Project {
         requirement <'REQ-SYS-062'> '啟動狀態遠距確認' : SystemRequirement {
             doc /* 系統應能讓人員在頭部與身體不進入火箭 100 mm 範圍內的情況下，確認儲能裝置已進入啟動狀態，例如以聲音、指示燈或電腦連線確認。出處：火箭設計規範 V2 4.6.7。 */
         }
+        requirement <'REQ-SYS-063'> '濺落後儲能裝置回到安全狀態' : SystemRequirement {
+            doc /* 濺落後，系統應自動讓所有未釋放能量的儲能裝置回到「安全」狀態，也就是需要兩個獨立事件才能釋放能量。完成時限待定，於 PDR 依濺落偵測方式決定。壓力容器斷電後瓶內仍有壓力，選用時須另行評估。依據：總工程師確認採用此做法。出處：火箭設計規範 V2 4.6.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
