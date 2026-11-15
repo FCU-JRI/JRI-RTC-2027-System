@@ -909,4 +909,5 @@ package Project {
     #derive dependency from Project::Requirements::'發動機外殼溫度耐受' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'觸水速度' to Project::NGOs::'MOE-04 觸水速度';
     #derive dependency from Project::Requirements::'漂浮' to Project::NGOs::'MOE-05 浮力與重量比';
+    #derive dependency from Project::NGOs::'火箭從離架到濺落維持箭體完整' to Project::NGOs::'全程處於已知且受控的安全狀態';
 }
