@@ -1074,4 +1074,5 @@ package Project {
     #derive dependency from Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態' to Project::NGOs::'全程處於已知且受控的安全狀態';
     #refine dependency from Project::NGOs::'遺留海中的部件數' to Project::NGOs::'火箭所有部件落海後全數回收';
     #refine dependency from Project::NGOs::'使用禁用或有害材料的項數' to Project::NGOs::'火箭不將有害物質帶入海洋';
+    #refine dependency from Project::NGOs::'非預期處於啟動狀態的次數' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
 }
