@@ -406,6 +406,9 @@ package Project {
         part def <'SUB-016'> '減速至安全觸水速度' :> Subsystem {
             doc /* 階段：主傘下降。使火箭觸水速度小於 12 m/s。依據：REQ-SYS-020。 */
         }
+        part def <'SUB-017'> '保護酬載紀錄' :> Subsystem {
+            doc /* 階段：濺落與漂浮。保護酬載影像與加速度紀錄，使浸水後仍可完整讀取，並保存備援。依據：REQ-SYS-046、前衝影像備援、軸向加速度備援。 */
+        }
     }
 
     package NGOs {
