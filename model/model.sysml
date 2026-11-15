@@ -846,4 +846,5 @@ package Project {
     #derive dependency from Project::Requirements::'使用公版軌道滑塊' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'軌道滑塊數量與位置' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'滑塊金屬緊固' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
+    #derive dependency from Project::Requirements::'滑塊不可脫離' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
 }
