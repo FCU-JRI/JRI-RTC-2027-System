@@ -1010,6 +1010,9 @@ package Project {
         requirement <'REQ-SYS-056'> '地面影像涵蓋離架' : SystemRequirement {
             doc /* 地面次系統應拍攝涵蓋火箭發射離架過程的影像。攝影機架設位置待向主辦單位確認。 */
         }
+        requirement <'REQ-SYS-057'> '分離部件連接成一體' : SystemRequirement {
+            doc /* 濺落後，火箭所有分離部件都應以傘繩或連接繩連在主箭體上，成為一個整體。依據：總工程師確認採用此設計原則。出處：海洋污染防治法第 4 條第 11 款。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
