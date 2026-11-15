@@ -341,6 +341,7 @@ package Project {
             allocate Project::Behavior::'沿軌道導引至離架' to '結構次系統';
             allocate Project::Behavior::'提供氣動穩定' to '結構次系統';
             allocate Project::Behavior::'承受推進段負載與熱' to '結構次系統';
+            allocate Project::Behavior::'記錄飛行數據' to '航電次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
