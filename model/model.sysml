@@ -1190,4 +1190,5 @@ package Project {
     #derive dependency from Project::Requirements::'無線電頻道切換' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'計畫：核心成員分工指派' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
     #derive dependency from Project::Requirements::'計畫：技術文件撰寫規範' to Project::NGOs::'完成技術文件的核心成員比例';
+    #derive dependency from Project::Requirements::'計畫：H3作業清單' to Project::NGOs::'危險作業都經管制官核可後執行';
 }
