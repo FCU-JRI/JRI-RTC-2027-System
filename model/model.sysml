@@ -820,6 +820,7 @@ package Project {
     package Requirements {
         requirement <'REQ-SYS-001'> '公版發動機鎖固方式' : SystemRequirement {
             doc /* 系統應能在發射前以 8 支 M5 螺絲鎖固 pioneer-10K 公版固態火箭發動機。出處：火箭設計規範 V2 3.2.2。 */
+            @Source { sourceDoc = "DOC-001"; }
         }
         requirement <'REQ-SYS-002'> '發動機定心環' : SystemRequirement {
             doc /* 推進系統組裝介面應具備至少 2 組公版發動機定心環，位置在發動機質心前方（鼻錐側）。出處：火箭設計規範 V2 3.2.3。 */
