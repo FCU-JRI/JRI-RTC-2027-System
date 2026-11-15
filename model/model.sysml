@@ -811,6 +811,7 @@ package Project {
             first '減速傘釋放' then '主傘釋放';
             first '主傘釋放' then '濺落與漂浮';
             first '濺落與漂浮' then '海上回收';
+            first '海上回收' then '資料讀取與提交';
         }
     }
 }
