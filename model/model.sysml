@@ -816,4 +816,10 @@ package Project {
             first '資料讀取與提交' then '終止發射與解除啟動';
         }
     }
+
+    package Requirements {
+        requirement <'REQ-SYS-001'> '公版發動機鎖固方式' : SystemRequirement {
+            doc /* 系統應能在發射前以 8 支 M5 螺絲鎖固 pioneer-10K 公版固態火箭發動機。出處：火箭設計規範 V2 3.2.2。 */
+        }
+    }
 }
