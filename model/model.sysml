@@ -1094,6 +1094,9 @@ package Project {
         requirement <'REQ-SYS-084'> '計畫：技術文件撰寫規範' : SystemRequirement {
             doc /* 核心成員的技術文件應依 AEAS 文件規範手冊（AEAS-EXB-REG-0001）撰寫，並經所屬組長核可。出處：AEAS-EXB-REG-0001。 */
         }
+        requirement <'REQ-SYS-085'> '計畫：H3作業清單' : SystemRequirement {
+            doc /* 專案應建立 H3 等級作業清單，列出所有點火測試、推力測試、飛行測試、靜態液壓測試與高壓鋼瓶作業。出處：AEAS 安全協議 7.5.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
