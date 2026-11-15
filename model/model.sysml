@@ -1040,6 +1040,9 @@ package Project {
         requirement <'REQ-SYS-066'> '回收啟動鏈冗餘' : SystemRequirement {
             doc /* 航電系統啟動回收系統的路徑，應具備獨立或冗餘的啟動開關、感測器與啟動電源。出處：火箭設計規範 V2 4.1.3。 */
         }
+        requirement <'REQ-SYS-067'> '航電耐受衝擊與振動' : SystemRequirement {
+            doc /* 航電系統應在推進段最大約 8.1 g 的加速度，以及開傘與觸水衝擊下維持正常運作。開傘衝擊值待估。出處：火箭設計規範 V2 4.1.2；酬載提案計劃書表 7-2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
