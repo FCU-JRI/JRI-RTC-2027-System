@@ -479,6 +479,7 @@ package Project {
         requirement <'MOE-019'> '總支出金額' : MOE {
             doc /* 專案總支出應不大於新臺幣 150,000 元。量測方式：以成本紀錄判定。門檻值為 2027 年度預估募集金額（總工程師 2026-11-15 提供），募集結果確定後更新。 */
         }
+        requirement <'OBJ-017'> '火箭從離架到濺落維持箭體完整' : Objective;
     }
 
     package UseCases {
