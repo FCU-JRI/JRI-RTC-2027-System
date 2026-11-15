@@ -1303,6 +1303,9 @@ package Project {
         requirement <'REQ-SUB-005'> '結構：滑塊金屬緊固' : SubsystemRequirement {
             doc /* 每個軌道滑塊與箭體的固定點應額外加強，並至少使用一個金屬緊固件固定。出處：火箭設計規範 V2 6.3.4、6.3.6。 */
         }
+        requirement <'REQ-SUB-006'> '結構：滑塊不可脫離' : SubsystemRequirement {
+            doc /* 軌道滑塊在飛行中應保持固定在箭體上，不得脫離。出處：火箭設計規範 V2 6.3.7。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
