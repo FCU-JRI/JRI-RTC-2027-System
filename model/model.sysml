@@ -1294,6 +1294,9 @@ package Project {
         requirement <'REQ-SUB-002'> '結構：發動機定心環' : SubsystemRequirement {
             doc /* 結構次系統的推進系統組裝介面應具備至少 2 組公版發動機定心環，位置在發動機質心前方（鼻錐側）。出處：火箭設計規範 V2 3.2.3。 */
         }
+        requirement <'REQ-SUB-003'> '結構：使用公版軌道滑塊' : SubsystemRequirement {
+            doc /* 結構次系統應依附件十七「公版發射架技術資料」，使用主辦單位提供的公版軌道滑塊。出處：火箭設計規範 V2 6.3.1、6.3.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
