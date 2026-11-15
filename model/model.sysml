@@ -492,6 +492,9 @@ package Project {
         requirement <'OBJ-019'> '火箭不將有害物質帶入海洋' : Objective {
             doc /* 火箭不應使用會對海洋環境造成危害的材料，包括鉛、汞、鈾配重。出處：火箭設計規範 V2 6.5.2；海洋污染防治法第 4 條第 1 款、第 21 條 */
         }
+        requirement <'MOE-022'> '使用禁用或有害材料的項數' : MOE {
+            doc /* 火箭使用禁用或有害材料的項數應為 0。量測方式：以材料清單查核。 */
+        }
     }
 
     package UseCases {
