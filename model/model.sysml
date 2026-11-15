@@ -896,6 +896,9 @@ package Project {
         requirement <'REQ-SYS-024'> '回收系統耐熱保護' : SystemRequirement {
             doc /* 回收系統運作時如果會產生高溫氣體，應設置耐熱保護，使傘繩與降落傘不受損壞。出處：火箭設計規範 V2 4.2.6。 */
         }
+        requirement <'REQ-SYS-025'> '降落傘顏色' : SystemRequirement {
+            doc /* 降落傘顏色應和天空形成對比，不得使用藍色、綠色、棕色或迷彩相關的顏色。出處：火箭設計規範 V2 4.2.7。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
