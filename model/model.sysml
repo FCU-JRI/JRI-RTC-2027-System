@@ -1070,6 +1070,9 @@ package Project {
         requirement <'REQ-SYS-076'> '酬載運作與位置' : SystemRequirement {
             doc /* 酬載應能獨立於火箭航電系統運作，並在開傘前保持在箭身內部；或在整個飛行過程中保持在箭身內部，並與火箭航電連接通訊。出處：火箭設計規範 V2 7.1.1。 */
         }
+        requirement <'REQ-SYS-077'> '酬載不含活體脊椎動物' : SystemRequirement {
+            doc /* 酬載不得包含任何活體脊椎動物。出處：火箭設計規範 V2 7.1.5。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
