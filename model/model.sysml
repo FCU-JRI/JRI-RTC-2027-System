@@ -345,6 +345,7 @@ package Project {
             allocate Project::Behavior::'記錄飛行數據' to '航電次系統';
             allocate Project::Behavior::'記錄前衝影像與加速度' to '酬載次系統';
             allocate Project::Behavior::'偵測頂點並觸發減速傘' to '航電次系統';
+            allocate Project::Behavior::'釋放減速傘' to '航電次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
