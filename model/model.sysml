@@ -1162,4 +1162,5 @@ package Project {
     #derive dependency from Project::Requirements::'落點位於安全回收區' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
     #derive dependency from Project::Requirements::'酬載運作與位置' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'酬載不含活體脊椎動物' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
+    #derive dependency from Project::Requirements::'輕量結構材料' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
 }
