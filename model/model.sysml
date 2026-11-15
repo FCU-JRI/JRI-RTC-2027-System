@@ -1136,6 +1136,9 @@ package Project {
         requirement <'REQ-SYS-098'> '發射架靜置零點資料' : SystemRequirement {
             doc /* 軸向加速度與三軸紀錄應包含點火前、火箭靜置於發射架上的資料。所需秒數待定，暫訂不少於 10 s，於 PDR 前依地面驗證取得的感測器雜訊決定。出處：酬載提案計劃書式 (4-82)、(4-83)。 */
         }
+        requirement <'REQ-SYS-099'> '容器靠近重心' : SystemRequirement {
+            doc /* 酬載實驗容器中心與燃盡時全箭重心的軸向距離應不大於 1 m。出處：酬載提案計劃書表 4-3、表 4-6、式 (4-22)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
