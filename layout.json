@@ -585,188 +585,6 @@
    "y": 24
   }
  },
- "bdd": {
-  "Project__Structure___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 4128,
-   "y": 408
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_85_ac_e7_89_88_20GPS_20_e8_bf_bd_e8_b9_a4_e5_99_a8": {
-   "x": 24,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
-   "x": 288,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e7_99_bc_e5_b0_84_e6_9e_b6": {
-   "x": 540,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_ae_98_e6_96_b9_e7_99_bc_e5_b0_84_e6_8e_a7_e5_88_b6": {
-   "x": 804,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_a4_a7_e6_b0_a3_e7_92_b0_e5_a2_83": {
-   "x": 1068,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e6_b5_b7_e9_9d_a2_e7_92_b0_e5_a2_83": {
-   "x": 1320,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e7_84_a1_e7_b7_9a_e9_9b_bb_e9_a0_bb_e8_ad_9c": {
-   "x": 1584,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_b0_84_e5_a0_b4_e4_ba_ba_e5_93_a1": {
-   "x": 1848,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_9b_9e_e6_94_b6_e6_bc_81_e8_88_b9_e8_88_b9_e5_93_a1": {
-   "x": 2100,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e6_90_ac_e9_81_8b_e8_88_87_e9_81_8b_e8_bc_b8_e7_92_b0_e5_a2_83": {
-   "x": 2364,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_9c_98_e9_9a_8a_e6_93_8d_e4_bd_9c_e4_ba_ba_e5_93_a1": {
-   "x": 2628,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e7_99_bc_e5_b0_84_e8_a8_b1_e5_8f_af_e5_af_a9_e6_9f_a5_e5_a7_94_e5_93_a1": {
-   "x": 2880,
-   "y": 24
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e4_b8_bb_e8_be_a6_e5_96_ae_e4_bd_8d_e8_88_87_e8_a9_95_e5_af_a9_ef_bc_88_e8_b3_87_e6_96_99_e6_8e_a5_e6_94_b6_e6_96_b9_ef_bc_89": {
-   "x": 3144,
-   "y": 24
-  },
-  "Project__Structure___e5_85_ac_e7_89_88_e7_99_bc_e5_8b_95_e6_a9_9f_20Pioneer-10k": {
-   "x": 3396,
-   "y": 132
-  },
-  "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 3660,
-   "y": 24
-  },
-  "Project__Structure___e8_88_aa_e9_9b_bb_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 3924,
-   "y": 24
-  },
-  "Project__Structure___e5_9b_9e_e6_94_b6_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 4188,
-   "y": 24
-  },
-  "Project__Structure___e5_9c_b0_e9_9d_a2_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 4440,
-   "y": 24
-  },
-  "Project__Structure___e9_85_ac_e8_bc_89_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 4704,
-   "y": 24
-  },
-  "Project__Structure___e5_85_ac_e7_89_88_e7_99_bc_e5_8b_95_e6_a9_9f_20Pioneer-10k___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 3408,
-   "y": 168
-  },
-  "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 3648,
-   "y": 240
-  },
-  "Project__Structure___e8_88_aa_e9_9b_bb_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 3924,
-   "y": 168
-  },
-  "Project__Structure___e5_9b_9e_e6_94_b6_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 4188,
-   "y": 168
-  },
-  "Project__Structure___e5_9c_b0_e9_9d_a2_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 4440,
-   "y": 168
-  },
-  "Project__Structure___e9_85_ac_e8_bc_89_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 4704,
-   "y": 168
-  },
-  "Project__Structure___e7_b3_bb_e7_b5_b1_e5_85_83_e7_b4_a0_ef_bc_9a_e7_81_ab_e7_ae_ad_e6_9c_ac_e9_ab_94": {
-   "x": 24,
-   "y": 444
-  },
-  "Project__Structure___e7_b3_bb_e7_b5_b1_e5_85_83_e7_b4_a0_ef_bc_9a_e5_9c_b0_e9_9d_a2_e6_94_af_e6_8f_b4_e8_a8_ad_e5_82_99": {
-   "x": 24,
-   "y": 564
-  },
-  "Project__Structure___e5_a4_96_e9_83_a8_ef_bc_9a_e5_85_ac_e7_89_88_20Pioneer-10K_20_e7_99_bc_e5_8b_95_e6_a9_9f": {
-   "x": 24,
-   "y": 684
-  },
-  "Project__Structure___e7_b3_bb_e7_b5_b1_e5_85_83_e7_b4_a0_ef_bc_9a_e7_81_ab_e7_ae_ad_e6_9c_ac_e9_ab_94___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 288,
-   "y": 588
-  },
-  "Project__Structure___e5_85_ac_e7_89_88GPS_e8_bf_bd_e8_b9_a4_e5_99_a8": {
-   "x": 3924,
-   "y": -228
-  },
-  "Project__Structure___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
-   "x": 3648,
-   "y": 468
-  },
-  "Project__Structure___e7_99_bc_e5_b0_84_e6_9e_b6": {
-   "x": 3648,
-   "y": 636
-  },
-  "Project__Structure___e5_a4_a7_e6_b0_a3_e9_a2_a8_e5_a0_b4_e7_92_b0_e5_a2_83": {
-   "x": 3648,
-   "y": 756
-  },
-  "Project__Structure___e5_b0_84_e5_a0_b4_e4_ba_ba_e5_93_a1": {
-   "x": 3648,
-   "y": 876
-  },
-  "Project__Structure___e7_84_a1_e7_b7_9a_e9_9b_bb_e9_a0_bb_e9_81_93": {
-   "x": 3408,
-   "y": 1044
-  },
-  "Project__Structure___e5_9c_98_e9_9a_8a_e6_93_8d_e4_bd_9c_e4_ba_ba_e5_93_a1": {
-   "x": 3408,
-   "y": 1164
-  },
-  "Project__Structure___e5_9c_b0_e9_9d_a2_e7_ab_99": {
-   "x": 3408,
-   "y": 1284
-  },
-  "Project__Structure___e7_99_bc_e5_b0_84_e6_8c_87_e6_8f_ae_e5_ae_98": {
-   "x": 3408,
-   "y": 1404
-  },
-  "Project__Structure___e5_9b_9e_e6_94_b6_e4_ba_ba_e5_93_a1": {
-   "x": 3408,
-   "y": 1524
-  },
-  "Project__Structure___e7_99_bc_e5_b0_84_e8_a8_b1_e5_8f_af_e5_af_a9_e6_9f_a5_e5_a7_94_e5_93_a1": {
-   "x": 3408,
-   "y": 1644
-  },
-  "Project__Structure__RTC2027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 4116,
-   "y": 540
-  },
-  "Project__Structure___e8_88_aa_e9_9b_bb_e6_ac_a1_e7_b3_bb_e7_b5_b1___e5_85_ac_e7_89_88GPS_e8_bf_bd_e8_b9_a4_e5_99_a8": {
-   "x": 3924,
-   "y": -96
-  },
-  "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
-   "x": 4956,
-   "y": 168
-  },
-  "Project__Structure___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
-   "x": 3912,
-   "y": 564
-  }
- },
  "ibd:Project::Structure::結構次系統": {
   "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
    "x": 24,
@@ -1669,6 +1487,100 @@
   "act:Project::Behavior::總任務：RTC 2027 發射任務#final": {
    "x": 24,
    "y": 1800
+  }
+ },
+ "bdd": {
+  "Project__Structure___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 672,
+   "y": 348
+  },
+  "Project__Structure___e5_85_ac_e7_89_88_e7_99_bc_e5_8b_95_e6_a9_9f_20Pioneer-10k": {
+   "x": 24,
+   "y": 24
+  },
+  "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 672,
+   "y": 600
+  },
+  "Project__Structure___e8_88_aa_e9_9b_bb_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 288,
+   "y": 24
+  },
+  "Project__Structure___e5_9b_9e_e6_94_b6_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 540,
+   "y": 24
+  },
+  "Project__Structure___e5_9c_b0_e9_9d_a2_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 804,
+   "y": 24
+  },
+  "Project__Structure___e9_85_ac_e8_bc_89_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 1068,
+   "y": 24
+  },
+  "Project__Structure___e5_85_ac_e7_89_88GPS_e8_bf_bd_e8_b9_a4_e5_99_a8": {
+   "x": 1320,
+   "y": 24
+  },
+  "Project__Structure___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
+   "x": 1584,
+   "y": 24
+  },
+  "Project__Structure___e7_99_bc_e5_b0_84_e6_9e_b6": {
+   "x": 1848,
+   "y": 24
+  },
+  "Project__Structure___e5_a4_a7_e6_b0_a3_e9_a2_a8_e5_a0_b4_e7_92_b0_e5_a2_83": {
+   "x": 2100,
+   "y": 24
+  },
+  "Project__Structure___e5_b0_84_e5_a0_b4_e4_ba_ba_e5_93_a1": {
+   "x": 2364,
+   "y": 24
+  },
+  "Project__Structure___e7_84_a1_e7_b7_9a_e9_9b_bb_e9_a0_bb_e9_81_93": {
+   "x": 2628,
+   "y": 24
+  },
+  "Project__Structure___e5_9c_98_e9_9a_8a_e6_93_8d_e4_bd_9c_e4_ba_ba_e5_93_a1": {
+   "x": 2880,
+   "y": 24
+  },
+  "Project__Structure___e5_9c_b0_e9_9d_a2_e7_ab_99": {
+   "x": 3144,
+   "y": 24
+  },
+  "Project__Structure___e7_99_bc_e5_b0_84_e6_8c_87_e6_8f_ae_e5_ae_98": {
+   "x": 3408,
+   "y": 24
+  },
+  "Project__Structure___e5_9b_9e_e6_94_b6_e4_ba_ba_e5_93_a1": {
+   "x": 3660,
+   "y": 24
+  },
+  "Project__Structure___e7_99_bc_e5_b0_84_e8_a8_b1_e5_8f_af_e5_af_a9_e6_9f_a5_e5_a7_94_e5_93_a1": {
+   "x": 3924,
+   "y": 24
+  },
+  "Project__Structure___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
+   "x": 672,
+   "y": 480
+  },
+  "Project__Structure___e8_88_aa_e9_9b_bb_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 288,
+   "y": 168
+  },
+  "Project__Structure___e5_9b_9e_e6_94_b6_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 540,
+   "y": 168
+  },
+  "Project__Structure___e5_9c_b0_e9_9d_a2_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 804,
+   "y": 168
+  },
+  "Project__Structure___e9_85_ac_e8_bc_89_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 1068,
+   "y": 168
   }
  }
 }
