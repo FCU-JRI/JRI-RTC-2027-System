@@ -790,7 +790,6 @@ package Project {
             first '運輸' then '火箭組裝';
             first '火箭組裝' then '發射許可審查';
             action <'PH-007'> '發射準備' : MissionPhase;
-            action <'PH-008'> '待發射' : MissionPhase;
         }
     }
 }
