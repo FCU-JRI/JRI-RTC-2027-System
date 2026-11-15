@@ -374,6 +374,9 @@ package Project {
         part def <'SUB-008'> '承受推進段負載與熱' :> Subsystem {
             doc /* 階段：離架與動力飛行。承受推進段負載與發動機外殼溫度，維持結構完整。依據：REQ-SYS-019、039。 */
         }
+        part def <'SUB-009'> '記錄飛行數據' :> Subsystem {
+            doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS 軌跡。依據：REQ-SYS-043～045。 */
+        }
     }
 
     package NGOs {
