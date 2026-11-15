@@ -1046,4 +1046,5 @@ package Project {
     #derive dependency from Project::Requirements::'影像與加速度時間同步' to Project::NGOs::'MOE-11 影像與加速度時間同步誤差';
     #derive dependency from Project::Requirements::'三軸紀錄時間涵蓋' to Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍';
     #derive dependency from Project::Requirements::'三軸紀錄取樣率與量程' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
+    #derive dependency from Project::Requirements::'箭載影像時間涵蓋' to Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍';
 }
