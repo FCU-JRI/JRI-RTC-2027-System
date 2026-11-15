@@ -350,6 +350,7 @@ package Project {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
             part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
             part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
+            part '偵測主傘高度並觸發主傘' : Project::Structure::'偵測主傘高度並觸發主傘';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
