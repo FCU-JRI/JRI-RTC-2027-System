@@ -1098,4 +1098,5 @@ package Project {
     #derive dependency from Project::Requirements::'儲能裝置驅動方式' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'儲能裝置上架前保持安全' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'儲能裝置外部啟動' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
+    #derive dependency from Project::Requirements::'啟動狀態遠距確認' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
 }
