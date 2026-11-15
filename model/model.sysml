@@ -1424,4 +1424,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：軌道滑塊數量與位置' to Project::Requirements::'軌道滑塊數量與位置';
     #derive dependency from Project::Requirements::'結構：滑塊金屬緊固' to Project::Requirements::'滑塊金屬緊固';
     #derive dependency from Project::Requirements::'結構：滑塊不可脫離' to Project::Requirements::'滑塊不可脫離';
+    #derive dependency from Project::Requirements::'結構：滑塊固定件材質' to Project::Requirements::'滑塊固定件材質';
 }
