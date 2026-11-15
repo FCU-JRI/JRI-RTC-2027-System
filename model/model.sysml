@@ -1091,6 +1091,9 @@ package Project {
         requirement <'REQ-SYS-083'> '計畫：核心成員分工指派' : SystemRequirement {
             doc /* 專案應指派每位核心成員負責至少一個分系統的設計、製造與測試工作，並記錄於人力配置表。 */
         }
+        requirement <'REQ-SYS-084'> '計畫：技術文件撰寫規範' : SystemRequirement {
+            doc /* 核心成員的技術文件應依 AEAS 文件規範手冊（AEAS-EXB-REG-0001）撰寫，並經所屬組長核可。出處：AEAS-EXB-REG-0001。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
