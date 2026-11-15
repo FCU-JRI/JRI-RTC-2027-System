@@ -342,7 +342,6 @@ package Project {
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
         part def <'SUB-001'> '結構次系統' :> Subsystem {
-            part '沿軌道導引至離架' : Project::Structure::'沿軌道導引至離架';
             part '提供氣動穩定' : Project::Structure::'提供氣動穩定';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
@@ -364,9 +363,6 @@ package Project {
         part def <'EXT-010'> '發射指揮官' :> ExternalEntity;
         part def <'EXT-011'> '回收人員' :> ExternalEntity;
         part def <'EXT-012'> '發射許可審查委員' :> ExternalEntity;
-        part def <'SUB-006'> '沿軌道導引至離架' :> Subsystem {
-            doc /* 階段：離架與動力飛行。以軌道滑塊沿發射架軌道導引火箭至離架，離架速度大於 16 m/s。依據：REQ-SYS-018。 */
-        }
         part def <'SUB-007'> '提供氣動穩定' :> Subsystem {
             doc /* 階段：離架與動力飛行至頂點。以箭體與尾翼外形提供靜態與動態穩定度。依據：REQ-SYS-015～017、064。 */
         }
