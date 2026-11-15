@@ -1591,19 +1591,19 @@
    "y": 48
   },
   "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e9_81_8b_e8_bc_b8": {
-   "x": 120,
+   "x": 144,
    "y": 36
   },
   "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e7_81_ab_e7_ae_ad_e7_b5_84_e8_a3_9d": {
-   "x": 420,
-   "y": 24
+   "x": 456,
+   "y": -204
   },
   "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e7_99_bc_e5_b0_84_e8_a8_b1_e5_8f_af_e5_af_a9_e6_9f_a5": {
-   "x": 708,
+   "x": 768,
    "y": 24
   },
   "act:Project::Behavior::總任務：RTC 2027 發射任務#final": {
-   "x": 996,
+   "x": 1308,
    "y": 48
   }
  }
