@@ -953,6 +953,9 @@ package Project {
         requirement <'REQ-SYS-043'> '飛行數據記錄項目' : SystemRequirement {
             doc /* 系統應記錄飛行高度、速度與加速度。出處：火箭設計規範 V2 2.1。 */
         }
+        requirement <'REQ-SYS-044'> '飛行數據時間涵蓋' : SystemRequirement {
+            doc /* 高度、速度與加速度紀錄應涵蓋發射至濺落的全程。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
