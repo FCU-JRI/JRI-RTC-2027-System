@@ -1170,4 +1170,5 @@ package Project {
     #derive dependency from Project::Requirements::'酬載不含活體脊椎動物' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'輕量結構材料' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'實驗液體無害' to Project::NGOs::'火箭不將有害物質帶入海洋';
+    #derive dependency from Project::Requirements::'實驗液體容器密封' to Project::NGOs::'火箭不將有害物質帶入海洋';
 }
