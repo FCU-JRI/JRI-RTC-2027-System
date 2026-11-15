@@ -219,7 +219,9 @@ package Project {
             doc /* 接收團隊在回收後提交的飛行數據，包括高度、速度、加速度與 GPS 軌跡，作為評分依據。依據：OBJ-004、UC-025。 */
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity;
-        part def <'SUB-001'> '結構次系統' :> Subsystem;
+        part def <'SUB-001'> '結構次系統' :> Subsystem {
+            part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
+        }
         part def <'SUB-002'> '航電次系統' :> Subsystem;
         part def <'SUB-003'> '回收次系統' :> Subsystem;
         part def <'SUB-004'> '地面次系統' :> Subsystem;
