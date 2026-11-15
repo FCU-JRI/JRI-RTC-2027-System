@@ -844,6 +844,9 @@ package Project {
             action <'FN-002'> '安裝公版發動機' : Function {
                 doc /* 階段：火箭組裝。以 8 支 M5 螺絲與定心環將 pioneer-10K 公版發動機安裝於火箭軸線上。依據：REQ-SYS-001、002。 */
             }
+            action <'FN-003'> '安裝公版GPS追蹤器' : Function {
+                doc /* 階段：火箭組裝。依附件十八提供的組裝介面安裝公版 GPS 追蹤器。依據：REQ-SYS-027。 */
+            }
         }
     }
 
