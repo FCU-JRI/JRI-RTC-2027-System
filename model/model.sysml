@@ -1327,6 +1327,9 @@ package Project {
         requirement <'REQ-SUB-013'> '結構：可分離部件標示' : SubsystemRequirement {
             doc /* 所有可分離的結構部件，不論是設計上的分離還是意外分離，都應重複標示隊伍名稱與編號。出處：火箭設計規範 V2 6.4.1。 */
         }
+        requirement <'REQ-SUB-014'> '結構：洩壓孔' : SubsystemRequirement {
+            doc /* 火箭外殼應依各艙段需求設置足夠的洩壓孔，防止飛行中內部壓力累積造成機體損壞或非預期的結構變化。出處：火箭設計規範 V2 6.1.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
