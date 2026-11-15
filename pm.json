@@ -16,6 +16,15 @@
  ],
  "costs": [],
  "people": [],
- "docs": [],
+ "docs": [
+  {
+   "id": "DOC-001",
+   "title": "2027 台灣盃火箭設計規範",
+   "type": "規則",
+   "revision": "V2",
+   "url": "https://drive.google.com/file/d/14VsOKh2ulmrPqyzI1Y06D9RXkgjihLbA/view?usp=sharing",
+   "note": ""
+  }
+ ],
  "milestones": {}
 }
