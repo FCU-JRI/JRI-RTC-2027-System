@@ -879,8 +879,8 @@
    "y": 60
   },
   "Project__Structure___e9_85_ac_e8_bc_89_e6_ac_a1_e7_b3_bb_e7_b5_b1": {
-   "x": 24,
-   "y": 744
+   "x": -108,
+   "y": 528
   },
   "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
    "x": 24,
@@ -893,6 +893,10 @@
   "Project__Structure___e5_9b_9e_e6_94_b6_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
    "x": 24,
    "y": -156
+  },
+  "Project__Structure___e5_9c_b0_e9_9d_a2_e6_ac_a1_e7_b3_bb_e7_b5_b1___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 888,
+   "y": 204
   }
  },
  "ibd:Project::Structure::系統元素：火箭本體": {
