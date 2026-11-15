@@ -441,7 +441,6 @@ package Project {
     #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    #refine dependency from Project::Stakeholders::'將酬載實驗裝置放進探空火箭' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     package '利害關係人' { }
     package '期望' { }
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
