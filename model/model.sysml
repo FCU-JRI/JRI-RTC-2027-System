@@ -796,7 +796,6 @@ package Project {
         action <'PH-010'> '發動機燃盡' : MissionPhase;
         action <'PH-011'> '慣性上升' : MissionPhase;
         action <'PH-012'> '到達頂點' : MissionPhase;
-        action <'PH-013'> '減速傘釋放' : MissionPhase;
         action <'PH-014'> '主傘釋放' : MissionPhase;
     }
 }
