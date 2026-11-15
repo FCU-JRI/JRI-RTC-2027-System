@@ -486,11 +486,20 @@ package Project {
         use case <'UC-013'> '執行分系統地面測試' : UseCase;
         use case <'UC-014'> '執行全箭整合測試' : UseCase;
         use case <'UC-015'> '執行飛行準備審查與核可' : UseCase;
+        use case <'UC-041'> '清運實驗室事業廢棄物' : UseCase {
+            doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等事業廢棄物，依規定貯存並交由合法機構清除、處理。出處：廢棄物清理法第 2、28、30、36 條。 */
+        }
+        use case <'UC-042'> '標示危害性化學品並辦理通識訓練' : UseCase {
+            doc /* 危害性化學品的容器標示、清單與安全資料表齊備，作業人員完成危害通識訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
+        }
         public import '飛行與回收'::*;
         package '飛行與回收' {
             use case <'UC-025'> '取回火箭並提交飛行數據' : UseCase;
             use case <'UC-024'> '海上回收火箭' : UseCase;
             use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
+            use case <'UC-040'> '通報事故並保全資料' : UseCase {
+                doc /* 發生太空事故或火箭偏離原飛行途徑時，即時提供追蹤資料並保全飛行紀錄，使發射許可申請人能於時限內（事故二小時、偏離二十四小時）通報主管機關，並供後續調查。出處：發射載具發射許可及太空事故處理辦法第 18 條；太空發展法第 18 條。 */
+            }
         }
         public import '設計與審查'::*;
         package '設計與審查' {
@@ -527,6 +536,9 @@ package Project {
             use case <'UC-019'> '終止發射並解除啟動' : UseCase;
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
+            use case <'UC-039'> '處置升空異常' : UseCase {
+                doc /* 火箭升空異常時，由競賽工作人員判斷是否有擴大災害之虞；非單一滅火器可處理者通報現場消防隊攜帶滅火設備前往處理，安全指揮官確認是否有人員受傷，比賽暫停時前往剩餘未發射的火箭移除點火器。出處：競賽規則說明 v3 第 58 頁。 */
+            }
         }
         public import '任務後'::*;
         package '任務後' {
@@ -598,6 +610,24 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
+    #trace dependency from Project::UseCases::'評定競賽成績' to Project::Stakeholders::'評審總召集人';
+    #trace dependency from Project::UseCases::'執行官方設計審查' to Project::Stakeholders::'評審總召集人';
+    #trace dependency from Project::UseCases::'執行發射許可審查' to Project::Stakeholders::'發射許可審查召集人';
+    #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'安全指揮官';
+    #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'射場環境組';
+    #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'射場管理組';
+    #trace dependency from Project::UseCases::'終止發射並解除啟動' to Project::Stakeholders::'醫護及消防人員';
+    #trace dependency from Project::UseCases::'安裝公版發動機' to Project::Stakeholders::'國家太空中心';
+    #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'AEAS 工程委員會';
+    #trace dependency from Project::UseCases::'審核危險作業程序' to Project::Stakeholders::'AEAS 工程委員會';
+    #trace dependency from Project::UseCases::'對外宣傳與招募' to Project::Stakeholders::'贊助者';
+    #trace dependency from Project::UseCases::'海上回收火箭' to Project::Stakeholders::'海洋委員會與海巡';
+    #trace dependency from Project::UseCases::'處置升空異常' to Project::Stakeholders::'安全指揮官';
+    #trace dependency from Project::UseCases::'處置升空異常' to Project::Stakeholders::'醫護及消防人員';
+    #trace dependency from Project::UseCases::'處置升空異常' to Project::Stakeholders::'發射指揮官';
+    #trace dependency from Project::UseCases::'通報事故並保全資料' to Project::Stakeholders::'國家科學及技術委員會';
+    #trace dependency from Project::UseCases::'清運實驗室事業廢棄物' to Project::Stakeholders::'環境部';
+    #trace dependency from Project::UseCases::'標示危害性化學品並辦理通識訓練' to Project::Stakeholders::'勞動部';
     #trace dependency from Project::Stakeholders::'將酬載實驗裝置放進探空火箭' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'承辦單位';
