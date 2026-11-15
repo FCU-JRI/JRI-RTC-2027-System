@@ -961,6 +961,9 @@ package Project {
             doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2
   小時。依據：REQ-SYS-021。 */
         }
+        action <'FN-030'> '偵測濺落並安全化儲能裝置' : Function {
+            doc /* 濺落與漂浮。偵測濺落並使所有未釋放的儲能裝置回到安全狀態。依據：REQ-SYS-063。 */
+        }
     }
 
     package Requirements {
