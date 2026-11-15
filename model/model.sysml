@@ -934,6 +934,9 @@ package Project {
             doc /* 階段：點火至頂點。記錄液體前衝影像、軸向加速度與
   三軸紀錄，並共用時間基準。依據：REQ-SYS-047～053。 */
         }
+        action <'FN-024'> '偵測頂點並觸發減速傘' : Function {
+            doc /* 階段：到達頂點。偵測頂點並發出減速傘觸發訊號。依據：REQ-SYS-031。 */
+        }
     }
 
     package Requirements {
