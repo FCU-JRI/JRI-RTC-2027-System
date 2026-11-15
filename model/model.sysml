@@ -880,6 +880,9 @@ package Project {
         requirement <'REQ-SYS-020'> '觸水速度' : SystemRequirement {
             doc /* 火箭觸水時的下降速率應小於 12 m/s。 */
         }
+        requirement <'REQ-SYS-021'> '漂浮' : SystemRequirement {
+            doc /* 火箭整體落海後，浮力應大於火箭重量，並使火箭在海面上持續漂浮至少 2 小時。依據：競賽規則說明要求「具長時間漂浮能力」，未定量；2 小時涵蓋到下一輪發射前，並保留打撈延誤的餘裕 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
