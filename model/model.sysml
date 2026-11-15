@@ -983,6 +983,9 @@ package Project {
         requirement <'REQ-SYS-053'> '三軸紀錄時間涵蓋' : SystemRequirement {
             doc /* 三軸角速度與橫向加速度應和軸向加速度同步記錄，涵蓋點火至頂點，目標值為點火至減速傘開傘。出處：酬載提案計劃書表 4-6、式 (4-74)。 */
         }
+        requirement <'REQ-SYS-054'> '三軸紀錄取樣率與量程' : SystemRequirement {
+            doc /* 三軸角速度與橫向加速度的取樣率與量程待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.4 節。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
