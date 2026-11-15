@@ -781,6 +781,7 @@ package Project {
             action <'PH-002'> '運輸' : MissionPhase;
             action <'PH-003'> '火箭組裝' : MissionPhase;
             action <'PH-004'> '發射許可審查' : MissionPhase;
+            first '運輸' then '火箭組裝';
         }
     }
 }
