@@ -1198,4 +1198,5 @@ package Project {
     #derive dependency from Project::Requirements::'計畫：技術文件撰寫規範' to Project::NGOs::'完成技術文件的核心成員比例';
     #derive dependency from Project::Requirements::'計畫：H3作業清單' to Project::NGOs::'危險作業都經管制官核可後執行';
     #derive dependency from Project::Requirements::'計畫：H3作業逐次核可' to Project::NGOs::'危險作業事前核可比例';
+    #derive dependency from Project::Requirements::'計畫：H3作業程序' to Project::NGOs::'危險作業都經管制官核可後執行';
 }
