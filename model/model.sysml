@@ -830,6 +830,9 @@ package Project {
         requirement <'REQ-SYS-004'> '使用公版軌道滑塊' : SystemRequirement {
             doc /* 系統應使用主辦單位提供的公版軌道滑塊。出處：火箭設計規範 V2 6.3.1、6.3.2。 */
         }
+        requirement <'REQ-SYS-005'> '軌道滑塊數量與位置' : SystemRequirement {
+            doc /* 火箭應至少裝設兩個軌道滑塊，一個在重心上方，一個在重心下方。出處：火箭設計規範 V2 6.3.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
