@@ -790,4 +790,5 @@ package Project {
         }
     }
     allocate Project::Behavior::'總任務：RTC 2027 發射任務' to Project::Behavior::'階段 1：運輸';
+    allocate Project::Behavior::'總任務：RTC 2027 發射任務' to Project::Behavior::'階段 2：發射許可審查';
 }
