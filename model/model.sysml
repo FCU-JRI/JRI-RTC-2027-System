@@ -848,6 +848,9 @@ package Project {
         requirement <'REQ-SYS-010'> '滑塊不阻擋航電操作' : SystemRequirement {
             doc /* 火箭垂直放在發射軌道上時，軌道滑塊的位置不得阻擋箭體上的航電操作。出處：火箭設計規範 V2 6.3.9。 */
         }
+        requirement <'REQ-SYS-011'> '滑塊距底部距離' : SystemRequirement {
+            doc /* 軌道滑塊的位置應不超過距火箭底部 120 cm。出處：火箭設計規範 V2 6.3.10。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
