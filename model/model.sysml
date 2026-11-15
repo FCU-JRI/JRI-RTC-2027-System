@@ -347,6 +347,7 @@ package Project {
             part '承受推進段負載與熱' : Project::Structure::'承受推進段負載與熱';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
+            part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
         }
