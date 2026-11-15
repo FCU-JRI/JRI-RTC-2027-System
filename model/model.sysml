@@ -923,6 +923,9 @@ package Project {
         requirement <'REQ-SYS-033'> '釋放裝置冗餘' : SystemRequirement {
             doc /* 回收系統的釋放裝置應有冗餘設計，例如 2 組以上儲能裝置或 2 組以上回收系統。出處：火箭設計規範 V2 4.2.2.2。 */
         }
+        requirement <'REQ-SYS-034'> '安全關鍵線路固定' : SystemRequirement {
+            doc /* 安全關鍵線路、電纜與端子連接應牢固，在發射準備、搬運與飛行中不會過度移動、斷開或纏繞。出處：火箭設計規範 V2 4.4.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
