@@ -1127,6 +1127,9 @@ package Project {
         requirement <'REQ-SYS-095'> '前衝影像備援' : SystemRequirement {
             doc /* 液體前衝影像應保存在至少兩個彼此獨立的儲存媒體上；其中一個損毀時，另一個仍應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
         }
+        requirement <'REQ-SYS-096'> '軸向加速度備援' : SystemRequirement {
+            doc /* 軸向加速度紀錄應保存在至少兩個彼此獨立的儲存媒體上；其中一個損毀時，另一個仍應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
