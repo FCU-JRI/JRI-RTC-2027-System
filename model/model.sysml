@@ -793,5 +793,9 @@ package Project {
         action <'PH-005'> '發射準備' : MissionPhase {
             doc /* 安裝公版發動機並將火箭由導軌頂部水平放入後完成上架。 */
         }
+        action <'PH-006'> '待發射' : MissionPhase {
+            doc /* 依審查委員指示，從外部啟動儲能裝置與航電。結束：官方發射控制點火。期間系統須維持運作，電池須可供系統正常運作至少 1.5 小時。 */
+            @Source { sourceDoc = "DOC-001"; }
+        }
     }
 }
