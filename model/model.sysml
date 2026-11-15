@@ -1468,4 +1468,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：承受操作應力' to Project::Requirements::'結構承受操作應力';
     #derive dependency from Project::Requirements::'結構：尾翼顫振裕度' to Project::Requirements::'尾翼顫振裕度';
     #derive dependency from Project::Requirements::'結構：可滑動介面重疊長度' to Project::Requirements::'可滑動連接介面重疊長度';
+    #derive dependency from Project::Requirements::'結構：不可分離介面固定' to Project::Requirements::'不可分離介面固定';
 }
