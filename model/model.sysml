@@ -322,6 +322,7 @@ package Project {
         }
         part def <'SUB-001'> '結構次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
+            part '公版軌道滑塊' : Project::Structure::'公版軌道滑塊';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
