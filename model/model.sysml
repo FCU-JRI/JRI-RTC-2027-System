@@ -857,6 +857,9 @@ package Project {
         requirement <'REQ-SYS-013'> '不與發射架接線' : SystemRequirement {
             doc /* 除了軌道滑塊以外，火箭不得有任何線路與發射架連接。出處：火箭設計規範 V2 9.1.5。 */
         }
+        requirement <'REQ-SYS-014'> '上架後安裝點火器' : SystemRequirement {
+            doc /* 火箭在發射架上完成架設與啟動後，系統應讓競賽工作人員不必拆卸任何箭體部件，就能從發動機噴嘴端安裝點火器並連接點火線路。出處：火箭設計規範 V2 3.2.7、9.2.1、9.2.2；總工程師確認點火器於上架後安裝。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
