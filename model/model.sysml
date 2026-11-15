@@ -944,6 +944,9 @@ package Project {
         requirement <'REQ-SYS-040'> '尾翼顫振裕度' : SystemRequirement {
             doc /* 火箭尾翼的顫振速度應大於火箭預期最大飛行速度的 1.5 倍。出處：火箭設計規範 V2 6.1.3。 */
         }
+        requirement <'REQ-SYS-041'> '可滑動連接介面重疊長度' : SystemRequirement {
+            doc /* 鼻錐、尾錐、過渡段、箭身與連接段之間的可滑動連接介面，結構重疊長度應至少 0.5 倍箭身直徑。出處：火箭設計規範 V2 6.2.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
