@@ -235,6 +235,7 @@ package Project {
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
         part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
+        part def <'EXT-004'> '發射架' :> ExternalEntity;
     }
 
     package NGOs {
