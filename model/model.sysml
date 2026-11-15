@@ -905,6 +905,9 @@ package Project {
         requirement <'REQ-SYS-027'> '公版GPS追蹤器安裝介面' : SystemRequirement {
             doc /* 系統應依附件十八「3K 組公版 GPS 追蹤器技術資料」，提供公版 GPS 追蹤器的組裝介面。出處：火箭設計規範 V2 5.1.1。 */
         }
+        requirement <'REQ-SYS-028'> 'GPS追蹤器正常運作' : SystemRequirement {
+            doc /* 公版 GPS 追蹤器裝在箭體上之後，應能正常定位並傳送訊號。出處：火箭設計規範 V2 5.1.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
