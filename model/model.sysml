@@ -1082,6 +1082,9 @@ package Project {
         requirement <'REQ-SYS-080'> '實驗液體容器密封' : SystemRequirement {
             doc /* 酬載實驗液體容器應密封，在飛行與濺落過程中不得洩漏。依據：期望 EXP-025；酬載提案計劃書表 7-1 R8。 */
         }
+        requirement <'REQ-SYS-081'> '發射終止時解除啟動' : SystemRequirement {
+            doc /* 火箭在發射架上進入啟動狀態後，系統應能從外部操作，使所有儲能裝置回到「安全」狀態，操作時人員不需進入火箭 100 mm 範圍內。依據：期望 EXP-014、EXP-044；使用案例 UC-019 終止發射並解除啟動。出處：火箭設計規範 V2 4.6.3、4.6.7。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
