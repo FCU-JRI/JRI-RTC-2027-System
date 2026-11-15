@@ -1428,4 +1428,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：滑塊金屬緊固' to Project::Requirements::'滑塊金屬緊固';
     #derive dependency from Project::Requirements::'結構：滑塊不可脫離' to Project::Requirements::'滑塊不可脫離';
     #derive dependency from Project::Requirements::'結構：滑塊固定件材質' to Project::Requirements::'滑塊固定件材質';
+    #derive dependency from Project::Requirements::'結構：底部滑塊承重' to Project::Requirements::'底部滑塊承重';
 }
