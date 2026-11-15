@@ -495,6 +495,9 @@ package Project {
         requirement <'MOE-022'> '使用禁用或有害材料的項數' : MOE {
             doc /* 火箭使用禁用或有害材料的項數應為 0。量測方式：以材料清單查核。 */
         }
+        requirement <'OBJ-020'> '儲能裝置在上架前與打撈時處於安全狀態' : Objective {
+            doc /* 所有儲能裝置在火箭上架前，以及濺落後打撈時，都應處於「安全」狀態。出處：火箭設計規範 V2 4.6.3、4.6.5 */
+        }
     }
 
     package UseCases {
