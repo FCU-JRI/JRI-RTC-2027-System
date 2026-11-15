@@ -352,6 +352,7 @@ package Project {
             part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
+            part '釋放減速傘' : Project::Structure::'釋放減速傘';
         }
         part def <'SUB-004'> '地面次系統' :> Subsystem {
         }
