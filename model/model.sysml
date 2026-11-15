@@ -366,6 +366,9 @@ package Project {
         part def <'SUB-006'> '沿軌道導引至離架' :> Subsystem {
             doc /* 階段：離架與動力飛行。以軌道滑塊沿發射架軌道導引火箭至離架，離架速度大於 16 m/s。依據：REQ-SYS-018。 */
         }
+        part def <'SUB-007'> '提供氣動穩定' :> Subsystem {
+            doc /* 階段：離架與動力飛行至頂點。以箭體與尾翼外形提供靜態與動態穩定度。依據：REQ-SYS-015～017、064。 */
+        }
     }
 
     package NGOs {
