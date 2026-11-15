@@ -351,7 +351,6 @@ package Project {
             part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
             part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
             part '偵測主傘高度並觸發主傘' : Project::Structure::'偵測主傘高度並觸發主傘';
-            part '保護航電紀錄' : Project::Structure::'保護航電紀錄';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
@@ -406,9 +405,6 @@ package Project {
         }
         part def <'SUB-016'> '減速至安全觸水速度' :> Subsystem {
             doc /* 階段：主傘下降。使火箭觸水速度小於 12 m/s。依據：REQ-SYS-020。 */
-        }
-        part def <'SUB-018'> '保護航電紀錄' :> Subsystem {
-            doc /* 階段：濺落與漂浮。保護箭上航電紀錄，使浸水 2 小時後仍可完整讀取。依據：REQ-SYS-046。 */
         }
     }
 
