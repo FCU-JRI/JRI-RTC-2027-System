@@ -914,4 +914,5 @@ package Project {
     #derive dependency from Project::Requirements::'漂浮' to Project::NGOs::'MOE-05 浮力與重量比';
     #derive dependency from Project::NGOs::'火箭從離架到濺落維持箭體完整' to Project::NGOs::'全程處於已知且受控的安全狀態';
     #refine dependency from Project::NGOs::'飛行中非預期分離或結構失效的次數應為 0。' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
+    #derive dependency from Project::Requirements::'回收結構安全係數' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
 }
