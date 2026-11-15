@@ -1124,6 +1124,9 @@ package Project {
         requirement <'REQ-SYS-094'> '頂點前無擾動事件' : SystemRequirement {
             doc /* 火箭到達頂點前，不得有任何分離、作動或主動姿態控制事件，包括反應輪滾轉控制。依據：酬載提案計劃書 4.8 節，衰減分析僅使用頂點前資料；需要 NEED-002 為本專案最主要的存在理由。 */
         }
+        requirement <'REQ-SYS-095'> '前衝影像備援' : SystemRequirement {
+            doc /* 液體前衝影像應保存在至少兩個彼此獨立的儲存媒體上；其中一個損毀時，另一個仍應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
