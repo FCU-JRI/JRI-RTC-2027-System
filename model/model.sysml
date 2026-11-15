@@ -188,6 +188,9 @@ package Project {
         part def <'SYS-005'> '外部：公版 GPS 追蹤器' :> System {
             doc /* 由主辦單位提供，安裝於火箭上，回傳火箭位置。主辦單位與團隊的地面支援設備皆可接收其資料。依據：STK-TASA-03、44。 */
         }
+        part def <'SYS-006'> '外部：公版軌道滑塊' :> System {
+            doc /* 由主辦單位提供，安裝於箭體上，作為火箭與發射架之間的連接件。依據：STK-TASA-53。 */
+        }
     }
 
     package NGOs {
