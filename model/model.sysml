@@ -986,4 +986,5 @@ package Project {
     #derive dependency from Project::Requirements::'電路板結構支撐' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'洩壓孔' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'結構承受操作應力' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
+    #derive dependency from Project::Requirements::'尾翼顫振裕度' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
 }
