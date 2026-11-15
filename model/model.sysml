@@ -237,6 +237,7 @@ package Project {
         part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
         part def <'EXT-004'> '發射架' :> ExternalEntity;
         part def <'EXT-005'> '大氣風場環境' :> ExternalEntity;
+        part def <'EXT-006'> '射場人員' :> ExternalEntity;
     }
 
     package NGOs {
