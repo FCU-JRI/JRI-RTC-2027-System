@@ -1031,6 +1031,9 @@ package Project {
         requirement <'REQ-SYS-063'> '濺落後儲能裝置回到安全狀態' : SystemRequirement {
             doc /* 濺落後，系統應自動讓所有未釋放能量的儲能裝置回到「安全」狀態，也就是需要兩個獨立事件才能釋放能量。完成時限待定，於 PDR 依濺落偵測方式決定。壓力容器斷電後瓶內仍有壓力，選用時須另行評估。依據：總工程師確認採用此做法。出處：火箭設計規範 V2 4.6.3。 */
         }
+        requirement <'REQ-SYS-064'> '靜態穩定度（發射許可）' : SystemRequirement {
+            doc /* 在 0.3 馬赫以下、無側風的條件下，含未燃推進劑的重心 CG 應位於壓力中心 CP 前方，間距應大於 2 倍且小於 4 倍箭身直徑。出處：發射許可審查表（附件08）CP 位置與 CG 位置；火箭設計規範 V2 8.2.1.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
