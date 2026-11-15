@@ -1440,4 +1440,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：底部滑塊承重' to Project::Requirements::'底部滑塊承重';
     #derive dependency from Project::Requirements::'結構：滑塊距底部距離' to Project::Requirements::'滑塊距底部距離';
     #derive dependency from Project::Requirements::'結構：水平裝載外形' to Project::Requirements::'從導軌頂部水平裝載';
+    #derive dependency from Project::Requirements::'結構：發動機外殼溫度耐受' to Project::Requirements::'發動機外殼溫度耐受';
 }
