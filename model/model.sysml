@@ -965,6 +965,9 @@ package Project {
         requirement <'REQ-SYS-047'> '前衝影像影格率' : SystemRequirement {
             doc /* 液體前衝影像的影格率應不低於 170 fps，目標值 240 fps。出處：酬載提案計劃書式 (4-71)、表 4-6。 */
         }
+        requirement <'REQ-SYS-048'> '前衝影像時間涵蓋' : SystemRequirement {
+            doc /* 液體前衝影像應涵蓋固體馬達燃盡至液體撞擊端蓋後的完整過程。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
