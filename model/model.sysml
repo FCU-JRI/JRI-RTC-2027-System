@@ -919,6 +919,10 @@ package Project {
             doc /* 階段：離架與動力飛行。承受推進段負載與發動機外殼溫
   度，維持結構完整。依據：REQ-SYS-019、039。 */
         }
+        action <'FN-021'> '記錄飛行數據' : Function {
+            doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS
+  軌跡。依據：REQ-SYS-043～045。 */
+        }
     }
 
     package Requirements {
