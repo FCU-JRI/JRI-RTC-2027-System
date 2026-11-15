@@ -800,6 +800,7 @@ package Project {
             action <'PH-013'> '濺落與漂浮' : MissionPhase;
             action <'PH-014'> '海上回收' : MissionPhase;
             action <'PH-015'> '資料讀取與提交' : MissionPhase;
+            action <'PH-016'> '終止發射與解除啟動' : MissionPhase;
         }
     }
 }
