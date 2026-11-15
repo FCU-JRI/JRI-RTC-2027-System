@@ -414,6 +414,9 @@ package Project {
         part def <'SUB-018'> '偵測濺落並安全化儲能裝置' :> Subsystem {
             doc /* 階段：濺落與漂浮。偵測濺落並使所有未釋放的儲能裝置回到安全狀態。依據：REQ-SYS-063。 */
         }
+        part def <'SUB-019'> '連接分離部件' :> Subsystem {
+            doc /* 階段：濺落與漂浮。以傘繩或連接繩使所有分離部件連在主箭體上成為一體。依據：REQ-SYS-057。 */
+        }
     }
 
     package NGOs {
