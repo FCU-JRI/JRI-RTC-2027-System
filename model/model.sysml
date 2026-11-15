@@ -444,7 +444,6 @@ package Project {
     #refine dependency from Project::Stakeholders::'將酬載實驗裝置放進探空火箭' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     package '利害關係人' { }
     package '期望' { }
-    #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
