@@ -565,5 +565,8 @@ package Project {
         action <'PH-010'> '階段 9：減速傘下降' : MissionPhase {
             doc /* 開始：火箭到達頂點時開啟減速傘。結束：主傘開傘。依據：STK-TASA-18。 */
         }
+        action <'PH-011'> '階段 10：主傘下降' : MissionPhase {
+            doc /* 開始：離地 150～450 m 開啟主傘。結束：火箭觸水。依據：STK-TASA-19、23。 */
+        }
     }
 }
