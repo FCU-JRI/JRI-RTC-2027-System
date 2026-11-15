@@ -1022,6 +1022,9 @@ package Project {
         requirement <'REQ-SYS-060'> '儲能裝置上架前保持安全' : SystemRequirement {
             doc /* 所有儲能裝置在火箭處於發射位置之前，應保持在需要兩個獨立事件才能釋放能量的「安全」狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
         }
+        requirement <'REQ-SYS-061'> '儲能裝置外部啟動' : SystemRequirement {
+            doc /* 所有儲能裝置的啟動與測試應能從火箭外部控制，啟動時人員不需靠近火箭。出處：火箭設計規範 V2 4.6.6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
