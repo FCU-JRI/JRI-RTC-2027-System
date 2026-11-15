@@ -359,6 +359,7 @@ package Project {
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
         part def <'SUB-001'> '結構次系統' :> Subsystem {
+            satisfy Project::Requirements::'結構：發動機鎖固介面';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
         }
