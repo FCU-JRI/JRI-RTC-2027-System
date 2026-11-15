@@ -362,6 +362,9 @@ package Project {
         part def <'EXT-010'> '發射指揮官' :> ExternalEntity;
         part def <'EXT-011'> '回收人員' :> ExternalEntity;
         part def <'EXT-012'> '發射許可審查委員' :> ExternalEntity;
+        part def <'SUB-006'> '沿軌道導引至離架' :> Subsystem {
+            doc /* 階段：離架與動力飛行。以軌道滑塊沿發射架軌道導引火箭至離架，離架速度大於 16 m/s。依據：REQ-SYS-018。 */
+        }
     }
 
     package NGOs {
