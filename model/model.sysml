@@ -319,6 +319,7 @@ package Project {
             part '結構次系統' : Project::Structure::'結構次系統';
             part '航電次系統' : Project::Structure::'航電次系統';
             part '回收次系統' : Project::Structure::'回收次系統';
+            part '地面次系統' : Project::Structure::'地面次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
