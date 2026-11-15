@@ -864,6 +864,9 @@ package Project {
             action <'FN-007'> '從導軌頂部水平上架' : Function {
                 doc /* 階段：發射準備。提供火箭從 AF4040 發射架導軌頂部水平裝載的介面。依據：REQ-SYS-012。 */
             }
+            action <'FN-008'> '航電上電並開始記錄' : Function {
+                doc /* 階段：發射準備。航電系統上電，開始記錄高度、速度、加速度與 GPS 軌跡。依據：REQ-SYS-043。 */
+            }
         }
     }
 
