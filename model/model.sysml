@@ -489,6 +489,9 @@ package Project {
         requirement <'MOE-021'> '遺留海中的部件數' : MOE {
             doc /* 遺留於海中未回收的部件數應為 0。量測方式：回收後依分離部件清單清點。 */
         }
+        requirement <'OBJ-019'> '火箭不將有害物質帶入海洋' : Objective {
+            doc /* 火箭不應使用會對海洋環境造成危害的材料，包括鉛、汞、鈾配重。出處：火箭設計規範 V2 6.5.2；海洋污染防治法第 4 條第 1 款、第 21 條 */
+        }
     }
 
     package UseCases {
