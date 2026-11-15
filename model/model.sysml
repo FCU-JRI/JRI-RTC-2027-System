@@ -349,7 +349,6 @@ package Project {
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
             part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
-            part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
         }
@@ -386,9 +385,6 @@ package Project {
         }
         part def <'SUB-011'> '記錄前衝影像與加速度' :> Subsystem {
             doc /* 階段：點火至頂點。記錄液體前衝影像、軸向加速度與三軸紀錄，並共用時間基準。依據：REQ-SYS-047～053。 */
-        }
-        part def <'SUB-012'> '偵測頂點並觸發減速傘' :> Subsystem {
-            doc /* 階段：到達頂點。偵測頂點並發出減速傘觸發訊號。依據：REQ-SYS-031。 */
         }
     }
 
