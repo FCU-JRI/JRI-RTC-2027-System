@@ -341,7 +341,7 @@ package Project {
             allocate Project::Behavior::'沿軌道導引至離架' to '結構次系統';
             allocate Project::Behavior::'提供氣動穩定' to '結構次系統';
             allocate Project::Behavior::'承受推進段負載與熱' to '結構次系統';
-            allocate Project::Behavior::'記錄飛行數據' to '航電次系統';
+            allocate Project::Behavior::'拍攝箭載影像' to '航電次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
@@ -920,7 +920,7 @@ package Project {
             doc /* 階段：離架與動力飛行。承受推進段負載與發動機外殼溫
   度，維持結構完整。依據：REQ-SYS-019、039。 */
         }
-        action <'FN-021'> '記錄飛行數據' : Function {
+        action <'FN-021'> '拍攝箭載影像' : Function {
             doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS
   軌跡。依據：REQ-SYS-043～045。 */
         }
