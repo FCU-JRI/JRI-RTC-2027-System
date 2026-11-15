@@ -914,6 +914,9 @@ package Project {
         requirement <'REQ-SYS-030'> '雙階段開傘' : SystemRequirement {
             doc /* 回收系統應採用雙階段開傘，第一階段為減速傘，第二階段為主傘。出處：火箭設計規範 V2 4.2.2.4。 */
         }
+        requirement <'REQ-SYS-031'> '減速傘於頂點開啟' : SystemRequirement {
+            doc /* 減速傘應在火箭到達頂點時開啟。開傘時刻與頂點時刻的時間差門檻待定，於 PDR 依航電頂點偵測方式決定。出處：火箭設計規範 V2 4.2.2.4。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
