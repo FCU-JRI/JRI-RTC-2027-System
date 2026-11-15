@@ -1019,6 +1019,9 @@ package Project {
         requirement <'REQ-SYS-059'> '儲能裝置驅動方式' : SystemRequirement {
             doc /* 回收系統的儲能裝置應以氣瓶、機械能或其他非黑火藥的方式驅動。出處：火箭設計規範 V2 4.6.2。 */
         }
+        requirement <'REQ-SYS-060'> '儲能裝置上架前保持安全' : SystemRequirement {
+            doc /* 所有儲能裝置在火箭處於發射位置之前，應保持在需要兩個獨立事件才能釋放能量的「安全」狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
