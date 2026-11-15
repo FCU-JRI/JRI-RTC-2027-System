@@ -872,6 +872,9 @@ package Project {
         requirement <'REQ-SYS-018'> '離架速度' : SystemRequirement {
             doc /* 火箭離開公版發射架軌道時的速度應大於 16 m/s。依據：設計風速 4 m/s，發射場風速應小於離架速度的 1/4。目標值 24 m/s（對應規則允許的風速上限 6 m/s），列為 TPM 追蹤。出處：火箭設計規範 V2 8.2.3；競賽規則說明（附件06）官方設計範例與發射條件。 */
         }
+        requirement <'REQ-SYS-019'> '發動機外殼溫度耐受' : SystemRequirement {
+            doc /* 從點火到濺落，推進系統組裝介面及其相鄰的結構材料，應在 pioneer-10K 外殼溫度平均值 +2σ 上限（最高 115 °C，約在點火後 60 s）下維持結構強度與固定功能。出處：火箭設計規範 V2 3.2.6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
