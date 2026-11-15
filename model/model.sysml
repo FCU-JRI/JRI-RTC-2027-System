@@ -532,4 +532,5 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #refine dependency from Project::NGOs::'完成技術文件的核心成員比例' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
+    #trace dependency from Project::UseCases::'計劃管理'::'提出影像紀錄需求' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
 }
