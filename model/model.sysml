@@ -795,6 +795,5 @@ package Project {
         action <'PH-009'> '離架與動力飛行' : MissionPhase;
         action <'PH-010'> '發動機燃盡' : MissionPhase;
         action <'PH-011'> '慣性上升' : MissionPhase;
-        action <'PH-012'> '到達頂點' : MissionPhase;
     }
 }
