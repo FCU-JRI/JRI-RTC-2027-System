@@ -1133,6 +1133,9 @@ package Project {
         requirement <'REQ-SYS-097'> '前衝影像可判讀' : SystemRequirement {
             doc /* 在推進段振動與液體前衝運動下，液體前衝影像的每一格都應能分辨液面輪廓與壁面液膜前端。位置解析度（每像素對應長度）待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.5、4.7 節、式 (4-86)、(4-87)。 */
         }
+        requirement <'REQ-SYS-098'> '發射架靜置零點資料' : SystemRequirement {
+            doc /* 軸向加速度與三軸紀錄應包含點火前、火箭靜置於發射架上的資料。所需秒數待定，暫訂不少於 10 s，於 PDR 前依地面驗證取得的感測器雜訊決定。出處：酬載提案計劃書式 (4-82)、(4-83)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
