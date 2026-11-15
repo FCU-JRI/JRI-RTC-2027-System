@@ -402,6 +402,9 @@ package Project {
         part def <'SUB-015'> '釋放主傘' :> Subsystem {
             doc /* 階段：主傘釋放。接收觸發訊號釋放主傘。依據：REQ-SYS-032、033。 */
         }
+        part def <'SUB-016'> '讀取並備份箭上紀錄' :> Subsystem {
+            doc /* 階段：資料讀取與提交。讀取並備份航電與酬載的所有紀錄。依據：REQ-SYS-046。 */
+        }
     }
 
     package NGOs {
