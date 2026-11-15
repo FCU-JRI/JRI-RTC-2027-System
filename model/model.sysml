@@ -547,5 +547,8 @@ package Project {
         action <'PH-004'> '階段 3：火箭組裝' : MissionPhase {
             doc /* 開始：取得發射許可後開始組裝。結束：火箭完成組裝，可進行發射準備。 */
         }
+        action <'PH-005'> '階段 4：發射準備' : MissionPhase {
+            doc /* 開始：安裝公版發動機。結束：火箭由導軌頂部水平裝載並完成上架。依據：UC-017、UC-018、STK-TASA-08、62。 */
+        }
     }
 }
