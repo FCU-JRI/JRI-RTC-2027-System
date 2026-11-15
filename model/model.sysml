@@ -968,6 +968,9 @@ package Project {
         requirement <'REQ-SYS-048'> '前衝影像時間涵蓋' : SystemRequirement {
             doc /* 液體前衝影像應涵蓋固體馬達燃盡至液體撞擊端蓋後的完整過程。 */
         }
+        requirement <'REQ-SYS-049'> '前衝影像視野' : SystemRequirement {
+            doc /* 液體前衝影像的視野應同時涵蓋容器壁面、中心軸，以及液面至前端蓋的全程。出處：酬載提案計劃書表 4-6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
