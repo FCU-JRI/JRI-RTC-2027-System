@@ -784,7 +784,9 @@ package Project {
             action <'PH-003'> '火箭組裝' : MissionPhase {
                 doc /* 全箭系統組裝，包含公版發動機試配 */
             }
-            action <'PH-004'> '發射許可審查' : MissionPhase;
+            action <'PH-004'> '發射許可審查' : MissionPhase {
+                doc /* 火箭全系統組裝完成後，將火箭帶入檢錄區進行發射許可審查。 */
+            }
             first '運輸' then '火箭組裝';
             first '火箭組裝' then '發射許可審查';
         }
