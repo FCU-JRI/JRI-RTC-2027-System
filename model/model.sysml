@@ -989,6 +989,9 @@ package Project {
         requirement <'REQ-SYS-055'> '箭載影像時間涵蓋' : SystemRequirement {
             doc /* 箭載影像應涵蓋發射至濺落的全程。 */
         }
+        requirement <'REQ-SYS-056'> '地面影像涵蓋離架' : SystemRequirement {
+            doc /* 地面次系統應拍攝涵蓋火箭發射離架過程的影像。攝影機架設位置待向主辦單位確認。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
