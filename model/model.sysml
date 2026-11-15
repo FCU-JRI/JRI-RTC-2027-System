@@ -1109,6 +1109,9 @@ package Project {
         requirement <'REQ-SYS-089'> '計畫：決賽紙本文件' : SystemRequirement {
             doc /* 決賽報到時，應備齊需求矩陣、檢查項目表、火箭設計規格資料表與 FRR 紙本各一份。出處：競賽規則說明（附件06）備齊決賽審查資料之義務。 */
         }
+        requirement <'REQ-SYS-090'> '計畫：成本紀錄' : SystemRequirement {
+            doc /* 專案應記錄每一筆支出，包括金額、日期、用途與所屬次系統。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
