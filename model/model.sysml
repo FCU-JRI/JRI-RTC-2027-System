@@ -568,5 +568,8 @@ package Project {
         action <'PH-011'> '階段 10：主傘下降' : MissionPhase {
             doc /* 開始：離地 150～450 m 開啟主傘。結束：火箭觸水。依據：STK-TASA-19、23。 */
         }
+        action <'PH-012'> '階段 11：濺落與漂浮' : MissionPhase {
+            doc /* 開始：火箭觸水。結束：回收漁船抵達。火箭須漂浮於海面，並持續回傳位置供追蹤。依據：STK-TASA-02、UC-023。 */
+        }
     }
 }
