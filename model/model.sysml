@@ -329,6 +329,7 @@ package Project {
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'裝填實驗液體並密封容器' to '酬載次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'從導軌頂部水平上架' to '結構次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'航電上電並開始記錄' to '航電次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'酬載上電並開始記錄' to '酬載次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
