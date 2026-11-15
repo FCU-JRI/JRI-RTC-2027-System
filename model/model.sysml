@@ -748,9 +748,6 @@ package Project {
             action <'PH-016'> '搬運與運輸' : MissionPhase;
             action <'PH-017'> '發射許可審查' : MissionPhase;
         }
-        action <'PH-002'> '階段 1：運輸' : MissionPhase {
-            doc /* 開始：火箭離開製造地點。結束：抵達發射場。期間火箭承受搬運與運輸的振動與衝擊，結構須保持完整。依據：STK-TASA-13。 */
-        }
         action <'PH-003'> '階段 2：發射許可審查' : MissionPhase {
             doc /* 開始：抵達發射場。結束：取得發射許可。發射許可審查委員檢查火箭是否符合規範，團隊展示公版 GPS 追蹤器正常運作。依據：UC-016、STK-TASA-45。 */
         }
@@ -791,6 +788,5 @@ package Project {
             doc /* 自階段 5 待發射分出。開始：發射因異常、天候或指揮官指示而取消。結束：儲能裝置回到安全狀態，火箭安全下架。依據：UC-019、STK-TASA-28。 */
         }
     }
-    allocate Project::Behavior::'總任務：RTC 2027 發射任務' to Project::Behavior::'階段 1：運輸';
     allocate Project::Behavior::'總任務：RTC 2027 發射任務' to Project::Behavior::'階段 2：發射許可審查';
 }
