@@ -1206,4 +1206,5 @@ package Project {
     #derive dependency from Project::Requirements::'計畫：H3作業逐次核可' to Project::NGOs::'危險作業事前核可比例';
     #derive dependency from Project::Requirements::'計畫：H3作業程序' to Project::NGOs::'危險作業都經管制官核可後執行';
     #derive dependency from Project::Requirements::'計畫：報告內部審查期限' to Project::NGOs::'各階段報告與決賽文件準時繳交';
+    #derive dependency from Project::Requirements::'計畫：決賽紙本文件' to Project::NGOs::'報告與決賽文件準時繳交項數';
 }
