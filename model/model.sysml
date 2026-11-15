@@ -354,6 +354,7 @@ package Project {
             allocate Project::Behavior::'連接分離部件' to '回收次系統';
             allocate Project::Behavior::'保護航電紀錄' to '航電次系統';
             allocate Project::Behavior::'保護酬載紀錄' to '酬載次系統';
+            allocate Project::Behavior::'讀取並備份箭上紀錄' to '地面次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
