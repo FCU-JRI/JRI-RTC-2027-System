@@ -349,6 +349,7 @@ package Project {
             allocate Project::Behavior::'偵測主傘高度並觸發主傘' to '航電次系統';
             allocate Project::Behavior::'釋放主傘' to '回收次系統';
             allocate Project::Behavior::'減速至安全觸水速度' to '回收次系統';
+            allocate Project::Behavior::'提供浮力' to '結構次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
