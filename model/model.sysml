@@ -877,6 +877,9 @@ package Project {
         requirement <'REQ-SYS-019'> '發動機外殼溫度耐受' : SystemRequirement {
             doc /* 從點火到濺落，推進系統組裝介面及其相鄰的結構材料，應在 pioneer-10K 外殼溫度平均值 +2σ 上限（最高 115 °C，約在點火後 60 s）下維持結構強度與固定功能。出處：火箭設計規範 V2 3.2.6。 */
         }
+        requirement <'REQ-SYS-020'> '觸水速度' : SystemRequirement {
+            doc /* 火箭觸水時的下降速率應小於 12 m/s。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
