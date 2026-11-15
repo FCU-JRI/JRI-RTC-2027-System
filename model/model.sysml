@@ -239,6 +239,7 @@ package Project {
         part def <'EXT-005'> '大氣風場環境' :> ExternalEntity;
         part def <'EXT-006'> '射場人員' :> ExternalEntity;
         part def <'EXT-007'> '無線電頻道' :> ExternalEntity;
+        part def <'EXT-008'> '團隊操作人員' :> ExternalEntity;
     }
 
     package NGOs {
