@@ -197,6 +197,9 @@ package Project {
         part def <'SYS-008'> '外部：官方發射控制' :> System {
             doc /* 由主辦單位控制，下達點火指令並啟動發射。團隊系統不負責點火。 */
         }
+        part def <'SYS-009'> '外部：大氣環境' :> System {
+            doc /* 飛行中對火箭施加風與氣動力，並影響溫度環境。依據：STK-TASA-48。 */
+        }
     }
 
     package NGOs {
