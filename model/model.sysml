@@ -1324,6 +1324,9 @@ package Project {
         requirement <'REQ-SUB-012'> '結構：浮力體積' : SubsystemRequirement {
             doc /* 結構次系統應提供足夠的浮力體積，使全箭落海後浮力大於全箭重量，並持續漂浮至少 2 小時。全箭重量由各次系統質量額度合計。 */
         }
+        requirement <'REQ-SUB-013'> '結構：可分離部件標示' : SubsystemRequirement {
+            doc /* 所有可分離的結構部件，不論是設計上的分離還是意外分離，都應重複標示隊伍名稱與編號。出處：火箭設計規範 V2 6.4.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
