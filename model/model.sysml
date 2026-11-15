@@ -1052,6 +1052,9 @@ package Project {
         requirement <'REQ-SYS-070'> '電池牢固安裝' : SystemRequirement {
             doc /* 電池應牢固安裝在箭身內部，在高加速度或振動環境下不得發生瞬時斷電。出處：火箭設計規範 V2 4.7.3。 */
         }
+        requirement <'REQ-SYS-071'> '無線電頻率與功率合規' : SystemRequirement {
+            doc /* 系統的無線電設備，其操作頻率與發射功率應符合所用頻段之國家通訊傳播委員會技術規範。出處：火箭設計規範 V2 4.1.4.1、4.1.4.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
