@@ -222,6 +222,7 @@ package Project {
         part def <'SUB-001'> '結構次系統' :> Subsystem;
         part def <'SUB-002'> '航電次系統' :> Subsystem;
         part def <'SUB-003'> '回收次系統' :> Subsystem;
+        part def <'SUB-004'> '地面次系統' :> Subsystem;
     }
 
     package NGOs {
