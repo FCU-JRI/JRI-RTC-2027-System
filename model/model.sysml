@@ -320,7 +320,6 @@ package Project {
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
         part def <'SUB-001'> '結構次系統' :> Subsystem {
-            part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
