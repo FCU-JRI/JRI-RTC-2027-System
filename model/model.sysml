@@ -974,6 +974,9 @@ package Project {
         requirement <'REQ-SYS-050'> '軸向加速度取樣率' : SystemRequirement {
             doc /* 軸向加速度的取樣率應不低於 200 Hz。出處：酬載提案計劃書式 (4-72)。 */
         }
+        requirement <'REQ-SYS-051'> '軸向加速度量程' : SystemRequirement {
+            doc /* 軸向加速度的量測量程應不小於 ±16 g。出處：酬載提案計劃書式 (4-73)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
