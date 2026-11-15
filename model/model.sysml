@@ -370,6 +370,9 @@ package Project {
         part def <'SUB-007'> '提供氣動穩定' :> Subsystem {
             doc /* 階段：離架與動力飛行至頂點。以箭體與尾翼外形提供靜態與動態穩定度。依據：REQ-SYS-015～017、064。 */
         }
+        part def <'SUB-008'> '承受推進段負載與熱' :> Subsystem {
+            doc /* 階段：離架與動力飛行。承受推進段負載與發動機外殼溫度，維持結構完整。依據：REQ-SYS-019、039。 */
+        }
     }
 
     package NGOs {
