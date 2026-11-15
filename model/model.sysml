@@ -959,6 +959,9 @@ package Project {
         requirement <'REQ-SYS-045'> 'GPS軌跡紀錄' : SystemRequirement {
             doc /* 系統應記錄涵蓋發射至濺落的 GPS 軌跡。軌跡來源（公版追蹤器或航電 GPS）與更新率待定，PDR 前決定。出處：火箭設計規範 V2 2.1。 */
         }
+        requirement <'REQ-SYS-046'> '紀錄回收後可讀' : SystemRequirement {
+            doc /* 火箭濺落並漂浮 2 小時後，箭上儲存的所有紀錄應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
