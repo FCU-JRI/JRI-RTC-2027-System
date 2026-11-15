@@ -1146,4 +1146,5 @@ package Project {
     #derive dependency from Project::Requirements::'無線電頻率與功率合規' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'隊伍標示' to Project::NGOs::'發射許可審查核可項數';
     #derive dependency from Project::Requirements::'翼片隊伍ID' to Project::NGOs::'發射許可審查核可項數';
+    #derive dependency from Project::Requirements::'箭體主色' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
 }
