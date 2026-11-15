@@ -543,4 +543,5 @@ package Project {
             doc /* 自階段 5 待發射分出。開始：發射因異常、天候或指揮官指示而取消。結束：儲能裝置回到安全狀態，火箭安全下架。依據：UC-019、STK-TASA-28。 */
         }
     }
+    #refine dependency from Project::Behavior::'階段 1：運輸' to Project::Behavior::'總任務：RTC 2027 發射任務';
 }
