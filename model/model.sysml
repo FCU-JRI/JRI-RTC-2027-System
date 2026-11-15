@@ -863,6 +863,9 @@ package Project {
         requirement <'REQ-SYS-015'> '動態穩定度下限' : SystemRequirement {
             doc /* 在 2 m/s 側風條件下，從發射到首次回收系統部署事件前，火箭的動態穩定度應大於 1.5 倍箭身直徑，並涵蓋重心與壓力中心的移動。出處：火箭設計規範 V2 8.2.1、8.2.1.1。 */
         }
+        requirement <'REQ-SYS-016'> '離架穩定度上限' : SystemRequirement {
+            doc /* 火箭的離架穩定度應小於 4 倍箭身直徑。出處：火箭設計規範 V2 8.2.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
