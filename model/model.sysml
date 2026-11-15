@@ -12,9 +12,9 @@ package Project {
                 doc /* 次團隊內部第二高職級，對應主辦單位簡章規定每隊必設之副隊長，並為指定聯繫窗口之一。 */
                 :>> role = "副社長暨營運長負責團隊之營運與資源調度，關注時程規劃與甘特圖之維護、各階段報告之如期繳交，以及人力於十五人上限內之合理配置。經費方面，其關注預算執行、零件表與關鍵採購項目之交期，以及贊助與合約義務之履行。文件方面，其關注文件之歸檔、版本管理與存取權限，使實際飛行構型得以追溯至核准版本。行政方面，其與隊長同為主辦單位聯繫窗口，關注報名資格文件、成員異動通報、報名費繳交及發射執照測驗之安排。決賽期間，其關注運輸、住宿、進場人員名單與現場補給等後勤事項，並於隊長無法執行職務時代行對外聯繫。整體而言，其以團隊於既定時程與資源內完成各階段交付為主要關注，對技術基準不具決定權。";
             }
-            part <'STK-004'> '指導員2-管制官暨安全官' : Stakeholder {
-                doc /* 管制官暨安全官為逆熵航太指派之顧問（職級 R-VIII），一團隊至多一位，對應主辦單位簡章之指導員。其負責監督團隊遵循工程指導原則，提供學術與技術指導，並得於發現安全隱患時勒令全體或部分停工。品質保證方面，其核可全系統整合及測試備便審查、飛行備便審查以外之各項審查，並於測試備便審查後公布結果、將測試申請送交教職員顧問。 */
-                :>> role = "管制官暨安全官負責監督團隊遵循工程指導原則，關注各階段設計審查之如實執行、審查結果之登錄，以及前次審查問題之結案。安全方面，其關注地面測試與射場作業之標準作業程序、安全協議與緊急應變程序是否完備，儲能裝置與推進系統於各作業階段是否處於已知之安全狀態，以及人員防護裝備與安全距離之落實；發現安全隱患時，其得逕行勒令停工。技術方面，其為全系統整合之核可者，關注次系統整合後之整體功能、重量與重心、穩定度及安全係數是否符合設計基準。異常處理方面，其關注所有故障均經記錄、調查並完成矯正措施。對外，其為主辦單位認定之指導員，關注危險性測試之現場監督責任，以及團隊於決賽通過發射許可審查之能力。整體而言，其以人員安全與程序合規為首要關注，位階高於時程與競賽成績。";
+            part <'STK-004'> '指導員2-管制官' : Stakeholder {
+                doc /* 管制官為逆熵航太指派之顧問（職級 R-VIII），一團隊至多一位，對應主辦單位簡章之指導員。其負責監督團隊遵循工程指導原則，提供學術與技術指導，並得於發現安全隱患時勒令全體或部分停工。品質保證方面，其核可全系統整合及測試備便審查、飛行備便審查以外之各項審查，並於測試備便審查後公布結果、將測試申請送交教職員顧問。出處：AEAS 工程指導原則 4.1；AEAS 安全協議 4.2。 */
+                :>> role = "管制官負責監督團隊遵循工程指導原則，關注各階段設計審查之如實執行、審查結果之登錄，以及前次審查問題之結案。安全方面，其關注地面測試與射場作業之標準作業程序、安全協議與緊急應變程序是否完備，儲能裝置與推進系統於各作業階段是否處於已知之安全狀態，以及人員防護裝備與安全距離之落實；發現安全隱患時，其得逕行勒令停工。技術方面，其為全系統整合之核可者，關注次系統整合後之整體功能、重量與重心、穩定度及安全係數是否符合設計基準。異常處理方面，其關注所有故障均經記錄、調查並完成矯正措施。對外，其為主辦單位認定之指導員，關注危險性測試之現場監督責任，以及團隊於決賽通過發射許可審查之能力。整體而言，其以人員安全與程序合規為首要關注，位階高於時程與競賽成績。";
             }
             part <'STK-005'> '指導員1-教職員顧問' : Stakeholder {
                 doc /* 教職員顧問由大專院校教師受委任擔任（職級 F-VIII），性質類同校內社團之指導老師，對應主辦單位簡章之指導員。其負責簽署對校方之文件、與校方溝通協調，並為測試備便審查與飛行備便審查之最高核可者；未經其許可，不得進行點火或飛行，違反者團隊得遭暫時或永久中止，成員並可能受校方懲處。其另負責與校方安排熱火測試日期並簽核測試申請表，得於發現安全隱患時勒令全體或部分停工。 */
@@ -29,11 +29,11 @@ package Project {
                 :>> role = "核心成員負責次系統內之具體設計、製造、組裝與測試工作，關注所承接任務之需求是否明確、判定標準是否可量測，以及所需之工具、材料與設備是否到位。品質方面，其於加工流程中擔任設計者或加工者之簽核角色，關注圖面之單位、公差與關鍵尺寸是否標示完整，以及製造筆記與測試紀錄是否如實填寫。作業方面，其多為實際操作危險性測試及決賽進場之人員，關注標準作業程序是否可行、操作時之人身安全，以及是否取得發射執照。協作方面，其關注與其他組成員間之介面資訊是否即時同步，以及設計變更是否經正式通知。整體而言，其以所承接之工作項目如期完成並通過組長核可為主要關注。";
             }
             part <'STK-017'> '業務發展組' : Stakeholder {
-                doc /* 業務發展組屬於JRI 內部營運部門，其負責對外業務接洽。 */
+                doc /* 業務發展組屬於JRI 內部營運部門，其負責對外業務接洽。出處：JRI Project 2026 贊助簡報第 8 頁。 */
                 :>> role = "箭載影像取得、團隊形象、對外招募";
             }
             part <'STK-018'> '酬載提案委員會' : Stakeholder {
-                doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。 */
+                doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。出處：總工程師確認（2026-11-15）。 */
                 :>> role = "影像紀錄、酬載實驗數據";
             }
             part <'STK-002'> '總工程師暨隊長' : Stakeholder {
@@ -62,6 +62,14 @@ package Project {
                 doc /* 決賽現場分站審查文件、外觀、重量、射場及上架備便，具最終否決權 */
                 :>> role = "設計規範逐項符合、回收系統可靠、儲能裝置狀態可確認";
             }
+            part <'STK-026'> '評審總召集人' : Stakeholder {
+                doc /* 由各協辦大學或主辦單位推舉的專家學者兼任，統籌規劃與監督競賽評選；遇競賽爭議項目時召集評審會議做最終裁決，並於決賽閉幕時總講評。出處：競賽規則說明 v3 第 27 頁。 */
+                :>> role = "評選公平公正公開、爭議裁決有據、目標不被任意降低";
+            }
+            part <'STK-027'> '發射許可審查召集人' : Stakeholder {
+                doc /* 針對各檢查站確認各隊伍審查狀況與結果，並有最終許可與否之決定權。出處：競賽規則說明 v3 第 32 頁。 */
+                :>> role = "各站審查結果明確、火箭符合設計安全規範、審查如期完成";
+            }
         }
         public import '射場作業'::*;
         package '射場作業' {
@@ -69,13 +77,29 @@ package Project {
                 doc /* 負責安裝點火器、連接點火線路 */
                 :>> role = "發動機可快速安裝、接線時火箭處於安全狀態";
             }
-            part <'STK-013'> '發射指揮官與射場管理人員' : Stakeholder {
-                doc /* 執行發射前確認、倒數及人員管制 */
+            part <'STK-013'> '發射指揮官' : Stakeholder {
+                doc /* 宣達倒數並下達發射。發射控制室另有發射控制官。射場管理另列為「射場管理組」。出處：競賽規則說明 v3 第 54、56 頁。 */
                 :>> role = "發射條件全數滿足、風速於限制內、時程不延誤";
             }
-            part <'STK-014'> '官方計時員與直播團隊' : Stakeholder {
-                doc /* 三位計時員記錄起飛至落海時間，直播畫面為正式計時來源 */
+            part <'STK-014'> '直播與攝影團隊' : Stakeholder {
+                doc /* 負責發射過程的直播與攝影記錄。出處：競賽規則說明 v3 第 4、48、54 頁。 */
                 :>> role = "起飛與落海清晰可辨、隊伍可識別";
+            }
+            part <'STK-028'> '安全指揮官' : Stakeholder {
+                doc /* 發射控制室基本人員；火箭升空異常時確認是否有人員受傷。出處：競賽規則說明 v3 第 56、58 頁。 */
+                :>> role = "異常時能立即掌握人員狀況";
+            }
+            part <'STK-029'> '射場環境組' : Stakeholder {
+                doc /* 於發射前確認風速、地震、巨浪、雷擊、降雨、濃霧及安全措施等發射條件。出處：競賽規則說明 v3 第 54、55 頁。 */
+                :>> role = "發射條件全數符合、現場具備消防與送醫能力";
+            }
+            part <'STK-030'> '射場管理組' : Stakeholder {
+                doc /* 由國家太空中心擔任，於發射前確認場域淨空、發射通知與交通管制。自 STK-013 拆出。出處：競賽規則說明 v3 第 55 頁。 */
+                :>> role = "場域淨空、相關單位已通知、交通管制完成";
+            }
+            part <'STK-031'> '醫護及消防人員' : Stakeholder {
+                doc /* 駐點於組裝整備區北側辦公室；火箭升空異常且非單一滅火器可處理時，由現場消防隊攜帶滅火設備前往處理。出處：競賽規則說明 v3 第 51、58 頁。 */
+                :>> role = "異常不擴大成災害、異常在可處置範圍內";
             }
         }
         public import '回收作業'::*;
@@ -102,12 +126,42 @@ package Project {
                 doc /* 無線電頻率與發射功率之主管機關 */
                 :>> role = "頻段與功率合法、使用業餘頻段者持有執照";
             }
+            part <'STK-022'> '國家科學及技術委員會' : Stakeholder {
+                doc /* 太空發展法之主管機關、本競賽之指導單位，亦為短期科研探空火箭發射場域之管理單位，掌理發射載具之登錄與發射許可。出處：太空發展法第 2、5 條；競賽規則說明 v3 第 1 頁；國科會短期科研探空火箭發射場域管理及申請使用要點第 3 點。 */
+                :>> role = "發射不危及公共安全、事故可通報與調查、活動符合環境保護法規";
+            }
+            part <'STK-023'> '海洋委員會與海巡' : Stakeholder {
+                doc /* 海洋污染防治法之中央主管機關為海洋委員會，執行機關為海岸巡防機關；發射時並協助落點海域船隻淨空。出處：海洋污染防治法第 3 條；國科會短期科研探空火箭發射場域管理及申請使用要點第 10 點第 3 款。 */
+                :>> role = "火箭不遺留於海中、有害物質不入海";
+            }
+            part <'STK-024'> '環境部' : Stakeholder {
+                doc /* 廢棄物清理法之中央主管機關。學校或機關團體之實驗室屬該法所稱事業，其產出為事業廢棄物。出處：廢棄物清理法第 2、4 條。 */
+                :>> role = "事業廢棄物依規定貯存、清除、處理";
+            }
+            part <'STK-025'> '勞動部' : Stakeholder {
+                doc /* 職業安全衛生法之中央主管機關。受工作場所負責人指揮或監督從事勞動之人員，於事業單位工作場所比照勞工適用該法。出處：職業安全衛生法第 2、51 條；國科會短期科研探空火箭發射場域管理及申請使用要點第 10 點第 8 款。 */
+                :>> role = "危害性化學品有標示與通識、作業危害有防護";
+            }
         }
         public import '供應'::*;
         package '供應' {
             part <'STK-021'> '零件與材料供應商' : Stakeholder {
                 doc /* 提供商規零件、材料 */
                 :>> role = "規格明確、交期與數量可行";
+            }
+        }
+        public import 'AEAS'::*;
+        package 'AEAS' {
+            part <'STK-032'> 'AEAS 工程委員會' : Stakeholder {
+                doc /* 逆熵航太的工程系統專責單位，制定與修改工程指導原則、安全協議及其他工程相關規範，並對其保留最終解釋權。出處：AEAS 工程指導原則 4.3；AEAS 安全協議 1.3、2.2。 */
+                :>> role = "依指導原則執行開發與審查、遵守安全協議、文件依規範管理";
+            }
+        }
+        public import '贊助'::*;
+        package '贊助' {
+            part <'STK-033'> '贊助者' : Stakeholder {
+                doc /* 以資金、原物料或場地資源支持專案的單位，依贊助級距取得社群、活動與箭體塗裝的品牌曝光。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 12 至 19 頁；競賽規則說明 v3 第 3 頁；AEAS 工程指導原則 4.5。 */
+                :>> role = "商標在箭體與影像中可見、贊助資源用於製造與測試";
             }
         }
         requirement <'EXP-001'> '任務達成完全成功' : Expectation {
@@ -117,7 +171,7 @@ package Project {
             doc /* 營運長負責團隊財務。超支會影響社團營運和之後年度的經費申請。 */
         }
         requirement <'EXP-003'> '無人員受傷' : Expectation {
-            doc /* 儲能裝置、發動機、複材製程都有受傷風險。安全官要確認每項危險作業開始前，程序都經過審核。 */
+            doc /* 儲能裝置、發動機、複材製程都有受傷風險。管制官要確認每項危險作業開始前，程序都經過審核。 */
         }
         requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation {
             doc /* 指導老師與安全官需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
@@ -169,6 +223,93 @@ package Project {
         }
         requirement <'EXP-020'> '收到可履行的訂單' : Expectation {
             doc /* 規格不清楚會導致報價錯誤或出貨不符，造成雙方的退換成本。 */
+        }
+        requirement <'EXP-021'> '發射不危及公共安全' : Expectation {
+            doc /* 發射計畫應有確保飛行路徑與發射設施周邊安全的方法，包含緊急應變與發射終止措施。出處：太空發展法第 11 條第 2 項；發射載具發射許可及太空事故處理辦法第 5、8 條。 */
+        }
+        requirement <'EXP-022'> '事故可即時通報與調查' : Expectation {
+            doc /* 發生事故或偏離飛行路徑時，能即時提供追蹤資料，並保全資料供調查。出處：發射載具發射許可及太空事故處理辦法第 18 條；太空發展法第 18 條。 */
+        }
+        requirement <'EXP-023'> '活動符合環境保護法規' : Expectation {
+            doc /* 從事太空活動應依國內環境保護法規辦理，減少對環境之不利影響。出處：太空發展法第 7 條。 */
+        }
+        requirement <'EXP-024'> '火箭不成為海洋廢棄物' : Expectation {
+            doc /* 火箭與所有部件落海後都被回收，不遺留人造持久性固體於海中。出處：海洋污染防治法第 4 條第 11 款。 */
+        }
+        requirement <'EXP-025'> '有害物質不排洩入海' : Expectation {
+            doc /* 電池、實驗液體、配重等不將有害物質帶入海洋。出處：海洋污染防治法第 4 條第 1 款、第 21 條。 */
+        }
+        requirement <'EXP-026'> '事業廢棄物依規定清運' : Expectation {
+            doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等交由合法機構清運，不任意棄置。出處：廢棄物清理法第 2、28、30、36 條。 */
+        }
+        requirement <'EXP-027'> '危害性化學品有標示與通識' : Expectation {
+            doc /* 危害性化學品之容器標示、清單與安全資料表齊備，作業人員受過訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
+        }
+        requirement <'EXP-028'> '作業危害有防護且可停工' : Expectation {
+            doc /* 對爆炸性物質、高壓氣體、化學品、粉塵等危害有防護措施；有立即發生危險之虞時停止作業。出處：職業安全衛生法第 6、18 條。 */
+        }
+        requirement <'EXP-029'> '評選公平公正公開' : Expectation {
+            doc /* 評選秉持公平、公正、公開原則，並落實利益迴避。出處：競賽規則說明 v3 第 27 頁。 */
+        }
+        requirement <'EXP-030'> '競賽爭議可依紀錄裁決' : Expectation {
+            doc /* 競賽爭議項目能在評審會議上依明確紀錄做最終裁決。出處：競賽規則說明 v3 第 27 頁。 */
+        }
+        requirement <'EXP-031'> '目標變更有一致的確認程序' : Expectation {
+            doc /* 任務目標或酬載成功條件的變更須說明原因、影響與驗證結果，並有一致的確認程序，不任意降低目標。出處：競賽規則說明 v3 第 14 頁。 */
+        }
+        requirement <'EXP-032'> '各檢查站結果足以做最終判定' : Expectation {
+            doc /* 各檢查站的審查狀況與結果明確，足以做出最終許可與否的決定。出處：競賽規則說明 v3 第 32 頁。 */
+        }
+        requirement <'EXP-033'> '火箭符合設計安全規範' : Expectation {
+            doc /* 火箭符合設計安全規範，發射前問題已釐清，避免發射意外。出處：競賽規則說明 v3 第 11 頁。 */
+        }
+        requirement <'EXP-034'> '審查在規定時間內完成' : Expectation {
+            doc /* 隊伍在審查時間（含展延）內完成發射許可審查與上架備便審查。出處：競賽規則說明 v3 第 6 頁。 */
+        }
+        requirement <'EXP-035'> '異常時可立即確認人員狀況' : Expectation {
+            doc /* 火箭升空異常時，能立即確認是否有人員受傷。出處：競賽規則說明 v3 第 58 頁。 */
+        }
+        requirement <'EXP-036'> '發射條件符合才發射' : Expectation {
+            doc /* 風速、地震、巨浪、雷擊、降雨、能見度都在限制內才進行發射。出處：競賽規則說明 v3 第 55 頁。 */
+        }
+        requirement <'EXP-037'> '現場具備消防與送醫能力' : Expectation {
+            doc /* 無適當消防設備或無可載送傷者的運輸器具時不發射。出處：競賽規則說明 v3 第 55 頁。 */
+        }
+        requirement <'EXP-038'> '火箭能在限制風速內安全離架' : Expectation {
+            doc /* 預備發射時場地風速應小於火箭離架速度的四分之一。出處：火箭設計規範 V2 8.2.3。 */
+        }
+        requirement <'EXP-039'> '發射前場域淨空' : Expectation {
+            doc /* 發射前確認射場無人員。出處：競賽規則說明 v3 第 55 頁。 */
+        }
+        requirement <'EXP-040'> '相關單位已通知且回收船已待命' : Expectation {
+            doc /* 發射前已通知相關單位，回收船已在待命區。出處：競賽規則說明 v3 第 55 頁。 */
+        }
+        requirement <'EXP-041'> '交通管制已完成' : Expectation {
+            doc /* 發射時無車輛進入管制區。出處：競賽規則說明 v3 第 48、55 頁。 */
+        }
+        requirement <'EXP-042'> '異常不擴大成災害' : Expectation {
+            doc /* 火箭異常時不落於建物、交通工具、樹林、人口稠密區等高風險區域。出處：競賽規則說明 v3 第 58 頁。 */
+        }
+        requirement <'EXP-043'> '異常狀態在可處置範圍內' : Expectation {
+            doc /* 異常狀態可由滅火器或現場消防隊處理。出處：競賽規則說明 v3 第 58 頁。 */
+        }
+        requirement <'EXP-044'> '剩餘火箭可安全移除點火器' : Expectation {
+            doc /* 比賽暫停時，工作人員能前往剩餘未發射的火箭移除點火器。出處：競賽規則說明 v3 第 58 頁。 */
+        }
+        requirement <'EXP-045'> '依指導原則的週期與審查執行' : Expectation {
+            doc /* 工程開發依開發週期模式進行，各項審查由指定職權核可。出處：AEAS 工程指導原則 1.2、5.3、6.2。 */
+        }
+        requirement <'EXP-046'> '遵守安全協議與危害分級' : Expectation {
+            doc /* 所有工程計畫依 H1 至 H3 危害分級管制危害物質與作業。出處：AEAS 安全協議 1.2、7.5。 */
+        }
+        requirement <'EXP-047'> '文件依規範撰寫歸檔與版本控制' : Expectation {
+            doc /* 文件依文件規範撰寫與歸檔，變更有紀錄可追溯。出處：AEAS 工程指導原則第 5 章、6.2.5。 */
+        }
+        requirement <'EXP-048'> '商標印在箭體上且在影像中可見' : Expectation {
+            doc /* 箭身印製品牌商標，發射活動的拍攝紀錄產出品牌可見的影片與素材。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 17 頁。 */
+        }
+        requirement <'EXP-049'> '贊助資源用於火箭製造與測試' : Expectation {
+            doc /* 提供的資金、物料或場地實際用於火箭製造與測試。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 19 頁。 */
         }
     }
 
@@ -230,7 +371,7 @@ package Project {
         requirement <'OBJ-007'> '取回三軸角速度與橫向加速度紀錄' : Objective;
         requirement <'OBJ-008'> '取回發射至濺落的箭載影像' : Objective;
         requirement <'NEED-002'> '取得引擎在大氣中關閉時液體前衝的飛行量測數據' : Need {
-            doc /* JRI 推展液態推進技術，需要了解引擎在大氣中關閉後，貯箱內液體受反向相對加速度而前衝並撞擊端蓋的過程。地面與落塔試驗無法重現大氣中關機後連續變化的軸向加速度歷程，因此團隊應取得真實飛行環境下的液體前衝與撞擊後動態數據，且數據應具備足夠的取樣率與精度，並與飛行數據時間同步。此為本專案最主要的存在理由，與其他理由衝突時優先滿足。 */
+            doc /* JRI 推展液態推進技術，需要了解引擎在大氣中關閉後，貯箱內液體受反向相對加速度而前衝並撞擊端蓋的過程。地面與落塔試驗無法重現大氣中關機後連續變化的軸向加速度歷程，因此團隊應取得真實飛行環境下的液體前衝與撞擊後動態數據，且數據應具備足夠的取樣率與精度，並與飛行數據時間同步。此為本專案最主要的存在理由，在安全與合規的前提下優先滿足。 */
         }
         requirement <'NEED-003'> '累積團隊的火箭系統實作經驗與技術能力' : Need {
             doc /* JRI 成員投入大量時間參與計劃，團隊需要透過完整的設計、製造、測試與飛行過程，讓成員累積系統工程與工程實作能力，作為液態推進技術發展的人才基礎。優先序次於液體前衝數據。 */
@@ -295,6 +436,48 @@ package Project {
         requirement <'MOE-015'> '完成技術文件的核心成員比例' : MOE {
             doc /* 已參與所屬分系統的設計、製造與測試並撰寫可查核技術文件的核心成員，占全體核心成員的比例應為 100%。量測方式：於 FRR 前查核每位核心成員的技術文件。 */
         }
+        requirement <'NEED-005'> '專案全程不危及人員、公眾與場域' : Need {
+            doc /* 專案從製造、測試到發射、回收的全程，不得危及人員、公眾與場域。優先序最高，高於液體前衝數據。 */
+        }
+        requirement <'NEED-006'> '專案符合規則、規範與法規且可被查證' : Need {
+            doc /* 專案應符合競賽規則、火箭設計規範、相關法規與 AEAS 規範，且符合與否可以被查證。優先序次於安全，高於液體前衝數據。 */
+        }
+        requirement <'NEED-007'> '在賽程與可負擔的資源內完成專案' : Need {
+            doc /* 專案應在競賽賽程與團隊可負擔的資源內，完成各階段交付與決賽發射。屬限制條件。 */
+        }
+        requirement <'GOAL-004'> '全程處於已知且受控的安全狀態' : Goal {
+            doc /* 所有危險作業與飛行階段，火箭與人員都處於已知且受控的安全狀態。 */
+        }
+        requirement <'GOAL-005'> '通過所有審查並符合法規與規範' : Goal {
+            doc /* 通過競賽各階段審查與發射許可審查，並符合適用的法規與 AEAS 規範。 */
+        }
+        requirement <'GOAL-006'> '依賽程完成交付且支出不超過預算' : Goal {
+            doc /* 依競賽賽程完成各階段交付並於決賽日發射，支出不超過核定預算。 */
+        }
+        requirement <'OBJ-013'> '通過發射許可審查全部項目' : Objective {
+            doc /* 發射許可審查共 25 項，應全數取得核可。出處：競賽規則說明 v3 第 31 頁。 */
+        }
+        requirement <'OBJ-014'> '危險作業都經管制官核可後執行' : Objective {
+            doc /* 點火測試、推力測試、飛行測試與高壓鋼瓶等 H3 等級作業，應經管制官核可後於指定場所在監督下執行。出處：AEAS 安全協議 7.5.3。 */
+        }
+        requirement <'OBJ-015'> '各階段報告與決賽文件準時繳交' : Objective {
+            doc /* MDR、PDR、CDR、FRR 四份報告與決賽報到紙本文件，應於收件截止前繳交。出處：競賽規則說明 v3 第 7、10、27 頁。 */
+        }
+        requirement <'OBJ-016'> '總支出不超過預算' : Objective {
+            doc /* 專案總支出應不超過預算。 */
+        }
+        requirement <'MOE-016'> '發射許可審查核可項數' : MOE {
+            doc /* 發射許可審查核可項數應為 25 項全數。量測方式：以發射許可審查表的簽核結果判定。 */
+        }
+        requirement <'MOE-017'> '危險作業事前核可比例' : MOE {
+            doc /* H3 等級作業中，執行前已取得管制官核可的比例應為 100%。量測方式：查核測試申請與審查紀錄。 */
+        }
+        requirement <'MOE-018'> '報告與決賽文件準時繳交項數' : MOE {
+            doc /* MDR、PDR、CDR、FRR 四份報告與決賽報到紙本文件共 5 項，準時繳交項數應為 5 項。量測方式：以主辦單位的收件紀錄判定。 */
+        }
+        requirement <'MOE-019'> '總支出金額' : MOE {
+            doc /* 專案總支出應不大於新臺幣 150,000 元。量測方式：以成本紀錄判定。門檻值為 2027 年度預估募集金額（總工程師 2026-11-15 提供），募集結果確定後更新。 */
+        }
     }
 
     package UseCases {
@@ -338,7 +521,7 @@ package Project {
             use case <'UC-016'> '執行發射許可審查' : UseCase;
             use case <'UC-018'> '上架並啟動回收系統' : UseCase;
             use case <'UC-020'> '執行倒數與發射' : UseCase;
-            use case <'UC-021'> '計時並直播發射過程' : UseCase;
+            use case <'UC-021'> '直播發射過程' : UseCase;
             use case <'UC-017'> '安裝公版發動機' : UseCase;
             use case <'UC-022'> '空拍飛行與回收過程' : UseCase;
             use case <'UC-019'> '終止發射並解除啟動' : UseCase;
@@ -362,35 +545,32 @@ package Project {
     #trace dependency from Project::UseCases::'分系統設計' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'分系統設計' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'指導員1-教職員顧問';
-    #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'指導員2-管制官暨安全官';
+    #trace dependency from Project::UseCases::'內部審查' to Project::Stakeholders::'指導員2-管制官';
     #trace dependency from Project::UseCases::'提交設計審查文件' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'提交設計審查文件' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'執行官方設計審查' to Project::Stakeholders::'評審團';
     #trace dependency from Project::UseCases::'製造與組裝' to Project::Stakeholders::'核心成員';
-    #trace dependency from Project::UseCases::'審核危險作業程序' to Project::Stakeholders::'指導員2-管制官暨安全官';
+    #trace dependency from Project::UseCases::'審核危險作業程序' to Project::Stakeholders::'指導員2-管制官';
     #trace dependency from Project::UseCases::'執行分系統地面測試' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'執行分系統地面測試' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'核心成員';
     #trace dependency from Project::UseCases::'執行全箭整合測試' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'指導員2-管制官暨安全官';
+    #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'指導員2-管制官';
     #trace dependency from Project::UseCases::'執行飛行準備審查與核可' to Project::Stakeholders::'發射許可審查委員';
     #trace dependency from Project::UseCases::'執行發射許可審查' to Project::Stakeholders::'審查與評分'::'發射許可審查委員';
     #trace dependency from Project::UseCases::'安裝公版發動機' to Project::Stakeholders::'推進系統工作人員';
-    #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'發射指揮官與射場管理人員';
+    #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'發射指揮官';
     #trace dependency from Project::UseCases::'上架並啟動回收系統' to Project::Stakeholders::'JRI 團隊'::'核心成員';
-    #trace dependency from Project::UseCases::'終止發射並解除啟動' to Project::Stakeholders::'發射指揮官與射場管理人員';
-    #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'發射指揮官與射場管理人員';
-    #trace dependency from Project::UseCases::'計時並直播發射過程' to Project::Stakeholders::'官方計時員與直播團隊';
+    #trace dependency from Project::UseCases::'終止發射並解除啟動' to Project::Stakeholders::'發射指揮官';
+    #trace dependency from Project::UseCases::'執行倒數與發射' to Project::Stakeholders::'發射指揮官';
+    #trace dependency from Project::UseCases::'直播發射過程' to Project::Stakeholders::'直播與攝影團隊';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'回收漁船船員';
     #trace dependency from Project::UseCases::'空拍飛行與回收過程' to Project::Stakeholders::'無人機操作員';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'酬載提案委員會';
     #trace dependency from Project::UseCases::'取回火箭並提交飛行數據' to Project::Stakeholders::'總工程師暨隊長';
-    package '供應與贊助廠商' { }
-    package '供應商與贊助' { }
     #trace dependency from Project::UseCases::'飛行與回收'::'海上回收火箭' to Project::Stakeholders::'回收作業'::'回收漁船船員';
     #trace dependency from Project::UseCases::'飛行與回收'::'追蹤火箭位置與落點' to Project::Stakeholders::'回收作業'::'無人機操作員';
-    package '製造與測試' { }
     #trace dependency from Project::UseCases::'提交酬載實驗提案' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'定義酬載需求與數據需求' to Project::Stakeholders::'總工程師暨隊長';
@@ -399,7 +579,7 @@ package Project {
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'發射場作業'::'協調無線電頻道分配' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
-    #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
+    #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'射場作業'::'發射指揮官';
     #trace dependency from Project::UseCases::'發射場作業'::'共用射場設施與作業區' to Project::Stakeholders::'總工程師暨隊長';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
     #trace dependency from Project::UseCases::'計劃管理'::'取得業餘無線電人員執照' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
@@ -409,7 +589,6 @@ package Project {
     #trace dependency from Project::UseCases::'設計與審查'::'確認射頻器材合法性' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
-    package '2027探空火箭計劃' { }
     #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'供應'::'零件與材料供應商';
     #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'供應'::'零件與材料供應商';
@@ -426,8 +605,8 @@ package Project {
     #trace dependency from Project::Stakeholders::'評分依據客觀、可驗證' to Project::Stakeholders::'審查與評分'::'評審團';
     #trace dependency from Project::Stakeholders::'上架前確認可安全發射' to Project::Stakeholders::'審查與評分'::'發射許可審查委員';
     #trace dependency from Project::Stakeholders::'發動機在安全程序下操作' to Project::Stakeholders::'射場作業'::'推進系統工作人員';
-    #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::Stakeholders::'射場作業'::'發射指揮官與射場管理人員';
-    #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::Stakeholders::'射場作業'::'官方計時員與直播團隊';
+    #trace dependency from Project::Stakeholders::'射場作業安全且有序' to Project::Stakeholders::'射場作業'::'發射指揮官';
+    #trace dependency from Project::Stakeholders::'完整記錄並呈現發射過程' to Project::Stakeholders::'射場作業'::'直播與攝影團隊';
     #trace dependency from Project::Stakeholders::'安全且有效率地完成回收' to Project::Stakeholders::'回收作業'::'回收漁船船員';
     #trace dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::Stakeholders::'回收作業'::'無人機操作員';
     #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
@@ -435,22 +614,20 @@ package Project {
     #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::Stakeholders::'供應'::'零件與材料供應商';
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
-    #trace dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
+    #trace dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官';
     #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員1-教職員顧問';
-    #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官暨安全官';
+    #trace dependency from Project::Stakeholders::'計劃在合規且可監督的狀態下進行' to Project::Stakeholders::'JRI 團隊'::'指導員2-管制官';
     #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    package '利害關係人' { }
-    package '期望' { }
-    #refine dependency from Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'火箭濺落後漂浮於海面並被回收' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'取回與影像時間同步的軸向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'取回三軸角速度與橫向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #refine dependency from Project::NGOs::'取回發射至濺落的箭載影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derive dependency from Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' to Project::NGOs::'通過所有審查並符合法規與規範';
+    #derive dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'全程處於已知且受控的安全狀態';
+    #derive dependency from Project::NGOs::'火箭濺落後漂浮於海面並被回收' to Project::NGOs::'全程處於已知且受控的安全狀態';
+    #derive dependency from Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derive dependency from Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derive dependency from Project::NGOs::'取回與影像時間同步的軸向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derive dependency from Project::NGOs::'取回三軸角速度與橫向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derive dependency from Project::NGOs::'取回發射至濺落的箭載影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'將酬載實驗裝置放進探空火箭';
     #trace dependency from Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力' to Project::Stakeholders::'累積實作經驗與技術能力';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'取得可用於宣傳的影像素材';
@@ -474,6 +651,95 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #refine dependency from Project::NGOs::'完成技術文件的核心成員比例' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
+    #trace dependency from Project::Stakeholders::'發射不危及公共安全' to Project::Stakeholders::'國家科學及技術委員會';
+    #trace dependency from Project::Stakeholders::'事故可即時通報與調查' to Project::Stakeholders::'國家科學及技術委員會';
+    #trace dependency from Project::Stakeholders::'活動符合環境保護法規' to Project::Stakeholders::'國家科學及技術委員會';
+    #trace dependency from Project::Stakeholders::'火箭不成為海洋廢棄物' to Project::Stakeholders::'海洋委員會與海巡';
+    #trace dependency from Project::Stakeholders::'有害物質不排洩入海' to Project::Stakeholders::'海洋委員會與海巡';
+    #trace dependency from Project::Stakeholders::'事業廢棄物依規定清運' to Project::Stakeholders::'環境部';
+    #trace dependency from Project::Stakeholders::'危害性化學品有標示與通識' to Project::Stakeholders::'勞動部';
+    #trace dependency from Project::Stakeholders::'作業危害有防護且可停工' to Project::Stakeholders::'勞動部';
+    #trace dependency from Project::Stakeholders::'評選公平公正公開' to Project::Stakeholders::'評審總召集人';
+    #trace dependency from Project::Stakeholders::'競賽爭議可依紀錄裁決' to Project::Stakeholders::'評審總召集人';
+    #trace dependency from Project::Stakeholders::'目標變更有一致的確認程序' to Project::Stakeholders::'評審總召集人';
+    #trace dependency from Project::Stakeholders::'各檢查站結果足以做最終判定' to Project::Stakeholders::'發射許可審查召集人';
+    #trace dependency from Project::Stakeholders::'火箭符合設計安全規範' to Project::Stakeholders::'發射許可審查召集人';
+    #trace dependency from Project::Stakeholders::'審查在規定時間內完成' to Project::Stakeholders::'發射許可審查召集人';
+    #trace dependency from Project::Stakeholders::'異常時可立即確認人員狀況' to Project::Stakeholders::'安全指揮官';
+    #trace dependency from Project::Stakeholders::'發射條件符合才發射' to Project::Stakeholders::'射場環境組';
+    #trace dependency from Project::Stakeholders::'現場具備消防與送醫能力' to Project::Stakeholders::'射場環境組';
+    #trace dependency from Project::Stakeholders::'火箭能在限制風速內安全離架' to Project::Stakeholders::'射場環境組';
+    #trace dependency from Project::Stakeholders::'發射前場域淨空' to Project::Stakeholders::'射場管理組';
+    #trace dependency from Project::Stakeholders::'相關單位已通知且回收船已待命' to Project::Stakeholders::'射場管理組';
+    #trace dependency from Project::Stakeholders::'交通管制已完成' to Project::Stakeholders::'射場管理組';
+    #trace dependency from Project::Stakeholders::'異常不擴大成災害' to Project::Stakeholders::'醫護及消防人員';
+    #trace dependency from Project::Stakeholders::'異常狀態在可處置範圍內' to Project::Stakeholders::'醫護及消防人員';
+    #trace dependency from Project::Stakeholders::'剩餘火箭可安全移除點火器' to Project::Stakeholders::'醫護及消防人員';
+    #trace dependency from Project::Stakeholders::'依指導原則的週期與審查執行' to Project::Stakeholders::'AEAS 工程委員會';
+    #trace dependency from Project::Stakeholders::'遵守安全協議與危害分級' to Project::Stakeholders::'AEAS 工程委員會';
+    #trace dependency from Project::Stakeholders::'文件依規範撰寫歸檔與版本控制' to Project::Stakeholders::'AEAS 工程委員會';
+    #trace dependency from Project::Stakeholders::'商標印在箭體上且在影像中可見' to Project::Stakeholders::'贊助者';
+    #trace dependency from Project::Stakeholders::'贊助資源用於火箭製造與測試' to Project::Stakeholders::'贊助者';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'任務達成完全成功';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'無人員受傷';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'發射與回收全程安全';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'上架前確認可安全發射';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'發動機在安全程序下操作';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'射場作業安全且有序';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'安全且有效率地完成回收';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'空拍不和火箭軌跡衝突';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'發射不危及公共安全';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'作業危害有防護且可停工';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'異常時可立即確認人員狀況';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'發射條件符合才發射';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'現場具備消防與送醫能力';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'火箭能在限制風速內安全離架';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'發射前場域淨空';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'相關單位已通知且回收船已待命';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'交通管制已完成';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'異常不擴大成災害';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'異常狀態在可處置範圍內';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'剩餘火箭可安全移除點火器';
+    #trace dependency from Project::NGOs::'專案全程不危及人員、公眾與場域' to Project::Stakeholders::'遵守安全協議與危害分級';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'任務達成完全成功';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'計劃在合規且可監督的狀態下進行';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'評分依據客觀、可驗證';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'自身作業不受其他隊伍影響';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'頻段與功率合法';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'事故可即時通報與調查';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'活動符合環境保護法規';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'火箭不成為海洋廢棄物';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'有害物質不排洩入海';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'事業廢棄物依規定清運';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'危害性化學品有標示與通識';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'評選公平公正公開';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'競賽爭議可依紀錄裁決';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'目標變更有一致的確認程序';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'各檢查站結果足以做最終判定';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'火箭符合設計安全規範';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'依指導原則的週期與審查執行';
+    #trace dependency from Project::NGOs::'專案符合規則、規範與法規且可被查證' to Project::Stakeholders::'文件依規範撰寫歸檔與版本控制';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'團隊在有限資源下可持續運作';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'分系統如期交付且確認可用';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'賽事流程順利進行';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'收到可履行的訂單';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'審查在規定時間內完成';
+    #trace dependency from Project::NGOs::'在賽程與可負擔的資源內完成專案' to Project::Stakeholders::'贊助資源用於火箭製造與測試';
+    #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'任務達成完全成功';
+    #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'任務達成完全成功';
+    #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'完整記錄並呈現發射過程';
+    #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'商標印在箭體上且在影像中可見';
+    #derive dependency from Project::NGOs::'全程處於已知且受控的安全狀態' to Project::NGOs::'專案全程不危及人員、公眾與場域';
+    #derive dependency from Project::NGOs::'通過所有審查並符合法規與規範' to Project::NGOs::'專案符合規則、規範與法規且可被查證';
+    #derive dependency from Project::NGOs::'依賽程完成交付且支出不超過預算' to Project::NGOs::'在賽程與可負擔的資源內完成專案';
+    #derive dependency from Project::NGOs::'通過發射許可審查全部項目' to Project::NGOs::'通過所有審查並符合法規與規範';
+    #derive dependency from Project::NGOs::'危險作業都經管制官核可後執行' to Project::NGOs::'全程處於已知且受控的安全狀態';
+    #derive dependency from Project::NGOs::'各階段報告與決賽文件準時繳交' to Project::NGOs::'依賽程完成交付且支出不超過預算';
+    #derive dependency from Project::NGOs::'總支出不超過預算' to Project::NGOs::'依賽程完成交付且支出不超過預算';
+    #refine dependency from Project::NGOs::'發射許可審查核可項數' to Project::NGOs::'通過發射許可審查全部項目';
+    #refine dependency from Project::NGOs::'危險作業事前核可比例' to Project::NGOs::'危險作業都經管制官核可後執行';
+    #refine dependency from Project::NGOs::'報告與決賽文件準時繳交項數' to Project::NGOs::'各階段報告與決賽文件準時繳交';
+    #refine dependency from Project::NGOs::'總支出金額' to Project::NGOs::'總支出不超過預算';
     #trace dependency from Project::UseCases::'計劃管理'::'提出影像紀錄需求' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
 
     package Behavior {
