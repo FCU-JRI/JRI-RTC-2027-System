@@ -854,6 +854,9 @@ package Project {
         requirement <'REQ-SYS-012'> '從導軌頂部水平裝載' : SystemRequirement {
             doc /* 火箭應能從 AF4040 發射架導軌的頂部水平裝載。出處：火箭設計規範 V2 9.1.3、9.1.4。 */
         }
+        requirement <'REQ-SYS-013'> '不與發射架接線' : SystemRequirement {
+            doc /* 除了軌道滑塊以外，火箭不得有任何線路與發射架連接。出處：火箭設計規範 V2 9.1.5。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
