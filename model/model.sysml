@@ -233,6 +233,7 @@ package Project {
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
         }
+        part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
     }
 
     package NGOs {
