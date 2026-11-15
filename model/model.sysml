@@ -900,4 +900,5 @@ package Project {
     #derive dependency from Project::Requirements::'飛行動態穩定度上限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'離架速度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'發動機外殼溫度耐受' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #derive dependency from Project::Requirements::'觸水速度' to Project::NGOs::'MOE-04 觸水速度';
 }
