@@ -711,7 +711,7 @@
    "y": -228
   },
   "Project__Structure___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
-   "x": 3720,
+   "x": 3672,
    "y": 420
   },
   "Project__Structure___e7_99_bc_e5_b0_84_e6_9e_b6": {
@@ -761,6 +761,10 @@
   "Project__Structure___e7_b5_90_e6_a7_8b_e6_ac_a1_e7_b3_bb_e7_b5_b1___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
    "x": 4956,
    "y": 168
+  },
+  "Project__Structure___e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a___e7_b3_bb_e7_b5_b1_ef_bc_9aRTC_202027_20_e6_8e_a2_e7_a9_ba_e7_81_ab_e7_ae_ad_e7_b3_bb_e7_b5_b1": {
+   "x": 3912,
+   "y": 564
   }
  },
  "ibd:Project::Structure::結構次系統": {
