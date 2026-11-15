@@ -406,6 +406,9 @@ package Project {
         part def <'SUB-016'> '減速至安全觸水速度' :> Subsystem {
             doc /* 階段：主傘下降。使火箭觸水速度小於 12 m/s。依據：REQ-SYS-020。 */
         }
+        part def <'SUB-017'> '提供浮力' :> Subsystem {
+            doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2 小時。依據：REQ-SYS-021。 */
+        }
     }
 
     package NGOs {
