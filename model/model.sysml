@@ -1291,6 +1291,9 @@ package Project {
         requirement <'REQ-SUB-001'> '結構：發動機鎖固介面' : SubsystemRequirement {
             doc /* 結構次系統應提供以 8 支 M5 螺絲鎖固 pioneer-10K 公版固態火箭發動機的安裝介面，並能在發射前完成鎖固。出處：火箭設計規範 V2 3.2.2。 */
         }
+        requirement <'REQ-SUB-002'> '結構：發動機定心環' : SubsystemRequirement {
+            doc /* 結構次系統的推進系統組裝介面應具備至少 2 組公版發動機定心環，位置在發動機質心前方（鼻錐側）。出處：火箭設計規範 V2 3.2.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
