@@ -980,6 +980,9 @@ package Project {
         requirement <'REQ-SYS-052'> '影像與加速度時間同步' : SystemRequirement {
             doc /* 影像與軸向加速度紀錄應共用時間基準，同步誤差不大於半個影格間隔（240 fps 時 2.1 ms，170 fps 時 2.9 ms）。出處：酬載提案計劃書式 (4-75)、(4-86)。 */
         }
+        requirement <'REQ-SYS-053'> '三軸紀錄時間涵蓋' : SystemRequirement {
+            doc /* 三軸角速度與橫向加速度應和軸向加速度同步記錄，涵蓋點火至頂點，目標值為點火至減速傘開傘。出處：酬載提案計劃書表 4-6、式 (4-74)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
