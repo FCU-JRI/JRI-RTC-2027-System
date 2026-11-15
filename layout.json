@@ -695,6 +695,30 @@
   "act:Project::Behavior::總任務：RTC 2027 發射任務#final": {
    "x": 24,
    "y": 1800
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e9_81_8b_e8_bc_b8_e4_b8_ad_e4_bf_9d_e6_8c_81_e7_b5_90_e6_a7_8b_e5_ae_8c_e6_95_b4": {
+   "x": -72,
+   "y": 1872
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e5_ae_89_e8_a3_9d_e5_85_ac_e7_89_88_e7_99_bc_e5_8b_95_e6_a9_9f": {
+   "x": -72,
+   "y": 1992
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e5_ae_89_e8_a3_9d_e5_85_ac_e7_89_88GPS_e8_bf_bd_e8_b9_a4_e5_99_a8": {
+   "x": -72,
+   "y": 2112
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e5_ae_89_e8_a3_9d_e5_85_ac_e7_89_88_e8_bb_8c_e9_81_93_e6_bb_91_e5_a1_8a": {
+   "x": -72,
+   "y": 2232
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e8_a3_9d_e5_a1_ab_e9_99_8d_e8_90_bd_e5_82_98_e8_88_87_e5_84_b2_e8_83_bd_e8_a3_9d_e7_bd_ae": {
+   "x": -72,
+   "y": 2352
+  },
+  "Project__Behavior___e7_b8_bd_e4_bb_bb_e5_8b_99_ef_bc_9aRTC_202027_20_e7_99_bc_e5_b0_84_e4_bb_bb_e5_8b_99___e8_a3_9d_e5_a1_ab_e5_af_a6_e9_a9_97_e6_b6_b2_e9_ab_94_e4_b8_a6_e5_af_86_e5_b0_81_e5_ae_b9_e5_99_a8": {
+   "x": -72,
+   "y": 2472
   }
  },
  "bdd": {
