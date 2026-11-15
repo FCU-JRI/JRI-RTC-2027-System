@@ -203,6 +203,9 @@ package Project {
         part def <'SYS-010'> '外部：海面環境' :> System {
             doc /* 火箭濺落與漂浮的環境，造成觸水衝擊與浸水。依據：STK-TASA-02、23。 */
         }
+        part def <'SYS-011'> '外部：無線電頻譜' :> System {
+            doc /* 火箭與地面支援設備之間的遙測鏈路所使用的頻段，與其他發射隊伍共用，頻率與功率須符合 NCC 規範。依據：STK-TASA-35、36。 */
+        }
     }
 
     package NGOs {
