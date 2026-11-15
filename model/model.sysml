@@ -929,6 +929,10 @@ package Project {
             doc /* 發射至濺落。記錄高度、速度、加速度與 GPS
   軌跡。依據：REQ-SYS-043～045。 */
         }
+        action <'FN-023'> '記錄前衝影像與加速度' : Function {
+            doc /* 階段：點火至頂點。記錄液體前衝影像、軸向加速度與
+  三軸紀錄，並共用時間基準。依據：REQ-SYS-047～053。 */
+        }
     }
 
     package Requirements {
