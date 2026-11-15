@@ -926,4 +926,5 @@ package Project {
     #derive dependency from Project::Requirements::'回收結構安全係數' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'高強度傘繩' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'回收系統耐熱保護' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
+    #derive dependency from Project::Requirements::'降落傘顏色' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
 }
