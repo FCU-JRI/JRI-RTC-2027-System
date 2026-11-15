@@ -360,7 +360,6 @@ package Project {
         }
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
             part '記錄前衝影像與加速度' : Project::Structure::'記錄前衝影像與加速度';
-            part '保護酬載紀錄' : Project::Structure::'保護酬載紀錄';
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
         part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
@@ -402,9 +401,6 @@ package Project {
         }
         part def <'SUB-015'> '釋放主傘' :> Subsystem {
             doc /* 階段：主傘釋放。接收觸發訊號釋放主傘。依據：REQ-SYS-032、033。 */
-        }
-        part def <'SUB-017'> '保護酬載紀錄' :> Subsystem {
-            doc /* 階段：濺落與漂浮。保護酬載影像與加速度紀錄，使浸水後仍可完整讀取，並保存備援。依據：REQ-SYS-046、前衝影像備援、軸向加速度備援。 */
         }
     }
 
