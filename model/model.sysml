@@ -1078,4 +1078,5 @@ package Project {
     #refine dependency from Project::NGOs::'遺留海中的部件數' to Project::NGOs::'火箭所有部件落海後全數回收';
     #refine dependency from Project::NGOs::'使用禁用或有害材料的項數' to Project::NGOs::'火箭不將有害物質帶入海洋';
     #refine dependency from Project::NGOs::'非預期處於啟動狀態的次數' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
+    #derive dependency from Project::Requirements::'分離部件連接成一體' to Project::NGOs::'遺留海中的部件數';
 }
