@@ -360,6 +360,7 @@ package Project {
         }
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
             part '記錄前衝影像與加速度' : Project::Structure::'記錄前衝影像與加速度';
+            part '保護酬載紀錄' : Project::Structure::'保護酬載紀錄';
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
         part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
