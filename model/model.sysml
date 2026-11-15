@@ -807,6 +807,7 @@ package Project {
             first '離架與動力飛行' then '發動機燃盡';
             first '發動機燃盡' then '慣性飛行';
             first '慣性飛行' then '到達頂點';
+            first '到達頂點' then '減速傘釋放';
         }
     }
 }
