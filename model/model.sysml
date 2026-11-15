@@ -242,6 +242,7 @@ package Project {
         part def <'EXT-008'> '團隊操作人員' :> ExternalEntity;
         part def <'EXT-009'> '地面站' :> ExternalEntity;
         part def <'EXT-010'> '發射指揮官' :> ExternalEntity;
+        part def <'EXT-011'> '回收人員' :> ExternalEntity;
     }
 
     package NGOs {
