@@ -1115,6 +1115,9 @@ package Project {
         requirement <'REQ-SYS-091'> '計畫：採購核可門檻' : SystemRequirement {
             doc /* 單筆金額超過新臺幣 1,000 元的採購，應在下單前取得財務長核可。依據：期望 EXP-002。 */
         }
+        requirement <'REQ-SYS-092'> '待命期間影像記錄保證' : SystemRequirement {
+            doc /* 火箭上架啟動後，在最長 1.5 小時的待命期間內，不論何時發射，量測系統都應完整記錄點火至頂點期間的液體前衝影像。依據：酬載提案計劃書 4.6 節、表 7-1 R3；待命時間與電池續航需求一致。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
