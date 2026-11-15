@@ -356,6 +356,7 @@ package Project {
             allocate Project::Behavior::'保護酬載紀錄' to '酬載次系統';
             allocate Project::Behavior::'讀取並備份箭上紀錄' to '地面次系統';
             satisfy Project::Requirements::'發動機定心環';
+            satisfy Project::Requirements::'全箭總重';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
