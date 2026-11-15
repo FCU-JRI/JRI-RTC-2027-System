@@ -808,6 +808,7 @@ package Project {
             first '發動機燃盡' then '慣性飛行';
             first '慣性飛行' then '到達頂點';
             first '到達頂點' then '減速傘釋放';
+            first '減速傘釋放' then '主傘釋放';
         }
     }
 }
