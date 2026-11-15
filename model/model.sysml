@@ -790,5 +790,8 @@ package Project {
             first '運輸' then '火箭組裝';
             first '火箭組裝' then '發射許可審查';
         }
+        action <'PH-005'> '發射準備' : MissionPhase {
+            doc /* 安裝公版發動機並將火箭由導軌頂部水平放入後完成上架。 */
+        }
     }
 }
