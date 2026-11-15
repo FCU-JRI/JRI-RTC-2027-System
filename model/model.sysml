@@ -947,6 +947,9 @@ package Project {
             doc /* 階段：減速傘下降。偵測離地 150～450 m
   的開傘高度並發出主傘觸發訊號。依據：REQ-SYS-032。 */
         }
+        action <'FN-027'> '釋放主傘' : Function {
+            doc /* 階段：主傘釋放。接收觸發訊號釋放主傘。依據：REQ-SYS-032、033。 */
+        }
     }
 
     package Requirements {
