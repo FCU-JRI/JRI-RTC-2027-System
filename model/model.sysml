@@ -1178,4 +1178,5 @@ package Project {
     #derive dependency from Project::Requirements::'實驗液體無害' to Project::NGOs::'火箭不將有害物質帶入海洋';
     #derive dependency from Project::Requirements::'實驗液體容器密封' to Project::NGOs::'火箭不將有害物質帶入海洋';
     #derive dependency from Project::Requirements::'發射終止時解除啟動' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
+    #derive dependency from Project::Requirements::'無線電頻道切換' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
 }
