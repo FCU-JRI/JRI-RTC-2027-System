@@ -173,6 +173,9 @@ package Project {
     }
 
     package Structure {
+        part def <'SYS-001'> '系統：RTC 2027 探空火箭系統' :> System {
+            doc /* 本專案設計與製造的系統，包含火箭本體與團隊自製的地面支援設備。公版發動機、公版 GPS 追蹤器與公版軌道滑塊由主辦單位提供，不在系統內，團隊負責與其相接的介面。 */
+        }
     }
 
     package NGOs {
