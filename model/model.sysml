@@ -902,6 +902,9 @@ package Project {
         requirement <'REQ-SYS-026'> '可分離部件標示' : SystemRequirement {
             doc /* 火箭所有可分離的部件，不論是設計上的分離還是意外分離，都應重複標示隊伍名稱與編號。出處：火箭設計規範 V2 6.4.1。 */
         }
+        requirement <'REQ-SYS-027'> '公版GPS追蹤器安裝介面' : SystemRequirement {
+            doc /* 系統應依附件十八「3K 組公版 GPS 追蹤器技術資料」，提供公版 GPS 追蹤器的組裝介面。出處：火箭設計規範 V2 5.1.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
