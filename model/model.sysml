@@ -840,6 +840,9 @@ package Project {
             action <'FN-001'> '運輸中保持結構完整' : Function {
                 doc /* 階段：運輸。運輸與搬運期間保持箭體結構完整。依據：REQ-SYS-039。 */
             }
+            action <'FN-002'> '安裝公版發動機' : Function {
+                doc /* 階段：火箭組裝。以 8 支 M5 螺絲與定心環將 pioneer-10K 公版發動機安裝於火箭軸線上。依據：REQ-SYS-001、002。 */
+            }
         }
     }
 
