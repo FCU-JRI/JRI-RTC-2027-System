@@ -353,6 +353,7 @@ package Project {
         }
         requirement <'OBJ-001'> '於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' : Objective {
             doc /* 符合賽規要求，並於決賽日完成發射 */
+            @Source { sourceDoc = "DOC-001"; }
         }
         requirement <'OBJ-002'> '火箭安全離架，並依序開啟減速傘與主傘' : Objective {
             doc /* 頂點開減速傘、離地 150～450 m 開主傘 */
