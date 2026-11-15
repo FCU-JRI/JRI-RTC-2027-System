@@ -1130,6 +1130,9 @@ package Project {
         requirement <'REQ-SYS-096'> '軸向加速度備援' : SystemRequirement {
             doc /* 軸向加速度紀錄應保存在至少兩個彼此獨立的儲存媒體上；其中一個損毀時，另一個仍應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
         }
+        requirement <'REQ-SYS-097'> '前衝影像可判讀' : SystemRequirement {
+            doc /* 在推進段振動與液體前衝運動下，液體前衝影像的每一格都應能分辨液面輪廓與壁面液膜前端。位置解析度（每像素對應長度）待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.5、4.7 節、式 (4-86)、(4-87)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
