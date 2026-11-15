@@ -345,7 +345,6 @@ package Project {
             part '沿軌道導引至離架' : Project::Structure::'沿軌道導引至離架';
             part '提供氣動穩定' : Project::Structure::'提供氣動穩定';
             part '承受推進段負載與熱' : Project::Structure::'承受推進段負載與熱';
-            part '提供浮力' : Project::Structure::'提供浮力';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
@@ -406,9 +405,6 @@ package Project {
         }
         part def <'SUB-016'> '減速至安全觸水速度' :> Subsystem {
             doc /* 階段：主傘下降。使火箭觸水速度小於 12 m/s。依據：REQ-SYS-020。 */
-        }
-        part def <'SUB-017'> '提供浮力' :> Subsystem {
-            doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2 小時。依據：REQ-SYS-021。 */
         }
         part def <'SUB-018'> '保護航電紀錄' :> Subsystem {
             doc /* 階段：濺落與漂浮。保護箭上航電紀錄，使浸水 2 小時後仍可完整讀取。依據：REQ-SYS-046。 */
