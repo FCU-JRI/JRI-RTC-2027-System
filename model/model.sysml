@@ -746,6 +746,7 @@ package Project {
         action <'PH-001'> '總任務：RTC 2027 發射任務' : MissionPhase {
             doc /* Project RTC 2027 的完整任務，從火箭運送至發射場開始，到飛行數據讀取並提交為止，依序包含運輸、發射許可審查、火箭組裝、發射準備、待發射、離架與動力飛行、燃盡、滑行、減速傘下降、主傘下降、濺落與漂浮、海上回收、資料讀取與提交等階段；終止發射為自待發射階段分出的替代流程。 */
             action <'PH-002'> '運輸' : MissionPhase;
+            action <'PH-003'> '組裝' : MissionPhase;
         }
     }
 }
