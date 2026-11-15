@@ -920,6 +920,9 @@ package Project {
         requirement <'REQ-SYS-032'> '主傘開啟高度' : SystemRequirement {
             doc /* 主傘應在離地 150～450 m 之間開啟。出處：火箭設計規範 V2 4.2.2.4。 */
         }
+        requirement <'REQ-SYS-033'> '釋放裝置冗餘' : SystemRequirement {
+            doc /* 回收系統的釋放裝置應有冗餘設計，例如 2 組以上儲能裝置或 2 組以上回收系統。出處：火箭設計規範 V2 4.2.2.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
