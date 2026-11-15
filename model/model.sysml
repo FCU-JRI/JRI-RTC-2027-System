@@ -1400,4 +1400,5 @@ package Project {
     #derive dependency from Project::Requirements::'容器靠近重心' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
     #derive dependency from Project::Requirements::'航電紀錄可對齊' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
+    #derive dependency from Project::Requirements::'結構：發動機鎖固介面' to Project::Requirements::'公版發動機鎖固方式';
 }
