@@ -1315,6 +1315,9 @@ package Project {
         requirement <'REQ-SUB-009'> '結構：滑塊距底部距離' : SubsystemRequirement {
             doc /* 軌道滑塊的位置應不超過距火箭底部 120 cm。出處：火箭設計規範 V2 6.3.10。 */
         }
+        requirement <'REQ-SUB-010'> '結構：水平裝載外形' : SubsystemRequirement {
+            doc /* 結構次系統的外形與軌道滑塊配置，應使火箭能從 AF4040 發射架導軌頂部水平裝載。出處：火箭設計規範 V2 9.1.3、9.1.4。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
