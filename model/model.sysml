@@ -212,6 +212,9 @@ package Project {
         part def <'SYS-013'> '外部：回收漁船船員' :> System {
             doc /* 依火箭落點資訊在海上打撈火箭。 */
         }
+        part def <'SYS-014'> '外部：搬運與運輸環境' :> System {
+            doc /* 火箭從製造地點運送至發射場，以及在場內搬運的過程中，振動與衝擊會作用在火箭上，結構須保持完整。依據：STK-TASA-13。 */
+        }
     }
 
     package NGOs {
