@@ -938,6 +938,9 @@ package Project {
         action <'FN-024'> '偵測頂點並觸發減速傘' : Function {
             doc /* 階段：到達頂點。偵測頂點並發出減速傘觸發訊號。依據：REQ-SYS-031。 */
         }
+        action <'FN-025'> '釋放減速傘' : Function {
+            doc /* 階段：減速傘釋放。接收觸發訊號，以冗餘的釋放裝置釋放減速傘。依據：REQ-SYS-030、033。 */
+        }
     }
 
     package Requirements {
