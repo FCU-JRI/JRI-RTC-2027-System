@@ -1006,4 +1006,5 @@ package Project {
     #derive dependency from Project::Requirements::'不可分離介面固定' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'飛行數據記錄項目' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
     #derive dependency from Project::Requirements::'飛行數據時間涵蓋' to Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍';
+    #derive dependency from Project::Requirements::'GPS軌跡紀錄' to Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍';
 }
