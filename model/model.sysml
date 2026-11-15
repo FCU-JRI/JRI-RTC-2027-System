@@ -356,7 +356,6 @@ package Project {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
         }
         part def <'SUB-004'> '地面次系統' :> Subsystem {
-            part '讀取並備份箭上紀錄' : Project::Structure::'讀取並備份箭上紀錄';
         }
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
             part '記錄前衝影像與加速度' : Project::Structure::'記錄前衝影像與加速度';
@@ -398,9 +397,6 @@ package Project {
         }
         part def <'SUB-014'> '偵測主傘高度並觸發主傘' :> Subsystem {
             doc /* 階段：減速傘下降。偵測離地 150～450 m 的開傘高度並發出主傘觸發訊號。依據：REQ-SYS-032。 */
-        }
-        part def <'SUB-016'> '讀取並備份箭上紀錄' :> Subsystem {
-            doc /* 階段：資料讀取與提交。讀取並備份航電與酬載的所有紀錄。依據：REQ-SYS-046。 */
         }
     }
 
