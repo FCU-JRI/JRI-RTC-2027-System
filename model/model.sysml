@@ -1118,4 +1118,5 @@ package Project {
     #derive dependency from Project::Requirements::'靜態穩定度（發射許可）' to Project::NGOs::'發射許可審查核可項數';
     #derive dependency from Project::Requirements::'開傘前不得主動姿態控制' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'回收啟動鏈冗餘' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #derive dependency from Project::Requirements::'航電耐受衝擊與振動' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
