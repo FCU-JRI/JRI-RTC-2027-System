@@ -1069,4 +1069,5 @@ package Project {
     #derive dependency from Project::Requirements::'三軸紀錄取樣率與量程' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
     #derive dependency from Project::Requirements::'箭載影像時間涵蓋' to Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍';
     #derive dependency from Project::Requirements::'地面影像涵蓋離架' to Project::NGOs::'MOE-14 地面影像涵蓋發射離架';
+    #derive dependency from Project::NGOs::'火箭所有部件落海後全數回收' to Project::NGOs::'通過所有審查並符合法規與規範';
 }
