@@ -234,6 +234,7 @@ package Project {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
+        part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
     }
 
     package NGOs {
