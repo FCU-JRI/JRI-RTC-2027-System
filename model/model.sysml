@@ -218,6 +218,7 @@ package Project {
         part def <'SYS-017'> '外部：主辦單位與評審（資料接收方）' :> System {
             doc /* 接收團隊在回收後提交的飛行數據，包括高度、速度、加速度與 GPS 軌跡，作為評分依據。依據：OBJ-004、UC-025。 */
         }
+        part def <'CMP-001'> '公版發動機 Pioneer-10K' :> Component;
     }
 
     package NGOs {
