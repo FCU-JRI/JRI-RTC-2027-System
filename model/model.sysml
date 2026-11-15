@@ -802,6 +802,7 @@ package Project {
             action <'PH-015'> '資料讀取與提交' : MissionPhase;
             action <'PH-016'> '終止發射與解除啟動' : MissionPhase;
             first '發射許可審查' then '發射準備';
+            first '發射準備' then '待發射';
         }
     }
 }
