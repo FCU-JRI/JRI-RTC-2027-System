@@ -1113,7 +1113,7 @@ package Project {
             doc /* 專案應記錄每一筆支出，包括金額、日期、用途與所屬次系統。 */
         }
         requirement <'REQ-SYS-091'> '計畫：採購核可門檻' : SystemRequirement {
-            doc /* 單筆金額超過新臺幣 1,000 元的採購，應在下單前取得副社長暨營運長核可。依據：期望 EXP-002。 */
+            doc /* 單筆金額超過新臺幣 1,000 元的採購，應在下單前取得財務長核可。依據：期望 EXP-002。 */
         }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
