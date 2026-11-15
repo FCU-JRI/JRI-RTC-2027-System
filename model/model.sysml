@@ -1103,6 +1103,9 @@ package Project {
         requirement <'REQ-SYS-087'> '計畫：H3作業程序' : SystemRequirement {
             doc /* 每項 H3 等級作業都應有經管制官審核的標準作業程序，並在作業前提交。依據：期望 EXP-003。出處：火箭設計規範 V2 4.5.4。 */
         }
+        requirement <'REQ-SYS-088'> '計畫：報告內部審查期限' : SystemRequirement {
+            doc /* MDR、PDR、CDR、FRR 每份報告，應在收件截止前 7 天完成內部審查並取得總工程師核可。收件截止：MDR 2026-11-20、PDR 2027-01-21、CDR 2027-04-17、FRR 2027-06-30（FRR 日期取自酬載提案計劃書，待確認）。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
