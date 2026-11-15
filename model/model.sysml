@@ -938,6 +938,9 @@ package Project {
         requirement <'REQ-SYS-038'> '洩壓孔' : SystemRequirement {
             doc /* 火箭外殼應依設計需求設置足夠的洩壓孔，防止飛行中內部壓力累積造成機體損壞或非預期的結構變化。出處：火箭設計規範 V2 6.1.1。 */
         }
+        requirement <'REQ-SYS-039'> '結構承受操作應力' : SystemRequirement {
+            doc /* 火箭結構應能承受操作過程中的應力，並在搬運、運輸與飛行期間保持結構完整。出處：火箭設計規範 V2 6.1.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
