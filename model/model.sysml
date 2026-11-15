@@ -860,6 +860,9 @@ package Project {
         requirement <'REQ-SYS-014'> '上架後安裝點火器' : SystemRequirement {
             doc /* 火箭在發射架上完成架設與啟動後，系統應讓競賽工作人員不必拆卸任何箭體部件，就能從發動機噴嘴端安裝點火器並連接點火線路。出處：火箭設計規範 V2 3.2.7、9.2.1、9.2.2；總工程師確認點火器於上架後安裝。 */
         }
+        requirement <'REQ-SYS-015'> '動態穩定度下限' : SystemRequirement {
+            doc /* 在 2 m/s 側風條件下，從發射到首次回收系統部署事件前，火箭的動態穩定度應大於 1.5 倍箭身直徑，並涵蓋重心與壓力中心的移動。出處：火箭設計規範 V2 8.2.1、8.2.1.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
