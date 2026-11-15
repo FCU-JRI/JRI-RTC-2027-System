@@ -325,6 +325,7 @@ package Project {
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
+            part '公版GPS追蹤器' : Project::Structure::'公版GPS追蹤器';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
