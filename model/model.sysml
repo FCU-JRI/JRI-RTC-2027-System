@@ -1348,6 +1348,9 @@ package Project {
         requirement <'REQ-SUB-020'> '結構：隊伍標示' : SubsystemRequirement {
             doc /* 箭體應標註隊伍名稱與編號，且火箭在發射架上時隊伍身份應清晰可見。出處：火箭設計規範 V2 6.4.1、6.4.2。 */
         }
+        requirement <'REQ-SUB-021'> '結構：翼片隊伍ID' : SubsystemRequirement {
+            doc /* 每個翼片前方應標示隊伍 ID，每個數字至少 50 mm 高、筆劃寬度至少 8 mm，顏色與箭身背景形成明顯對比，且火箭豎立時可讀。出處：火箭設計規範 V2 6.4.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
