@@ -799,6 +799,7 @@ package Project {
             action <'PH-012'> '主傘釋放' : MissionPhase;
             action <'PH-013'> '濺落與漂浮' : MissionPhase;
             action <'PH-014'> '海上回收' : MissionPhase;
+            action <'PH-015'> '資料讀取與提交' : MissionPhase;
         }
     }
 }
