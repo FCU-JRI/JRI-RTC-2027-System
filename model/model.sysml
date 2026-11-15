@@ -8,9 +8,17 @@ package Project {
     package Stakeholders {
         public import 'JRI 團隊'::*;
         package 'JRI 團隊' {
+            part <'STK-002'> '總工程師暨隊長' : Stakeholder {
+                doc /* 正式職稱為「社長暨總工程師」，是次團隊內部的最高職級，對應 TASA 簡章的隊長。在他之上還有兩位顧問（教職員顧問、管制官）。 */
+                :>> role = "總工程師暨隊長負責確保全隊依工程指導原則之開發週期與審查程序執行，並對次系統整合及加工零件之最終簽核負責，故關注各次系統之介面相容性、重量與重心分配，以及零件是否符合設計公差。全系統整合、推力測試與飛行測試之備便審查須送請管制官或教職員顧問核可，其關注送審證據之完整性、測試紀錄之可追溯性，以及前次審查問題之結案狀況。時程方面，其關注各階段報告之準時繳交、關鍵測試於第二次設計審查前完成，以及緊急優先度之適當運用。對外，其為主辦單位之指定聯繫窗口，關注成員異動通報、報到文件與發射執照等資格事項之完備。整體而言，其以火箭順利升空並完成回收為最終關注，蓋決賽飛行占總成績百分之四十五，未發射者該項以零分計。";
+            }
             part <'STK-003'> '副社長暨營運長' : Stakeholder {
                 doc /* 次團隊內部第二高職級，對應主辦單位簡章規定每隊必設之副隊長，並為指定聯繫窗口之一。 */
                 :>> role = "副社長暨營運長負責團隊之營運與資源調度，關注時程規劃與甘特圖之維護、各階段報告之如期繳交，以及人力於十五人上限內之合理配置。經費方面，其關注預算執行、零件表與關鍵採購項目之交期，以及贊助與合約義務之履行。文件方面，其關注文件之歸檔、版本管理與存取權限，使實際飛行構型得以追溯至核准版本。行政方面，其與隊長同為主辦單位聯繫窗口，關注報名資格文件、成員異動通報、報名費繳交及發射執照測驗之安排。決賽期間，其關注運輸、住宿、進場人員名單與現場補給等後勤事項，並於隊長無法執行職務時代行對外聯繫。整體而言，其以團隊於既定時程與資源內完成各階段交付為主要關注，對技術基準不具決定權。";
+            }
+            part <'STK-004'> '指導員2-管制官' : Stakeholder {
+                doc /* 管制官為逆熵航太指派之顧問（職級 R-VIII），一團隊至多一位，對應主辦單位簡章之指導員。其負責監督團隊遵循工程指導原則，提供學術與技術指導，並得於發現安全隱患時勒令全體或部分停工。品質保證方面，其核可全系統整合及測試備便審查、飛行備便審查以外之各項審查，並於測試備便審查後公布結果、將測試申請送交教職員顧問。出處：AEAS 工程指導原則 4.1；AEAS 安全協議 4.2。 */
+                :>> role = "管制官負責監督團隊遵循工程指導原則，關注各階段設計審查之如實執行、審查結果之登錄，以及前次審查問題之結案。安全方面，其關注地面測試與射場作業之標準作業程序、安全協議與緊急應變程序是否完備，儲能裝置與推進系統於各作業階段是否處於已知之安全狀態，以及人員防護裝備與安全距離之落實；發現安全隱患時，其得逕行勒令停工。技術方面，其為全系統整合之核可者，關注次系統整合後之整體功能、重量與重心、穩定度及安全係數是否符合設計基準。異常處理方面，其關注所有故障均經記錄、調查並完成矯正措施。對外，其為主辦單位認定之指導員，關注危險性測試之現場監督責任，以及團隊於決賽通過發射許可審查之能力。整體而言，其以人員安全與程序合規為首要關注，位階高於時程與競賽成績。";
             }
             part <'STK-005'> '指導員1-教職員顧問' : Stakeholder {
                 doc /* 教職員顧問由大專院校教師受委任擔任（職級 F-VIII），性質類同校內社團之指導老師，對應主辦單位簡章之指導員。其負責簽署對校方之文件、與校方溝通協調，並為測試備便審查與飛行備便審查之最高核可者；未經其許可，不得進行點火或飛行，違反者團隊得遭暫時或永久中止，成員並可能受校方懲處。其另負責與校方安排熱火測試日期並簽核測試申請表，得於發現安全隱患時勒令全體或部分停工。 */
@@ -31,14 +39,6 @@ package Project {
             part <'STK-018'> '酬載提案委員會' : Stakeholder {
                 doc /* 酬載提案委員會（Payload Proposal Committee, PPC）是本計劃酬載任務提出者。它代表液體動力實驗的使用者，負責定義「要量測什麼、量到什麼程度才算成功」，並在任務結束後使用取得的數據。出處：總工程師確認（2026-11-15）。 */
                 :>> role = "影像紀錄、酬載實驗數據";
-            }
-            part <'STK-002'> '總工程師暨隊長' : Stakeholder {
-                doc /* 正式職稱為「社長暨總工程師」，是次團隊內部的最高職級，對應 TASA 簡章的隊長。在他之上還有兩位顧問（教職員顧問、管制官）。 */
-                :>> role = "總工程師暨隊長負責確保全隊依工程指導原則之開發週期與審查程序執行，並對次系統整合及加工零件之最終簽核負責，故關注各次系統之介面相容性、重量與重心分配，以及零件是否符合設計公差。全系統整合、推力測試與飛行測試之備便審查須送請管制官或教職員顧問核可，其關注送審證據之完整性、測試紀錄之可追溯性，以及前次審查問題之結案狀況。時程方面，其關注各階段報告之準時繳交、關鍵測試於第二次設計審查前完成，以及緊急優先度之適當運用。對外，其為主辦單位之指定聯繫窗口，關注成員異動通報、報到文件與發射執照等資格事項之完備。整體而言，其以火箭順利升空並完成回收為最終關注，蓋決賽飛行占總成績百分之四十五，未發射者該項以零分計。";
-            }
-            part <'STK-004'> '指導員2-管制官' : Stakeholder {
-                doc /* 管制官為逆熵航太指派之顧問（職級 R-VIII），一團隊至多一位，對應主辦單位簡章之指導員。其負責監督團隊遵循工程指導原則，提供學術與技術指導，並得於發現安全隱患時勒令全體或部分停工。品質保證方面，其核可全系統整合及測試備便審查、飛行備便審查以外之各項審查，並於測試備便審查後公布結果、將測試申請送交教職員顧問。出處：AEAS 工程指導原則 4.1；AEAS 安全協議 4.2。 */
-                :>> role = "管制官負責監督團隊遵循工程指導原則，關注各階段設計審查之如實執行、審查結果之登錄，以及前次審查問題之結案。安全方面，其關注地面測試與射場作業之標準作業程序、安全協議與緊急應變程序是否完備，儲能裝置與推進系統於各作業階段是否處於已知之安全狀態，以及人員防護裝備與安全距離之落實；發現安全隱患時，其得逕行勒令停工。技術方面，其為全系統整合之核可者，關注次系統整合後之整體功能、重量與重心、穩定度及安全係數是否符合設計基準。異常處理方面，其關注所有故障均經記錄、調查並完成矯正措施。對外，其為主辦單位認定之指導員，關注危險性測試之現場監督責任，以及團隊於決賽通過發射許可審查之能力。整體而言，其以人員安全與程序合規為首要關注，位階高於時程與競賽成績。";
             }
         }
         public import '主辦與規範'::*;
@@ -143,11 +143,15 @@ package Project {
                 :>> role = "危害性化學品有標示與通識、作業危害有防護";
             }
         }
-        public import '供應'::*;
-        package '供應' {
+        public import '供應與贊助'::*;
+        package '供應與贊助' {
             part <'STK-021'> '零件與材料供應商' : Stakeholder {
                 doc /* 提供商規零件、材料 */
                 :>> role = "規格明確、交期與數量可行";
+            }
+            part <'STK-033'> '贊助者' : Stakeholder {
+                doc /* 以資金、原物料或場地資源支持專案的單位，依贊助級距取得社群、活動與箭體塗裝的品牌曝光。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 12 至 19 頁；競賽規則說明 v3 第 3 頁；AEAS 工程指導原則 4.5。 */
+                :>> role = "商標在箭體與影像中可見、贊助資源用於製造與測試";
             }
         }
         public import 'AEAS'::*;
@@ -157,159 +161,155 @@ package Project {
                 :>> role = "依指導原則執行開發與審查、遵守安全協議、文件依規範管理";
             }
         }
-        public import '贊助'::*;
-        package '贊助' {
-            part <'STK-033'> '贊助者' : Stakeholder {
-                doc /* 以資金、原物料或場地資源支持專案的單位，依贊助級距取得社群、活動與箭體塗裝的品牌曝光。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 12 至 19 頁；競賽規則說明 v3 第 3 頁；AEAS 工程指導原則 4.5。 */
-                :>> role = "商標在箭體與影像中可見、贊助資源用於製造與測試";
+        public import '期望'::*;
+        package '期望' {
+            requirement <'EXP-001'> '任務達成完全成功' : Expectation {
+                doc /* 總工程師對任務成敗負最終責任。完全成功的定義見任務成功準則：通過審查、安全飛行，並取回飛行數據、酬載數據和箭載影像。 */
             }
-        }
-        requirement <'EXP-001'> '任務達成完全成功' : Expectation {
-            doc /* 總工程師對任務成敗負最終責任。完全成功的定義見任務成功準則：通過審查、安全飛行，並取回飛行數據、酬載數據和箭載影像。 */
-        }
-        requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation {
-            doc /* 營運長負責團隊財務。超支會影響社團營運和之後年度的經費申請。 */
-        }
-        requirement <'EXP-003'> '無人員受傷' : Expectation {
-            doc /* 儲能裝置、發動機、複材製程都有受傷風險。管制官要確認每項危險作業開始前，程序都經過審核。 */
-        }
-        requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation {
-            doc /* 指導老師與安全官需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
-        }
-        requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation {
-            doc /* 責任工程師依據上層分配的需求進行設計。需求模糊或介面不清，會導致設計反覆修改，或整合時才發現對不上。 */
-        }
-        requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation {
-            doc /* 成員投入大量時間參與計劃，希望從中獲得專業成長，也有助於升學。 */
-        }
-        requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation {
-            doc /* 包含箭載、地面和空拍影像。飛行畫面是最能呈現團隊工程成果的素材。 */
-        }
-        requirement <'EXP-008'> '將酬載實驗裝置放進探空火箭' : Expectation {
-            doc /* 地面試驗難以重現飛行中連續變化的加速度。實際飛行的數據可以補足這個缺口。數據要有足夠的取樣率、精度，並和飛行數據時間同步。 */
-        }
-        requirement <'EXP-009'> '發射與回收全程安全' : Expectation {
-            doc /* 主辦單位對射場人員和環境的安全負責。 */
-        }
-        requirement <'EXP-010'> '賽事流程順利進行' : Expectation {
-            doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
-        }
-        requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation {
-            doc /* 以實際飛行數據和明確的判準評分。 */
-        }
-        requirement <'EXP-012'> '上架前確認可安全發射' : Expectation {
-            doc /* 發射許可為最後一道安全關卡。審查委員要對放行的決定負責。 */
-        }
-        requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation {
-            doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
-        }
-        requirement <'EXP-014'> '射場作業安全且有序' : Expectation {
-            doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
-        }
-        requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation {
-            doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一 */
-        }
-        requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation {
-            doc /* 船員不是火箭專業人員，打撈時需要確認不會接觸到未釋放的儲能裝置。 */
-        }
-        requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation {
-            doc /* 無人機進入火箭的飛行路徑或傘降範圍，會造成碰撞風險。 */
-        }
-        requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation {
-            doc /* 各隊都依賴無線電傳回遙測數據。頻道衝突可能導致其他隊伍遺失數據，甚至影響回收系統。 */
-        }
-        requirement <'EXP-019'> '頻段與功率合法' : Expectation {
-            doc /* 應使用業餘無線電執照中核可無線電頻段段與功率。未經核准的頻段或超出功率限制，可能干擾其他合法的無線電使用者。 */
-        }
-        requirement <'EXP-020'> '收到可履行的訂單' : Expectation {
-            doc /* 規格不清楚會導致報價錯誤或出貨不符，造成雙方的退換成本。 */
-        }
-        requirement <'EXP-021'> '發射不危及公共安全' : Expectation {
-            doc /* 發射計畫應有確保飛行路徑與發射設施周邊安全的方法，包含緊急應變與發射終止措施。出處：太空發展法第 11 條第 2 項；發射載具發射許可及太空事故處理辦法第 5、8 條。 */
-        }
-        requirement <'EXP-022'> '事故可即時通報與調查' : Expectation {
-            doc /* 發生事故或偏離飛行路徑時，能即時提供追蹤資料，並保全資料供調查。出處：發射載具發射許可及太空事故處理辦法第 18 條；太空發展法第 18 條。 */
-        }
-        requirement <'EXP-023'> '活動符合環境保護法規' : Expectation {
-            doc /* 從事太空活動應依國內環境保護法規辦理，減少對環境之不利影響。出處：太空發展法第 7 條。 */
-        }
-        requirement <'EXP-024'> '火箭不成為海洋廢棄物' : Expectation {
-            doc /* 火箭與所有部件落海後都被回收，不遺留人造持久性固體於海中。出處：海洋污染防治法第 4 條第 11 款。 */
-        }
-        requirement <'EXP-025'> '有害物質不排洩入海' : Expectation {
-            doc /* 電池、實驗液體、配重等不將有害物質帶入海洋。出處：海洋污染防治法第 4 條第 1 款、第 21 條。 */
-        }
-        requirement <'EXP-026'> '事業廢棄物依規定清運' : Expectation {
-            doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等交由合法機構清運，不任意棄置。出處：廢棄物清理法第 2、28、30、36 條。 */
-        }
-        requirement <'EXP-027'> '危害性化學品有標示與通識' : Expectation {
-            doc /* 危害性化學品之容器標示、清單與安全資料表齊備，作業人員受過訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
-        }
-        requirement <'EXP-028'> '作業危害有防護且可停工' : Expectation {
-            doc /* 對爆炸性物質、高壓氣體、化學品、粉塵等危害有防護措施；有立即發生危險之虞時停止作業。出處：職業安全衛生法第 6、18 條。 */
-        }
-        requirement <'EXP-029'> '評選公平公正公開' : Expectation {
-            doc /* 評選秉持公平、公正、公開原則，並落實利益迴避。出處：競賽規則說明 v3 第 27 頁。 */
-        }
-        requirement <'EXP-030'> '競賽爭議可依紀錄裁決' : Expectation {
-            doc /* 競賽爭議項目能在評審會議上依明確紀錄做最終裁決。出處：競賽規則說明 v3 第 27 頁。 */
-        }
-        requirement <'EXP-031'> '目標變更有一致的確認程序' : Expectation {
-            doc /* 任務目標或酬載成功條件的變更須說明原因、影響與驗證結果，並有一致的確認程序，不任意降低目標。出處：競賽規則說明 v3 第 14 頁。 */
-        }
-        requirement <'EXP-032'> '各檢查站結果足以做最終判定' : Expectation {
-            doc /* 各檢查站的審查狀況與結果明確，足以做出最終許可與否的決定。出處：競賽規則說明 v3 第 32 頁。 */
-        }
-        requirement <'EXP-033'> '火箭符合設計安全規範' : Expectation {
-            doc /* 火箭符合設計安全規範，發射前問題已釐清，避免發射意外。出處：競賽規則說明 v3 第 11 頁。 */
-        }
-        requirement <'EXP-034'> '審查在規定時間內完成' : Expectation {
-            doc /* 隊伍在審查時間（含展延）內完成發射許可審查與上架備便審查。出處：競賽規則說明 v3 第 6 頁。 */
-        }
-        requirement <'EXP-035'> '異常時可立即確認人員狀況' : Expectation {
-            doc /* 火箭升空異常時，能立即確認是否有人員受傷。出處：競賽規則說明 v3 第 58 頁。 */
-        }
-        requirement <'EXP-036'> '發射條件符合才發射' : Expectation {
-            doc /* 風速、地震、巨浪、雷擊、降雨、能見度都在限制內才進行發射。出處：競賽規則說明 v3 第 55 頁。 */
-        }
-        requirement <'EXP-037'> '現場具備消防與送醫能力' : Expectation {
-            doc /* 無適當消防設備或無可載送傷者的運輸器具時不發射。出處：競賽規則說明 v3 第 55 頁。 */
-        }
-        requirement <'EXP-038'> '火箭能在限制風速內安全離架' : Expectation {
-            doc /* 預備發射時場地風速應小於火箭離架速度的四分之一。出處：火箭設計規範 V2 8.2.3。 */
-        }
-        requirement <'EXP-039'> '發射前場域淨空' : Expectation {
-            doc /* 發射前確認射場無人員。出處：競賽規則說明 v3 第 55 頁。 */
-        }
-        requirement <'EXP-040'> '相關單位已通知且回收船已待命' : Expectation {
-            doc /* 發射前已通知相關單位，回收船已在待命區。出處：競賽規則說明 v3 第 55 頁。 */
-        }
-        requirement <'EXP-041'> '交通管制已完成' : Expectation {
-            doc /* 發射時無車輛進入管制區。出處：競賽規則說明 v3 第 48、55 頁。 */
-        }
-        requirement <'EXP-042'> '異常不擴大成災害' : Expectation {
-            doc /* 火箭異常時不落於建物、交通工具、樹林、人口稠密區等高風險區域。出處：競賽規則說明 v3 第 58 頁。 */
-        }
-        requirement <'EXP-043'> '異常狀態在可處置範圍內' : Expectation {
-            doc /* 異常狀態可由滅火器或現場消防隊處理。出處：競賽規則說明 v3 第 58 頁。 */
-        }
-        requirement <'EXP-044'> '剩餘火箭可安全移除點火器' : Expectation {
-            doc /* 比賽暫停時，工作人員能前往剩餘未發射的火箭移除點火器。出處：競賽規則說明 v3 第 58 頁。 */
-        }
-        requirement <'EXP-045'> '依指導原則的週期與審查執行' : Expectation {
-            doc /* 工程開發依開發週期模式進行，各項審查由指定職權核可。出處：AEAS 工程指導原則 1.2、5.3、6.2。 */
-        }
-        requirement <'EXP-046'> '遵守安全協議與危害分級' : Expectation {
-            doc /* 所有工程計畫依 H1 至 H3 危害分級管制危害物質與作業。出處：AEAS 安全協議 1.2、7.5。 */
-        }
-        requirement <'EXP-047'> '文件依規範撰寫歸檔與版本控制' : Expectation {
-            doc /* 文件依文件規範撰寫與歸檔，變更有紀錄可追溯。出處：AEAS 工程指導原則第 5 章、6.2.5。 */
-        }
-        requirement <'EXP-048'> '商標印在箭體上且在影像中可見' : Expectation {
-            doc /* 箭身印製品牌商標，發射活動的拍攝紀錄產出品牌可見的影片與素材。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 17 頁。 */
-        }
-        requirement <'EXP-049'> '贊助資源用於火箭製造與測試' : Expectation {
-            doc /* 提供的資金、物料或場地實際用於火箭製造與測試。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 19 頁。 */
+            requirement <'EXP-002'> '團隊在有限資源下可持續運作' : Expectation {
+                doc /* 營運長負責團隊財務。超支會影響社團營運和之後年度的經費申請。 */
+            }
+            requirement <'EXP-003'> '無人員受傷' : Expectation {
+                doc /* 儲能裝置、發動機、複材製程都有受傷風險。管制官要確認每項危險作業開始前，程序都經過審核。 */
+            }
+            requirement <'EXP-004'> '計劃在合規且可監督的狀態下進行' : Expectation {
+                doc /* 指導老師與安全官需要在審查節點了解計劃狀態，才能判斷是否要介入或提供協助。 */
+            }
+            requirement <'EXP-005'> '分系統如期交付且確認可用' : Expectation {
+                doc /* 責任工程師依據上層分配的需求進行設計。需求模糊或介面不清，會導致設計反覆修改，或整合時才發現對不上。 */
+            }
+            requirement <'EXP-006'> '累積實作經驗與技術能力' : Expectation {
+                doc /* 成員投入大量時間參與計劃，希望從中獲得專業成長，也有助於升學。 */
+            }
+            requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation {
+                doc /* 包含箭載、地面和空拍影像。飛行畫面是最能呈現團隊工程成果的素材。 */
+            }
+            requirement <'EXP-008'> '將酬載實驗裝置放進探空火箭' : Expectation {
+                doc /* 地面試驗難以重現飛行中連續變化的加速度。實際飛行的數據可以補足這個缺口。數據要有足夠的取樣率、精度，並和飛行數據時間同步。 */
+            }
+            requirement <'EXP-009'> '發射與回收全程安全' : Expectation {
+                doc /* 主辦單位對射場人員和環境的安全負責。 */
+            }
+            requirement <'EXP-010'> '賽事流程順利進行' : Expectation {
+                doc /* 承辦單位負責賽事的實際執行，任何隊伍延誤都會影響整體流程。 */
+            }
+            requirement <'EXP-011'> '評分依據客觀、可驗證' : Expectation {
+                doc /* 以實際飛行數據和明確的判準評分。 */
+            }
+            requirement <'EXP-012'> '上架前確認可安全發射' : Expectation {
+                doc /* 發射許可為最後一道安全關卡。審查委員要對放行的決定負責。 */
+            }
+            requirement <'EXP-013'> '發動機在安全程序下操作' : Expectation {
+                doc /* 發動機是火箭上能量最高的部件，操作失誤可能造成嚴重傷害。 */
+            }
+            requirement <'EXP-014'> '射場作業安全且有序' : Expectation {
+                doc /* 發射指揮官要在發現異常時，能立即讓火箭回到安全狀態。 */
+            }
+            requirement <'EXP-015'> '完整記錄並呈現發射過程' : Expectation {
+                doc /* 直播需要觀眾能辨識是哪一隊在發射，這也是規範要求隊伍標示原因之一 */
+            }
+            requirement <'EXP-016'> '安全且有效率地完成回收' : Expectation {
+                doc /* 船員不是火箭專業人員，打撈時需要確認不會接觸到未釋放的儲能裝置。 */
+            }
+            requirement <'EXP-017'> '空拍不和火箭軌跡衝突' : Expectation {
+                doc /* 無人機進入火箭的飛行路徑或傘降範圍，會造成碰撞風險。 */
+            }
+            requirement <'EXP-018'> '自身作業不受其他隊伍影響' : Expectation {
+                doc /* 各隊都依賴無線電傳回遙測數據。頻道衝突可能導致其他隊伍遺失數據，甚至影響回收系統。 */
+            }
+            requirement <'EXP-019'> '頻段與功率合法' : Expectation {
+                doc /* 應使用業餘無線電執照中核可無線電頻段段與功率。未經核准的頻段或超出功率限制，可能干擾其他合法的無線電使用者。 */
+            }
+            requirement <'EXP-020'> '收到可履行的訂單' : Expectation {
+                doc /* 規格不清楚會導致報價錯誤或出貨不符，造成雙方的退換成本。 */
+            }
+            requirement <'EXP-021'> '發射不危及公共安全' : Expectation {
+                doc /* 發射計畫應有確保飛行路徑與發射設施周邊安全的方法，包含緊急應變與發射終止措施。出處：太空發展法第 11 條第 2 項；發射載具發射許可及太空事故處理辦法第 5、8 條。 */
+            }
+            requirement <'EXP-022'> '事故可即時通報與調查' : Expectation {
+                doc /* 發生事故或偏離飛行路徑時，能即時提供追蹤資料，並保全資料供調查。出處：發射載具發射許可及太空事故處理辦法第 18 條；太空發展法第 18 條。 */
+            }
+            requirement <'EXP-023'> '活動符合環境保護法規' : Expectation {
+                doc /* 從事太空活動應依國內環境保護法規辦理，減少對環境之不利影響。出處：太空發展法第 7 條。 */
+            }
+            requirement <'EXP-024'> '火箭不成為海洋廢棄物' : Expectation {
+                doc /* 火箭與所有部件落海後都被回收，不遺留人造持久性固體於海中。出處：海洋污染防治法第 4 條第 11 款。 */
+            }
+            requirement <'EXP-025'> '有害物質不排洩入海' : Expectation {
+                doc /* 電池、實驗液體、配重等不將有害物質帶入海洋。出處：海洋污染防治法第 4 條第 1 款、第 21 條。 */
+            }
+            requirement <'EXP-026'> '事業廢棄物依規定清運' : Expectation {
+                doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等交由合法機構清運，不任意棄置。出處：廢棄物清理法第 2、28、30、36 條。 */
+            }
+            requirement <'EXP-027'> '危害性化學品有標示與通識' : Expectation {
+                doc /* 危害性化學品之容器標示、清單與安全資料表齊備，作業人員受過訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
+            }
+            requirement <'EXP-028'> '作業危害有防護且可停工' : Expectation {
+                doc /* 對爆炸性物質、高壓氣體、化學品、粉塵等危害有防護措施；有立即發生危險之虞時停止作業。出處：職業安全衛生法第 6、18 條。 */
+            }
+            requirement <'EXP-029'> '評選公平公正公開' : Expectation {
+                doc /* 評選秉持公平、公正、公開原則，並落實利益迴避。出處：競賽規則說明 v3 第 27 頁。 */
+            }
+            requirement <'EXP-030'> '競賽爭議可依紀錄裁決' : Expectation {
+                doc /* 競賽爭議項目能在評審會議上依明確紀錄做最終裁決。出處：競賽規則說明 v3 第 27 頁。 */
+            }
+            requirement <'EXP-031'> '目標變更有一致的確認程序' : Expectation {
+                doc /* 任務目標或酬載成功條件的變更須說明原因、影響與驗證結果，並有一致的確認程序，不任意降低目標。出處：競賽規則說明 v3 第 14 頁。 */
+            }
+            requirement <'EXP-032'> '各檢查站結果足以做最終判定' : Expectation {
+                doc /* 各檢查站的審查狀況與結果明確，足以做出最終許可與否的決定。出處：競賽規則說明 v3 第 32 頁。 */
+            }
+            requirement <'EXP-033'> '火箭符合設計安全規範' : Expectation {
+                doc /* 火箭符合設計安全規範，發射前問題已釐清，避免發射意外。出處：競賽規則說明 v3 第 11 頁。 */
+            }
+            requirement <'EXP-034'> '審查在規定時間內完成' : Expectation {
+                doc /* 隊伍在審查時間（含展延）內完成發射許可審查與上架備便審查。出處：競賽規則說明 v3 第 6 頁。 */
+            }
+            requirement <'EXP-035'> '異常時可立即確認人員狀況' : Expectation {
+                doc /* 火箭升空異常時，能立即確認是否有人員受傷。出處：競賽規則說明 v3 第 58 頁。 */
+            }
+            requirement <'EXP-036'> '發射條件符合才發射' : Expectation {
+                doc /* 風速、地震、巨浪、雷擊、降雨、能見度都在限制內才進行發射。出處：競賽規則說明 v3 第 55 頁。 */
+            }
+            requirement <'EXP-037'> '現場具備消防與送醫能力' : Expectation {
+                doc /* 無適當消防設備或無可載送傷者的運輸器具時不發射。出處：競賽規則說明 v3 第 55 頁。 */
+            }
+            requirement <'EXP-038'> '火箭能在限制風速內安全離架' : Expectation {
+                doc /* 預備發射時場地風速應小於火箭離架速度的四分之一。出處：火箭設計規範 V2 8.2.3。 */
+            }
+            requirement <'EXP-039'> '發射前場域淨空' : Expectation {
+                doc /* 發射前確認射場無人員。出處：競賽規則說明 v3 第 55 頁。 */
+            }
+            requirement <'EXP-040'> '相關單位已通知且回收船已待命' : Expectation {
+                doc /* 發射前已通知相關單位，回收船已在待命區。出處：競賽規則說明 v3 第 55 頁。 */
+            }
+            requirement <'EXP-041'> '交通管制已完成' : Expectation {
+                doc /* 發射時無車輛進入管制區。出處：競賽規則說明 v3 第 48、55 頁。 */
+            }
+            requirement <'EXP-042'> '異常不擴大成災害' : Expectation {
+                doc /* 火箭異常時不落於建物、交通工具、樹林、人口稠密區等高風險區域。出處：競賽規則說明 v3 第 58 頁。 */
+            }
+            requirement <'EXP-043'> '異常狀態在可處置範圍內' : Expectation {
+                doc /* 異常狀態可由滅火器或現場消防隊處理。出處：競賽規則說明 v3 第 58 頁。 */
+            }
+            requirement <'EXP-044'> '剩餘火箭可安全移除點火器' : Expectation {
+                doc /* 比賽暫停時，工作人員能前往剩餘未發射的火箭移除點火器。出處：競賽規則說明 v3 第 58 頁。 */
+            }
+            requirement <'EXP-045'> '依指導原則的週期與審查執行' : Expectation {
+                doc /* 工程開發依開發週期模式進行，各項審查由指定職權核可。出處：AEAS 工程指導原則 1.2、5.3、6.2。 */
+            }
+            requirement <'EXP-046'> '遵守安全協議與危害分級' : Expectation {
+                doc /* 所有工程計畫依 H1 至 H3 危害分級管制危害物質與作業。出處：AEAS 安全協議 1.2、7.5。 */
+            }
+            requirement <'EXP-047'> '文件依規範撰寫歸檔與版本控制' : Expectation {
+                doc /* 文件依文件規範撰寫與歸檔，變更有紀錄可追溯。出處：AEAS 工程指導原則第 5 章、6.2.5。 */
+            }
+            requirement <'EXP-048'> '商標印在箭體上且在影像中可見' : Expectation {
+                doc /* 箭身印製品牌商標，發射活動的拍攝紀錄產出品牌可見的影片與素材。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 17 頁。 */
+            }
+            requirement <'EXP-049'> '贊助資源用於火箭製造與測試' : Expectation {
+                doc /* 提供的資金、物料或場地實際用於火箭製造與測試。依據為 2026 年度贊助簡報，2027 年度方案待確認。出處：JRI Project 2026 贊助簡報第 19 頁。 */
+            }
         }
     }
 
@@ -481,34 +481,37 @@ package Project {
     }
 
     package UseCases {
-        use case <'UC-011'> '製造與組裝' : UseCase;
-        use case <'UC-012'> '審核危險作業程序' : UseCase;
-        use case <'UC-013'> '執行分系統地面測試' : UseCase;
-        use case <'UC-014'> '執行全箭整合測試' : UseCase;
-        use case <'UC-015'> '執行飛行準備審查與核可' : UseCase;
-        use case <'UC-041'> '清運實驗室事業廢棄物' : UseCase {
-            doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等事業廢棄物，依規定貯存並交由合法機構清除、處理。出處：廢棄物清理法第 2、28、30、36 條。 */
-        }
-        use case <'UC-042'> '標示危害性化學品並辦理通識訓練' : UseCase {
-            doc /* 危害性化學品的容器標示、清單與安全資料表齊備，作業人員完成危害通識訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
+        public import '製造與測試'::*;
+        package '製造與測試' {
+            use case <'UC-011'> '製造與組裝' : UseCase;
+            use case <'UC-012'> '審核危險作業程序' : UseCase;
+            use case <'UC-013'> '執行分系統地面測試' : UseCase;
+            use case <'UC-014'> '執行全箭整合測試' : UseCase;
+            use case <'UC-015'> '執行飛行準備審查與核可' : UseCase;
+            use case <'UC-041'> '清運實驗室事業廢棄物' : UseCase {
+                doc /* 實驗室產出的廢樹脂、廢溶劑、廢電池等事業廢棄物，依規定貯存並交由合法機構清除、處理。出處：廢棄物清理法第 2、28、30、36 條。 */
+            }
+            use case <'UC-042'> '標示危害性化學品並辦理通識訓練' : UseCase {
+                doc /* 危害性化學品的容器標示、清單與安全資料表齊備，作業人員完成危害通識訓練。出處：職業安全衛生法第 10、32 條；危害性化學品標示及通識規則第 5、12、17 條。 */
+            }
         }
         public import '飛行與回收'::*;
         package '飛行與回收' {
-            use case <'UC-025'> '取回火箭並提交飛行數據' : UseCase;
-            use case <'UC-024'> '海上回收火箭' : UseCase;
             use case <'UC-023'> '追蹤火箭位置與落點' : UseCase;
+            use case <'UC-024'> '海上回收火箭' : UseCase;
+            use case <'UC-025'> '取回火箭並提交飛行數據' : UseCase;
             use case <'UC-040'> '通報事故並保全資料' : UseCase {
                 doc /* 發生太空事故或火箭偏離原飛行途徑時，即時提供追蹤資料並保全飛行紀錄，使發射許可申請人能於時限內（事故二小時、偏離二十四小時）通報主管機關，並供後續調查。出處：發射載具發射許可及太空事故處理辦法第 18 條；太空發展法第 18 條。 */
             }
         }
         public import '設計與審查'::*;
         package '設計與審查' {
-            use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
-            use case <'UC-010'> '執行官方設計審查' : UseCase;
-            use case <'UC-009'> '提交設計審查文件' : UseCase;
-            use case <'UC-008'> '內部審查' : UseCase;
-            use case <'UC-007'> '分系統設計' : UseCase;
             use case <'UC-006'> '管理需求與系統模型' : UseCase;
+            use case <'UC-007'> '分系統設計' : UseCase;
+            use case <'UC-008'> '內部審查' : UseCase;
+            use case <'UC-009'> '提交設計審查文件' : UseCase;
+            use case <'UC-010'> '執行官方設計審查' : UseCase;
+            use case <'UC-027'> '定義酬載需求與數據需求' : UseCase;
             use case <'UC-032'> '確認射頻器材合法性' : UseCase;
             use case <'UC-033'> '設定發射頻率與功率' : UseCase;
             use case <'UC-034'> '提出採購規格' : UseCase;
@@ -516,7 +519,6 @@ package Project {
         }
         public import '計劃管理'::*;
         package '計劃管理' {
-            use case <'UC-031'> '取得業餘無線電人員執照' : UseCase;
             use case <'UC-001'> '報名參賽與提交計劃書' : UseCase;
             use case <'UC-002'> '核定計劃與經費' : UseCase;
             use case <'UC-003'> '管理預算與採購' : UseCase;
@@ -524,16 +526,17 @@ package Project {
             use case <'UC-005'> '對外宣傳與招募' : UseCase;
             use case <'UC-026'> '提交酬載實驗提案' : UseCase;
             use case <'UC-028'> '提出影像紀錄需求' : UseCase;
+            use case <'UC-031'> '取得業餘無線電人員執照' : UseCase;
         }
         public import '發射場作業'::*;
         package '發射場作業' {
             use case <'UC-016'> '執行發射許可審查' : UseCase;
+            use case <'UC-017'> '安裝公版發動機' : UseCase;
             use case <'UC-018'> '上架並啟動回收系統' : UseCase;
+            use case <'UC-019'> '終止發射並解除啟動' : UseCase;
             use case <'UC-020'> '執行倒數與發射' : UseCase;
             use case <'UC-021'> '直播發射過程' : UseCase;
-            use case <'UC-017'> '安裝公版發動機' : UseCase;
             use case <'UC-022'> '空拍飛行與回收過程' : UseCase;
-            use case <'UC-019'> '終止發射並解除啟動' : UseCase;
             use case <'UC-029'> '協調無線電頻道分配' : UseCase;
             use case <'UC-030'> '共用射場設施與作業區' : UseCase;
             use case <'UC-039'> '處置升空異常' : UseCase {
@@ -601,9 +604,9 @@ package Project {
     #trace dependency from Project::UseCases::'設計與審查'::'確認射頻器材合法性' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'設計與審查'::'設定發射頻率與功率' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
-    #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'供應'::'零件與材料供應商';
+    #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'供應與贊助'::'零件與材料供應商';
     #trace dependency from Project::UseCases::'設計與審查'::'提出採購規格' to Project::Stakeholders::'JRI 團隊'::'核心成員';
-    #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'供應'::'零件與材料供應商';
+    #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'供應與贊助'::'零件與材料供應商';
     #trace dependency from Project::UseCases::'設計與審查'::'詢價與確認交期與數量' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'飛行與回收'::'取回火箭並提交飛行數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'評定競賽成績' to Project::Stakeholders::'審查與評分'::'評審團';
@@ -641,7 +644,7 @@ package Project {
     #trace dependency from Project::Stakeholders::'空拍不和火箭軌跡衝突' to Project::Stakeholders::'回收作業'::'無人機操作員';
     #trace dependency from Project::Stakeholders::'自身作業不受其他隊伍影響' to Project::Stakeholders::'其他參賽者'::'其他發射隊伍';
     #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::Stakeholders::'法規'::'國家通訊傳播委員會';
-    #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::Stakeholders::'供應'::'零件與材料供應商';
+    #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::Stakeholders::'供應與贊助'::'零件與材料供應商';
     #trace dependency from Project::Stakeholders::'任務達成完全成功' to Project::Stakeholders::'JRI 團隊'::'總工程師暨隊長';
     #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::Stakeholders::'JRI 團隊'::'副社長暨營運長';
     #trace dependency from Project::Stakeholders::'無人員受傷' to Project::Stakeholders::'指導員2-管制官';
