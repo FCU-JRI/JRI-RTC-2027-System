@@ -977,6 +977,9 @@ package Project {
         requirement <'REQ-SYS-051'> '軸向加速度量程' : SystemRequirement {
             doc /* 軸向加速度的量測量程應不小於 ±16 g。出處：酬載提案計劃書式 (4-73)。 */
         }
+        requirement <'REQ-SYS-052'> '影像與加速度時間同步' : SystemRequirement {
+            doc /* 影像與軸向加速度紀錄應共用時間基準，同步誤差不大於半個影格間隔（240 fps 時 2.1 ms，170 fps 時 2.9 ms）。出處：酬載提案計劃書式 (4-75)、(4-86)。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
