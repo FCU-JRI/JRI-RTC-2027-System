@@ -131,8 +131,8 @@ package Project {
         requirement <'EXP-007'> '取得可用於宣傳的影像素材' : Expectation {
             doc /* 包含箭載、地面和空拍影像。飛行畫面是最能呈現團隊工程成果的素材。 */
         }
-        requirement <'EXP-008'> '取得飛行的液體動力行為數據' : Expectation {
-            doc /* 地面試驗難以重現飛行中連續變化的加速度。實際飛行的數據可以補足這個缺口。數據要有足夠的取樣率、精度，並和飛行數據時間同步，才能用於模型分析。 */
+        requirement <'EXP-008'> '將酬載實驗裝置放進探空火箭' : Expectation {
+            doc /* 地面試驗難以重現飛行中連續變化的加速度。實際飛行的數據可以補足這個缺口。數據要有足夠的取樣率、精度，並和飛行數據時間同步。 */
         }
         requirement <'EXP-009'> '發射與回收全程安全' : Expectation {
             doc /* 主辦單位對射場人員和環境的安全負責。 */
@@ -457,7 +457,7 @@ package Project {
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::UseCases::'任務後'::'分析酬載實驗數據' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::UseCases::'任務後'::'提交飛行後報告' to Project::Stakeholders::'總工程師暨隊長';
-    #trace dependency from Project::Stakeholders::'取得飛行的液體動力行為數據' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
+    #trace dependency from Project::Stakeholders::'將酬載實驗裝置放進探空火箭' to Project::Stakeholders::'JRI 團隊'::'酬載提案委員會';
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'國家太空中心';
     #trace dependency from Project::Stakeholders::'發射與回收全程安全' to Project::Stakeholders::'主辦與規範'::'承辦單位';
     #trace dependency from Project::Stakeholders::'賽事流程順利進行' to Project::Stakeholders::'主辦與規範'::'承辦單位';
@@ -479,7 +479,7 @@ package Project {
     #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    #refine dependency from Project::Stakeholders::'取得飛行的液體動力行為數據' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #refine dependency from Project::Stakeholders::'將酬載實驗裝置放進探空火箭' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     package '利害關係人' { }
     package '期望' { }
     #trace dependency from Project::Stakeholders::'團隊在有限資源下可持續運作' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
@@ -509,7 +509,7 @@ package Project {
     #refine dependency from Project::NGOs::'取回與影像時間同步的軸向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'取回三軸角速度與橫向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'取回發射至濺落的箭載影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'取得飛行的液體動力行為數據';
+    #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'將酬載實驗裝置放進探空火箭';
     #trace dependency from Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力' to Project::Stakeholders::'累積實作經驗與技術能力';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'取得可用於宣傳的影像素材';
     #derive dependency from Project::NGOs::'讓成員完整經歷分系統的全生命週期' to Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力';
