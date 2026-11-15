@@ -827,6 +827,9 @@ package Project {
         requirement <'REQ-SYS-003'> '全箭總重' : SystemRequirement {
             doc /* 火箭含 pioneer-10K 公版固態火箭發動機的總重量應小於 28.5 kg。出處：火箭設計規範 V2 3.2.4。 */
         }
+        requirement <'REQ-SYS-004'> '使用公版軌道滑塊' : SystemRequirement {
+            doc /* 系統應使用主辦單位提供的公版軌道滑塊。出處：火箭設計規範 V2 6.3.1、6.3.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
