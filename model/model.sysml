@@ -924,6 +924,10 @@ package Project {
             doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS
   軌跡。依據：REQ-SYS-043～045。 */
         }
+        action <'FN-022'> '記錄飛行數據' : Function {
+            doc /* 發射至濺落。記錄高度、速度、加速度與 GPS
+  軌跡。依據：REQ-SYS-043～045。 */
+        }
     }
 
     package Requirements {
