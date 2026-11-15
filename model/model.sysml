@@ -942,4 +942,5 @@ package Project {
     #derive dependency from Project::Requirements::'可分離部件標示' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
     #derive dependency from Project::Requirements::'公版GPS追蹤器安裝介面' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
     #derive dependency from Project::Requirements::'GPS追蹤器正常運作' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
+    #derive dependency from Project::Requirements::'回收系統啟動方式' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
