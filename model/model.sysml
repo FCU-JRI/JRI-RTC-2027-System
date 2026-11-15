@@ -979,6 +979,9 @@ package Project {
             doc /* 階段：濺落與漂浮。保護酬載影像與加速度紀錄，使浸水後仍可
   完整讀取，並保存備援。依據：REQ-SYS-046、前衝影像備援、軸向加速度備援。 */
         }
+        action <'FN-034'> '讀取並備份箭上紀錄' : Function {
+            doc /* 資料讀取與提交。讀取並備份航電與酬載的所有紀錄。依據：REQ-SYS-046。 */
+        }
     }
 
     package Requirements {
