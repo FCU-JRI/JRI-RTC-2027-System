@@ -1206,6 +1206,10 @@ package Project {
         requirement <'REQ-SYS-100'> '航電紀錄可對齊' : SystemRequirement {
             doc /* 航電的飛行加速度紀錄應能與酬載的影像與加速度紀錄對齊至共同時間基準，對齊誤差暫訂不大於 10 ms，待 PDR 確認。出處：酬載提案計劃書表 7-1 R5、R6、表 7-3。 */
         }
+        requirement <'REQ-SYS-101'> '公版發動機鎖固方式' : SystemRequirement {
+            doc /* 系統應能在發射前以 8 支 M5 螺絲鎖固 pioneer-10K 公版固態火箭發動機。 */
+            @Source { sourceDoc = "DOC-001"; }
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
