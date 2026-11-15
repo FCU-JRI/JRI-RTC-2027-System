@@ -516,4 +516,5 @@ package Project {
     #refine dependency from Project::Structure::'系統元素：火箭本體' to Project::Structure::'系統：RTC 2027 探空火箭系統';
     #refine dependency from Project::Structure::'系統元素：地面支援設備' to Project::Structure::'系統：RTC 2027 探空火箭系統';
     #refine dependency from Project::Structure::'外部：公版 Pioneer-10K 發動機' to Project::Structure::'系統：RTC 2027 探空火箭系統';
+    #refine dependency from Project::Structure::'外部：公版 GPS 追蹤器' to Project::Structure::'系統：RTC 2027 探空火箭系統';
 }
