@@ -1030,4 +1030,5 @@ package Project {
     #derive dependency from Project::Requirements::'前衝影像時間涵蓋' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
     #derive dependency from Project::Requirements::'前衝影像視野' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
     #derive dependency from Project::Requirements::'軸向加速度取樣率' to Project::NGOs::'MOE-09 軸向加速度實際取樣率';
+    #derive dependency from Project::Requirements::'軸向加速度量程' to Project::NGOs::'MOE-10 軸向加速度量程飽和';
 }
