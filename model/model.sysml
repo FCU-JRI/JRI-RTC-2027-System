@@ -1110,4 +1110,5 @@ package Project {
     #derive dependency from Project::Requirements::'啟動狀態遠距確認' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'濺落後儲能裝置回到安全狀態' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'靜態穩定度（發射許可）' to Project::NGOs::'發射許可審查核可項數';
+    #derive dependency from Project::Requirements::'開傘前不得主動姿態控制' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
 }
