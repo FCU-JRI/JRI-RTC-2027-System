@@ -1079,6 +1079,9 @@ package Project {
         requirement <'REQ-SYS-079'> '實驗液體無害' : SystemRequirement {
             doc /* 酬載實驗液體應為對海洋環境無害的液體，例如水。依據：期望 EXP-025 有害物質不排洩入海。 */
         }
+        requirement <'REQ-SYS-080'> '實驗液體容器密封' : SystemRequirement {
+            doc /* 酬載實驗液體容器應密封，在飛行與濺落過程中不得洩漏。依據：期望 EXP-025；酬載提案計劃書表 7-1 R8。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
