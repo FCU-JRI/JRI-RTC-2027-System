@@ -966,4 +966,5 @@ package Project {
     #derive dependency from Project::Requirements::'主傘開啟高度' to Project::NGOs::'MOE-03 主傘開傘高度';
     #derive dependency from Project::Requirements::'釋放裝置冗餘' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'安全關鍵線路固定' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #derive dependency from Project::Requirements::'安全關鍵線路標示' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
