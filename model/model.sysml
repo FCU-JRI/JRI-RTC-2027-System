@@ -544,4 +544,5 @@ package Project {
         }
     }
     #refine dependency from Project::Behavior::'階段 1：運輸' to Project::Behavior::'總任務：RTC 2027 發射任務';
+    #refine dependency from Project::Behavior::'階段 2：發射許可審查' to Project::Behavior::'總任務：RTC 2027 發射任務';
 }
