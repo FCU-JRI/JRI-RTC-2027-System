@@ -218,6 +218,9 @@ package Project {
         part def <'SYS-015'> '外部：團隊操作人員' :> System {
             doc /* 在發射場操作地面支援設備、安裝公版發動機、將火箭上架，並在回收後讀取火箭與酬載的資料。依據：UC-017、UC-018、UC-025。 */
         }
+        part def <'SYS-016'> '外部：發射許可審查委員' :> System {
+            doc /* 上架前檢查火箭是否符合規範，並要求團隊展示公版 GPS 追蹤器正常運作。依據：STK-TASA-45、UC-016。 */
+        }
     }
 
     package NGOs {
