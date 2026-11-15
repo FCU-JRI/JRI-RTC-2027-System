@@ -882,4 +882,5 @@ package Project {
     #derive dependency from Project::Requirements::'不與發射架接線' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'上架後安裝點火器' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'動態穩定度下限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #derive dependency from Project::Requirements::'離架穩定度上限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
