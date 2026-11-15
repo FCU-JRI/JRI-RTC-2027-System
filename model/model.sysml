@@ -1022,4 +1022,5 @@ package Project {
     #derive dependency from Project::Requirements::'紀錄回收後可讀' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
     #derive dependency from Project::Requirements::'前衝影像影格率' to Project::NGOs::'MOE-07 前衝影像實際影格率';
     #derive dependency from Project::Requirements::'前衝影像時間涵蓋' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
+    #derive dependency from Project::Requirements::'前衝影像視野' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
 }
