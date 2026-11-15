@@ -941,6 +941,9 @@ package Project {
         requirement <'REQ-SYS-039'> '結構承受操作應力' : SystemRequirement {
             doc /* 火箭結構應能承受操作過程中的應力，並在搬運、運輸與飛行期間保持結構完整。出處：火箭設計規範 V2 6.1.2。 */
         }
+        requirement <'REQ-SYS-040'> '尾翼顫振裕度' : SystemRequirement {
+            doc /* 火箭尾翼的顫振速度應大於火箭預期最大飛行速度的 1.5 倍。出處：火箭設計規範 V2 6.1.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
