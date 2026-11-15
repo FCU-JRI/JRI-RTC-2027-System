@@ -357,6 +357,7 @@ package Project {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
             part '釋放主傘' : Project::Structure::'釋放主傘';
             part '減速至安全觸水速度' : Project::Structure::'減速至安全觸水速度';
+            part '連接分離部件' : Project::Structure::'連接分離部件';
         }
         part def <'SUB-004'> '地面次系統' :> Subsystem {
         }
