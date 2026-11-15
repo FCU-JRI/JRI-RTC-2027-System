@@ -848,6 +848,9 @@ package Project {
             action <'FN-003'> '安裝公版GPS追蹤器' : Function {
                 doc /* 階段：火箭組裝。依附件十八提供的組裝介面安裝公版 GPS 追蹤器。依據：REQ-SYS-027。 */
             }
+            action <'FN-004'> '安裝公版軌道滑塊' : Function {
+                doc /* 階段：火箭組裝。於重心上下方以金屬緊固件安裝公版軌道滑塊。依據：REQ-SYS-004～011。 */
+            }
         }
     }
 
