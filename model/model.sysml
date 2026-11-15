@@ -194,6 +194,9 @@ package Project {
         part def <'SYS-007'> '外部：發射架' :> System {
             doc /* 支撐火箭並在離架前提供導引。火箭由導軌頂部水平裝載，除滑塊外不得有線路連接發射架。依據：STK-TASA-54～63。 */
         }
+        part def <'SYS-008'> '外部：官方發射控制' :> System {
+            doc /* 由主辦單位控制，下達點火指令並啟動發射。團隊系統不負責點火。 */
+        }
     }
 
     package NGOs {
