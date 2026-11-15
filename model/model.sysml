@@ -333,6 +333,7 @@ package Project {
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'以外部開關啟動儲能裝置' to '航電次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'顯示啟動狀態' to '航電次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'提供點火器安裝通道' to '結構次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'接收遙測並顯示火箭狀態' to '地面次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
