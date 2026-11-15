@@ -348,6 +348,7 @@ package Project {
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
+            part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
         }
