@@ -1222,4 +1222,5 @@ package Project {
     #derive dependency from Project::Requirements::'計畫：成本紀錄' to Project::NGOs::'總支出金額';
     #derive dependency from Project::Requirements::'計畫：採購核可門檻' to Project::NGOs::'總支出不超過預算';
     #derive dependency from Project::Requirements::'待命期間影像記錄保證' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
+    #derive dependency from Project::Requirements::'待命期間加速度記錄保證' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
 }
