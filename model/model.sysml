@@ -355,7 +355,6 @@ package Project {
         part def <'SUB-004'> '地面次系統' :> Subsystem {
         }
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
-            part '記錄前衝影像與加速度' : Project::Structure::'記錄前衝影像與加速度';
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
         part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
@@ -382,9 +381,6 @@ package Project {
         }
         part def <'SUB-010'> '拍攝箭載影像' :> Subsystem {
             doc /* 階段：發射至濺落。拍攝涵蓋發射至濺落全程的箭載影像，與航電共用電源、記錄器與時間基準。依據：REQ-SYS-055。 */
-        }
-        part def <'SUB-011'> '記錄前衝影像與加速度' :> Subsystem {
-            doc /* 階段：點火至頂點。記錄液體前衝影像、軸向加速度與三軸紀錄，並共用時間基準。依據：REQ-SYS-047～053。 */
         }
     }
 
