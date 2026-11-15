@@ -209,6 +209,9 @@ package Project {
         part def <'SYS-012'> '外部：射場人員' :> System {
             doc /* 主辦單位的射場人員，負責上架、指示啟動儲能裝置與中止作業。依據：STK-TASA-29～31。 */
         }
+        part def <'SYS-013'> '外部：回收漁船船員' :> System {
+            doc /* 依火箭落點資訊在海上打撈火箭。 */
+        }
     }
 
     package NGOs {
