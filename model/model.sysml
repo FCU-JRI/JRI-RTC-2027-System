@@ -352,7 +352,6 @@ package Project {
             part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
-            part '釋放減速傘' : Project::Structure::'釋放減速傘';
         }
         part def <'SUB-004'> '地面次系統' :> Subsystem {
         }
@@ -390,9 +389,6 @@ package Project {
         }
         part def <'SUB-012'> '偵測頂點並觸發減速傘' :> Subsystem {
             doc /* 階段：到達頂點。偵測頂點並發出減速傘觸發訊號。依據：REQ-SYS-031。 */
-        }
-        part def <'SUB-013'> '釋放減速傘' :> Subsystem {
-            doc /* 階段：減速傘釋放。接收觸發訊號，以冗餘的釋放裝置釋放減速傘。依據：REQ-SYS-030、033。 */
         }
     }
 
