@@ -956,6 +956,10 @@ package Project {
             doc /* 階段：主傘下降。使火箭觸水速度小於 12
   m/s。依據：REQ-SYS-020。 */
         }
+        action <'FN-029'> '提供浮力' : Function {
+            doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2
+  小時。依據：REQ-SYS-021。 */
+        }
     }
 
     package Requirements {
