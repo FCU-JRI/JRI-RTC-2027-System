@@ -1412,4 +1412,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：發動機鎖固介面' to Project::Requirements::'公版發動機鎖固方式';
     #derive dependency from Project::Requirements::'結構：發動機定心環' to Project::Requirements::'發動機定心環';
     #derive dependency from Project::Requirements::'結構：使用公版軌道滑塊' to Project::Requirements::'使用公版軌道滑塊';
+    #derive dependency from Project::Requirements::'結構：軌道滑塊數量與位置' to Project::Requirements::'軌道滑塊數量與位置';
 }
