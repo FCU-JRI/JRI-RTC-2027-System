@@ -1242,4 +1242,5 @@ package Project {
     #derive dependency from Project::Requirements::'前衝影像備援' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
     #derive dependency from Project::Requirements::'軸向加速度備援' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
     #derive dependency from Project::Requirements::'前衝影像可判讀' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
+    #derive dependency from Project::Requirements::'發射架靜置零點資料' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
 }
