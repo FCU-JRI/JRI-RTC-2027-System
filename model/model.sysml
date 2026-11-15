@@ -394,6 +394,9 @@ package Project {
         part def <'SUB-013'> '釋放減速傘' :> Subsystem {
             doc /* 階段：減速傘釋放。接收觸發訊號，以冗餘的釋放裝置釋放減速傘。依據：REQ-SYS-030、033。 */
         }
+        part def <'SUB-014'> '偵測主傘高度並觸發主傘' :> Subsystem {
+            doc /* 階段：減速傘下降。偵測離地 150～450 m 的開傘高度並發出主傘觸發訊號。依據：REQ-SYS-032。 */
+        }
     }
 
     package NGOs {
