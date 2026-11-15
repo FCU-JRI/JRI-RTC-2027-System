@@ -1037,6 +1037,9 @@ package Project {
         requirement <'REQ-SYS-065'> '開傘前不得主動姿態控制' : SystemRequirement {
             doc /* 火箭發射後至開啟降落傘前，不得以鴨翼、尾翼或 RCS 等裝置主動控制火箭滾轉或飛行方向；以反應輪控制滾轉者除外。出處：火箭設計規範 V2 4.1.5。 */
         }
+        requirement <'REQ-SYS-066'> '回收啟動鏈冗餘' : SystemRequirement {
+            doc /* 航電系統啟動回收系統的路徑，應具備獨立或冗餘的啟動開關、感測器與啟動電源。出處：火箭設計規範 V2 4.1.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
