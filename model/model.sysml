@@ -1038,4 +1038,5 @@ package Project {
     #derive dependency from Project::Requirements::'軸向加速度取樣率' to Project::NGOs::'MOE-09 軸向加速度實際取樣率';
     #derive dependency from Project::Requirements::'軸向加速度量程' to Project::NGOs::'MOE-10 軸向加速度量程飽和';
     #derive dependency from Project::Requirements::'影像與加速度時間同步' to Project::NGOs::'MOE-11 影像與加速度時間同步誤差';
+    #derive dependency from Project::Requirements::'三軸紀錄時間涵蓋' to Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍';
 }
