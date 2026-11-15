@@ -337,9 +337,7 @@ package Project {
             part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
         }
         part def <'EXT-002'> '公版GPS追蹤器' :> ExternalEntity;
-        part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity {
-            part '系統：RTC 2027 探空火箭系統' : Project::Structure::'系統：RTC 2027 探空火箭系統';
-        }
+        part def <'EXT-003'> '公版軌道滑塊' :> ExternalEntity;
         part def <'EXT-004'> '發射架' :> ExternalEntity;
         part def <'EXT-005'> '大氣風場環境' :> ExternalEntity;
         part def <'EXT-006'> '射場人員' :> ExternalEntity;
