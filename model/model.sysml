@@ -833,6 +833,9 @@ package Project {
         requirement <'REQ-SYS-005'> '軌道滑塊數量與位置' : SystemRequirement {
             doc /* 火箭應至少裝設兩個軌道滑塊，一個在重心上方，一個在重心下方。出處：火箭設計規範 V2 6.3.3。 */
         }
+        requirement <'REQ-SYS-006'> '滑塊金屬緊固' : SystemRequirement {
+            doc /* 每個軌道滑塊與箭體的固定點應至少使用一個金屬緊固件。出處：火箭設計規範 V2 6.3.4、6.3.6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
