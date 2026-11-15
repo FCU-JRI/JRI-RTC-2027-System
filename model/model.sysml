@@ -893,6 +893,9 @@ package Project {
         requirement <'REQ-SYS-023'> '高強度傘繩' : SystemRequirement {
             doc /* 降落傘回收系統應使用高強度傘繩連接，例如 Kevlar 繩、登山尼龍繩或登山尼龍傘帶。出處：火箭設計規範 V2 4.2.5。 */
         }
+        requirement <'REQ-SYS-024'> '回收系統耐熱保護' : SystemRequirement {
+            doc /* 回收系統運作時如果會產生高溫氣體，應設置耐熱保護，使傘繩與降落傘不受損壞。出處：火箭設計規範 V2 4.2.6。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
