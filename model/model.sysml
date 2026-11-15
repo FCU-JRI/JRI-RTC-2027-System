@@ -965,6 +965,9 @@ package Project {
         action <'FN-030'> '偵測濺落並安全化儲能裝置' : Function {
             doc /* 濺落與漂浮。偵測濺落並使所有未釋放的儲能裝置回到安全狀態。依據：REQ-SYS-063。 */
         }
+        action <'FN-031'> '連接分離部件' : Function {
+            doc /* 階段：濺落與漂浮。以傘繩或連接繩使所有分離部件連在主箭體上成為一體。依據：REQ-SYS-057。 */
+        }
     }
 
     package Requirements {
