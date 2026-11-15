@@ -346,7 +346,6 @@ package Project {
         part def <'EXT-010'> '發射指揮官' :> ExternalEntity;
         part def <'EXT-011'> '回收人員' :> ExternalEntity;
         part def <'EXT-012'> '發射許可審查委員' :> ExternalEntity;
-        part def <'SYS-002'> 'RTC2027 探空火箭系統' :> System;
     }
 
     package NGOs {
