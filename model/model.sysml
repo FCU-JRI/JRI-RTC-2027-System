@@ -896,6 +896,9 @@ package Project {
             action <'FN-015'> '拍攝地面影像' : Function {
                 doc /* 階段：待發射至離架。從地面拍攝涵蓋火箭發射離架過程的影像。依據：REQ-SYS-056。 */
             }
+            action <'FN-016'> '發送解除啟動指令' : Function {
+                doc /* 階段：終止發射與解除啟動。由地面站遠端發送解除啟動指令。依據：REQ-SYS-081。 */
+            }
         }
     }
 
