@@ -1049,6 +1049,9 @@ package Project {
         requirement <'REQ-SYS-069'> '電池續航' : SystemRequirement {
             doc /* 電池電力應能供應火箭系統正常運作 1.5 小時以上。建議列為 TPM，於 FRR 前以實測耗電確認餘裕。出處：火箭設計規範 V2 4.7.2；發射許可審查表（附件08）火箭電力。 */
         }
+        requirement <'REQ-SYS-070'> '電池牢固安裝' : SystemRequirement {
+            doc /* 電池應牢固安裝在箭身內部，在高加速度或振動環境下不得發生瞬時斷電。出處：火箭設計規範 V2 4.7.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
