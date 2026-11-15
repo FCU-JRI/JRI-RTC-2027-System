@@ -926,6 +926,9 @@ package Project {
         requirement <'REQ-SYS-034'> '安全關鍵線路固定' : SystemRequirement {
             doc /* 安全關鍵線路、電纜與端子連接應牢固，在發射準備、搬運與飛行中不會過度移動、斷開或纏繞。出處：火箭設計規範 V2 4.4.2。 */
         }
+        requirement <'REQ-SYS-035'> '安全關鍵線路標示' : SystemRequirement {
+            doc /* 安全關鍵線路應清楚標記或以顏色編碼，可以辨識所屬的次系統。出處：火箭設計規範 V2 4.4.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
