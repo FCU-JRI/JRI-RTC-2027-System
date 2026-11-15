@@ -1460,4 +1460,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：可分離部件標示' to Project::Requirements::'可分離部件標示';
     #derive dependency from Project::Requirements::'結構：洩壓孔' to Project::Requirements::'洩壓孔';
     #derive dependency from Project::Requirements::'結構：承受操作應力' to Project::Requirements::'結構承受操作應力';
+    #derive dependency from Project::Requirements::'結構：尾翼顫振裕度' to Project::Requirements::'尾翼顫振裕度';
 }
