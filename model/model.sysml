@@ -356,6 +356,7 @@ package Project {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
         }
         part def <'SUB-004'> '地面次系統' :> Subsystem {
+            part '讀取並備份箭上紀錄' : Project::Structure::'讀取並備份箭上紀錄';
         }
         part def <'SUB-005'> '酬載次系統' :> Subsystem {
             part '記錄前衝影像與加速度' : Project::Structure::'記錄前衝影像與加速度';
