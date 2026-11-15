@@ -352,7 +352,6 @@ package Project {
             part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
             part '偵測頂點並觸發減速傘' : Project::Structure::'偵測頂點並觸發減速傘';
             part '偵測主傘高度並觸發主傘' : Project::Structure::'偵測主傘高度並觸發主傘';
-            part '偵測濺落並安全化儲能裝置' : Project::Structure::'偵測濺落並安全化儲能裝置';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
             part '釋放減速傘' : Project::Structure::'釋放減速傘';
@@ -410,9 +409,6 @@ package Project {
         }
         part def <'SUB-017'> '提供浮力' :> Subsystem {
             doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2 小時。依據：REQ-SYS-021。 */
-        }
-        part def <'SUB-018'> '偵測濺落並安全化儲能裝置' :> Subsystem {
-            doc /* 階段：濺落與漂浮。偵測濺落並使所有未釋放的儲能裝置回到安全狀態。依據：REQ-SYS-063。 */
         }
         part def <'SUB-019'> '連接分離部件' :> Subsystem {
             doc /* 階段：濺落與漂浮。以傘繩或連接繩使所有分離部件連在主箭體上成為一體。依據：REQ-SYS-057。 */
