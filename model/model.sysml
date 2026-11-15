@@ -994,4 +994,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構承受操作應力' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'尾翼顫振裕度' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
     #derive dependency from Project::Requirements::'可滑動連接介面重疊長度' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
+    #derive dependency from Project::Requirements::'不可分離介面固定' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
 }
