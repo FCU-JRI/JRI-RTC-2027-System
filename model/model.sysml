@@ -1354,6 +1354,9 @@ package Project {
         requirement <'REQ-SUB-022'> '結構：箭體主色' : SubsystemRequirement {
             doc /* 箭體主要顏色應為白色或其他與天空顏色成對比的淺色調。出處：火箭設計規範 V2 6.4.4。 */
         }
+        requirement <'REQ-SUB-023'> '結構：輕量結構材料' : SubsystemRequirement {
+            doc /* 結構次系統應使用紙管、PVC 管、玻璃纖維、碳纖維等輕量材料建造，必要時可使用鋁合金等延展性輕金屬。出處：火箭設計規範 V2 6.5.1。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
