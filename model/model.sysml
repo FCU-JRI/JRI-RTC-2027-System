@@ -792,6 +792,7 @@ package Project {
             action <'PH-005'> '發射準備' : MissionPhase;
             action <'PH-006'> '待發射' : MissionPhase;
             action <'PH-007'> '離架與動力飛行' : MissionPhase;
+            action <'PH-008'> '發動機燃盡' : MissionPhase;
         }
     }
 }
