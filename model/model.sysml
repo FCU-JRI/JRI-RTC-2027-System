@@ -344,6 +344,7 @@ package Project {
         part def <'SUB-001'> '結構次系統' :> Subsystem {
             part '沿軌道導引至離架' : Project::Structure::'沿軌道導引至離架';
             part '提供氣動穩定' : Project::Structure::'提供氣動穩定';
+            part '承受推進段負載與熱' : Project::Structure::'承受推進段負載與熱';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
         }
