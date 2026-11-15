@@ -1100,6 +1100,9 @@ package Project {
         requirement <'REQ-SYS-086'> '計畫：H3作業逐次核可' : SystemRequirement {
             doc /* 每次執行 H3 等級作業前，都應取得管制官核可；同一項作業重複執行時，也應逐次取得核可。出處：AEAS 安全協議 7.5.3、7.5.5。 */
         }
+        requirement <'REQ-SYS-087'> '計畫：H3作業程序' : SystemRequirement {
+            doc /* 每項 H3 等級作業都應有經管制官審核的標準作業程序，並在作業前提交。依據：期望 EXP-003。出處：火箭設計規範 V2 4.5.4。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
