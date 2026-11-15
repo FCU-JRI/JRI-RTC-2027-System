@@ -483,6 +483,9 @@ package Project {
         requirement <'MOE-020'> '飛行中非預期分離或結構失效的次數應為 0。' : MOE {
             doc /* 以箭載影像、飛行數據與回收後檢查判定 */
         }
+        requirement <'OBJ-018'> '火箭所有部件落海後全數回收' : Objective {
+            doc /* 火箭與所有分離部件落海後都應被回收，不遺留於海中。 */
+        }
     }
 
     package UseCases {
