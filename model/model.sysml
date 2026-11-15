@@ -410,6 +410,9 @@ package Project {
         part def <'SUB-017'> '提供浮力' :> Subsystem {
             doc /* 階段：濺落與漂浮。提供大於火箭重量的浮力，使火箭漂浮至少 2 小時。依據：REQ-SYS-021。 */
         }
+        part def <'SUB-018'> '保護航電紀錄' :> Subsystem {
+            doc /* 階段：濺落與漂浮。保護箭上航電紀錄，使浸水 2 小時後仍可完整讀取。依據：REQ-SYS-046。 */
+        }
     }
 
     package NGOs {
