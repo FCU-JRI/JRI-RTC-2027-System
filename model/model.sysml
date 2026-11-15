@@ -221,6 +221,9 @@ package Project {
         part def <'SYS-016'> '外部：發射許可審查委員' :> System {
             doc /* 上架前檢查火箭是否符合規範，並要求團隊展示公版 GPS 追蹤器正常運作。依據：STK-TASA-45、UC-016。 */
         }
+        part def <'SYS-017'> '外部：主辦單位與評審（資料接收方）' :> System {
+            doc /* 接收團隊在回收後提交的飛行數據，包括高度、速度、加速度與 GPS 軌跡，作為評分依據。依據：OBJ-004、UC-025。 */
+        }
     }
 
     package NGOs {
