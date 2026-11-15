@@ -1106,4 +1106,5 @@ package Project {
     #derive dependency from Project::Requirements::'儲能裝置外部啟動' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'啟動狀態遠距確認' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
     #derive dependency from Project::Requirements::'濺落後儲能裝置回到安全狀態' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
+    #derive dependency from Project::Requirements::'靜態穩定度（發射許可）' to Project::NGOs::'發射許可審查核可項數';
 }
