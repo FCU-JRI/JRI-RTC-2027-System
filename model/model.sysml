@@ -1055,6 +1055,9 @@ package Project {
         requirement <'REQ-SYS-071'> '無線電頻率與功率合規' : SystemRequirement {
             doc /* 系統的無線電設備，其操作頻率與發射功率應符合所用頻段之國家通訊傳播委員會技術規範。出處：火箭設計規範 V2 4.1.4.1、4.1.4.2。 */
         }
+        requirement <'REQ-SYS-072'> '隊伍標示' : SystemRequirement {
+            doc /* 火箭應標註隊伍名稱與編號，且火箭在發射架上時隊伍身份應清晰可見。出處：火箭設計規範 V2 6.4.1、6.4.2；發射許可審查表（附件08）火箭外觀識別標記。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
