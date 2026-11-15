@@ -562,5 +562,8 @@ package Project {
         action <'PH-009'> '階段 8：滑行' : MissionPhase {
             doc /* 開始：燃盡後。結束：火箭到達頂點。火箭受氣動阻力減速，酬載持續記錄液體撞擊後的衰減動態。 */
         }
+        action <'PH-010'> '階段 9：減速傘下降' : MissionPhase {
+            doc /* 開始：火箭到達頂點時開啟減速傘。結束：主傘開傘。依據：STK-TASA-18。 */
+        }
     }
 }
