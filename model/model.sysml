@@ -887,6 +887,9 @@ package Project {
         requirement <'REQ-SYS-021'> '漂浮' : SystemRequirement {
             doc /* 火箭整體落海後，浮力應大於火箭重量，並使火箭在海面上持續漂浮至少 2 小時。依據：競賽規則說明要求「具長時間漂浮能力」，未定量；2 小時涵蓋到下一輪發射前，並保留打撈延誤的餘裕 */
         }
+        requirement <'REQ-SYS-022'> '回收結構安全係數' : SystemRequirement {
+            doc /* 降落傘回收系統的結構固定設計，安全係數應大於 2。出處：火箭設計規範 V2 4.2.3。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';

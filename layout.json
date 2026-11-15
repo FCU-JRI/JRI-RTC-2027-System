@@ -1493,6 +1493,22 @@
   "Project__Requirements___e7_99_bc_e5_8b_95_e6_a9_9f_e5_a4_96_e6_ae_bc_e6_ba_ab_e5_ba_a6_e8_80_90_e5_8f_97": {
    "x": 8796,
    "y": 1692
+  },
+  "Project__NGOs___e7_81_ab_e7_ae_ad_e5_be_9e_e9_9b_a2_e6_9e_b6_e5_88_b0_e6_bf_ba_e8_90_bd_e7_b6_ad_e6_8c_81_e7_ae_ad_e9_ab_94_e5_ae_8c_e6_95_b4": {
+   "x": 9180,
+   "y": 1320
+  },
+  "Project__NGOs___e9_a3_9b_e8_a1_8c_e4_b8_ad_e9_9d_9e_e9_a0_90_e6_9c_9f_e5_88_86_e9_9b_a2_e6_88_96_e7_b5_90_e6_a7_8b_e5_a4_b1_e6_95_88_e7_9a_84_e6_ac_a1_e6_95_b8_e6_87_89_e7_82_ba_200_e3_80_82": {
+   "x": 9180,
+   "y": 1464
+  },
+  "Project__Requirements___e8_a7_b8_e6_b0_b4_e9_80_9f_e5_ba_a6": {
+   "x": 7992,
+   "y": 2064
+  },
+  "Project__Requirements___e6_bc_82_e6_b5_ae": {
+   "x": 10116,
+   "y": 2064
   }
  },
  "act:Project::Behavior::總任務：RTC 2027 發射任務": {
