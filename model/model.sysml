@@ -1345,6 +1345,9 @@ package Project {
         requirement <'REQ-SUB-019'> '結構：配重材料限制' : SubsystemRequirement {
             doc /* 結構次系統不得使用鉛、汞、鈾等對環境有害的材料作為配重物。出處：火箭設計規範 V2 6.5.2。 */
         }
+        requirement <'REQ-SUB-020'> '結構：隊伍標示' : SubsystemRequirement {
+            doc /* 箭體應標註隊伍名稱與編號，且火箭在發射架上時隊伍身份應清晰可見。出處：火箭設計規範 V2 6.4.1、6.4.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
