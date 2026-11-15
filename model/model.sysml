@@ -809,6 +809,7 @@ package Project {
             first '慣性飛行' then '到達頂點';
             first '到達頂點' then '減速傘釋放';
             first '減速傘釋放' then '主傘釋放';
+            first '主傘釋放' then '濺落與漂浮';
         }
     }
 }
