@@ -321,6 +321,7 @@ package Project {
             part '回收次系統' : Project::Structure::'回收次系統';
             part '地面次系統' : Project::Structure::'地面次系統';
             part '酬載次系統' : Project::Structure::'酬載次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'運輸中保持結構完整' to '結構次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
