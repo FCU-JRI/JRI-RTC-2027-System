@@ -1064,6 +1064,9 @@ package Project {
         requirement <'REQ-SYS-074'> '箭體主色' : SystemRequirement {
             doc /* 火箭主要顏色應為白色或其他與天空顏色成對比的淺色調。出處：火箭設計規範 V2 6.4.4。 */
         }
+        requirement <'REQ-SYS-075'> '落點位於安全回收區' : SystemRequirement {
+            doc /* 在 4 m/s 風速下，火箭的預測落點應位於主辦單位指定的 A～G 安全回收區域內。出處：火箭設計規範 V2 4.3.2、4.3.3；競賽規則說明（附件06）火箭安全回收區域。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
