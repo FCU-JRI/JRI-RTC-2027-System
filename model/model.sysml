@@ -1448,4 +1448,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：水平裝載外形' to Project::Requirements::'從導軌頂部水平裝載';
     #derive dependency from Project::Requirements::'結構：發動機外殼溫度耐受' to Project::Requirements::'發動機外殼溫度耐受';
     #derive dependency from Project::Requirements::'結構：浮力體積' to Project::Requirements::'漂浮';
+    #derive dependency from Project::Requirements::'結構：可分離部件標示' to Project::Requirements::'可分離部件標示';
 }
