@@ -200,6 +200,9 @@ package Project {
         part def <'SYS-009'> '外部：大氣環境' :> System {
             doc /* 飛行中對火箭施加風與氣動力，並影響溫度環境。依據：STK-TASA-48。 */
         }
+        part def <'SYS-010'> '外部：海面環境' :> System {
+            doc /* 火箭濺落與漂浮的環境，造成觸水衝擊與浸水。依據：STK-TASA-02、23。 */
+        }
     }
 
     package NGOs {
