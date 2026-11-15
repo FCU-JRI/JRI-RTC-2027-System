@@ -1488,4 +1488,5 @@ package Project {
     #derive dependency from Project::Requirements::'結構：隊伍標示' to Project::Requirements::'隊伍標示';
     #derive dependency from Project::Requirements::'結構：翼片隊伍ID' to Project::Requirements::'翼片隊伍ID';
     #derive dependency from Project::Requirements::'結構：箭體主色' to Project::Requirements::'箭體主色';
+    #derive dependency from Project::Requirements::'結構：輕量結構材料' to Project::Requirements::'輕量結構材料';
 }
