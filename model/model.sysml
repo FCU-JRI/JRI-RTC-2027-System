@@ -1106,6 +1106,9 @@ package Project {
         requirement <'REQ-SYS-088'> '計畫：報告內部審查期限' : SystemRequirement {
             doc /* MDR、PDR、CDR、FRR 每份報告，應在收件截止前 7 天完成內部審查並取得總工程師核可。收件截止：MDR 2026-11-20、PDR 2027-01-21、CDR 2027-04-17、FRR 2027-06-30（FRR 日期取自酬載提案計劃書，待確認）。 */
         }
+        requirement <'REQ-SYS-089'> '計畫：決賽紙本文件' : SystemRequirement {
+            doc /* 決賽報到時，應備齊需求矩陣、檢查項目表、火箭設計規格資料表與 FRR 紙本各一份。出處：競賽規則說明（附件06）備齊決賽審查資料之義務。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
