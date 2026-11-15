@@ -486,6 +486,9 @@ package Project {
         requirement <'OBJ-018'> '火箭所有部件落海後全數回收' : Objective {
             doc /* 火箭與所有分離部件落海後都應被回收，不遺留於海中。 */
         }
+        requirement <'MOE-021'> '遺留海中的部件數' : MOE {
+            doc /* 遺留於海中未回收的部件數應為 0。量測方式：回收後依分離部件清單清點。 */
+        }
     }
 
     package UseCases {
