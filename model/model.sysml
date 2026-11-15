@@ -1025,6 +1025,9 @@ package Project {
         requirement <'REQ-SYS-061'> '儲能裝置外部啟動' : SystemRequirement {
             doc /* 所有儲能裝置的啟動與測試應能從火箭外部控制，啟動時人員不需靠近火箭。出處：火箭設計規範 V2 4.6.6。 */
         }
+        requirement <'REQ-SYS-062'> '啟動狀態遠距確認' : SystemRequirement {
+            doc /* 系統應能讓人員在頭部與身體不進入火箭 100 mm 範圍內的情況下，確認儲能裝置已進入啟動狀態，例如以聲音、指示燈或電腦連線確認。出處：火箭設計規範 V2 4.6.7。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
