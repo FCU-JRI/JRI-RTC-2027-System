@@ -1130,4 +1130,5 @@ package Project {
     #derive dependency from Project::Requirements::'航電耐受衝擊與振動' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'電池類型' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'電池續航' to Project::NGOs::'通過發射許可審查全部項目';
+    #derive dependency from Project::Requirements::'電池牢固安裝' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
