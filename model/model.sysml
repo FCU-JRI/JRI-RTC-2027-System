@@ -974,4 +974,5 @@ package Project {
     #derive dependency from Project::Requirements::'安全關鍵線路固定' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'安全關鍵線路標示' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
     #derive dependency from Project::Requirements::'連接處抗拉保護' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #derive dependency from Project::Requirements::'電路板結構支撐' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
 }
