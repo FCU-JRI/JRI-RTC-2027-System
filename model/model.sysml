@@ -1016,6 +1016,9 @@ package Project {
         requirement <'REQ-SYS-058'> '配重材料限制' : SystemRequirement {
             doc /* 火箭不得使用鉛、汞、鈾等對環境有害的材料作為配重物。出處：火箭設計規範 V2 6.5.2。 */
         }
+        requirement <'REQ-SYS-059'> '儲能裝置驅動方式' : SystemRequirement {
+            doc /* 回收系統的儲能裝置應以氣瓶、機械能或其他非黑火藥的方式驅動。出處：火箭設計規範 V2 4.6.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
