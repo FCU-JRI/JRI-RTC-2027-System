@@ -836,6 +836,9 @@ package Project {
             first '濺落與漂浮' then '海上回收';
             first '海上回收' then '資料讀取與提交';
             first '資料讀取與提交' then '終止發射與解除啟動';
+            action <'FN-001'> '運輸中保持結構完整' : Function {
+                doc /* 階段：運輸。運輸與搬運期間保持箭體結構完整。依據：REQ-SYS-039。 */
+            }
         }
     }
 
