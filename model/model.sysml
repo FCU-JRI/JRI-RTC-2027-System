@@ -513,5 +513,4 @@ package Project {
     #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
     #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
     #refine dependency from Project::NGOs::'完成技術文件的核心成員比例' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
-    #refine dependency from Project::Structure::'系統：RTC 2027 探空火箭系統' to Project::Structure::'系統元素：火箭本體';
 }
