@@ -1013,6 +1013,9 @@ package Project {
         requirement <'REQ-SYS-057'> '分離部件連接成一體' : SystemRequirement {
             doc /* 濺落後，火箭所有分離部件都應以傘繩或連接繩連在主箭體上，成為一個整體。依據：總工程師確認採用此設計原則。出處：海洋污染防治法第 4 條第 11 款。 */
         }
+        requirement <'REQ-SYS-058'> '配重材料限制' : SystemRequirement {
+            doc /* 火箭不得使用鉛、汞、鈾等對環境有害的材料作為配重物。出處：火箭設計規範 V2 6.5.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
