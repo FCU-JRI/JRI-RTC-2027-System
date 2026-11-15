@@ -1342,6 +1342,9 @@ package Project {
         requirement <'REQ-SUB-018'> '結構：不可分離介面固定' : SubsystemRequirement {
             doc /* 設計為不可分離的結構連接介面，應以機械緊固件（如螺絲）或永久性黏合劑固定。出處：火箭設計規範 V2 6.2.2。 */
         }
+        requirement <'REQ-SUB-019'> '結構：配重材料限制' : SubsystemRequirement {
+            doc /* 結構次系統不得使用鉛、汞、鈾等對環境有害的材料作為配重物。出處：火箭設計規範 V2 6.5.2。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
