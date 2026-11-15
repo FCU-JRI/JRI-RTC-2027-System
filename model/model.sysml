@@ -348,7 +348,6 @@ package Project {
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
             part '記錄飛行數據' : Project::Structure::'記錄飛行數據';
-            part '拍攝箭載影像' : Project::Structure::'拍攝箭載影像';
         }
         part def <'SUB-003'> '回收次系統' :> Subsystem {
         }
@@ -378,9 +377,6 @@ package Project {
         }
         part def <'SUB-009'> '記錄飛行數據' :> Subsystem {
             doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS 軌跡。依據：REQ-SYS-043～045。 */
-        }
-        part def <'SUB-010'> '拍攝箭載影像' :> Subsystem {
-            doc /* 階段：發射至濺落。拍攝涵蓋發射至濺落全程的箭載影像，與航電共用電源、記錄器與時間基準。依據：REQ-SYS-055。 */
         }
     }
 
