@@ -1076,6 +1076,9 @@ package Project {
         requirement <'REQ-SYS-078'> '輕量結構材料' : SystemRequirement {
             doc /* 火箭應使用紙管、PVC 管、玻璃纖維、碳纖維等輕量材料建造，必要時可使用鋁合金等延展性輕金屬。出處：火箭設計規範 V2 6.5.1。 */
         }
+        requirement <'REQ-SYS-079'> '實驗液體無害' : SystemRequirement {
+            doc /* 酬載實驗液體應為對海洋環境無害的液體，例如水。依據：期望 EXP-025 有害物質不排洩入海。 */
+        }
     }
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
