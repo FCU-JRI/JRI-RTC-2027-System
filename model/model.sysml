@@ -806,6 +806,7 @@ package Project {
             first '待發射' then '離架與動力飛行';
             first '離架與動力飛行' then '發動機燃盡';
             first '發動機燃盡' then '慣性飛行';
+            first '慣性飛行' then '到達頂點';
         }
     }
 }
