@@ -905,6 +905,10 @@ package Project {
                 doc /* 階段：終止發射與解除啟動。接收解除啟動指令，使所有儲能裝置回到安全狀態。依據：REQ-SYS-081。 */
             }
         }
+        action <'FN-018'> '沿軌道導引至離架' : Function {
+            doc /* "階段：離架與動力飛行。以軌道滑塊沿發射架軌道導引火箭至離架，離架速度大於 16
+  m/s。依據：REQ-SYS-018。 */
+        }
     }
 
     package Requirements {
