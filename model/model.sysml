@@ -443,7 +443,6 @@ package Project {
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
     package '利害關係人' { }
     package '期望' { }
-    #trace dependency from Project::Stakeholders::'頻段與功率合法' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #trace dependency from Project::Stakeholders::'收到可履行的訂單' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
     #refine dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
