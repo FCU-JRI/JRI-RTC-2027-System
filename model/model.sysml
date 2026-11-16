@@ -2394,5 +2394,10 @@ package Project {
             objective { verify Project::Requirements::'回收：質量額度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-052'> 'VER：前衝影像影格率量測' : VerificationEvent {
+            doc /* 方法：測試（T）。以酬載攝影系統在地面實拍並量測實際影格率。通過準則：實際影格率不低於 170 fps，目標值 240 fps。 */
+            objective { verify Project::Requirements::'酬載：前衝影像影格率'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
