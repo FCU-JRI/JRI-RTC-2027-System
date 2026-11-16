@@ -1724,6 +1724,9 @@ package Project {
         requirement <'REQ-SUB-083'> '航電：高度量測範圍' : SubsystemRequirement {
             doc /* 航電次系統的高度量測範圍應涵蓋離地 0～3,268 m。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）頂點高度。 */
         }
+        requirement <'REQ-SUB-084'> '航電：速度量測範圍' : SubsystemRequirement {
+            doc /* 航電次系統的速度量測範圍應涵蓋 0～304.1 m/s（馬赫 0.90）。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
