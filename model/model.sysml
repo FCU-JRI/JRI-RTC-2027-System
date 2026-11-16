@@ -2050,4 +2050,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：待命期間影像記錄保證'; end #original ::> Project::Requirements::'待命期間影像記錄保證'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：待命期間加速度記錄保證'; end #original ::> Project::Requirements::'待命期間加速度記錄保證'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：不含活體脊椎動物'; end #original ::> Project::Requirements::'酬載不含活體脊椎動物'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：實驗液體無害'; end #original ::> Project::Requirements::'實驗液體無害'; }
 }
