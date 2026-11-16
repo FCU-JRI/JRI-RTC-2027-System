@@ -2499,5 +2499,10 @@ package Project {
             objective { verify Project::Requirements::'地面：遙測封包接收'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-073'> 'VER：回收後紀錄讀取與備份展示' : VerificationEvent {
+            doc /* 方法：展示（D）。以浸水測試後的箭上儲存媒體，由地面次系統讀取並備份紀錄。通過準則：箭上所有紀錄都能完整讀取並備份。 */
+            objective { verify Project::Requirements::'地面：讀取並備份箭上紀錄'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
