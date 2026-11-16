@@ -2359,5 +2359,10 @@ package Project {
             objective { verify Project::Requirements::'回收：儲能裝置機構安全狀態'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-045'> 'VER：地面依序開傘展示' : VerificationEvent {
+            doc /* 方法：展示（D）。在地面依飛行時序觸發回收系統。通過準則：減速傘先開啟，主傘後開啟。 */
+            objective { verify Project::Requirements::'回收：雙階段開傘'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
