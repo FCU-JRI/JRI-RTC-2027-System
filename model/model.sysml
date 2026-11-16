@@ -2434,5 +2434,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：影像與加速度時間同步'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-060'> 'VER：三軸紀錄涵蓋測試' : VerificationEvent {
+            doc /* 方法：測試（T）。以涵蓋點火至頂點的時間長度，連續記錄三軸角速度、橫向加速度與軸向加速度。通過準則：三軸紀錄與軸向加速度同步，涵蓋點火至頂點，目標涵蓋至減速傘開傘。 */
+            objective { verify Project::Requirements::'酬載：三軸紀錄時間涵蓋'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
