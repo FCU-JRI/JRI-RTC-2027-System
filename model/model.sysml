@@ -1974,4 +1974,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'MOP：航電次系統質量'; end #original ::> Project::Requirements::'航電：質量額度'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：離架速度'; end #original ::> Project::Requirements::'離架速度'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：全程位於箭身內部'; end #original ::> Project::Requirements::'酬載運作與位置'; }
+    #derivation connection { end #derive ::> Project::Requirements::'MOP：最小動態穩定度'; end #original ::> Project::Requirements::'動態穩定度下限'; }
 }
