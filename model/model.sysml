@@ -2554,5 +2554,10 @@ package Project {
             objective { verify Project::Requirements::'減速傘於頂點開啟'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-084'> 'VER：SIT 主傘開啟高度測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在全箭整合構型下，將下降段時序重播給航電進行系統整合測試。通過準則：在離地 150～450 m 之間開啟主傘。 */
+            objective { verify Project::Requirements::'主傘開啟高度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
