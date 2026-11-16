@@ -2589,5 +2589,10 @@ package Project {
             objective { verify Project::Requirements::'濺落後儲能裝置回到安全狀態'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-091'> 'VER：全箭續航力測試' : VerificationEvent {
+            doc /* 方法：測試（T）。全箭整合後上電，維持待命與運作狀態。通過準則：火箭系統持續正常運作 1.5 小時以上。 */
+            objective { verify Project::Requirements::'電池續航'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
