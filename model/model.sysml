@@ -2164,5 +2164,10 @@ package Project {
             objective { verify Project::Requirements::'結構：靜態穩定度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-006'> 'VER：離架速度模擬' : VerificationEvent {
+            doc /* 方法：分析（A）。以組裝後實測的全箭質量輸入 OpenRocket 模擬。通過準則：離架速度大於 16 m/s。 */
+            objective { verify Project::Requirements::'結構：離架速度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
