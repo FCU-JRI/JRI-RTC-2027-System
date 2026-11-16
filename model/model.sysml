@@ -542,6 +542,9 @@ package Project {
         requirement <'GOAL-007'> '火箭全程不受訊號干擾' : Goal {
             doc /* 火箭從上架、發射、飛行到濺落回收的全程，其遙測、追蹤與回收系統都不受其他隊伍、外部無線電訊號或自身材料特性干擾，維持預期功能。 */
         }
+        requirement <'OBJ-021'> '火箭材質不得干擾無線電訊號' : Objective {
+            doc /* 火箭材質不應在靠近通訊處使用導電材料 */
+        }
     }
 
     package UseCases {
