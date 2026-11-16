@@ -1694,6 +1694,9 @@ package Project {
         requirement <'REQ-SUB-073'> '回收：傘降漂移限制' : SubsystemRequirement {
             doc /* 在 4 m/s 風速下，回收次系統的下降率與開傘時序應使火箭的預測落點位於主辦單位指定的 A～G 安全回收區域內。出處：火箭設計規範 V2 4.3.2、4.3.3。 */
         }
+        requirement <'REQ-SUB-074'> '地面：發送解除啟動指令' : SubsystemRequirement {
+            doc /* 火箭在發射架上進入啟動狀態後，地面次系統應能從外部發送解除啟動指令，使所有儲能裝置回到「安全」狀態，操作時人員不需進入火箭 100 mm 範圍內。出處：火箭設計規範 V2 4.6.3、4.6.7。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
