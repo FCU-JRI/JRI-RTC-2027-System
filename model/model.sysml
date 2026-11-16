@@ -1835,6 +1835,9 @@ package Project {
         requirement <'REQ-SUB-110'> '航電：外部開關安全切斷' : SubsystemRequirement {
             doc /* 航電次系統應提供一個可從火箭外部操作的實體開關，開關未接通時，儲能裝置的觸發電路應保持斷開。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
         }
+        requirement <'REQ-SUB-111'> '航電：地面解除安全指令' : SubsystemRequirement {
+            doc /* 航電次系統應在收到地面解除安全指令後，才允許儲能裝置的觸發電路導通；只有外部開關接通、尚未收到該指令時，儲能裝置應維持在安全狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
