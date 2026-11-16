@@ -1866,4 +1866,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：耐熱保護'; end #original ::> Project::Requirements::'回收系統耐熱保護'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：降落傘顏色'; end #original ::> Project::Requirements::'降落傘顏色'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：雙階段開傘'; end #original ::> Project::Requirements::'雙階段開傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收：釋放裝置冗餘'; end #original ::> Project::Requirements::'釋放裝置冗餘'; }
 }
