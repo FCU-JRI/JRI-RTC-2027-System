@@ -2389,5 +2389,10 @@ package Project {
             objective { verify Project::Requirements::'回收：儲能裝置驅動方式'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-051'> 'VER：回收次系統秤重' : VerificationEvent {
+            doc /* 方法：檢查（I）。每次審查前，以秤實測回收次系統質量。通過準則：質量小於 2,000 g。 */
+            objective { verify Project::Requirements::'回收：質量額度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
