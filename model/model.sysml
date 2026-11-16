@@ -1691,6 +1691,9 @@ package Project {
         requirement <'REQ-SUB-072'> '回收：儲能裝置機構安全狀態' : SubsystemRequirement {
             doc /* 回收次系統的儲能裝置在火箭處於發射位置之前，應保持在需要兩個獨立事件才能釋放能量的安全狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
         }
+        requirement <'REQ-SUB-073'> '回收：傘降漂移限制' : SubsystemRequirement {
+            doc /* 在 4 m/s 風速下，回收次系統的下降率與開傘時序應使火箭的預測落點位於主辦單位指定的 A～G 安全回收區域內。出處：火箭設計規範 V2 4.3.2、4.3.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
