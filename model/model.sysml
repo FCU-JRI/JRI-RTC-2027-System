@@ -2324,5 +2324,10 @@ package Project {
             objective { verify Project::Requirements::'航電：紀錄回收後可讀'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-038'> 'VER：主傘 Cd 實測與下降率計算' : VerificationEvent {
+            doc /* 方法：測試（T）。實測主傘阻力係數 Cd，並以實測值計算燃盡狀態（18.59 kg）的主傘下降率。通過準則：觸水下降速率小於 12 m/s。 */
+            objective { verify Project::Requirements::'回收：觸水下降率'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
