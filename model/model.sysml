@@ -2374,5 +2374,10 @@ package Project {
             objective { verify Project::Requirements::'回收：傘降漂移限制'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-048'> 'VER：分離部件繫留檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。依分離部件清單逐項核對連接方式。通過準則：所有分離部件都以傘繩或連接繩連在主箭體上。 */
+            objective { verify Project::Requirements::'回收：分離部件繫留'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
