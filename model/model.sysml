@@ -2184,5 +2184,10 @@ package Project {
             objective { verify Project::Requirements::'結構：承受操作應力'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-010'> 'VER：尾翼顫振速度計算' : VerificationEvent {
+            doc /* 方法：分析（A）。計算尾翼顫振速度，並與預期最大飛行速度 304.1 m/s 比較。通過準則：顫振速度大於 456 m/s（1.5 × 304.1 m/s）。 */
+            objective { verify Project::Requirements::'結構：尾翼顫振裕度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
