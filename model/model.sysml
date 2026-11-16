@@ -1918,4 +1918,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：最大動壓耐受'; end #original ::> Project::Requirements::'結構承受操作應力'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：減速傘開傘速度'; end #original ::> Project::Requirements::'減速傘於頂點開啟'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：主傘開傘速度'; end #original ::> Project::Requirements::'主傘開啟高度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：加速度量測範圍'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
 }
