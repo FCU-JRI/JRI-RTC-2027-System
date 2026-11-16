@@ -2114,5 +2114,16 @@ package Project {
             :>> residualSeverity = 2;
             :>> residualLikelihood = 1;
         }
+        item <'RISK-004'> '全箭超重' : Risk {
+            :>> failureMode = "實際起飛質量達到或超過 28.5 kg";
+            :>> effect = "違反 REQ-SYS-003，發射許可審查不通過而無法發射；離架速度也會下降。";
+            :>> cause = "各次系統實際質量超過額度、系統層零餘裕（額度合計 13.2 kg）、漏算線材、膠與扣件等小零件。";
+            :>> severity = 5;
+            :>> likelihood = 3;
+            :>> detection = 2;
+            :>> mitigation = "每次審查實際秤重。";
+            :>> residualSeverity = 1;
+            :>> residualLikelihood = 1;
+        }
     }
 }
