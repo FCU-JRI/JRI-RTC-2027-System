@@ -1383,7 +1383,6 @@ package Project {
             doc /* 系統的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
         }
     }
-    #derive dependency from Project::Requirements::'滑塊固定件材質' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'底部滑塊承重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'滑塊不阻擋航電操作' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'滑塊距底部距離' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
