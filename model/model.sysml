@@ -720,37 +720,37 @@ package Project {
     #trace dependency from Project::Stakeholders::'分系統如期交付且確認可用' to Project::Stakeholders::'JRI 團隊'::'組長暨責任工程師';
     #trace dependency from Project::Stakeholders::'累積實作經驗與技術能力' to Project::Stakeholders::'JRI 團隊'::'核心成員';
     #trace dependency from Project::Stakeholders::'取得可用於宣傳的影像素材' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
-    #derive dependency from Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射' to Project::NGOs::'通過所有審查並符合法規與規範';
-    #derive dependency from Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘' to Project::NGOs::'全程處於已知且受控的安全狀態';
-    #derive dependency from Project::NGOs::'火箭濺落後漂浮於海面並被回收' to Project::NGOs::'全程處於已知且受控的安全狀態';
-    #derive dependency from Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #derive dependency from Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #derive dependency from Project::NGOs::'取回與影像時間同步的軸向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #derive dependency from Project::NGOs::'取回三軸角速度與橫向加速度紀錄' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
-    #derive dependency from Project::NGOs::'取回發射至濺落的箭載影像' to Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據';
+    #derivation connection { end #derive ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; end #original ::> Project::NGOs::'通過所有審查並符合法規與規範'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; end #original ::> Project::NGOs::'全程處於已知且受控的安全狀態'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; end #original ::> Project::NGOs::'全程處於已知且受控的安全狀態'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡'; end #original ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像'; end #original ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; end #original ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取回三軸角速度與橫向加速度紀錄'; end #original ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取回發射至濺落的箭載影像'; end #original ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; }
     #trace dependency from Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據' to Project::Stakeholders::'將酬載實驗裝置放進探空火箭';
     #trace dependency from Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力' to Project::Stakeholders::'累積實作經驗與技術能力';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'取得可用於宣傳的影像素材';
-    #derive dependency from Project::NGOs::'讓成員完整經歷分系統的全生命週期' to Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力';
-    #derive dependency from Project::NGOs::'記錄飛行全程的影像' to Project::NGOs::'取得呈現團隊工程成果的影像素材';
-    #derive dependency from Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據' to Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據';
-    #derive dependency from Project::NGOs::'取得發射離架的地面影像' to Project::NGOs::'記錄飛行全程的影像';
-    #refine dependency from Project::NGOs::'MOE-01 決賽日發射達成' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #refine dependency from Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #refine dependency from Project::NGOs::'MOE-03 主傘開傘高度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #refine dependency from Project::NGOs::'MOE-04 觸水速度' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #refine dependency from Project::NGOs::'MOE-05 浮力與重量比' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #refine dependency from Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
-    #refine dependency from Project::NGOs::'MOE-07 前衝影像實際影格率' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
-    #refine dependency from Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
-    #refine dependency from Project::NGOs::'MOE-09 軸向加速度實際取樣率' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #refine dependency from Project::NGOs::'MOE-10 軸向加速度量程飽和' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #refine dependency from Project::NGOs::'MOE-11 影像與加速度時間同步誤差' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #refine dependency from Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
-    #refine dependency from Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍' to Project::NGOs::'取回發射至濺落的箭載影像';
-    #refine dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
-    #derive dependency from Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試' to Project::NGOs::'讓成員完整經歷分系統的全生命週期';
-    #refine dependency from Project::NGOs::'完成技術文件的核心成員比例' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
+    #derivation connection { end #derive ::> Project::NGOs::'讓成員完整經歷分系統的全生命週期'; end #original ::> Project::NGOs::'累積團隊的火箭系統實作經驗與技術能力'; }
+    #derivation connection { end #derive ::> Project::NGOs::'記錄飛行全程的影像'; end #original ::> Project::NGOs::'取得呈現團隊工程成果的影像素材'; }
+    #derivation connection { end #derive ::> Project::NGOs::'以探空火箭飛行實驗取得燃盡前後的液體前衝數據'; end #original ::> Project::NGOs::'取得引擎在大氣中關閉時液體前衝的飛行量測數據'; }
+    #derivation connection { end #derive ::> Project::NGOs::'取得發射離架的地面影像'; end #original ::> Project::NGOs::'記錄飛行全程的影像'; }
+    #refinement dependency from Project::NGOs::'MOE-01 決賽日發射達成' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
+    #refinement dependency from Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #refinement dependency from Project::NGOs::'MOE-03 主傘開傘高度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
+    #refinement dependency from Project::NGOs::'MOE-04 觸水速度' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
+    #refinement dependency from Project::NGOs::'MOE-05 浮力與重量比' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
+    #refinement dependency from Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
+    #refinement dependency from Project::NGOs::'MOE-07 前衝影像實際影格率' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
+    #refinement dependency from Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
+    #refinement dependency from Project::NGOs::'MOE-09 軸向加速度實際取樣率' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
+    #refinement dependency from Project::NGOs::'MOE-10 軸向加速度量程飽和' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
+    #refinement dependency from Project::NGOs::'MOE-11 影像與加速度時間同步誤差' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
+    #refinement dependency from Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
+    #refinement dependency from Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍' to Project::NGOs::'取回發射至濺落的箭載影像';
+    #refinement dependency from Project::NGOs::'MOE-14 地面影像涵蓋發射離架' to Project::NGOs::'取得發射離架的地面影像';
+    #derivation connection { end #derive ::> Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試'; end #original ::> Project::NGOs::'讓成員完整經歷分系統的全生命週期'; }
+    #refinement dependency from Project::NGOs::'完成技術文件的核心成員比例' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
     #trace dependency from Project::Stakeholders::'發射不危及公共安全' to Project::Stakeholders::'國家科學及技術委員會';
     #trace dependency from Project::Stakeholders::'事故可即時通報與調查' to Project::Stakeholders::'國家科學及技術委員會';
     #trace dependency from Project::Stakeholders::'活動符合環境保護法規' to Project::Stakeholders::'國家科學及技術委員會';
@@ -829,17 +829,17 @@ package Project {
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'任務達成完全成功';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'完整記錄並呈現發射過程';
     #trace dependency from Project::NGOs::'取得呈現團隊工程成果的影像素材' to Project::Stakeholders::'商標印在箭體上且在影像中可見';
-    #derive dependency from Project::NGOs::'全程處於已知且受控的安全狀態' to Project::NGOs::'專案全程不危及人員、公眾與場域';
-    #derive dependency from Project::NGOs::'通過所有審查並符合法規與規範' to Project::NGOs::'專案符合規則、規範與法規且可被查證';
-    #derive dependency from Project::NGOs::'依賽程完成交付且支出不超過預算' to Project::NGOs::'在賽程與可負擔的資源內完成專案';
-    #derive dependency from Project::NGOs::'通過發射許可審查全部項目' to Project::NGOs::'通過所有審查並符合法規與規範';
-    #derive dependency from Project::NGOs::'危險作業都經管制官核可後執行' to Project::NGOs::'全程處於已知且受控的安全狀態';
-    #derive dependency from Project::NGOs::'各階段報告與決賽文件準時繳交' to Project::NGOs::'依賽程完成交付且支出不超過預算';
-    #derive dependency from Project::NGOs::'總支出不超過預算' to Project::NGOs::'依賽程完成交付且支出不超過預算';
-    #refine dependency from Project::NGOs::'發射許可審查核可項數' to Project::NGOs::'通過發射許可審查全部項目';
-    #refine dependency from Project::NGOs::'危險作業事前核可比例' to Project::NGOs::'危險作業都經管制官核可後執行';
-    #refine dependency from Project::NGOs::'報告與決賽文件準時繳交項數' to Project::NGOs::'各階段報告與決賽文件準時繳交';
-    #refine dependency from Project::NGOs::'總支出金額' to Project::NGOs::'總支出不超過預算';
+    #derivation connection { end #derive ::> Project::NGOs::'全程處於已知且受控的安全狀態'; end #original ::> Project::NGOs::'專案全程不危及人員、公眾與場域'; }
+    #derivation connection { end #derive ::> Project::NGOs::'通過所有審查並符合法規與規範'; end #original ::> Project::NGOs::'專案符合規則、規範與法規且可被查證'; }
+    #derivation connection { end #derive ::> Project::NGOs::'依賽程完成交付且支出不超過預算'; end #original ::> Project::NGOs::'在賽程與可負擔的資源內完成專案'; }
+    #derivation connection { end #derive ::> Project::NGOs::'通過發射許可審查全部項目'; end #original ::> Project::NGOs::'通過所有審查並符合法規與規範'; }
+    #derivation connection { end #derive ::> Project::NGOs::'危險作業都經管制官核可後執行'; end #original ::> Project::NGOs::'全程處於已知且受控的安全狀態'; }
+    #derivation connection { end #derive ::> Project::NGOs::'各階段報告與決賽文件準時繳交'; end #original ::> Project::NGOs::'依賽程完成交付且支出不超過預算'; }
+    #derivation connection { end #derive ::> Project::NGOs::'總支出不超過預算'; end #original ::> Project::NGOs::'依賽程完成交付且支出不超過預算'; }
+    #refinement dependency from Project::NGOs::'發射許可審查核可項數' to Project::NGOs::'通過發射許可審查全部項目';
+    #refinement dependency from Project::NGOs::'危險作業事前核可比例' to Project::NGOs::'危險作業都經管制官核可後執行';
+    #refinement dependency from Project::NGOs::'報告與決賽文件準時繳交項數' to Project::NGOs::'各階段報告與決賽文件準時繳交';
+    #refinement dependency from Project::NGOs::'總支出金額' to Project::NGOs::'總支出不超過預算';
     #trace dependency from Project::UseCases::'計劃管理'::'提出影像紀錄需求' to Project::Stakeholders::'JRI 團隊'::'業務發展組';
 
     package Behavior {
@@ -1368,137 +1368,137 @@ package Project {
             doc /* 結構次系統應使用紙管、PVC 管、玻璃纖維、碳纖維等輕量材料建造，必要時可使用鋁合金等延展性輕金屬。出處：火箭設計規範 V2 6.5.1。 */
         }
     }
-    #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'使用公版軌道滑塊' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'軌道滑塊數量與位置' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'滑塊金屬緊固' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'滑塊不可脫離' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'滑塊固定件材質' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'底部滑塊承重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'滑塊不阻擋航電操作' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'滑塊距底部距離' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'從導軌頂部水平裝載' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'不與發射架接線' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'上架後安裝點火器' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'動態穩定度下限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'離架穩定度上限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'飛行動態穩定度上限' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'離架速度' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'發動機外殼溫度耐受' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'觸水速度' to Project::NGOs::'MOE-04 觸水速度';
-    #derive dependency from Project::Requirements::'漂浮' to Project::NGOs::'MOE-05 浮力與重量比';
-    #derive dependency from Project::NGOs::'火箭從離架到濺落維持箭體完整' to Project::NGOs::'全程處於已知且受控的安全狀態';
-    #refine dependency from Project::NGOs::'飛行中非預期分離或結構失效的次數應為 0。' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'回收結構安全係數' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'高強度傘繩' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'回收系統耐熱保護' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'降落傘顏色' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #derive dependency from Project::Requirements::'可分離部件標示' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #derive dependency from Project::Requirements::'公版GPS追蹤器安裝介面' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #derive dependency from Project::Requirements::'GPS追蹤器正常運作' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #derive dependency from Project::Requirements::'回收系統啟動方式' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'雙階段開傘' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'減速傘於頂點開啟' to Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差';
-    #derive dependency from Project::Requirements::'主傘開啟高度' to Project::NGOs::'MOE-03 主傘開傘高度';
-    #derive dependency from Project::Requirements::'釋放裝置冗餘' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'安全關鍵線路固定' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'安全關鍵線路標示' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'連接處抗拉保護' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'電路板結構支撐' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'洩壓孔' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'結構承受操作應力' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'尾翼顫振裕度' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'可滑動連接介面重疊長度' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'不可分離介面固定' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
-    #derive dependency from Project::Requirements::'飛行數據記錄項目' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
-    #derive dependency from Project::Requirements::'飛行數據時間涵蓋' to Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'GPS軌跡紀錄' to Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'紀錄回收後可讀' to Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡';
-    #derive dependency from Project::Requirements::'前衝影像影格率' to Project::NGOs::'MOE-07 前衝影像實際影格率';
-    #derive dependency from Project::Requirements::'前衝影像時間涵蓋' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'前衝影像視野' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'軸向加速度取樣率' to Project::NGOs::'MOE-09 軸向加速度實際取樣率';
-    #derive dependency from Project::Requirements::'軸向加速度量程' to Project::NGOs::'MOE-10 軸向加速度量程飽和';
-    #derive dependency from Project::Requirements::'影像與加速度時間同步' to Project::NGOs::'MOE-11 影像與加速度時間同步誤差';
-    #derive dependency from Project::Requirements::'三軸紀錄時間涵蓋' to Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'三軸紀錄取樣率與量程' to Project::NGOs::'取回三軸角速度與橫向加速度紀錄';
-    #derive dependency from Project::Requirements::'箭載影像時間涵蓋' to Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'地面影像涵蓋離架' to Project::NGOs::'MOE-14 地面影像涵蓋發射離架';
-    #derive dependency from Project::NGOs::'火箭所有部件落海後全數回收' to Project::NGOs::'通過所有審查並符合法規與規範';
-    #derive dependency from Project::NGOs::'火箭不將有害物質帶入海洋' to Project::NGOs::'通過所有審查並符合法規與規範';
-    #derive dependency from Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態' to Project::NGOs::'全程處於已知且受控的安全狀態';
-    #refine dependency from Project::NGOs::'遺留海中的部件數' to Project::NGOs::'火箭所有部件落海後全數回收';
-    #refine dependency from Project::NGOs::'使用禁用或有害材料的項數' to Project::NGOs::'火箭不將有害物質帶入海洋';
-    #refine dependency from Project::NGOs::'非預期處於啟動狀態的次數' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'分離部件連接成一體' to Project::NGOs::'遺留海中的部件數';
-    #derive dependency from Project::Requirements::'配重材料限制' to Project::NGOs::'使用禁用或有害材料的項數';
-    #derive dependency from Project::Requirements::'儲能裝置驅動方式' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'儲能裝置上架前保持安全' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'儲能裝置外部啟動' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'啟動狀態遠距確認' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'濺落後儲能裝置回到安全狀態' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'靜態穩定度（發射許可）' to Project::NGOs::'發射許可審查核可項數';
-    #derive dependency from Project::Requirements::'開傘前不得主動姿態控制' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'回收啟動鏈冗餘' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'航電耐受衝擊與振動' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'電池類型' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'電池續航' to Project::NGOs::'通過發射許可審查全部項目';
-    #derive dependency from Project::Requirements::'電池牢固安裝' to Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘';
-    #derive dependency from Project::Requirements::'無線電頻率與功率合規' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'隊伍標示' to Project::NGOs::'發射許可審查核可項數';
-    #derive dependency from Project::Requirements::'翼片隊伍ID' to Project::NGOs::'發射許可審查核可項數';
-    #derive dependency from Project::Requirements::'箭體主色' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'落點位於安全回收區' to Project::NGOs::'火箭濺落後漂浮於海面並被回收';
-    #derive dependency from Project::Requirements::'酬載運作與位置' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'酬載不含活體脊椎動物' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'輕量結構材料' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'實驗液體無害' to Project::NGOs::'火箭不將有害物質帶入海洋';
-    #derive dependency from Project::Requirements::'實驗液體容器密封' to Project::NGOs::'火箭不將有害物質帶入海洋';
-    #derive dependency from Project::Requirements::'發射終止時解除啟動' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
-    #derive dependency from Project::Requirements::'無線電頻道切換' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'計畫：核心成員分工指派' to Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試';
-    #derive dependency from Project::Requirements::'計畫：技術文件撰寫規範' to Project::NGOs::'完成技術文件的核心成員比例';
-    #derive dependency from Project::Requirements::'計畫：H3作業清單' to Project::NGOs::'危險作業都經管制官核可後執行';
-    #derive dependency from Project::Requirements::'計畫：H3作業逐次核可' to Project::NGOs::'危險作業事前核可比例';
-    #derive dependency from Project::Requirements::'計畫：H3作業程序' to Project::NGOs::'危險作業都經管制官核可後執行';
-    #derive dependency from Project::Requirements::'計畫：報告內部審查期限' to Project::NGOs::'各階段報告與決賽文件準時繳交';
-    #derive dependency from Project::Requirements::'計畫：決賽紙本文件' to Project::NGOs::'報告與決賽文件準時繳交項數';
-    #derive dependency from Project::Requirements::'計畫：成本紀錄' to Project::NGOs::'總支出金額';
-    #derive dependency from Project::Requirements::'計畫：採購核可門檻' to Project::NGOs::'總支出不超過預算';
-    #derive dependency from Project::Requirements::'待命期間影像記錄保證' to Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍';
-    #derive dependency from Project::Requirements::'待命期間加速度記錄保證' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #derive dependency from Project::Requirements::'頂點前無擾動事件' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
-    #derive dependency from Project::Requirements::'前衝影像備援' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
-    #derive dependency from Project::Requirements::'軸向加速度備援' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #derive dependency from Project::Requirements::'前衝影像可判讀' to Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像';
-    #derive dependency from Project::Requirements::'發射架靜置零點資料' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #derive dependency from Project::Requirements::'容器靠近重心' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #derive dependency from Project::Requirements::'航電紀錄可對齊' to Project::NGOs::'取回與影像時間同步的軸向加速度紀錄';
-    #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
-    #derive dependency from Project::Requirements::'結構：發動機鎖固介面' to Project::Requirements::'公版發動機鎖固方式';
-    #derive dependency from Project::Requirements::'結構：發動機定心環' to Project::Requirements::'發動機定心環';
-    #derive dependency from Project::Requirements::'結構：使用公版軌道滑塊' to Project::Requirements::'使用公版軌道滑塊';
-    #derive dependency from Project::Requirements::'結構：軌道滑塊數量與位置' to Project::Requirements::'軌道滑塊數量與位置';
-    #derive dependency from Project::Requirements::'結構：滑塊金屬緊固' to Project::Requirements::'滑塊金屬緊固';
-    #derive dependency from Project::Requirements::'結構：滑塊不可脫離' to Project::Requirements::'滑塊不可脫離';
-    #derive dependency from Project::Requirements::'結構：滑塊固定件材質' to Project::Requirements::'滑塊固定件材質';
-    #derive dependency from Project::Requirements::'結構：底部滑塊承重' to Project::Requirements::'底部滑塊承重';
-    #derive dependency from Project::Requirements::'結構：滑塊距底部距離' to Project::Requirements::'滑塊距底部距離';
-    #derive dependency from Project::Requirements::'結構：水平裝載外形' to Project::Requirements::'從導軌頂部水平裝載';
-    #derive dependency from Project::Requirements::'結構：發動機外殼溫度耐受' to Project::Requirements::'發動機外殼溫度耐受';
-    #derive dependency from Project::Requirements::'結構：浮力體積' to Project::Requirements::'漂浮';
-    #derive dependency from Project::Requirements::'結構：可分離部件標示' to Project::Requirements::'可分離部件標示';
-    #derive dependency from Project::Requirements::'結構：洩壓孔' to Project::Requirements::'洩壓孔';
-    #derive dependency from Project::Requirements::'結構：承受操作應力' to Project::Requirements::'結構承受操作應力';
-    #derive dependency from Project::Requirements::'結構：尾翼顫振裕度' to Project::Requirements::'尾翼顫振裕度';
-    #derive dependency from Project::Requirements::'結構：可滑動介面重疊長度' to Project::Requirements::'可滑動連接介面重疊長度';
-    #derive dependency from Project::Requirements::'結構：不可分離介面固定' to Project::Requirements::'不可分離介面固定';
-    #derive dependency from Project::Requirements::'結構：配重材料限制' to Project::Requirements::'配重材料限制';
-    #derive dependency from Project::Requirements::'結構：隊伍標示' to Project::Requirements::'隊伍標示';
-    #derive dependency from Project::Requirements::'結構：翼片隊伍ID' to Project::Requirements::'翼片隊伍ID';
-    #derive dependency from Project::Requirements::'結構：箭體主色' to Project::Requirements::'箭體主色';
-    #derive dependency from Project::Requirements::'結構：輕量結構材料' to Project::Requirements::'輕量結構材料';
-    #derive dependency from Project::NGOs::'火箭全程不受訊號干擾' to Project::NGOs::'專案全程不危及人員、公眾與場域';
-    #derive dependency from Project::NGOs::'火箭材質不得干擾無線電訊號' to Project::NGOs::'火箭全程不受訊號干擾';
+    #derivation connection { end #derive ::> Project::Requirements::'發動機定心環'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'全箭總重'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'使用公版軌道滑塊'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'軌道滑塊數量與位置'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'滑塊金屬緊固'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'滑塊不可脫離'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'滑塊固定件材質'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'底部滑塊承重'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'滑塊不阻擋航電操作'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'滑塊距底部距離'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'從導軌頂部水平裝載'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'不與發射架接線'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'上架後安裝點火器'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'飛行動態穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'離架速度'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'發動機外殼溫度耐受'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'觸水速度'; end #original ::> Project::NGOs::'MOE-04 觸水速度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'漂浮'; end #original ::> Project::NGOs::'MOE-05 浮力與重量比'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; end #original ::> Project::NGOs::'全程處於已知且受控的安全狀態'; }
+    #refinement dependency from Project::NGOs::'飛行中非預期分離或結構失效的次數應為 0。' to Project::NGOs::'火箭從離架到濺落維持箭體完整';
+    #derivation connection { end #derive ::> Project::Requirements::'回收結構安全係數'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'高強度傘繩'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收系統耐熱保護'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'降落傘顏色'; end #original ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; }
+    #derivation connection { end #derive ::> Project::Requirements::'可分離部件標示'; end #original ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; }
+    #derivation connection { end #derive ::> Project::Requirements::'公版GPS追蹤器安裝介面'; end #original ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; }
+    #derivation connection { end #derive ::> Project::Requirements::'GPS追蹤器正常運作'; end #original ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收系統啟動方式'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'雙階段開傘'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'減速傘於頂點開啟'; end #original ::> Project::NGOs::'MOE-02 減速傘開傘時刻與頂點時刻的時間差'; }
+    #derivation connection { end #derive ::> Project::Requirements::'主傘開啟高度'; end #original ::> Project::NGOs::'MOE-03 主傘開傘高度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'釋放裝置冗餘'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'安全關鍵線路固定'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'安全關鍵線路標示'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'連接處抗拉保護'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'電路板結構支撐'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'洩壓孔'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構承受操作應力'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'尾翼顫振裕度'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'可滑動連接介面重疊長度'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'不可分離介面固定'; end #original ::> Project::NGOs::'火箭從離架到濺落維持箭體完整'; }
+    #derivation connection { end #derive ::> Project::Requirements::'飛行數據記錄項目'; end #original ::> Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡'; }
+    #derivation connection { end #derive ::> Project::Requirements::'飛行數據時間涵蓋'; end #original ::> Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'GPS軌跡紀錄'; end #original ::> Project::NGOs::'MOE-06 飛行數據時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'紀錄回收後可讀'; end #original ::> Project::NGOs::'取回飛行全程的高度、速度、加速度與 GPS 軌跡'; }
+    #derivation connection { end #derive ::> Project::Requirements::'前衝影像影格率'; end #original ::> Project::NGOs::'MOE-07 前衝影像實際影格率'; }
+    #derivation connection { end #derive ::> Project::Requirements::'前衝影像時間涵蓋'; end #original ::> Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'前衝影像視野'; end #original ::> Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'軸向加速度取樣率'; end #original ::> Project::NGOs::'MOE-09 軸向加速度實際取樣率'; }
+    #derivation connection { end #derive ::> Project::Requirements::'軸向加速度量程'; end #original ::> Project::NGOs::'MOE-10 軸向加速度量程飽和'; }
+    #derivation connection { end #derive ::> Project::Requirements::'影像與加速度時間同步'; end #original ::> Project::NGOs::'MOE-11 影像與加速度時間同步誤差'; }
+    #derivation connection { end #derive ::> Project::Requirements::'三軸紀錄時間涵蓋'; end #original ::> Project::NGOs::'MOE-12 三軸紀錄時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'三軸紀錄取樣率與量程'; end #original ::> Project::NGOs::'取回三軸角速度與橫向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'箭載影像時間涵蓋'; end #original ::> Project::NGOs::'MOE-13 箭載影像時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'地面影像涵蓋離架'; end #original ::> Project::NGOs::'MOE-14 地面影像涵蓋發射離架'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭所有部件落海後全數回收'; end #original ::> Project::NGOs::'通過所有審查並符合法規與規範'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭不將有害物質帶入海洋'; end #original ::> Project::NGOs::'通過所有審查並符合法規與規範'; }
+    #derivation connection { end #derive ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; end #original ::> Project::NGOs::'全程處於已知且受控的安全狀態'; }
+    #refinement dependency from Project::NGOs::'遺留海中的部件數' to Project::NGOs::'火箭所有部件落海後全數回收';
+    #refinement dependency from Project::NGOs::'使用禁用或有害材料的項數' to Project::NGOs::'火箭不將有害物質帶入海洋';
+    #refinement dependency from Project::NGOs::'非預期處於啟動狀態的次數' to Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態';
+    #derivation connection { end #derive ::> Project::Requirements::'分離部件連接成一體'; end #original ::> Project::NGOs::'遺留海中的部件數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'配重材料限制'; end #original ::> Project::NGOs::'使用禁用或有害材料的項數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'儲能裝置驅動方式'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'儲能裝置上架前保持安全'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'儲能裝置外部啟動'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'啟動狀態遠距確認'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'濺落後儲能裝置回到安全狀態'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'靜態穩定度（發射許可）'; end #original ::> Project::NGOs::'發射許可審查核可項數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'開傘前不得主動姿態控制'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收啟動鏈冗餘'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電耐受衝擊與振動'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'電池類型'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'電池續航'; end #original ::> Project::NGOs::'通過發射許可審查全部項目'; }
+    #derivation connection { end #derive ::> Project::Requirements::'電池牢固安裝'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'無線電頻率與功率合規'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'隊伍標示'; end #original ::> Project::NGOs::'發射許可審查核可項數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'翼片隊伍ID'; end #original ::> Project::NGOs::'發射許可審查核可項數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'箭體主色'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'落點位於安全回收區'; end #original ::> Project::NGOs::'火箭濺落後漂浮於海面並被回收'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載運作與位置'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載不含活體脊椎動物'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'輕量結構材料'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'實驗液體無害'; end #original ::> Project::NGOs::'火箭不將有害物質帶入海洋'; }
+    #derivation connection { end #derive ::> Project::Requirements::'實驗液體容器密封'; end #original ::> Project::NGOs::'火箭不將有害物質帶入海洋'; }
+    #derivation connection { end #derive ::> Project::Requirements::'發射終止時解除啟動'; end #original ::> Project::NGOs::'儲能裝置在上架前與打撈時處於安全狀態'; }
+    #derivation connection { end #derive ::> Project::Requirements::'無線電頻道切換'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：核心成員分工指派'; end #original ::> Project::NGOs::'每位核心成員皆完成所屬分系統的設計、製造與測試'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：技術文件撰寫規範'; end #original ::> Project::NGOs::'完成技術文件的核心成員比例'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：H3作業清單'; end #original ::> Project::NGOs::'危險作業都經管制官核可後執行'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：H3作業逐次核可'; end #original ::> Project::NGOs::'危險作業事前核可比例'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：H3作業程序'; end #original ::> Project::NGOs::'危險作業都經管制官核可後執行'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：報告內部審查期限'; end #original ::> Project::NGOs::'各階段報告與決賽文件準時繳交'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：決賽紙本文件'; end #original ::> Project::NGOs::'報告與決賽文件準時繳交項數'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：成本紀錄'; end #original ::> Project::NGOs::'總支出金額'; }
+    #derivation connection { end #derive ::> Project::Requirements::'計畫：採購核可門檻'; end #original ::> Project::NGOs::'總支出不超過預算'; }
+    #derivation connection { end #derive ::> Project::Requirements::'待命期間影像記錄保證'; end #original ::> Project::NGOs::'MOE-08 前衝影像時間涵蓋範圍'; }
+    #derivation connection { end #derive ::> Project::Requirements::'待命期間加速度記錄保證'; end #original ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'頂點前無擾動事件'; end #original ::> Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像'; }
+    #derivation connection { end #derive ::> Project::Requirements::'前衝影像備援'; end #original ::> Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像'; }
+    #derivation connection { end #derive ::> Project::Requirements::'軸向加速度備援'; end #original ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'前衝影像可判讀'; end #original ::> Project::NGOs::'取回燃盡前後的液體前衝與撞擊後影像'; }
+    #derivation connection { end #derive ::> Project::Requirements::'發射架靜置零點資料'; end #original ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'容器靠近重心'; end #original ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電紀錄可對齊'; end #original ::> Project::NGOs::'取回與影像時間同步的軸向加速度紀錄'; }
+    #derivation connection { end #derive ::> Project::Requirements::'公版發動機鎖固方式'; end #original ::> Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：發動機鎖固介面'; end #original ::> Project::Requirements::'公版發動機鎖固方式'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：發動機定心環'; end #original ::> Project::Requirements::'發動機定心環'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：使用公版軌道滑塊'; end #original ::> Project::Requirements::'使用公版軌道滑塊'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：軌道滑塊數量與位置'; end #original ::> Project::Requirements::'軌道滑塊數量與位置'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：滑塊金屬緊固'; end #original ::> Project::Requirements::'滑塊金屬緊固'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：滑塊不可脫離'; end #original ::> Project::Requirements::'滑塊不可脫離'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：滑塊固定件材質'; end #original ::> Project::Requirements::'滑塊固定件材質'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：底部滑塊承重'; end #original ::> Project::Requirements::'底部滑塊承重'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：滑塊距底部距離'; end #original ::> Project::Requirements::'滑塊距底部距離'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：水平裝載外形'; end #original ::> Project::Requirements::'從導軌頂部水平裝載'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：發動機外殼溫度耐受'; end #original ::> Project::Requirements::'發動機外殼溫度耐受'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：浮力體積'; end #original ::> Project::Requirements::'漂浮'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：可分離部件標示'; end #original ::> Project::Requirements::'可分離部件標示'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：洩壓孔'; end #original ::> Project::Requirements::'洩壓孔'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：承受操作應力'; end #original ::> Project::Requirements::'結構承受操作應力'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：尾翼顫振裕度'; end #original ::> Project::Requirements::'尾翼顫振裕度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：可滑動介面重疊長度'; end #original ::> Project::Requirements::'可滑動連接介面重疊長度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：不可分離介面固定'; end #original ::> Project::Requirements::'不可分離介面固定'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：配重材料限制'; end #original ::> Project::Requirements::'配重材料限制'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：隊伍標示'; end #original ::> Project::Requirements::'隊伍標示'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：翼片隊伍ID'; end #original ::> Project::Requirements::'翼片隊伍ID'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：箭體主色'; end #original ::> Project::Requirements::'箭體主色'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：輕量結構材料'; end #original ::> Project::Requirements::'輕量結構材料'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭全程不受訊號干擾'; end #original ::> Project::NGOs::'專案全程不危及人員、公眾與場域'; }
+    #derivation connection { end #derive ::> Project::NGOs::'火箭材質不得干擾無線電訊號'; end #original ::> Project::NGOs::'火箭全程不受訊號干擾'; }
 }
