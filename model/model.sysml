@@ -2419,5 +2419,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：前衝影像備援'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-057'> 'VER：軸向加速度取樣率量測' : VerificationEvent {
+            doc /* 方法：測試（T）。啟動酬載加速度紀錄，由紀錄時間戳記計算實際取樣率。通過準則：實際取樣率不低於 200 Hz。 */
+            objective { verify Project::Requirements::'酬載：軸向加速度取樣率'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
