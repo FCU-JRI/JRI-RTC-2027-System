@@ -2239,5 +2239,10 @@ package Project {
             objective { verify Project::Requirements::'航電：減速傘觸發'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-021'> 'VER：主傘觸發壓力艙測試' : VerificationEvent {
+            doc /* 方法：測試（T）。以壓力艙模擬火箭下降過程的氣壓變化。通過準則：在離地 150～450 m 之間發出主傘觸發訊號。 */
+            objective { verify Project::Requirements::'航電：主傘觸發'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
