@@ -1805,6 +1805,9 @@ package Project {
         requirement <'REQ-SUB-100'> '酬載：軸向加速度備援' : SubsystemRequirement {
             doc /* 酬載次系統應將軸向加速度紀錄保存在至少兩個彼此獨立的儲存媒體上，其中一個損毀時，另一個仍能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
         }
+        requirement <'REQ-SUB-101'> '酬載：發射架靜置零點資料' : SubsystemRequirement {
+            doc /* 酬載次系統的軸向加速度與三軸紀錄，應包含點火前火箭靜置於發射架上的資料。所需秒數待定，暫訂不少於 10 s，於 PDR 前依地面驗證取得的感測器雜訊決定。出處：酬載提案計劃書式 (4-82)、(4-83)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
