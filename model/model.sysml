@@ -2244,5 +2244,10 @@ package Project {
             objective { verify Project::Requirements::'航電：主傘觸發'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-022'> 'VER：頂點前不作動 HIL 測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將模擬或往年實際飛行數據重播給航電，進行硬體迴路測試。通過準則：從點火到頂點，航電不發出任何作動指令。 */
+            objective { verify Project::Requirements::'航電：頂點前不作動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
