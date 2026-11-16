@@ -1823,6 +1823,9 @@ package Project {
         requirement <'REQ-SUB-106'> '酬載：實驗液體容器密封' : SubsystemRequirement {
             doc /* 酬載次系統的實驗液體容器應密封，在飛行與濺落過程中不洩漏。依據：期望 EXP-025；酬載提案計劃書表 7-1 R8。 */
         }
+        requirement <'REQ-SUB-107'> '酬載：容器耐受推進段加速度' : SubsystemRequirement {
+            doc /* 酬載次系統的實驗液體容器應在推進段最大加速度 73.2 m/s²（7.47 g）下維持密封，不洩漏。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
