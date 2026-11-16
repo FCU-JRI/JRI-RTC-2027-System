@@ -2314,5 +2314,10 @@ package Project {
             objective { verify Project::Requirements::'航電：飛行數據記錄項目'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-036'> 'VER：長時間連續紀錄測試' : VerificationEvent {
+            doc /* 方法：測試（T）。以涵蓋發射至濺落全程的時間長度連續紀錄。通過準則：高度、速度與加速度紀錄全程不中斷。 */
+            objective { verify Project::Requirements::'航電：飛行數據時間涵蓋'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
