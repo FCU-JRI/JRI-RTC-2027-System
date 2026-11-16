@@ -2424,5 +2424,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：軸向加速度取樣率'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-058'> 'VER：軸向加速度感測器量程檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對感測器規格書與設定值。通過準則：量測量程不小於 ±16 g。 */
+            objective { verify Project::Requirements::'酬載：軸向加速度量程'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
