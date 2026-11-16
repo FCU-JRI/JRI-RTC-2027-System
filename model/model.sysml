@@ -1676,6 +1676,9 @@ package Project {
         requirement <'REQ-SUB-067'> '回收：降落傘顏色' : SubsystemRequirement {
             doc /* 回收次系統的降落傘顏色應和天空形成對比，不得使用藍色、綠色、棕色或迷彩相關的顏色。出處：火箭設計規範 V2 4.2.7。 */
         }
+        requirement <'REQ-SUB-068'> '回收：雙階段開傘' : SubsystemRequirement {
+            doc /* 回收次系統應以減速傘為第一階段、主傘為第二階段開傘。出處：火箭設計規範 V2 4.2.2.4。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
