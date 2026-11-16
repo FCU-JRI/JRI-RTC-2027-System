@@ -1781,6 +1781,9 @@ package Project {
         requirement <'MOP-010'> 'MOP：主傘開傘高度' : MOP {
             doc /* 主傘應在離地 150～450 m 之間開啟。目前值離地 289 m（OpenRocket project_2027_ver0.1 Simulation 1）。 */
         }
+        requirement <'REQ-SUB-093'> '酬載：前衝影像可判讀' : SubsystemRequirement {
+            doc /* 在推進段振動與液體前衝運動下，酬載次系統拍攝的液體前衝影像每一格都應能分辨液面輪廓與壁面液膜前端。位置解析度（每像素對應長度）待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.5、4.7 節、式 (4-86)、(4-87)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
