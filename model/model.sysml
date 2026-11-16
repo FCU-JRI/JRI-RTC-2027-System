@@ -1526,6 +1526,9 @@ package Project {
         requirement <'REQ-SUB-060'> '航電：遙測封包遺失率' : SubsystemRequirement {
             doc /* 航電發送的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
         }
+        requirement <'REQ-SUB-061'> '航電：與酬載連接通訊' : SubsystemRequirement {
+            doc /* 航電次系統應在整個飛行過程中與酬載連接通訊。出處：火箭設計規範 V2 7.1.1。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
