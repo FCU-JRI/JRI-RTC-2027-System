@@ -1523,6 +1523,9 @@ package Project {
         requirement <'REQ-SUB-059'> '航電：無線電頻道切換' : SubsystemRequirement {
             doc /* 箭上無線電應能切換至國家通訊傳播委員會許可頻道。出處：火箭設計規範 V2 4.1.4.3。 */
         }
+        requirement <'REQ-SUB-060'> '航電：遙測封包遺失率' : SubsystemRequirement {
+            doc /* 航電發送的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
