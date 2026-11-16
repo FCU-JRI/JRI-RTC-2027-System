@@ -2092,5 +2092,16 @@ package Project {
             :>> residualSeverity = 2;
             :>> residualLikelihood = 3;
         }
+        item <'RISK-002'> '離架時動態穩定度不足' : Risk {
+            :>> failureMode = "離架瞬間的穩定裕度低於 1.5 cal";
+            :>> effect = "違反 REQ-SYS-015，火箭可能風標偏航或飛行不穩。";
+            :>> cause = "重心偏後、尾翼面積不足、側風大於設計值、實際質量配置與模型不同。";
+            :>> severity = 4;
+            :>> likelihood = 3;
+            :>> detection = 2;
+            :>> mitigation = "組裝後實測重心，並以實測值重跑模擬。";
+            :>> residualSeverity = 3;
+            :>> residualLikelihood = 2;
+        }
     }
 }
