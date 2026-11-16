@@ -2079,4 +2079,18 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：外部開關安全切斷'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：地面解除安全指令'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
     #derivation connection { end #derive ::> Project::Requirements::'地面：發送解除安全指令'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
+
+    package Risks {
+        item <'RISK-001'> '觸水下降率超過 12 m/s' : Risk {
+            :>> failureMode = "下降率超過 12 m/s";
+            :>> effect = "違反 REQ-SYS-020，觸水衝擊可能損壞箭體或紀錄。";
+            :>> cause = "降落傘面積不足、Cd 低於預期、全箭比預算重。";
+            :>> severity = 4;
+            :>> likelihood = 3;
+            :>> detection = 4;
+            :>> mitigation = "進行降落傘cd值測試，並計算確保終端速率小於12m/s";
+            :>> residualSeverity = 2;
+            :>> residualLikelihood = 3;
+        }
+    }
 }
