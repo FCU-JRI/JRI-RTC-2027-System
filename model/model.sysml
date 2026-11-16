@@ -1757,6 +1757,9 @@ package Project {
         requirement <'MOP-006'> 'MOP：離架速度' : MOP {
             doc /* 火箭離開公版發射架軌道時的速度應大於 16 m/s，目標值 24 m/s。目前值 17.81 m/s（OpenRocket project_2027_ver0.1 Simulation 1）。 */
         }
+        requirement <'REQ-SUB-089'> '酬載：全程位於箭身內部' : SubsystemRequirement {
+            doc /* 酬載次系統應在整個飛行過程中保持在箭身內部。出處：火箭設計規範 V2 7.1.1。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
