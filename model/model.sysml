@@ -2339,5 +2339,10 @@ package Project {
             objective { verify Project::Requirements::'回收：減速傘開傘速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-041'> 'VER：減速傘傘繩與傘面負載測試' : VerificationEvent {
+            doc /* 方法：測試（T）。以減速傘開傘衝擊計算所得的負載，對減速傘傘繩與傘面施加負載。通過準則：傘繩與傘面不損壞。 */
+            objective { verify Project::Requirements::'回收：減速傘開傘速度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
