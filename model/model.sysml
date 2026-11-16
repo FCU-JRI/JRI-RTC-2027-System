@@ -1611,4 +1611,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：頂點前保持連接'; end #original ::> Project::Requirements::'頂點前無擾動事件'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：飛行數據記錄項目'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：飛行數據時間涵蓋'; end #original ::> Project::Requirements::'飛行數據時間涵蓋'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：GPS軌跡紀錄'; end #original ::> Project::Requirements::'GPS軌跡紀錄'; }
 }
