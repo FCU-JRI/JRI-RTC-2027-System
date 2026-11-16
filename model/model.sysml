@@ -1571,4 +1571,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：不與發射架接線'; end #original ::> Project::Requirements::'不與發射架接線'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：點火器安裝通道'; end #original ::> Project::Requirements::'上架後安裝點火器'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：公版GPS追蹤器安裝介面'; end #original ::> Project::Requirements::'公版GPS追蹤器安裝介面'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：通訊艙段非導電材料'; end #original ::> Project::Requirements::'通訊艙段非導電材料'; }
 }
