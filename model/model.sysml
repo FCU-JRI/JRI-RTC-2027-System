@@ -1667,6 +1667,9 @@ package Project {
         requirement <'REQ-SUB-064'> '回收：固定結構安全係數' : SubsystemRequirement {
             doc /* 回收次系統的傘具固定點與連接結構，安全係數應大於 2。出處：火箭設計規範 V2 4.2.3。 */
         }
+        requirement <'REQ-SUB-065'> '回收：高強度傘繩' : SubsystemRequirement {
+            doc /* 回收次系統應使用高強度傘繩連接，例如 Kevlar 繩、登山尼龍繩或登山尼龍傘帶。出處：火箭設計規範 V2 4.2.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
