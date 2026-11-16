@@ -551,6 +551,9 @@ package Project {
         requirement <'MOE-025'> '遙測封包遺失率' : MOE {
             doc /* 地面站未收到的遙測封包占總封包數的比例應不超過門檻值。門檻值與量測區間待定，PDR 前決定。量測方式：以地面站記錄的封包序號計算。 */
         }
+        requirement <'MOE-026'> 'GPS 定位中斷' : MOE {
+            doc /* 公版 GPS 追蹤器失去定位的次數或累計時間應不超過門檻值。門檻值、計量方式與量測區間待定，PDR 前決定。量測方式：以 GPS 追蹤紀錄判定。 */
+        }
     }
 
     package UseCases {
