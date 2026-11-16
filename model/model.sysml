@@ -1763,6 +1763,9 @@ package Project {
         requirement <'MOP-007'> 'MOP：最小動態穩定度' : MOP {
             doc /* 在 2 m/s 側風條件下，從發射到首次回收系統部署事件前，火箭的最小動態穩定度應大於 1.5 倍箭身直徑。目前值 1.52 倍，出現於離架時（OpenRocket project_2027_ver0.1 Simulation 1）。 */
         }
+        requirement <'REQ-SUB-090'> '酬載：前衝影像影格率' : SubsystemRequirement {
+            doc /* 酬載次系統拍攝的液體前衝影像，影格率應不低於 170 fps，目標值 240 fps。出處：酬載提案計劃書式 (4-71)、表 4-6。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
