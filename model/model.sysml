@@ -1508,4 +1508,5 @@ package Project {
     #derive dependency from Project::Requirements::'通訊艙段非導電材料' to Project::NGOs::'通訊艙段導電部件數';
     #derive dependency from Project::Requirements::'遙測封包遺失率' to Project::NGOs::'遙測封包遺失率';
     #derive dependency from Project::Requirements::'滑塊不阻擋航電操作' to Project::NGOs::'MOE-01 決賽日發射達成';
+    #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'MOE-01 決賽日發射達成';
 }
