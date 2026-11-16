@@ -2224,5 +2224,10 @@ package Project {
             objective { verify Project::Requirements::'結構：浮力體積'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-018'> 'VER：通訊艙段材料檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對材料清單與設計圖面。通過準則：公版 GPS 追蹤器與遙測無線電所在艙段沒有任何以導電材料製成的部件。 */
+            objective { verify Project::Requirements::'結構：通訊艙段非導電材料'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
