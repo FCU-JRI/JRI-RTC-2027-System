@@ -2504,5 +2504,10 @@ package Project {
             objective { verify Project::Requirements::'地面：讀取並備份箭上紀錄'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-074'> 'VER：全箭秤重' : VerificationEvent {
+            doc /* 方法：檢查（I）。在全箭組裝完成並裝上 pioneer-10K 公版發動機後，以秤量測全箭總重。通過準則：總重小於 28.5 kg。 */
+            objective { verify Project::Requirements::'全箭總重'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
