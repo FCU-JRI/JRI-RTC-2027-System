@@ -1874,4 +1874,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：雙階段開傘'; end #original ::> Project::Requirements::'雙階段開傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：釋放裝置冗餘'; end #original ::> Project::Requirements::'釋放裝置冗餘'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：分離部件繫留'; end #original ::> Project::Requirements::'分離部件連接成一體'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收：儲能裝置驅動方式'; end #original ::> Project::Requirements::'儲能裝置驅動方式'; }
 }
