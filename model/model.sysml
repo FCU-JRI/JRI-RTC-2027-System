@@ -1832,6 +1832,9 @@ package Project {
         requirement <'REQ-SUB-109'> '結構：燃盡重心配置' : SubsystemRequirement {
             doc /* 結構次系統的全箭質量配置，應使燃盡時全箭重心與酬載實驗容器中心的軸向距離不大於 1 m。出處：酬載提案計劃書表 4-3、表 4-6、式 (4-22)。 */
         }
+        requirement <'REQ-SUB-110'> '航電：外部開關安全切斷' : SubsystemRequirement {
+            doc /* 航電次系統應提供一個可從火箭外部操作的實體開關，開關未接通時，儲能裝置的觸發電路應保持斷開。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
