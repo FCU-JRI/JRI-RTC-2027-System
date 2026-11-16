@@ -2464,5 +2464,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：容器安裝位置'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-066'> 'VER：酬載安裝設計檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對酬載安裝設計與實物。通過準則：酬載固定於箭身內部，飛行中不會脫出箭身。 */
+            objective { verify Project::Requirements::'酬載：全程位於箭身內部'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
