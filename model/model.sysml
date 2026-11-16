@@ -2219,5 +2219,10 @@ package Project {
             objective { verify Project::Requirements::'結構：頂點前保持連接'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-017'> 'VER：水池漂浮測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將燃盡狀態的全箭（18.59 kg）置於水池。通過準則：持續漂浮至少 2 小時。 */
+            objective { verify Project::Requirements::'結構：浮力體積'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
