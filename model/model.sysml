@@ -2319,5 +2319,10 @@ package Project {
             objective { verify Project::Requirements::'航電：飛行數據時間涵蓋'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-037'> 'VER：浸水後紀錄讀取測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將裝有紀錄的航電儲存媒體依飛行構型浸水 2 小時，再進行讀取。通過準則：所有紀錄能完整讀取。 */
+            objective { verify Project::Requirements::'航電：紀錄回收後可讀'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
