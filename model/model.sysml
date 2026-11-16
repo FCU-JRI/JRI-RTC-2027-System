@@ -2489,5 +2489,10 @@ package Project {
             objective { verify Project::Requirements::'地面：發送解除啟動指令'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-071'> 'VER：啟動狀態地面顯示測試' : VerificationEvent {
+            doc /* 方法：測試（T）。切換箭上儲能裝置的啟動狀態，觀察地面次系統的顯示。通過準則：地面即時顯示儲能裝置的啟動狀態，人員在火箭 100 mm 範圍外即可確認。 */
+            objective { verify Project::Requirements::'地面：啟動狀態顯示'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
