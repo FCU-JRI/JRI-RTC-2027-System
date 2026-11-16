@@ -2574,5 +2574,10 @@ package Project {
             objective { verify Project::Requirements::'儲能裝置外部啟動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-088'> 'VER：SIT 啟動狀態遠距確認展示' : VerificationEvent {
+            doc /* 方法：展示（D）。在全箭整合構型下，人員在火箭 100 mm 範圍外確認儲能裝置的狀態。通過準則：人員頭部與身體不進入 100 mm 範圍內，即可確認儲能裝置已進入啟動狀態。 */
+            objective { verify Project::Requirements::'啟動狀態遠距確認'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
