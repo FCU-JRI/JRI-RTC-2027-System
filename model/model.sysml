@@ -1599,4 +1599,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：靜態穩定度'; end #original ::> Project::Requirements::'靜態穩定度（發射許可）'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：離架速度'; end #original ::> Project::Requirements::'離架速度'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：不設置可動控制面'; end #original ::> Project::Requirements::'開傘前不得主動姿態控制'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：頂點前保持連接'; end #original ::> Project::Requirements::'頂點前無擾動事件'; }
 }
