@@ -2459,5 +2459,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：待命期間加速度記錄保證'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-065'> 'VER：容器位置與燃盡重心分析' : VerificationEvent {
+            doc /* 方法：分析（A）。以實測質量計算燃盡時全箭重心，並與實驗容器中心的安裝位置比較。通過準則：兩者軸向距離不大於 1 m。 */
+            objective { verify Project::Requirements::'酬載：容器安裝位置'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
