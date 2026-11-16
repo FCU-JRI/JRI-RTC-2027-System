@@ -2429,5 +2429,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：軸向加速度量程'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-059'> 'VER：影像與加速度同步誤差量測' : VerificationEvent {
+            doc /* 方法：測試（T）。產生同時出現在影像與加速度紀錄中的同步事件，比對兩者的時間差。通過準則：同步誤差不大於半個影格間隔（240 fps 時 2.1 ms，170 fps 時 2.9 ms）。 */
+            objective { verify Project::Requirements::'酬載：影像與加速度時間同步'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
