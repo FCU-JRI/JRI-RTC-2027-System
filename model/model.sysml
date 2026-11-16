@@ -2344,5 +2344,10 @@ package Project {
             objective { verify Project::Requirements::'回收：減速傘開傘速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-042'> 'VER：主傘開傘衝擊計算' : VerificationEvent {
+            doc /* 方法：分析（A）。以最終設定的主傘開傘速度，計算開傘瞬間的衝擊力。開傘速度待定，以最終構型模擬結果為準。通過準則：完成衝擊負載計算，作為主傘傘繩與傘面負載測試及固定點拉力測試的負載基準。 */
+            objective { verify Project::Requirements::'回收：主傘開傘速度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
