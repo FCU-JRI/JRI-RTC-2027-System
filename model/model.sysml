@@ -2559,5 +2559,10 @@ package Project {
             objective { verify Project::Requirements::'主傘開啟高度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-085'> 'VER：SIT 頂點前無擾動測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在全箭整合構型下，將上升段時序重播給航電進行系統整合測試。通過準則：到達頂點前，沒有任何分離、作動或主動姿態控制事件。 */
+            objective { verify Project::Requirements::'頂點前無擾動事件'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
