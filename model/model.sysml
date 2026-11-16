@@ -2284,5 +2284,10 @@ package Project {
             objective { verify Project::Requirements::'航電：儲能裝置外部啟動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-030'> 'VER：啟動狀態遠距確認展示' : VerificationEvent {
+            doc /* 方法：展示（D）。人員在火箭 100 mm 範圍外，以聲音、指示燈或電腦連線確認儲能裝置狀態。通過準則：人員頭部與身體不進入火箭 100 mm 範圍內，即可確認儲能裝置已進入啟動狀態。 */
+            objective { verify Project::Requirements::'航電：啟動狀態遠距確認'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
