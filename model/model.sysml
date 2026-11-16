@@ -1673,4 +1673,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：安全關鍵線路標示'; end #original ::> Project::Requirements::'安全關鍵線路標示'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：連接處抗拉保護'; end #original ::> Project::Requirements::'連接處抗拉保護'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：電路板結構支撐'; end #original ::> Project::Requirements::'電路板結構支撐'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：耐受衝擊與振動'; end #original ::> Project::Requirements::'航電耐受衝擊與振動'; }
 }
