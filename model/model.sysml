@@ -2269,5 +2269,10 @@ package Project {
             objective { verify Project::Requirements::'航電：地面解除安全指令'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-027'> 'VER：濺落後安全化測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在地面模擬濺落偵測條件。通過準則：偵測到濺落後，所有未釋放能量的儲能裝置自動回到安全狀態。完成時限待定，於 PDR 依濺落偵測方式決定。 */
+            objective { verify Project::Requirements::'航電：濺落後安全化'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
