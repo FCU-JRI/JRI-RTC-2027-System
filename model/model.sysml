@@ -2474,5 +2474,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：實驗液體無害'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-068'> 'VER：酬載次系統秤重' : VerificationEvent {
+            doc /* 方法：檢查（I）。每次審查前，以秤實測酬載次系統質量。通過準則：質量小於 1,500 g。 */
+            objective { verify Project::Requirements::'酬載：質量額度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
