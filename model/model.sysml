@@ -1733,6 +1733,9 @@ package Project {
         requirement <'REQ-SUB-086'> '酬載：質量額度' : SubsystemRequirement {
             doc /* 酬載次系統的質量應小於 1,500 g。依據：全箭質量預算，各次系統額度合計 13.2 kg，加上公版發動機 15.3 kg（Pioneer-10K_RTC.eng）後，全箭總重小於 28.5 kg。 */
         }
+        requirement <'REQ-SUB-087'> '回收：質量額度' : SubsystemRequirement {
+            doc /* 回收次系統的質量應小於 2,000 g。依據：全箭質量預算，各次系統額度合計 13.2 kg，加上公版發動機 15.3 kg（Pioneer-10K_RTC.eng）後，全箭總重小於 28.5 kg。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
