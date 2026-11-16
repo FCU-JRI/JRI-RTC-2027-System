@@ -1489,6 +1489,9 @@ package Project {
         requirement <'REQ-SUB-048'> '航電：發射終止時解除啟動' : SubsystemRequirement {
             doc /* 航電次系統應能接收外部指令，使所有儲能裝置回到「安全」狀態，操作時人員不需進入火箭 100 mm 範圍內。出處：火箭設計規範 V2 4.6.3、4.6.7。 */
         }
+        requirement <'REQ-SUB-049'> '航電：安全關鍵線路固定' : SubsystemRequirement {
+            doc /* 航電的安全關鍵線路、電纜與端子連接應牢固，在發射準備、搬運與飛行中不會過度移動、斷開或纏繞。出處：火箭設計規範 V2 4.4.2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
