@@ -1814,6 +1814,9 @@ package Project {
         requirement <'REQ-SUB-103'> '酬載：待命期間加速度記錄保證' : SubsystemRequirement {
             doc /* 火箭上架啟動後，在最長 1.5 小時的待命期間內，不論何時發射，酬載次系統都應完整記錄點火至頂點期間的軸向加速度與三軸紀錄。依據：酬載提案計劃書 4.6 節、表 7-1 R3。 */
         }
+        requirement <'REQ-SUB-104'> '酬載：不含活體脊椎動物' : SubsystemRequirement {
+            doc /* 酬載次系統應不包含任何活體脊椎動物。出處：火箭設計規範 V2 7.1.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
