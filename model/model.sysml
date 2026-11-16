@@ -1499,6 +1499,9 @@ package Project {
         requirement <'REQ-SUB-051'> '航電：連接處抗拉保護' : SubsystemRequirement {
             doc /* 航電安全關鍵線路的所有連接與端子處應設置抗拉保護。出處：火箭設計規範 V2 4.4.4。 */
         }
+        requirement <'REQ-SUB-052'> '航電：電路板結構支撐' : SubsystemRequirement {
+            doc /* 航電的電路板應以螺絲和支柱等方式提供結構支撐。出處：火箭設計規範 V2 4.4.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
