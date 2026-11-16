@@ -2078,4 +2078,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：燃盡重心配置'; end #original ::> Project::Requirements::'容器靠近重心'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：外部開關安全切斷'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：地面解除安全指令'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
+    #derivation connection { end #derive ::> Project::Requirements::'地面：發送解除安全指令'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
 }
