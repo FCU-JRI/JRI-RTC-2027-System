@@ -1766,6 +1766,9 @@ package Project {
         requirement <'REQ-SUB-090'> '酬載：前衝影像影格率' : SubsystemRequirement {
             doc /* 酬載次系統拍攝的液體前衝影像，影格率應不低於 170 fps，目標值 240 fps。出處：酬載提案計劃書式 (4-71)、表 4-6。 */
         }
+        requirement <'MOP-008'> 'MOP：觸水垂直下降率' : MOP {
+            doc /* 火箭觸水時的垂直下降速率應小於 12 m/s。目前值 11.53 m/s（OpenRocket project_2027_ver0.1 Simulation 1）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
