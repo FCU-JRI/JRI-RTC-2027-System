@@ -545,6 +545,9 @@ package Project {
         requirement <'OBJ-021'> '火箭材質不得干擾無線電訊號' : Objective {
             doc /* 火箭材質不應在靠近通訊處使用導電材料 */
         }
+        requirement <'MOE-024'> '通訊艙段導電部件數' : MOE {
+            doc /* 公版 GPS 追蹤器與遙測無線電所在艙段內，以導電材料製成的箭體部件數應為 0。量測方式：以材料清單與設計圖面查核。 */
+        }
     }
 
     package UseCases {
