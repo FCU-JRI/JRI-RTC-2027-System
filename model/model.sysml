@@ -2604,5 +2604,10 @@ package Project {
             objective { verify Project::Requirements::'通訊艙段非導電材料'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-094'> 'VER：全箭分離部件繫留檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。依全箭分離部件清單逐項核對連接方式。通過準則：所有分離部件都以傘繩或連接繩連在主箭體上。 */
+            objective { verify Project::Requirements::'分離部件連接成一體'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
