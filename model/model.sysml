@@ -1664,6 +1664,9 @@ package Project {
         requirement <'REQ-SUB-063'> '回收：觸水下降率' : SubsystemRequirement {
             doc /* 回收次系統應使火箭觸水時的下降速率小於 12 m/s。 */
         }
+        requirement <'REQ-SUB-064'> '回收：固定結構安全係數' : SubsystemRequirement {
+            doc /* 回收次系統的傘具固定點與連接結構，安全係數應大於 2。出處：火箭設計規範 V2 4.2.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
