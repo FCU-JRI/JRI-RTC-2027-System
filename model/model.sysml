@@ -1682,6 +1682,9 @@ package Project {
         requirement <'REQ-SUB-069'> '回收：釋放裝置冗餘' : SubsystemRequirement {
             doc /* 回收次系統的釋放裝置應有冗餘設計，例如 2 組以上儲能裝置或 2 組以上回收系統。出處：火箭設計規範 V2 4.2.2.2。 */
         }
+        requirement <'REQ-SUB-070'> '回收：分離部件繫留' : SubsystemRequirement {
+            doc /* 回收次系統應以傘繩或連接繩，使濺落後所有分離部件連在主箭體上。出處：海洋污染防治法第 4 條第 11 款。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
