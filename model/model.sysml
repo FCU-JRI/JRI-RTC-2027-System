@@ -1697,6 +1697,9 @@ package Project {
         requirement <'REQ-SUB-074'> '地面：發送解除啟動指令' : SubsystemRequirement {
             doc /* 火箭在發射架上進入啟動狀態後，地面次系統應能從外部發送解除啟動指令，使所有儲能裝置回到「安全」狀態，操作時人員不需進入火箭 100 mm 範圍內。出處：火箭設計規範 V2 4.6.3、4.6.7。 */
         }
+        requirement <'REQ-SUB-075'> '地面：啟動狀態顯示' : SubsystemRequirement {
+            doc /* 地面次系統應接收並顯示箭上儲能裝置的啟動狀態，使人員頭部與身體不進入火箭 100 mm 範圍內即可確認儲能裝置已進入啟動狀態。出處：火箭設計規範 V2 4.6.7。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
