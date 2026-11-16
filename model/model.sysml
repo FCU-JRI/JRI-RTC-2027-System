@@ -1718,6 +1718,9 @@ package Project {
         requirement <'REQ-SUB-081'> '回收：主傘開傘速度' : SubsystemRequirement {
             doc /* 回收次系統的主傘應能在 22.2 m/s 的開傘速度下開啟，且傘具與傘繩不受損壞。開傘衝擊負載待估。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風），開傘高度離地 289 m。 */
         }
+        requirement <'REQ-SUB-082'> '航電：加速度量測範圍' : SubsystemRequirement {
+            doc /* 航電次系統的加速度量測範圍應涵蓋推進段最大加速度 73.2 m/s²（7.47 g）。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
