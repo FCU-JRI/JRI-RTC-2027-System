@@ -1721,6 +1721,9 @@ package Project {
         requirement <'REQ-SUB-082'> '航電：加速度量測範圍' : SubsystemRequirement {
             doc /* 航電次系統的加速度量測範圍應涵蓋推進段最大加速度 73.2 m/s²（7.47 g）。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
         }
+        requirement <'REQ-SUB-083'> '航電：高度量測範圍' : SubsystemRequirement {
+            doc /* 航電次系統的高度量測範圍應涵蓋離地 0～3,268 m。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）頂點高度。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
