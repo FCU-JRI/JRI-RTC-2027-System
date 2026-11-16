@@ -2569,5 +2569,10 @@ package Project {
             objective { verify Project::Requirements::'儲能裝置上架前保持安全'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-087'> 'VER：SIT 儲能裝置外部啟動展示' : VerificationEvent {
+            doc /* 方法：展示（D）。在全箭整合構型下，從火箭外部完成儲能裝置的啟動與測試。通過準則：啟動時人員不需靠近火箭。 */
+            objective { verify Project::Requirements::'儲能裝置外部啟動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
