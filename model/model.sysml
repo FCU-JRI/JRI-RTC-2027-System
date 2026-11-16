@@ -2274,5 +2274,10 @@ package Project {
             objective { verify Project::Requirements::'航電：濺落後安全化'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-028'> 'VER：外部解除啟動指令測試' : VerificationEvent {
+            doc /* 方法：測試（T）。火箭處於啟動狀態時，從外部送出解除啟動指令。通過準則：所有儲能裝置回到安全狀態，操作人員不需進入火箭 100 mm 範圍內。 */
+            objective { verify Project::Requirements::'航電：發射終止時解除啟動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
