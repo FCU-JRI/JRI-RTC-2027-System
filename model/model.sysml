@@ -1739,6 +1739,9 @@ package Project {
         requirement <'REQ-SUB-088'> '航電：質量額度' : SubsystemRequirement {
             doc /* 航電次系統的質量應小於 1,500 g。依據：全箭質量預算，各次系統額度合計 13.2 kg，加上公版發動機 15.3 kg（Pioneer-10K_RTC.eng）後，全箭總重小於 28.5 kg。 */
         }
+        requirement <'MOP-001'> 'MOP：起飛質量' : MOP {
+            doc /* 火箭含公版發動機的起飛質量應小於 28.5 kg。目前值 27.59 kg（OpenRocket project_2027_ver0.1 Simulation 1 估算），於各階段審查以實際秤重更新。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
