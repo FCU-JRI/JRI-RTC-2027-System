@@ -1846,4 +1846,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：與酬載連接通訊'; end #original ::> Project::Requirements::'酬載運作與位置'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：紀錄時間對齊'; end #original ::> Project::Requirements::'航電紀錄可對齊'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：觸水下降率'; end #original ::> Project::Requirements::'觸水速度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收：固定結構安全係數'; end #original ::> Project::Requirements::'回收結構安全係數'; }
 }
