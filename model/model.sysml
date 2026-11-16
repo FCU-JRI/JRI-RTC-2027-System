@@ -1829,6 +1829,9 @@ package Project {
         requirement <'REQ-SUB-108'> '酬載：容器安裝位置' : SubsystemRequirement {
             doc /* 酬載次系統的實驗容器安裝位置，應使容器中心與燃盡時全箭重心的軸向距離不大於 1 m。出處：酬載提案計劃書表 4-3、表 4-6、式 (4-22)。 */
         }
+        requirement <'REQ-SUB-109'> '結構：燃盡重心配置' : SubsystemRequirement {
+            doc /* 結構次系統的全箭質量配置，應使燃盡時全箭重心與酬載實驗容器中心的軸向距離不大於 1 m。出處：酬載提案計劃書表 4-3、表 4-6、式 (4-22)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
