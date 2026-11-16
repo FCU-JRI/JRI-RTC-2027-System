@@ -1727,6 +1727,9 @@ package Project {
         requirement <'REQ-SUB-084'> '航電：速度量測範圍' : SubsystemRequirement {
             doc /* 航電次系統的速度量測範圍應涵蓋 0～304.1 m/s（馬赫 0.90）。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
         }
+        requirement <'REQ-SUB-085'> '結構：質量額度' : SubsystemRequirement {
+            doc /* 結構次系統的質量應小於 8,200 g。依據：全箭質量預算，各次系統額度合計 13.2 kg，加上公版發動機 15.3 kg（Pioneer-10K_RTC.eng）後，全箭總重小於 28.5 kg。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
