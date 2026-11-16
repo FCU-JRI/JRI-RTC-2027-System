@@ -2259,5 +2259,10 @@ package Project {
             objective { verify Project::Requirements::'航電：回收啟動鏈冗餘'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-025'> 'VER：外部開關觸發電路導通測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在外部開關未接通的狀態下量測觸發電路。通過準則：觸發電路保持斷開。 */
+            objective { verify Project::Requirements::'航電：外部開關安全切斷'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
