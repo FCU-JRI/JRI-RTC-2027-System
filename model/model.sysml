@@ -2002,4 +2002,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'MOP：電池續航時間'; end #original ::> Project::Requirements::'電池續航'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像視野'; end #original ::> Project::Requirements::'前衝影像視野'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：主傘開傘高度'; end #original ::> Project::NGOs::'MOE-03 主傘開傘高度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像可判讀'; end #original ::> Project::Requirements::'前衝影像可判讀'; }
 }
