@@ -2364,5 +2364,10 @@ package Project {
             objective { verify Project::Requirements::'回收：雙階段開傘'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-046'> 'VER：釋放裝置冗餘配置檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對圖面與實物。通過準則：至少具備 2 組儲能裝置或 2 組回收系統。 */
+            objective { verify Project::Requirements::'回收：釋放裝置冗餘'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
