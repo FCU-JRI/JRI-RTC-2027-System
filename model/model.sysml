@@ -1443,6 +1443,9 @@ package Project {
         requirement <'REQ-SUB-033'> '結構：離架速度' : SubsystemRequirement {
             doc /* 結構次系統應整合全箭質量，使火箭離開公版發射架軌道時的速度大於 16 m/s。出處：火箭設計規範 V2 8.2.3。 */
         }
+        requirement <'REQ-SUB-034'> '結構：不設置可動控制面' : SubsystemRequirement {
+            doc /* 尾翼與箭體應不設置可動的控制面。出處：火箭設計規範 V2 4.1.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
