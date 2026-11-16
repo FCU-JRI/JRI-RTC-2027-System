@@ -2149,5 +2149,10 @@ package Project {
             objective { verify Project::Requirements::'結構：動態穩定度下限'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-003'> 'VER：離架穩定度上限模擬' : VerificationEvent {
+            doc /* 方法：分析（A）。以組裝後實測的重心與質量輸入 OpenRocket 模擬。通過準則：離架時穩定度小於 4 倍箭身直徑。 */
+            objective { verify Project::Requirements::'結構：離架穩定度上限'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
