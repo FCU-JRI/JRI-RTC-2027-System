@@ -1495,6 +1495,9 @@ package Project {
         requirement <'REQ-SUB-050'> '航電：安全關鍵線路標示' : SubsystemRequirement {
             doc /* 航電的安全關鍵線路應清楚標記或以顏色編碼，可辨識所屬的次系統。出處：火箭設計規範 V2 4.4.3。 */
         }
+        requirement <'REQ-SUB-051'> '航電：連接處抗拉保護' : SubsystemRequirement {
+            doc /* 航電安全關鍵線路的所有連接與端子處應設置抗拉保護。出處：火箭設計規範 V2 4.4.4。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
