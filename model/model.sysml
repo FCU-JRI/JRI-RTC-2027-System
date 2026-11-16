@@ -2137,4 +2137,12 @@ package Project {
             :>> residualLikelihood = 2;
         }
     }
+
+    package Verification {
+        verification <'VER-001'> 'VER：結構次系統秤重' : VerificationEvent {
+            doc /* 方法：檢查（I）。每次審查前以秤實測結構次系統質量。通過準則：質量小於 8,200 g。 */
+            objective { verify Project::Requirements::'結構：質量額度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
+    }
 }
