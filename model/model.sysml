@@ -2449,5 +2449,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：發射架靜置零點資料'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-063'> 'VER：待命 1.5 小時後影像記錄測試' : VerificationEvent {
+            doc /* 方法：測試（T）。酬載上電待命 1.5 小時後，再模擬點火觸發。通過準則：完整記錄點火至頂點期間的液體前衝影像。 */
+            objective { verify Project::Requirements::'酬載：待命期間影像記錄保證'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
