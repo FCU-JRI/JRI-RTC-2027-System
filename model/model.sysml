@@ -1802,6 +1802,9 @@ package Project {
         requirement <'REQ-SUB-099'> '酬載：三軸紀錄取樣率與量程' : SubsystemRequirement {
             doc /* 酬載次系統的三軸角速度與橫向加速度紀錄，取樣率與量程應符合酬載設計定案值。數值待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.4 節。 */
         }
+        requirement <'REQ-SUB-100'> '酬載：軸向加速度備援' : SubsystemRequirement {
+            doc /* 酬載次系統應將軸向加速度紀錄保存在至少兩個彼此獨立的儲存媒體上，其中一個損毀時，另一個仍能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
