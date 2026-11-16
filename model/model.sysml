@@ -1706,6 +1706,9 @@ package Project {
         requirement <'REQ-SUB-077'> '地面：讀取並備份箭上紀錄' : SubsystemRequirement {
             doc /* 火箭濺落並漂浮 2 小時後回收時，地面次系統應能完整讀取並備份箭上儲存的所有紀錄。出處：酬載提案計劃書表 7-1 R7、表 7-2。 */
         }
+        requirement <'REQ-SUB-078'> '結構：推進段軸向加速度耐受' : SubsystemRequirement {
+            doc /* 結構次系統應在推進段最大加速度 73.2 m/s²（7.47 g）下維持結構完整。安全係數待定，於結構分析時決定。依據：OpenRocket project_2027_ver0.1 Simulation 1（2 m/s 側風）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
