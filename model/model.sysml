@@ -1563,4 +1563,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'不與發射架接線'; end #original ::> Project::NGOs::'MOE-01 決賽日發射達成'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：滑塊不阻擋航電操作'; end #original ::> Project::Requirements::'滑塊不阻擋航電操作'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：不與發射架接線'; end #original ::> Project::Requirements::'不與發射架接線'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：點火器安裝通道'; end #original ::> Project::Requirements::'上架後安裝點火器'; }
 }
