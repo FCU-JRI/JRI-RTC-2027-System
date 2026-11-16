@@ -1512,4 +1512,5 @@ package Project {
     #derive dependency from Project::NGOs::'火箭材質不得干擾無線電訊號' to Project::NGOs::'火箭全程不受訊號干擾';
     #refine dependency from Project::NGOs::'通訊艙段導電部件數' to Project::NGOs::'火箭材質不得干擾無線電訊號';
     #refine dependency from Project::NGOs::'遙測封包遺失率' to Project::NGOs::'火箭材質不得干擾無線電訊號';
+    #refine dependency from Project::NGOs::'GPS 定位中斷' to Project::NGOs::'火箭材質不得干擾無線電訊號';
 }
