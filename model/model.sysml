@@ -2299,5 +2299,10 @@ package Project {
             objective { verify Project::Requirements::'航電：電池牢固安裝'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-033'> 'VER：電池續航力測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在全箭負載（航電、回收啟動與酬載）下持續供電運作。通過準則：正常運作 1.5 小時以上。 */
+            objective { verify Project::Requirements::'航電：電池續航'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
