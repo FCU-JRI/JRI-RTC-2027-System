@@ -358,6 +358,7 @@ package Project {
             satisfy Project::Requirements::'發動機定心環';
             satisfy Project::Requirements::'全箭總重';
             satisfy Project::Requirements::'使用公版軌道滑塊';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'發送遙測' to '航電次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
