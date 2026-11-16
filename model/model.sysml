@@ -1510,4 +1510,5 @@ package Project {
     #derive dependency from Project::Requirements::'滑塊不阻擋航電操作' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'公版發動機鎖固方式' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'上架後安裝點火器' to Project::NGOs::'MOE-01 決賽日發射達成';
+    #derive dependency from Project::Requirements::'不與發射架接線' to Project::NGOs::'MOE-01 決賽日發射達成';
 }
