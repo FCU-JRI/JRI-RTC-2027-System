@@ -2159,5 +2159,10 @@ package Project {
             objective { verify Project::Requirements::'結構：飛行動態穩定度上限'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-005'> 'VER：靜態穩定度計算' : VerificationEvent {
+            doc /* 方法：分析（A）。以實測重心與計算所得壓力中心，評估馬赫 0.3 以下、無側風、含未燃推進劑的狀態。通過準則：重心位於壓力中心前方，間距大於 2 倍且小於 4 倍箭身直徑。 */
+            objective { verify Project::Requirements::'結構：靜態穩定度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
