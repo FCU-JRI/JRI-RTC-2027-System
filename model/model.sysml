@@ -2584,5 +2584,10 @@ package Project {
             objective { verify Project::Requirements::'發射終止時解除啟動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-090'> 'VER：SIT 模擬濺落安全化測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在全箭整合構型下模擬濺落條件。通過準則：所有尚未釋放能量的儲能裝置自動回到安全狀態。完成時限待定，於 PDR 依濺落偵測方式決定。 */
+            objective { verify Project::Requirements::'濺落後儲能裝置回到安全狀態'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
