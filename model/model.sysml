@@ -2169,5 +2169,10 @@ package Project {
             objective { verify Project::Requirements::'結構：離架速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-007'> 'VER：推進段加速度結構強度分析' : VerificationEvent {
+            doc /* 方法：分析（A）。以結構分析評估箭體在推進段最大加速度下的強度。通過準則：在 73.2 m/s²（7.47 g）負載下不失效。安全係數待定，於結構分析時決定。 */
+            objective { verify Project::Requirements::'結構：推進段軸向加速度耐受'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
