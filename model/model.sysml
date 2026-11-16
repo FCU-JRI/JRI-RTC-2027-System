@@ -1679,6 +1679,9 @@ package Project {
         requirement <'REQ-SUB-068'> '回收：雙階段開傘' : SubsystemRequirement {
             doc /* 回收次系統應以減速傘為第一階段、主傘為第二階段開傘。出處：火箭設計規範 V2 4.2.2.4。 */
         }
+        requirement <'REQ-SUB-069'> '回收：釋放裝置冗餘' : SubsystemRequirement {
+            doc /* 回收次系統的釋放裝置應有冗餘設計，例如 2 組以上儲能裝置或 2 組以上回收系統。出處：火箭設計規範 V2 4.2.2.2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
