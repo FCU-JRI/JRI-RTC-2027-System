@@ -1440,6 +1440,9 @@ package Project {
         requirement <'REQ-SUB-032'> '結構：靜態穩定度' : SubsystemRequirement {
             doc /* 結構次系統應整合全箭重心與壓力中心，使火箭在 0.3 馬赫以下、無側風條件下，含未燃推進劑的重心位於壓力中心前方，且間距大於 2 倍、小於 4 倍箭身直徑。出處：發射許可審查表（附件08）；火箭設計規範 V2 8.2.1.2。 */
         }
+        requirement <'REQ-SUB-033'> '結構：離架速度' : SubsystemRequirement {
+            doc /* 結構次系統應整合全箭質量，使火箭離開公版發射架軌道時的速度大於 16 m/s。出處：火箭設計規範 V2 8.2.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
