@@ -2534,5 +2534,10 @@ package Project {
             objective { verify Project::Requirements::'離架速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-080'> 'VER：全箭觸水下降率計算' : VerificationEvent {
+            doc /* 方法：分析（A）。以主傘實測 Cd 與全箭燃盡狀態的實測質量，計算觸水下降率。通過準則：觸水時的下降速率小於 12 m/s。 */
+            objective { verify Project::Requirements::'觸水速度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
