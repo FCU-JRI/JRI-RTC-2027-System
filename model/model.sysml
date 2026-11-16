@@ -1446,6 +1446,9 @@ package Project {
         requirement <'REQ-SUB-034'> '結構：不設置可動控制面' : SubsystemRequirement {
             doc /* 尾翼與箭體應不設置可動的控制面。出處：火箭設計規範 V2 4.1.5。 */
         }
+        requirement <'REQ-SUB-035'> '結構：頂點前保持連接' : SubsystemRequirement {
+            doc /* 箭體所有可分離的介面，應在火箭到達頂點前保持連接。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
