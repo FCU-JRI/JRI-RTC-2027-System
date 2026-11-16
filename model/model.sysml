@@ -2404,5 +2404,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：前衝影像時間涵蓋'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-054'> 'VER：前衝影像視野檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。以飛行構型安裝攝影機與容器後，檢查實拍畫面。通過準則：畫面同時涵蓋容器壁面、中心軸，以及液面至前端蓋的全程。 */
+            objective { verify Project::Requirements::'酬載：前衝影像視野'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
