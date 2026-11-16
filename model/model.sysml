@@ -360,6 +360,7 @@ package Project {
             satisfy Project::Requirements::'使用公版軌道滑塊';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'發送遙測' to '航電次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'航電切換至分配頻道' to '航電次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'地面站切換至分配頻道' to '地面次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
