@@ -1425,6 +1425,9 @@ package Project {
         requirement <'REQ-SUB-027'> '結構：公版GPS追蹤器安裝介面' : SubsystemRequirement {
             doc /* 結構次系統應依附件十八「3K 組公版 GPS 追蹤器技術資料」提供公版 GPS 追蹤器的組裝介面。出處：火箭設計規範 V2 5.1.1。 */
         }
+        requirement <'REQ-SUB-028'> '結構：通訊艙段非導電材料' : SubsystemRequirement {
+            doc /* 公版 GPS 追蹤器與遙測無線電所在艙段的結構部件，應以紙管、PVC 管或玻璃纖維等非導電材料製成。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
