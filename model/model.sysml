@@ -1697,4 +1697,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：電池續航'; end #original ::> Project::Requirements::'電池續航'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：電池牢固安裝'; end #original ::> Project::Requirements::'電池牢固安裝'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：無線電頻率與功率合規'; end #original ::> Project::Requirements::'無線電頻率與功率合規'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：無線電頻道切換'; end #original ::> Project::Requirements::'無線電頻道切換'; }
 }
