@@ -1700,6 +1700,9 @@ package Project {
         requirement <'REQ-SUB-075'> '地面：啟動狀態顯示' : SubsystemRequirement {
             doc /* 地面次系統應接收並顯示箭上儲能裝置的啟動狀態，使人員頭部與身體不進入火箭 100 mm 範圍內即可確認儲能裝置已進入啟動狀態。出處：火箭設計規範 V2 4.6.7。 */
         }
+        requirement <'REQ-SUB-076'> '地面：遙測封包接收' : SubsystemRequirement {
+            doc /* 地面次系統接收的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
