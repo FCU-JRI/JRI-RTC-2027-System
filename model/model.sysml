@@ -2399,5 +2399,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：前衝影像影格率'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-053'> 'VER：模擬燃盡觸發錄影測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在地面模擬燃盡觸發條件，啟動前衝影像錄影。通過準則：影像涵蓋固體馬達燃盡至液體撞擊端蓋後的完整過程。 */
+            objective { verify Project::Requirements::'酬載：前衝影像時間涵蓋'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
