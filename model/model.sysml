@@ -2594,5 +2594,10 @@ package Project {
             objective { verify Project::Requirements::'電池續航'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-092'> 'VER：全箭儲存媒體浸水後讀取測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將全箭所有箭上儲存媒體依飛行構型浸水 2 小時後讀取。通過準則：箭上所有紀錄都能完整讀取。 */
+            objective { verify Project::Requirements::'紀錄回收後可讀'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
