@@ -1709,4 +1709,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：無線電頻道切換'; end #original ::> Project::Requirements::'無線電頻道切換'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：遙測封包遺失率'; end #original ::> Project::Requirements::'遙測封包遺失率'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：與酬載連接通訊'; end #original ::> Project::Requirements::'酬載運作與位置'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：紀錄時間對齊'; end #original ::> Project::Requirements::'航電紀錄可對齊'; }
 }
