@@ -2309,5 +2309,10 @@ package Project {
             objective { verify Project::Requirements::'航電：質量額度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-035'> 'VER：飛行數據紀錄項目測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在地面啟動航電紀錄後，檢查紀錄檔內容。通過準則：紀錄檔包含飛行高度、速度與加速度。 */
+            objective { verify Project::Requirements::'航電：飛行數據記錄項目'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
