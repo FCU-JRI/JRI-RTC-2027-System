@@ -2409,5 +2409,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：前衝影像視野'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-055'> 'VER：振動中前衝影像判讀測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在振動條件下拍攝液體前衝影像，再逐格判讀。通過準則：每一格都能分辨液面輪廓與壁面液膜前端。位置解析度待定，於酬載設計定案（2027-01，M2）時決定。 */
+            objective { verify Project::Requirements::'酬載：前衝影像可判讀'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
