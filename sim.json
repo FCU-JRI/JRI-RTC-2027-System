@@ -1,0 +1,70 @@
+{
+ "inputs": {
+  "rocket": {
+   "radius_m": 0.0735,
+   "mass_kg": 14,
+   "length_m": 2.985,
+   "cm_from_nose_m": 1.45,
+   "drag_cd": 0.5
+  },
+  "nose": {
+   "length_m": 0.735,
+   "kind": "parabolic"
+  },
+  "fins": {
+   "n": 4,
+   "root_chord_m": 0.2,
+   "tip_chord_m": 0.09,
+   "span_m": 0.145,
+   "sweep_length_m": 0.135,
+   "position_from_nose_m": 2.785
+  },
+  "motor": {
+   "thrust_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     0.1,
+     2400
+    ],
+    [
+     0.5,
+     2300
+    ],
+    [
+     3,
+     2100
+    ],
+    [
+     3.6,
+     600
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "propellant_mass_kg": 3.9,
+   "dry_mass_kg": 2.6,
+   "chamber_radius_m": 0.049,
+   "chamber_height_m": 0.7,
+   "nozzle_radius_m": 0.03
+  },
+  "chute": {
+   "cd_s_m2": 0.6283,
+   "lag_s": 1.5
+  },
+  "launch": {
+   "latitude": 22.3,
+   "longitude": 120.9,
+   "elevation_m": 10,
+   "rail_length_m": 6,
+   "inclination_deg": 85,
+   "heading_deg": 90
+  }
+ },
+ "result": null,
+ "bindings": []
+}
