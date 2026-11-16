@@ -2439,5 +2439,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：三軸紀錄時間涵蓋'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-061'> 'VER：軸向加速度單一媒體損毀讀取測試' : VerificationEvent {
+            doc /* 方法：測試（T）。記錄軸向加速度後，移除其中一個儲存媒體，讀取另一個。通過準則：另一個儲存媒體仍能完整讀取軸向加速度紀錄。 */
+            objective { verify Project::Requirements::'酬載：軸向加速度備援'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
