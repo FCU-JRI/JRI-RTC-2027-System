@@ -2174,5 +2174,10 @@ package Project {
             objective { verify Project::Requirements::'結構：推進段軸向加速度耐受'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-008'> 'VER：最大動壓結構強度分析' : VerificationEvent {
+            doc /* 方法：分析（A）。以結構分析評估箭體在最大動壓下的強度。通過準則：在 46.2 kPa 下不失效。安全係數待定，於結構分析時決定。 */
+            objective { verify Project::Requirements::'結構：最大動壓耐受'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
