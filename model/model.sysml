@@ -1452,6 +1452,9 @@ package Project {
         requirement <'REQ-SUB-036'> '航電：飛行數據記錄項目' : SubsystemRequirement {
             doc /* 航電次系統應記錄飛行高度、速度與加速度。出處：火箭設計規範 V2 2.1。 */
         }
+        requirement <'REQ-SUB-037'> '航電：飛行數據時間涵蓋' : SubsystemRequirement {
+            doc /* 航電的高度、速度與加速度紀錄應涵蓋發射至濺落的全程。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
