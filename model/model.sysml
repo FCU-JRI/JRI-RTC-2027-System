@@ -2204,5 +2204,10 @@ package Project {
             objective { verify Project::Requirements::'結構：發動機外殼溫度耐受'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-014'> 'VER：軌道滑塊固定點拉拔測試' : VerificationEvent {
+            doc /* 方法：測試（T）。對軌道滑塊固定點施加拉拔負載。通過準則：滑塊不脫離箭體。負載值待定。 */
+            objective { verify Project::Requirements::'結構：滑塊不可脫離'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
