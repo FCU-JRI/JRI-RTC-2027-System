@@ -1470,6 +1470,9 @@ package Project {
         requirement <'REQ-SUB-042'> '航電：減速傘觸發' : SubsystemRequirement {
             doc /* 航電次系統應在偵測到頂點時發出減速傘觸發訊號。開傘時刻與頂點時刻的時間差門檻待定，於 PDR 依頂點偵測方式決定。出處：火箭設計規範 V2 4.2.2.4。 */
         }
+        requirement <'REQ-SUB-043'> '航電：主傘觸發' : SubsystemRequirement {
+            doc /* 航電次系統應在離地 150～450 m 之間發出主傘觸發訊號。出處：火箭設計規範 V2 4.2.2.4。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
