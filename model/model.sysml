@@ -2194,5 +2194,10 @@ package Project {
             objective { verify Project::Requirements::'結構：發動機鎖固介面'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-012'> 'VER：發動機定心環檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對圖面與實物。通過準則：至少具備 2 組公版發動機定心環，且位於發動機質心前方（鼻錐側）。 */
+            objective { verify Project::Requirements::'結構：發動機定心環'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
