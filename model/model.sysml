@@ -1422,6 +1422,9 @@ package Project {
         requirement <'REQ-SUB-026'> '結構：點火器安裝通道' : SubsystemRequirement {
             doc /* 火箭在發射架上完成架設與啟動後，結構次系統應讓競賽工作人員不必拆卸任何箭體部件，即可從發動機噴嘴端安裝點火器並連接點火線路。出處：火箭設計規範 V2 3.2.7、9.2.1、9.2.2。 */
         }
+        requirement <'REQ-SUB-027'> '結構：公版GPS追蹤器安裝介面' : SubsystemRequirement {
+            doc /* 結構次系統應依附件十八「3K 組公版 GPS 追蹤器技術資料」提供公版 GPS 追蹤器的組裝介面。出處：火箭設計規範 V2 5.1.1。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
