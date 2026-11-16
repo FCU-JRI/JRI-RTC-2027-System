@@ -1990,4 +1990,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像影格率'; end #original ::> Project::Requirements::'前衝影像影格率'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：觸水垂直下降率'; end #original ::> Project::NGOs::'MOE-04 觸水速度'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像時間涵蓋'; end #original ::> Project::Requirements::'前衝影像時間涵蓋'; }
+    #derivation connection { end #derive ::> Project::Requirements::'MOP：電池續航時間'; end #original ::> Project::Requirements::'電池續航'; }
 }
