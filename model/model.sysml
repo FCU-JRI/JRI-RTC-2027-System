@@ -1817,6 +1817,9 @@ package Project {
         requirement <'REQ-SUB-104'> '酬載：不含活體脊椎動物' : SubsystemRequirement {
             doc /* 酬載次系統應不包含任何活體脊椎動物。出處：火箭設計規範 V2 7.1.5。 */
         }
+        requirement <'REQ-SUB-105'> '酬載：實驗液體無害' : SubsystemRequirement {
+            doc /* 酬載次系統的實驗液體應為對海洋環境無害的液體，例如水。依據：期望 EXP-025。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
