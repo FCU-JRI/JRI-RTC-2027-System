@@ -1894,4 +1894,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：傘降漂移限制'; end #original ::> Project::Requirements::'落點位於安全回收區'; }
     #derivation connection { end #derive ::> Project::Requirements::'地面：發送解除啟動指令'; end #original ::> Project::Requirements::'發射終止時解除啟動'; }
     #derivation connection { end #derive ::> Project::Requirements::'地面：啟動狀態顯示'; end #original ::> Project::Requirements::'啟動狀態遠距確認'; }
+    #derivation connection { end #derive ::> Project::Requirements::'地面：遙測封包接收'; end #original ::> Project::Requirements::'遙測封包遺失率'; }
 }
