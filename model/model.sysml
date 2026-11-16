@@ -2249,5 +2249,10 @@ package Project {
             objective { verify Project::Requirements::'航電：頂點前不作動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-023'> 'VER：回收系統地面觸發測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在地面由航電發出觸發訊號。通過準則：回收系統受觸發後啟動。 */
+            objective { verify Project::Requirements::'航電：回收系統啟動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
