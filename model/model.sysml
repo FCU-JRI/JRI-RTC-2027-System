@@ -1473,6 +1473,9 @@ package Project {
         requirement <'REQ-SUB-043'> '航電：主傘觸發' : SubsystemRequirement {
             doc /* 航電次系統應在離地 150～450 m 之間發出主傘觸發訊號。出處：火箭設計規範 V2 4.2.2.4。 */
         }
+        requirement <'REQ-SUB-044'> '航電：頂點前不作動' : SubsystemRequirement {
+            doc /* 航電次系統應在火箭到達頂點前不發出任何作動指令。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
