@@ -1591,4 +1591,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：離架穩定度上限'; end #original ::> Project::Requirements::'離架穩定度上限'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：飛行動態穩定度上限'; end #original ::> Project::Requirements::'飛行動態穩定度上限'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：靜態穩定度'; end #original ::> Project::Requirements::'靜態穩定度（發射許可）'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：離架速度'; end #original ::> Project::Requirements::'離架速度'; }
 }
