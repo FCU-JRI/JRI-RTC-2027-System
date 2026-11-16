@@ -1607,4 +1607,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：不設置可動控制面'; end #original ::> Project::Requirements::'開傘前不得主動姿態控制'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：頂點前保持連接'; end #original ::> Project::Requirements::'頂點前無擾動事件'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：飛行數據記錄項目'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：飛行數據時間涵蓋'; end #original ::> Project::Requirements::'飛行數據時間涵蓋'; }
 }
