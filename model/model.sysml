@@ -2125,5 +2125,16 @@ package Project {
             :>> residualSeverity = 1;
             :>> residualLikelihood = 1;
         }
+        item <'RISK-005'> '高速開傘造成傘具或固定點損壞' : Risk {
+            :>> failureMode = "減速傘或主傘開傘時，傘衣、傘繩或固定點斷裂";
+            :>> effect = "降落傘失效，火箭高速觸水，可能損壞箭體、遺失紀錄，並違反 REQ-SYS-020。";
+            :>> cause = "開傘速度過快";
+            :>> severity = 5;
+            :>> likelihood = 3;
+            :>> detection = 4;
+            :>> mitigation = "估算開傘衝擊，並進行地面開傘測試。";
+            :>> residualSeverity = 3;
+            :>> residualLikelihood = 2;
+        }
     }
 }
