@@ -1520,6 +1520,9 @@ package Project {
         requirement <'REQ-SUB-058'> '航電：無線電頻率與功率合規' : SubsystemRequirement {
             doc /* 箭上無線電的操作頻率與發射功率應符合所用頻段之國家通訊傳播委員會技術規範。出處：火箭設計規範 V2 4.1.4.1、4.1.4.2。 */
         }
+        requirement <'REQ-SUB-059'> '航電：無線電頻道切換' : SubsystemRequirement {
+            doc /* 箭上無線電應能切換至國家通訊傳播委員會許可頻道。出處：火箭設計規範 V2 4.1.4.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
