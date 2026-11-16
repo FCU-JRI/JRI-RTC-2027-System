@@ -2234,5 +2234,10 @@ package Project {
             objective { verify Project::Requirements::'結構：燃盡重心配置'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-020'> 'VER：減速傘觸發 HIL 測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將模擬或往年實際飛行數據重播給航電，進行硬體迴路測試，包含備援判定邏輯。通過準則：偵測到頂點時發出減速傘觸發訊號。開傘時刻與頂點時刻的時間差門檻待定，於 PDR 依頂點偵測方式決定。 */
+            objective { verify Project::Requirements::'航電：減速傘觸發'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
