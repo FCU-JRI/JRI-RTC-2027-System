@@ -2379,5 +2379,10 @@ package Project {
             objective { verify Project::Requirements::'回收：分離部件繫留'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-049'> 'VER：傘繩材料檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對傘繩材料與規格文件。通過準則：使用 Kevlar 繩、登山尼龍繩或登山尼龍傘帶等高強度傘繩。 */
+            objective { verify Project::Requirements::'回收：高強度傘繩'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
