@@ -2264,5 +2264,10 @@ package Project {
             objective { verify Project::Requirements::'航電：外部開關安全切斷'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-026'> 'VER：解除安全指令互鎖測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在只接通外部開關、尚未送出解除安全指令的狀態下量測觸發電路，再送出含驗證碼的指令並再次量測。通過準則：未收到指令前觸發電路不導通；收到含驗證碼的解除安全指令後才導通。 */
+            objective { verify Project::Requirements::'航電：地面解除安全指令'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
