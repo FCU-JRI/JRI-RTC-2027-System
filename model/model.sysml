@@ -2179,5 +2179,10 @@ package Project {
             objective { verify Project::Requirements::'結構：最大動壓耐受'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-009'> 'VER：箭體靜態負載測試' : VerificationEvent {
+            doc /* 方法：測試（T）。對箭體施加模擬飛行負載。通過準則：無永久變形或損壞。負載值待定。 */
+            objective { verify Project::Requirements::'結構：承受操作應力'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
