@@ -2609,5 +2609,10 @@ package Project {
             objective { verify Project::Requirements::'分離部件連接成一體'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-095'> 'VER：全箭裝機 GPS 定位與傳訊測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將公版 GPS 追蹤器裝在全箭構型的箭體上，進行定位與傳訊。通過準則：追蹤器能正常定位並傳送訊號。 */
+            objective { verify Project::Requirements::'GPS追蹤器正常運作'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
