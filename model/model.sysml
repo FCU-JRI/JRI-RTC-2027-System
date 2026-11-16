@@ -2144,5 +2144,10 @@ package Project {
             objective { verify Project::Requirements::'結構：質量額度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-002'> 'VER：動態穩定度下限模擬' : VerificationEvent {
+            doc /* 方法：分析（A）。以組裝後實測的重心與質量輸入 OpenRocket，模擬 2 m/s 側風。通過準則：發射至首次回收系統部署事件前，最小動態穩定度大於 1.5 倍箭身直徑。 */
+            objective { verify Project::Requirements::'結構：動態穩定度下限'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
