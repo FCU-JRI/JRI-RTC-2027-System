@@ -2189,5 +2189,10 @@ package Project {
             objective { verify Project::Requirements::'結構：尾翼顫振裕度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-011'> 'VER：公版發動機試裝鎖固' : VerificationEvent {
+            doc /* 方法：展示（D）。以 8 支 M5 螺絲將 pioneer-10K 公版發動機鎖固於安裝介面。通過準則：發射前可完成鎖固。 */
+            objective { verify Project::Requirements::'結構：發動機鎖固介面'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
