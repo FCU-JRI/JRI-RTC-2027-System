@@ -2103,5 +2103,16 @@ package Project {
             :>> residualSeverity = 3;
             :>> residualLikelihood = 2;
         }
+        item <'RISK-003'> '離架速度不足導致風標偏航' : Risk {
+            :>> failureMode = "離架速度偏低，側風使火箭偏轉";
+            :>> effect = "飛行軌跡偏離；目前高於 REQ-SYS-018 下限 16 m/s，但距目標值 24 m/s 仍有差距，風速超過 4 m/s 時風險升高。";
+            :>> cause = "推重比偏低（離架時 5.52）、全箭超重、導軌摩擦。";
+            :>> severity = 3;
+            :>> likelihood = 2;
+            :>> detection = 2;
+            :>> mitigation = "嚴格控制質量。";
+            :>> residualSeverity = 2;
+            :>> residualLikelihood = 1;
+        }
     }
 }
