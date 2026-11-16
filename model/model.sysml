@@ -2329,5 +2329,10 @@ package Project {
             objective { verify Project::Requirements::'回收：觸水下降率'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-039'> 'VER：傘具固定點靜態拉力測試' : VerificationEvent {
+            doc /* 方法：測試（T）。對傘具固定點與連接結構施加靜態拉力。通過準則：承受減速傘與主傘開傘衝擊負載中較大者的 2 倍而不失效。開傘衝擊負載依減速傘、主傘開傘衝擊計算結果決定。 */
+            objective { verify Project::Requirements::'回收：固定結構安全係數'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
