@@ -1631,4 +1631,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：紀錄回收後可讀'; end #original ::> Project::Requirements::'紀錄回收後可讀'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：回收系統啟動'; end #original ::> Project::Requirements::'回收系統啟動方式'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：減速傘觸發'; end #original ::> Project::Requirements::'減速傘於頂點開啟'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：主傘觸發'; end #original ::> Project::Requirements::'主傘開啟高度'; }
 }
