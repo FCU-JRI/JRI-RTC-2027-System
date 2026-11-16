@@ -2199,5 +2199,10 @@ package Project {
             objective { verify Project::Requirements::'結構：發動機定心環'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-013'> 'VER：發動機介面材料耐溫分析' : VerificationEvent {
+            doc /* 方法：分析（A）。依材料耐溫資料評估推進系統組裝介面及相鄰結構材料。通過準則：在 115 °C 下維持結構強度與固定功能。 */
+            objective { verify Project::Requirements::'結構：發動機外殼溫度耐受'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
