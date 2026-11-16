@@ -2058,4 +2058,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：不含活體脊椎動物'; end #original ::> Project::Requirements::'酬載不含活體脊椎動物'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：實驗液體無害'; end #original ::> Project::Requirements::'實驗液體無害'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：實驗液體容器密封'; end #original ::> Project::Requirements::'實驗液體容器密封'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：容器耐受推進段加速度'; end #original ::> Project::Requirements::'實驗液體容器密封'; }
 }
