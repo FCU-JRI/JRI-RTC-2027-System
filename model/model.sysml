@@ -2254,5 +2254,10 @@ package Project {
             objective { verify Project::Requirements::'航電：回收系統啟動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-024'> 'VER：回收啟動鏈單一路徑失效測試' : VerificationEvent {
+            doc /* 方法：測試（T）。逐一使啟動開關、感測器或啟動電源中的一項失效。通過準則：任一項失效時，另一條路徑仍能啟動回收系統。 */
+            objective { verify Project::Requirements::'航電：回收啟動鏈冗餘'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
