@@ -1505,6 +1505,9 @@ package Project {
         requirement <'REQ-SUB-053'> '航電：耐受衝擊與振動' : SubsystemRequirement {
             doc /* 航電次系統應在推進段最大約 8.1 g 的加速度，以及開傘與觸水衝擊下維持正常運作。開傘衝擊值待估。出處：火箭設計規範 V2 4.1.2；酬載提案計劃書表 7-2。 */
         }
+        requirement <'REQ-SUB-054'> '航電：回收啟動鏈冗餘' : SubsystemRequirement {
+            doc /* 航電啟動回收系統的路徑應具備獨立或冗餘的啟動開關、感測器與啟動電源。出處：火箭設計規範 V2 4.1.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
