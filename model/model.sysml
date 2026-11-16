@@ -2494,5 +2494,10 @@ package Project {
             objective { verify Project::Requirements::'地面：啟動狀態顯示'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-072'> 'VER：地面通訊距離與封包遺失率測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在開闊場地以飛行距離進行遙測收發，由地面站記錄的封包序號計算遺失率。通過準則：封包遺失率不超過門檻值。門檻值與量測區間待定，PDR 前決定，與 MOE-025 一致。 */
+            objective { verify Project::Requirements::'地面：遙測封包接收'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
