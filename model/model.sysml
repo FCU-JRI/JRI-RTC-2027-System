@@ -1502,6 +1502,9 @@ package Project {
         requirement <'REQ-SUB-052'> '航電：電路板結構支撐' : SubsystemRequirement {
             doc /* 航電的電路板應以螺絲和支柱等方式提供結構支撐。出處：火箭設計規範 V2 4.4.5。 */
         }
+        requirement <'REQ-SUB-053'> '航電：耐受衝擊與振動' : SubsystemRequirement {
+            doc /* 航電次系統應在推進段最大約 8.1 g 的加速度，以及開傘與觸水衝擊下維持正常運作。開傘衝擊值待估。出處：火箭設計規範 V2 4.1.2；酬載提案計劃書表 7-2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
