@@ -1508,6 +1508,9 @@ package Project {
         requirement <'REQ-SUB-054'> '航電：回收啟動鏈冗餘' : SubsystemRequirement {
             doc /* 航電啟動回收系統的路徑應具備獨立或冗餘的啟動開關、感測器與啟動電源。出處：火箭設計規範 V2 4.1.3。 */
         }
+        requirement <'REQ-SUB-055'> '航電：電池類型' : SubsystemRequirement {
+            doc /* 航電次系統應使用碳鋅、鹼性、18650 鋰、磷酸鋰鐵或其他不易燃燒且具結構強度的電池。出處：火箭設計規範 V2 4.7.1。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
