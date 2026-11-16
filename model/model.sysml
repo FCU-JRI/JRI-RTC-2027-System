@@ -2484,5 +2484,10 @@ package Project {
             objective { verify Project::Requirements::'地面：發送解除安全指令'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-070'> 'VER：解除啟動指令發送測試' : VerificationEvent {
+            doc /* 方法：測試（T）。火箭處於啟動狀態時，由地面次系統發送解除啟動指令。通過準則：所有儲能裝置回到安全狀態，操作人員不需進入火箭 100 mm 範圍內。可與航電「外部解除啟動指令測試」同場進行。 */
+            objective { verify Project::Requirements::'地面：發送解除啟動指令'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
