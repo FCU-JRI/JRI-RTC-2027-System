@@ -1540,4 +1540,5 @@ package Project {
     #derive dependency from Project::Requirements::'使用公版軌道滑塊' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'MOE-01 決賽日發射達成';
+    #derive dependency from Project::Requirements::'滑塊不阻擋航電操作' to Project::NGOs::'MOE-01 決賽日發射達成';
 }
