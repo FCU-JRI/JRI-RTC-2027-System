@@ -2304,5 +2304,10 @@ package Project {
             objective { verify Project::Requirements::'航電：電池續航'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-034'> 'VER：航電次系統秤重' : VerificationEvent {
+            doc /* 方法：檢查（I）。每次審查前，以秤實測航電次系統質量。通過準則：質量小於 1,500 g。 */
+            objective { verify Project::Requirements::'航電：質量額度'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
