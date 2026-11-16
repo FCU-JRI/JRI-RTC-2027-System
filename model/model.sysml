@@ -1514,6 +1514,9 @@ package Project {
         requirement <'REQ-SUB-056'> '航電：電池續航' : SubsystemRequirement {
             doc /* 航電電池應能供應全箭（含航電、回收啟動與酬載）正常運作 1.5 小時以上。出處：火箭設計規範 V2 4.7.2。 */
         }
+        requirement <'REQ-SUB-057'> '航電：電池牢固安裝' : SubsystemRequirement {
+            doc /* 航電電池應牢固安裝在箭身內部，在高加速度或振動環境下不發生瞬時斷電。出處：火箭設計規範 V2 4.7.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
