@@ -2026,4 +2026,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：軸向加速度量程'; end #original ::> Project::Requirements::'軸向加速度量程'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：影像與加速度時間同步'; end #original ::> Project::Requirements::'影像與加速度時間同步'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：三軸紀錄時間涵蓋'; end #original ::> Project::Requirements::'三軸紀錄時間涵蓋'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：三軸紀錄取樣率與量程'; end #original ::> Project::Requirements::'三軸紀錄取樣率與量程'; }
 }
