@@ -371,6 +371,7 @@ package Project {
         }
         part def <'SUB-001'> '結構次系統' :> Subsystem {
             satisfy Project::Requirements::'結構：發動機鎖固介面';
+            satisfy Project::Requirements::'結構：發動機定心環';
         }
         part def <'SUB-002'> '航電次系統' :> Subsystem {
         }
