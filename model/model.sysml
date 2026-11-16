@@ -1930,4 +1930,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：加速度量測範圍'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：高度量測範圍'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：速度量測範圍'; end #original ::> Project::Requirements::'飛行數據記錄項目'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：質量額度'; end #original ::> Project::Requirements::'全箭總重'; }
 }
