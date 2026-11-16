@@ -1579,4 +1579,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'結構：公版GPS追蹤器安裝介面'; end #original ::> Project::Requirements::'公版GPS追蹤器安裝介面'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：通訊艙段非導電材料'; end #original ::> Project::Requirements::'通訊艙段非導電材料'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：動態穩定度下限'; end #original ::> Project::Requirements::'動態穩定度下限'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：離架穩定度上限'; end #original ::> Project::Requirements::'離架穩定度上限'; }
 }
