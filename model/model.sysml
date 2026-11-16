@@ -2544,5 +2544,10 @@ package Project {
             objective { verify Project::Requirements::'漂浮'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-082'> 'VER：全箭 4 m/s 風速落點模擬' : VerificationEvent {
+            doc /* 方法：分析（A）。以全箭最終構型與實測質量，在 4 m/s 風速下模擬落點，並與主辦單位指定的 A～G 安全回收區比對。通過準則：預測落點位於安全回收區內。回收區座標尚待取得。 */
+            objective { verify Project::Requirements::'落點位於安全回收區'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
