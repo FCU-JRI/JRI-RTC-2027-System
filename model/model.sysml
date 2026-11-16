@@ -1854,4 +1854,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：觸水下降率'; end #original ::> Project::Requirements::'觸水速度'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：固定結構安全係數'; end #original ::> Project::Requirements::'回收結構安全係數'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：高強度傘繩'; end #original ::> Project::Requirements::'高強度傘繩'; }
+    #derivation connection { end #derive ::> Project::Requirements::'回收：耐熱保護'; end #original ::> Project::Requirements::'回收系統耐熱保護'; }
 }
