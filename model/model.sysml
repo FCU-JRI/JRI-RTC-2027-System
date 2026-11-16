@@ -2279,5 +2279,10 @@ package Project {
             objective { verify Project::Requirements::'航電：發射終止時解除啟動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-029'> 'VER：儲能裝置外部啟動展示' : VerificationEvent {
+            doc /* 方法：展示（D）。從火箭外部操作，完成儲能裝置的啟動與測試。通過準則：全程人員不需靠近火箭。 */
+            objective { verify Project::Requirements::'航電：儲能裝置外部啟動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
