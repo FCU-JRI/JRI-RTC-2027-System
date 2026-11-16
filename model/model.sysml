@@ -1648,4 +1648,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：頂點前不作動'; end #original ::> Project::Requirements::'頂點前無擾動事件'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：儲能裝置外部啟動'; end #original ::> Project::Requirements::'儲能裝置外部啟動'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：啟動狀態遠距確認'; end #original ::> Project::Requirements::'啟動狀態遠距確認'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：濺落後安全化'; end #original ::> Project::Requirements::'濺落後儲能裝置回到安全狀態'; }
 }
