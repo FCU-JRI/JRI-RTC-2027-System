@@ -1748,6 +1748,9 @@ package Project {
         requirement <'MOP-003'> 'MOP：酬載次系統質量' : MOP {
             doc /* 酬載次系統的質量應小於 1,500 g。目前值待實測，於各階段審查以實際秤重更新。 */
         }
+        requirement <'MOP-004'> 'MOP：回收次系統質量' : MOP {
+            doc /* 回收次系統的質量應小於 2,000 g。目前值待實測，於各階段審查以實際秤重更新。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
