@@ -2070,4 +2070,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：容器耐受推進段加速度'; end #original ::> Project::Requirements::'實驗液體容器密封'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：容器安裝位置'; end #original ::> Project::Requirements::'容器靠近重心'; }
     #derivation connection { end #derive ::> Project::Requirements::'結構：燃盡重心配置'; end #original ::> Project::Requirements::'容器靠近重心'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：外部開關安全切斷'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
 }
