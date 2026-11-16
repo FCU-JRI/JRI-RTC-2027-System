@@ -1787,6 +1787,9 @@ package Project {
         requirement <'REQ-SUB-094'> '酬載：前衝影像備援' : SubsystemRequirement {
             doc /* 酬載次系統應將液體前衝影像保存在至少兩個彼此獨立的儲存媒體上，其中一個損毀時，另一個仍能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
         }
+        requirement <'REQ-SUB-095'> '酬載：軸向加速度取樣率' : SubsystemRequirement {
+            doc /* 酬載次系統的軸向加速度取樣率應不低於 200 Hz。出處：酬載提案計劃書式 (4-72)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
