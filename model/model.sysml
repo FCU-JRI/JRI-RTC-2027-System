@@ -1778,6 +1778,9 @@ package Project {
         requirement <'REQ-SUB-092'> '酬載：前衝影像視野' : SubsystemRequirement {
             doc /* 酬載次系統拍攝的液體前衝影像，視野應同時涵蓋容器壁面、中心軸，以及液面至前端蓋的全程。出處：酬載提案計劃書表 4-6。 */
         }
+        requirement <'MOP-010'> 'MOP：主傘開傘高度' : MOP {
+            doc /* 主傘應在離地 150～450 m 之間開啟。目前值離地 289 m（OpenRocket project_2027_ver0.1 Simulation 1）。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
