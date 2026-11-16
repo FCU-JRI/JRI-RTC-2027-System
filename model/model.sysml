@@ -973,8 +973,7 @@ package Project {
   度，維持結構完整。依據：REQ-SYS-019、039。 */
         }
         action <'FN-021'> '拍攝箭載影像' : Function {
-            doc /* 階段：發射至濺落。記錄高度、速度、加速度與 GPS
-  軌跡。依據：REQ-SYS-043～045。 */
+            doc /* 發射至濺落。拍攝涵蓋發射至濺落全程的箭載影像。依據：REQ-SYS-055。 */
         }
         action <'FN-022'> '記錄飛行數據' : Function {
             doc /* 發射至濺落。記錄高度、速度、加速度與 GPS
