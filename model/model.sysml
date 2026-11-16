@@ -1775,6 +1775,9 @@ package Project {
         requirement <'MOP-009'> 'MOP：電池續航時間' : MOP {
             doc /* 電池電力應能供應火箭系統正常運作 1.5 小時以上。目前值待實測，於 FRR 前以實測耗電確認餘裕。 */
         }
+        requirement <'REQ-SUB-092'> '酬載：前衝影像視野' : SubsystemRequirement {
+            doc /* 酬載次系統拍攝的液體前衝影像，視野應同時涵蓋容器壁面、中心軸，以及液面至前端蓋的全程。出處：酬載提案計劃書表 4-6。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
