@@ -1529,6 +1529,9 @@ package Project {
         requirement <'REQ-SUB-061'> '航電：與酬載連接通訊' : SubsystemRequirement {
             doc /* 航電次系統應在整個飛行過程中與酬載連接通訊。出處：火箭設計規範 V2 7.1.1。 */
         }
+        requirement <'REQ-SUB-062'> '航電：紀錄時間對齊' : SubsystemRequirement {
+            doc /* 航電的飛行加速度紀錄應能對齊至酬載提供的共同時間基準，對齊誤差暫訂不大於 10 ms，待 PDR 確認。出處：酬載提案計劃書表 7-1 R5、R6、表 7-3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
