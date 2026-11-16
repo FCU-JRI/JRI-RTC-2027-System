@@ -2214,5 +2214,10 @@ package Project {
             objective { verify Project::Requirements::'結構：底部滑塊承重'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-016'> 'VER：分離介面保持力測試' : VerificationEvent {
+            doc /* 方法：測試（T）。對箭體可分離介面施加拉開負載。通過準則：在燃盡後減速造成的拉開負載下不分離。負載值待定。 */
+            objective { verify Project::Requirements::'結構：頂點前保持連接'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
