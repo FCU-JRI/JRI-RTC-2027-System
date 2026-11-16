@@ -2539,5 +2539,10 @@ package Project {
             objective { verify Project::Requirements::'觸水速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-081'> 'VER：全箭水池漂浮測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將燃盡狀態的全箭放入水池。通過準則：浮力大於全箭重量，持續漂浮至少 2 小時。 */
+            objective { verify Project::Requirements::'漂浮'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
