@@ -1838,6 +1838,9 @@ package Project {
         requirement <'REQ-SUB-111'> '航電：地面解除安全指令' : SubsystemRequirement {
             doc /* 航電次系統應在收到地面解除安全指令後，才允許儲能裝置的觸發電路導通；只有外部開關接通、尚未收到該指令時，儲能裝置應維持在安全狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
         }
+        requirement <'REQ-SUB-112'> '地面：發送解除安全指令' : SubsystemRequirement {
+            doc /* 火箭位於發射位置後，地面次系統應能發送解除安全指令至航電次系統，作為儲能裝置釋放能量所需的第二個獨立事件。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
