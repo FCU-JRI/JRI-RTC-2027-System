@@ -1492,6 +1492,9 @@ package Project {
         requirement <'REQ-SUB-049'> '航電：安全關鍵線路固定' : SubsystemRequirement {
             doc /* 航電的安全關鍵線路、電纜與端子連接應牢固，在發射準備、搬運與飛行中不會過度移動、斷開或纏繞。出處：火箭設計規範 V2 4.4.2。 */
         }
+        requirement <'REQ-SUB-050'> '航電：安全關鍵線路標示' : SubsystemRequirement {
+            doc /* 航電的安全關鍵線路應清楚標記或以顏色編碼，可辨識所屬的次系統。出處：火箭設計規範 V2 4.4.3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
