@@ -365,6 +365,7 @@ package Project {
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'提供共同時間基準' to '酬載次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'保護傘具不受高溫氣體損壞' to '回收次系統';
             allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'限制傘降漂移距離' to '回收次系統';
+            allocate Project::Behavior::'總任務：RTC 2027 發射任務'.'以降落傘顏色利於目視發現' to '回收次系統';
         }
         part def <'EXT-001'> '公版發動機 Pioneer-10k' :> ExternalEntity {
         }
