@@ -2038,4 +2038,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'酬載：三軸紀錄取樣率與量程'; end #original ::> Project::Requirements::'三軸紀錄取樣率與量程'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：軸向加速度備援'; end #original ::> Project::Requirements::'軸向加速度備援'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：發射架靜置零點資料'; end #original ::> Project::Requirements::'發射架靜置零點資料'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：待命期間影像記錄保證'; end #original ::> Project::Requirements::'待命期間影像記錄保證'; }
 }
