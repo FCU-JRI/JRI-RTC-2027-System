@@ -1464,6 +1464,9 @@ package Project {
         requirement <'REQ-SUB-040'> '航電：紀錄回收後可讀' : SubsystemRequirement {
             doc /* 火箭濺落並漂浮 2 小時後，航電儲存的所有紀錄（含飛行數據與箭載影像）應能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2。 */
         }
+        requirement <'REQ-SUB-041'> '航電：回收系統啟動' : SubsystemRequirement {
+            doc /* 航電次系統應能發出啟動降落傘回收系統的觸發訊號。出處：火箭設計規範 V2 4.2.1、4.2.2.1。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
