@@ -1784,6 +1784,9 @@ package Project {
         requirement <'REQ-SUB-093'> '酬載：前衝影像可判讀' : SubsystemRequirement {
             doc /* 在推進段振動與液體前衝運動下，酬載次系統拍攝的液體前衝影像每一格都應能分辨液面輪廓與壁面液膜前端。位置解析度（每像素對應長度）待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.5、4.7 節、式 (4-86)、(4-87)。 */
         }
+        requirement <'REQ-SUB-094'> '酬載：前衝影像備援' : SubsystemRequirement {
+            doc /* 酬載次系統應將液體前衝影像保存在至少兩個彼此獨立的儲存媒體上，其中一個損毀時，另一個仍能完整讀取。出處：酬載提案計劃書表 7-1 R7、表 7-2、表 7-3。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
