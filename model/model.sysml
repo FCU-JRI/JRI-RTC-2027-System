@@ -1514,4 +1514,5 @@ package Project {
     #derive dependency from Project::Requirements::'從導軌頂部水平裝載' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'滑塊距底部距離' to Project::NGOs::'MOE-01 決賽日發射達成';
     #derive dependency from Project::Requirements::'底部滑塊承重' to Project::NGOs::'MOE-01 決賽日發射達成';
+    #derive dependency from Project::Requirements::'滑塊固定件材質' to Project::NGOs::'MOE-01 決賽日發射達成';
 }
