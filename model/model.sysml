@@ -1413,6 +1413,9 @@ package Project {
         requirement <'REQ-SYS-102'> '遙測封包遺失率' : SystemRequirement {
             doc /* 系統的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
         }
+        requirement <'REQ-SUB-024'> '結構：滑塊不阻擋航電操作' : SubsystemRequirement {
+            doc /* 火箭垂直放在發射軌道上時，軌道滑塊的位置應不阻擋箭體上的航電操作。出處：火箭設計規範 V2 6.3.9。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
