@@ -2414,5 +2414,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：前衝影像可判讀'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-056'> 'VER：前衝影像單一媒體損毀讀取測試' : VerificationEvent {
+            doc /* 方法：測試（T）。錄製前衝影像後，移除其中一個儲存媒體，讀取另一個。通過準則：另一個儲存媒體仍能完整讀取影像。 */
+            objective { verify Project::Requirements::'酬載：前衝影像備援'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
