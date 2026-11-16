@@ -1670,6 +1670,9 @@ package Project {
         requirement <'REQ-SUB-065'> '回收：高強度傘繩' : SubsystemRequirement {
             doc /* 回收次系統應使用高強度傘繩連接，例如 Kevlar 繩、登山尼龍繩或登山尼龍傘帶。出處：火箭設計規範 V2 4.2.5。 */
         }
+        requirement <'REQ-SUB-066'> '回收：耐熱保護' : SubsystemRequirement {
+            doc /* 回收次系統運作時如果會產生高溫氣體，應設置耐熱保護，使傘繩與降落傘不受損壞。出處：火箭設計規範 V2 4.2.6。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
