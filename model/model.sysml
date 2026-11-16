@@ -2294,5 +2294,10 @@ package Project {
             objective { verify Project::Requirements::'航電：耐受衝擊與振動'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-032'> 'VER：振動中供電監測測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在振動與高加速度條件下，連續監測航電電池的供電狀態。通過準則：沒有發生瞬時斷電。 */
+            objective { verify Project::Requirements::'航電：電池牢固安裝'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
