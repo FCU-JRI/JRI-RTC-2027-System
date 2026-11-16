@@ -1790,6 +1790,9 @@ package Project {
         requirement <'REQ-SUB-095'> '酬載：軸向加速度取樣率' : SubsystemRequirement {
             doc /* 酬載次系統的軸向加速度取樣率應不低於 200 Hz。出處：酬載提案計劃書式 (4-72)。 */
         }
+        requirement <'REQ-SUB-096'> '酬載：軸向加速度量程' : SubsystemRequirement {
+            doc /* 酬載次系統的軸向加速度量測量程應不小於 ±16 g。出處：酬載提案計劃書式 (4-73)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
