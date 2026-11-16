@@ -2289,5 +2289,10 @@ package Project {
             objective { verify Project::Requirements::'航電：啟動狀態遠距確認'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-031'> 'VER：航電振動與衝擊測試' : VerificationEvent {
+            doc /* 方法：測試（T）。對通電運作中的航電施加振動與衝擊。通過準則：在推進段最大加速度 7.47 g，以及開傘與觸水衝擊下，航電維持正常運作。開傘衝擊值待估。 */
+            objective { verify Project::Requirements::'航電：耐受衝擊與振動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
