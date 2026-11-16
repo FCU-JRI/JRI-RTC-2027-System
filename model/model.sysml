@@ -2469,5 +2469,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：全程位於箭身內部'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-067'> 'VER：實驗液體成分檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對實驗液體的成分資料。通過準則：實驗液體為對海洋環境無害的液體，例如水。 */
+            objective { verify Project::Requirements::'酬載：實驗液體無害'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
