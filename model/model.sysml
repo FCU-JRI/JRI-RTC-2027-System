@@ -2564,5 +2564,10 @@ package Project {
             objective { verify Project::Requirements::'頂點前無擾動事件'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-086'> 'VER：SIT 兩獨立事件互鎖測試' : VerificationEvent {
+            doc /* 方法：測試（T）。在全箭整合構型下，分別只讓外部開關接通，或只送出解除安全指令。通過準則：兩個事件都成立之前，儲能裝置維持安全狀態，不釋放能量。 */
+            objective { verify Project::Requirements::'儲能裝置上架前保持安全'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
