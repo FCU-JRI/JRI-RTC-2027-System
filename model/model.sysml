@@ -1799,6 +1799,9 @@ package Project {
         requirement <'REQ-SUB-098'> '酬載：三軸紀錄時間涵蓋' : SubsystemRequirement {
             doc /* 酬載次系統應與軸向加速度同步記錄三軸角速度與橫向加速度，涵蓋點火至頂點，目標值為點火至減速傘開傘。出處：酬載提案計劃書表 4-6、式 (4-74)。 */
         }
+        requirement <'REQ-SUB-099'> '酬載：三軸紀錄取樣率與量程' : SubsystemRequirement {
+            doc /* 酬載次系統的三軸角速度與橫向加速度紀錄，取樣率與量程應符合酬載設計定案值。數值待定，於酬載設計定案（2027-01，M2）時決定。出處：酬載提案計劃書 4.4 節。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
