@@ -2354,5 +2354,10 @@ package Project {
             objective { verify Project::Requirements::'回收：主傘開傘速度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-044'> 'VER：儲能裝置單一事件不釋放測試' : VerificationEvent {
+            doc /* 方法：測試（T）。分別只讓一個解鎖事件成立。通過準則：只有一個事件成立時，儲能裝置不釋放能量，維持安全狀態。 */
+            objective { verify Project::Requirements::'回收：儲能裝置機構安全狀態'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
