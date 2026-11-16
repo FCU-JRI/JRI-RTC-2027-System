@@ -2384,5 +2384,10 @@ package Project {
             objective { verify Project::Requirements::'回收：高強度傘繩'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-050'> 'VER：儲能裝置驅動方式檢查' : VerificationEvent {
+            doc /* 方法：檢查（I）。核對儲能裝置設計與實物。通過準則：以氣瓶、機械能或其他非黑火藥方式驅動。 */
+            objective { verify Project::Requirements::'回收：儲能裝置驅動方式'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
