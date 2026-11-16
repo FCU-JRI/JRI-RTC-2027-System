@@ -2454,5 +2454,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：待命期間影像記錄保證'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-064'> 'VER：待命 1.5 小時後加速度記錄測試' : VerificationEvent {
+            doc /* 方法：測試（T）。酬載上電待命 1.5 小時後，再模擬點火觸發。通過準則：完整記錄點火至頂點期間的軸向加速度與三軸紀錄。 */
+            objective { verify Project::Requirements::'酬載：待命期間加速度記錄保證'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
