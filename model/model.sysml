@@ -1477,6 +1477,9 @@ package Project {
         requirement <'REQ-SUB-044'> '航電：頂點前不作動' : SubsystemRequirement {
             doc /* 航電次系統應在火箭到達頂點前不發出任何作動指令。 */
         }
+        requirement <'REQ-SUB-045'> '航電：儲能裝置外部啟動' : SubsystemRequirement {
+            doc /* 航電次系統應能從火箭外部控制儲能裝置的啟動與測試，啟動時人員不需靠近火箭。出處：火箭設計規範 V2 4.6.6。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
