@@ -2579,5 +2579,10 @@ package Project {
             objective { verify Project::Requirements::'啟動狀態遠距確認'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-089'> 'VER：SIT 終止發射演練' : VerificationEvent {
+            doc /* 方法：測試（T）。全箭上架並進入啟動狀態後，從外部執行解除啟動。通過準則：所有儲能裝置回到安全狀態，操作人員不需進入火箭 100 mm 範圍內。 */
+            objective { verify Project::Requirements::'發射終止時解除啟動'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
