@@ -1376,6 +1376,9 @@ package Project {
         requirement <'REQ-SUB-023'> '結構：輕量結構材料' : SubsystemRequirement {
             doc /* 結構次系統應使用紙管、PVC 管、玻璃纖維、碳纖維等輕量材料建造，必要時可使用鋁合金等延展性輕金屬。出處：火箭設計規範 V2 6.5.1。 */
         }
+        requirement <'REQ-SYS-101'> '通訊艙段非導電材料' : SystemRequirement {
+            doc /* 公版 GPS 追蹤器與遙測無線電所在艙段的箭體部件，應以紙管、PVC 管或玻璃纖維等非導電材料製成，不得使用碳纖維或鋁合金等導電材料。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
