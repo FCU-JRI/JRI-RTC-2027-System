@@ -1685,6 +1685,9 @@ package Project {
         requirement <'REQ-SUB-070'> '回收：分離部件繫留' : SubsystemRequirement {
             doc /* 回收次系統應以傘繩或連接繩，使濺落後所有分離部件連在主箭體上。出處：海洋污染防治法第 4 條第 11 款。 */
         }
+        requirement <'REQ-SUB-071'> '回收：儲能裝置驅動方式' : SubsystemRequirement {
+            doc /* 回收次系統的儲能裝置應以氣瓶、機械能或其他非黑火藥的方式驅動。出處：火箭設計規範 V2 4.6.2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
