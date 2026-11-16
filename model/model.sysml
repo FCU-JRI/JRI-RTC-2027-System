@@ -2229,5 +2229,10 @@ package Project {
             objective { verify Project::Requirements::'結構：通訊艙段非導電材料'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-019'> 'VER：燃盡重心分析' : VerificationEvent {
+            doc /* 方法：分析（A）。以實測質量計算燃盡時全箭重心，並與酬載實驗容器中心位置比較。通過準則：兩者軸向距離不大於 1 m。 */
+            objective { verify Project::Requirements::'結構：燃盡重心配置'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
