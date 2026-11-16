@@ -1688,6 +1688,9 @@ package Project {
         requirement <'REQ-SUB-071'> '回收：儲能裝置驅動方式' : SubsystemRequirement {
             doc /* 回收次系統的儲能裝置應以氣瓶、機械能或其他非黑火藥的方式驅動。出處：火箭設計規範 V2 4.6.2。 */
         }
+        requirement <'REQ-SUB-072'> '回收：儲能裝置機構安全狀態' : SubsystemRequirement {
+            doc /* 回收次系統的儲能裝置在火箭處於發射位置之前，應保持在需要兩個獨立事件才能釋放能量的安全狀態。出處：火箭設計規範 V2 4.6.3、4.6.5。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
