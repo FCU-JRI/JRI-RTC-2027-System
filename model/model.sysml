@@ -2209,5 +2209,10 @@ package Project {
             objective { verify Project::Requirements::'結構：滑塊不可脫離'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-015'> 'VER：垂直上架承重測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將火箭垂直放置於導軌。通過準則：底部軌道滑塊支撐全箭重量，無變形或脫落。 */
+            objective { verify Project::Requirements::'結構：底部滑塊承重'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
