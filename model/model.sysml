@@ -1793,6 +1793,9 @@ package Project {
         requirement <'REQ-SUB-096'> '酬載：軸向加速度量程' : SubsystemRequirement {
             doc /* 酬載次系統的軸向加速度量測量程應不小於 ±16 g。出處：酬載提案計劃書式 (4-73)。 */
         }
+        requirement <'REQ-SUB-097'> '酬載：影像與加速度時間同步' : SubsystemRequirement {
+            doc /* 酬載次系統的影像與軸向加速度紀錄應共用時間基準，同步誤差不大於半個影格間隔（240 fps 時 2.1 ms，170 fps 時 2.9 ms）。出處：酬載提案計劃書式 (4-75)、(4-86)。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
