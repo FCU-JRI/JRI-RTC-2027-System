@@ -2444,5 +2444,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：軸向加速度備援'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-062'> 'VER：發射架靜置零點紀錄測試' : VerificationEvent {
+            doc /* 方法：測試（T）。將火箭靜置後啟動紀錄，再模擬點火觸發。通過準則：軸向加速度與三軸紀錄包含點火前的靜置資料，秒數暫訂不少於 10 s，待 PDR 前依感測器雜訊確認。 */
+            objective { verify Project::Requirements::'酬載：發射架靜置零點資料'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
