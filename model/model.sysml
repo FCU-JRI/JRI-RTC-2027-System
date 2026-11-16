@@ -1886,4 +1886,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：儲能裝置驅動方式'; end #original ::> Project::Requirements::'儲能裝置驅動方式'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：儲能裝置機構安全狀態'; end #original ::> Project::Requirements::'儲能裝置上架前保持安全'; }
     #derivation connection { end #derive ::> Project::Requirements::'回收：傘降漂移限制'; end #original ::> Project::Requirements::'落點位於安全回收區'; }
+    #derivation connection { end #derive ::> Project::Requirements::'地面：發送解除啟動指令'; end #original ::> Project::Requirements::'發射終止時解除啟動'; }
 }
