@@ -1644,4 +1644,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：主傘觸發'; end #original ::> Project::Requirements::'主傘開啟高度'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：頂點前不作動'; end #original ::> Project::Requirements::'頂點前無擾動事件'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：儲能裝置外部啟動'; end #original ::> Project::Requirements::'儲能裝置外部啟動'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：啟動狀態遠距確認'; end #original ::> Project::Requirements::'啟動狀態遠距確認'; }
 }
