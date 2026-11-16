@@ -2369,5 +2369,10 @@ package Project {
             objective { verify Project::Requirements::'回收：釋放裝置冗餘'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-047'> 'VER：4 m/s 風速落點模擬' : VerificationEvent {
+            doc /* 方法：分析（A）。以最終構型在 4 m/s 風速下模擬落點，並與主辦單位指定的 A～G 安全回收區比對。通過準則：預測落點位於安全回收區內。回收區座標待取得。 */
+            objective { verify Project::Requirements::'回收：傘降漂移限制'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
