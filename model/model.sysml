@@ -1379,6 +1379,9 @@ package Project {
         requirement <'REQ-SYS-101'> '通訊艙段非導電材料' : SystemRequirement {
             doc /* 公版 GPS 追蹤器與遙測無線電所在艙段的箭體部件，應以紙管、PVC 管或玻璃纖維等非導電材料製成，不得使用碳纖維或鋁合金等導電材料。 */
         }
+        requirement <'REQ-SYS-102'> '遙測封包遺失率' : SystemRequirement {
+            doc /* 系統的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
+        }
     }
     #derive dependency from Project::Requirements::'發動機定心環' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
     #derive dependency from Project::Requirements::'全箭總重' to Project::NGOs::'於 2027 台灣盃決賽日，在旭海發射場以 84° ±1° 向正東發射';
