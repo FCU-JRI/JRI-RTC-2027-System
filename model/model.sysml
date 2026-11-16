@@ -2010,4 +2010,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'MOP：主傘開傘高度'; end #original ::> Project::NGOs::'MOE-03 主傘開傘高度'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像可判讀'; end #original ::> Project::Requirements::'前衝影像可判讀'; }
     #derivation connection { end #derive ::> Project::Requirements::'酬載：前衝影像備援'; end #original ::> Project::Requirements::'前衝影像備援'; }
+    #derivation connection { end #derive ::> Project::Requirements::'酬載：軸向加速度取樣率'; end #original ::> Project::Requirements::'軸向加速度取樣率'; }
 }
