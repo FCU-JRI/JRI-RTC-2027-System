@@ -1958,4 +1958,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'MOP：起飛質量'; end #original ::> Project::Requirements::'全箭總重'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：結構次系統質量'; end #original ::> Project::Requirements::'結構：質量額度'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：酬載次系統質量'; end #original ::> Project::Requirements::'酬載：質量額度'; }
+    #derivation connection { end #derive ::> Project::Requirements::'MOP：回收次系統質量'; end #original ::> Project::Requirements::'回收：質量額度'; }
 }
