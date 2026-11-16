@@ -1486,6 +1486,9 @@ package Project {
         requirement <'REQ-SUB-047'> '航電：濺落後安全化' : SubsystemRequirement {
             doc /* 濺落後，航電次系統應自動使所有未釋放能量的儲能裝置回到需要兩個獨立事件才能釋放能量的「安全」狀態。完成時限待定，於 PDR 依濺落偵測方式決定。出處：火箭設計規範 V2 4.6.3。 */
         }
+        requirement <'REQ-SUB-048'> '航電：發射終止時解除啟動' : SubsystemRequirement {
+            doc /* 航電次系統應能接收外部指令，使所有儲能裝置回到「安全」狀態，操作時人員不需進入火箭 100 mm 範圍內。出處：火箭設計規範 V2 4.6.3、4.6.7。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
