@@ -1681,4 +1681,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'航電：電路板結構支撐'; end #original ::> Project::Requirements::'電路板結構支撐'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：耐受衝擊與振動'; end #original ::> Project::Requirements::'航電耐受衝擊與振動'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：回收啟動鏈冗餘'; end #original ::> Project::Requirements::'回收啟動鏈冗餘'; }
+    #derivation connection { end #derive ::> Project::Requirements::'航電：電池類型'; end #original ::> Project::Requirements::'電池類型'; }
 }
