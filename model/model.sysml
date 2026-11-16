@@ -1902,4 +1902,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'地面：啟動狀態顯示'; end #original ::> Project::Requirements::'啟動狀態遠距確認'; }
     #derivation connection { end #derive ::> Project::Requirements::'地面：遙測封包接收'; end #original ::> Project::Requirements::'遙測封包遺失率'; }
     #derivation connection { end #derive ::> Project::Requirements::'地面：讀取並備份箭上紀錄'; end #original ::> Project::Requirements::'紀錄回收後可讀'; }
+    #derivation connection { end #derive ::> Project::Requirements::'結構：推進段軸向加速度耐受'; end #original ::> Project::Requirements::'結構承受操作應力'; }
 }
