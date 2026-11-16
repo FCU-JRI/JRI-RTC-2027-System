@@ -1431,6 +1431,9 @@ package Project {
         requirement <'REQ-SUB-029'> '結構：動態穩定度下限' : SubsystemRequirement {
             doc /* 結構次系統應整合全箭重心與壓力中心，使火箭在 2 m/s 側風條件下，從發射到首次回收系統部署事件前的動態穩定度大於 1.5 倍箭身直徑。出處：火箭設計規範 V2 8.2.1、8.2.1.1。 */
         }
+        requirement <'REQ-SUB-030'> '結構：離架穩定度上限' : SubsystemRequirement {
+            doc /* 結構次系統應整合全箭重心與壓力中心，使火箭的離架穩定度小於 4 倍箭身直徑。出處：火箭設計規範 V2 8.2.2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
