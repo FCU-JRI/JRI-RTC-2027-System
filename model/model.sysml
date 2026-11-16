@@ -1950,4 +1950,5 @@ package Project {
     #derivation connection { end #derive ::> Project::Requirements::'回收：質量額度'; end #original ::> Project::Requirements::'全箭總重'; }
     #derivation connection { end #derive ::> Project::Requirements::'航電：質量額度'; end #original ::> Project::Requirements::'全箭總重'; }
     #derivation connection { end #derive ::> Project::Requirements::'MOP：起飛質量'; end #original ::> Project::Requirements::'全箭總重'; }
+    #derivation connection { end #derive ::> Project::Requirements::'MOP：結構次系統質量'; end #original ::> Project::Requirements::'結構：質量額度'; }
 }
