@@ -1703,6 +1703,9 @@ package Project {
         requirement <'REQ-SUB-076'> '地面：遙測封包接收' : SubsystemRequirement {
             doc /* 地面次系統接收的遙測封包遺失率應不超過門檻值。門檻值與量測區間待定，PDR 前決定。 */
         }
+        requirement <'REQ-SUB-077'> '地面：讀取並備份箭上紀錄' : SubsystemRequirement {
+            doc /* 火箭濺落並漂浮 2 小時後回收時，地面次系統應能完整讀取並備份箭上儲存的所有紀錄。出處：酬載提案計劃書表 7-1 R7、表 7-2。 */
+        }
     }
     #derivation connection { end #derive ::> Project::Requirements::'動態穩定度下限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
     #derivation connection { end #derive ::> Project::Requirements::'離架穩定度上限'; end #original ::> Project::NGOs::'火箭安全離架，並依序開啟減速傘與主傘'; }
