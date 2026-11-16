@@ -2479,5 +2479,10 @@ package Project {
             objective { verify Project::Requirements::'酬載：質量額度'; }
             @VerificationMethod { kind = VerificationMethodKind::test; }
         }
+        verification <'VER-069'> 'VER：解除安全指令發送測試' : VerificationEvent {
+            doc /* 方法：測試（T）。火箭位於發射位置後，由地面次系統發送含驗證碼的解除安全指令至航電次系統。通過準則：航電次系統收到並辨識該指令。可與航電「解除安全指令互鎖測試」同場進行。 */
+            objective { verify Project::Requirements::'地面：發送解除安全指令'; }
+            @VerificationMethod { kind = VerificationMethodKind::test; }
+        }
     }
 }
